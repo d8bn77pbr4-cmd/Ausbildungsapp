@@ -99,7 +99,7 @@ export function erstelleBaJobsAdapter(opt: Optionen): QuellenAdapter {
     unterstuetzt: (art) => art !== 'studium',
     faehigkeiten: { umkreis: true, bundesland: false },
     seitenGroesse: 100,
-    maxSeiten: 10,
+    maxSeiten: 20,
     async suche(abfrage, signal): Promise<AdapterSeite> {
       const parameter: Record<string, string> = {
         was: abfrage.was,

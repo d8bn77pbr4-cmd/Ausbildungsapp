@@ -28,7 +28,7 @@
 - Quellen:
   - BA-Jobs `https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v6/jobs`, Header `X-API-Key: jobboerse-jobsuche`.
   - BA-Studium `https://rest.arbeitsagentur.de/infosysbub/studisu/pc/v1/studienangebote`, Header `X-API-Key: infosysbub-studisu`.
-  - Timeout 8 s je Abruf. Seitenlimits BA-Jobs 10 × 100, BA-Studium 50 × 20. Höchstens 6 parallele Abrufe je Suche.
+  - Timeout 8 s je Abruf. Seitenlimits BA-Jobs 20 × 100, BA-Studium 50 × 20 (Ruling Task 10). Höchstens 6 parallele Abrufe je Suche.
   - Cache 6 h gültig, Notreserve 7 Tage. UI zeigt 30 Treffer pro Seite.
 - Datenschutz:
   - Supabase-Region eu-central-1, Vercel-Region `fra1`.
@@ -697,7 +697,7 @@ e2e/*.spec.ts, e2e/mock-server.ts        Browser-Tests gegen Mock-Quellen
   - Zeile „128 Treffer“, darüber Hinweise:
     - „BA-Jobsuche ist gerade nicht erreichbar – du siehst die übrigen Treffer.“
     - „Stand vom 01.11.2026, 14:05 – die Quelle ist gerade nicht erreichbar.“
-    - „Mehr als 1.000 Treffer – grenze die Suche ein, um alle zu sehen.“
+    - „Sehr viele Treffer – grenze die Suche ein, um alle zu sehen.“
     - „Gesucht um: Frankfurt am Main“
     - „Ort nicht gefunden: Frankfrt“
   - Alle Quellen nicht erreichbar und keine Treffer → `Hinweis` (Ton warnung) „Die Suche ist gerade nicht möglich.“ mit Aktion „Erneut versuchen“.

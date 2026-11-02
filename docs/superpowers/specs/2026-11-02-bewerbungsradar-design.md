@@ -148,7 +148,7 @@ interface QuellenAdapter {
   unterstuetzt(art: Angebotsart): boolean;
   faehigkeiten: { umkreis: boolean; bundesland: boolean };
   seitenGroesse: number;      // BA-Jobs 100, BA-Studium 20
-  maxSeiten: number;          // BA-Jobs 10, BA-Studium 50 → je höchstens 1.000 Einträge
+  maxSeiten: number;          // BA-Jobs 20 (≤ 2.000 Einträge), BA-Studium 50 (≤ 1.000 Einträge)
   suche(abfrage: AdapterAbfrage, signal: AbortSignal): Promise<AdapterSeite>;
 }
 ```
@@ -186,7 +186,7 @@ interface QuellenAdapter {
    - Bundesland bei Adaptern mit Bundeslandfilter (BA-Studiensuche) → eine Abfrage mit allen gewählten Bundesländern.
    - Stadtstaaten (Berlin, Hamburg, Bremen) → 1 Kreis.
    - Art: Für Ausbildung und duales Studium fragt die BA-Jobsuche `angebotsart=4` ab. Als `dual` gilt ein Angebot bei `ausbildungsart = DUALES_STUDIUM` oder wenn der Titel „duales Studium“, „dualer Bachelor“ o. Ä. enthält, sonst als `ausbildung`.
-2. **Abfragen:** Für jeden Kreis werden alle passenden Adapter parallel abgefragt (Timeout 8 s je Abfrage). Pro Abfrage gibt es höchstens 10 Seiten à 100 Einträge. Wird das Limit erreicht: Hinweis „Mehr als 1.000 Treffer – Suche eingrenzen“.
+2. **Abfragen:** Für jeden Kreis werden alle passenden Adapter parallel abgefragt (Timeout 8 s je Abfrage). Pro Abfrage gibt es höchstens 20 Seiten à 100 Einträge (BA-Studiensuche: 50 à 20). Wird das Limit erreicht: Hinweis „Sehr viele Treffer – grenze die Suche ein, um alle zu sehen.“
 3. **Zusammenführen:**
    - Gleiche `id` → ein Eintrag.
    - Über Quellen hinweg: Ist der normalisierte Anbietername, der normalisierte Titel und die PLZ gleich, wird zusammengeführt. Alle Quellen-Links bleiben in `weitereQuellen` erhalten.

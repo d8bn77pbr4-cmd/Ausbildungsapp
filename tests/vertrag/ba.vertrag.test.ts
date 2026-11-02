@@ -4,7 +4,9 @@ import { describe, expect, test } from 'vitest';
 import { erstelleBaJobsAdapter, geokodiere } from '@/suche/adapter/ba-jobs';
 import { erstelleBaStudiumAdapter } from '@/suche/adapter/ba-studium';
 import { entfernungKm } from '@/suche/geo';
-import { ALLE_KREISE } from '@/suche/kreise';
+import { ALLE_KREISE, kreiseFuer } from '@/suche/kreise';
+import { SpeicherCache } from '@/suche/cache';
+import { sucheAusfuehren } from '@/suche/planer';
 
 const JOBS = 'https://rest.arbeitsagentur.de/jobboerse/jobsuche-service';
 const STUDIUM = 'https://rest.arbeitsagentur.de/infosysbub/studisu';
@@ -53,5 +55,25 @@ describe.skipIf(!process.env.VERTRAG)('Vertrag Kreismitten', () => {
         expect(entfernungKm(k, t!), `${land} ${k.name}`).toBeLessThanOrEqual(10);
       }
     }
+  });
+});
+
+describe.skipIf(!process.env.VERTRAG)('Vertrag Referenzsuche (Erfolgskriterium 1)', () => {
+  test('„Mechatroniker, Ausbildung, Hessen + NRW“ in < 5 s, nur HE/NW', { timeout: 60_000 }, async () => {
+    const start = Date.now();
+    const r = await sucheAusfuehren(
+      { was: 'Mechatroniker', arten: ['ausbildung'], orte: [], bundeslaender: ['HE', 'NW'], sortierung: 'relevanz', seite: 1 },
+      {
+        adapter: [erstelleBaJobsAdapter({ basisUrl: JOBS }), erstelleBaStudiumAdapter({ basisUrl: STUDIUM })],
+        cache: new SpeicherCache(),
+        kreiseFuer,
+        geokodiere: (ort, s) => geokodiere(ort, { basisUrl: JOBS, signal: s }),
+      },
+    );
+    const dauer = Date.now() - start;
+    console.log(`Referenzsuche: ${r.gesamt} Treffer in ${dauer} ms, Hinweise: ${JSON.stringify(r.hinweise)}`);
+    expect(r.gesamt).toBeGreaterThan(0);
+    expect(r.angebote.every((a) => a.ort.bundesland === 'HE' || a.ort.bundesland === 'NW')).toBe(true);
+    expect(dauer).toBeLessThan(5000);
   });
 });

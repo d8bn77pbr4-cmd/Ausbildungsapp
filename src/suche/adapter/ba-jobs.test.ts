@@ -38,7 +38,7 @@ describe('BA-Jobsuche-Adapter', () => {
     const a = erstelleBaJobsAdapter({ basisUrl: BASIS, fetch: stubFetch(leer).fetch });
     expect(a.name).toBe('ba-jobs');
     expect(a.faehigkeiten).toEqual({ umkreis: true, bundesland: false });
-    expect([a.seitenGroesse, a.maxSeiten]).toEqual([100, 10]);
+    expect([a.seitenGroesse, a.maxSeiten]).toEqual([100, 20]);
     const arten: Angebotsart[] = ['ausbildung', 'dual', 'job', 'studium'];
     expect(arten.map((art) => a.unterstuetzt(art))).toEqual([true, true, true, false]);
   });
