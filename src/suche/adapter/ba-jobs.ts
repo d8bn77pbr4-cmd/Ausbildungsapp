@@ -97,6 +97,7 @@ export function erstelleBaJobsAdapter(opt: Optionen): QuellenAdapter {
   return {
     name: 'ba-jobs',
     unterstuetzt: (art) => art !== 'studium',
+    abfrageKlasse: (art) => (art === 'job' ? 'arbeit' : 'ausbildung'),
     faehigkeiten: { umkreis: true, bundesland: false },
     seitenGroesse: 100,
     maxSeiten: 20,
@@ -122,8 +123,8 @@ export function erstelleBaJobsAdapter(opt: Optionen): QuellenAdapter {
           ungueltig++;
           continue;
         }
-        const angebot = zuAngebot(geprueft.data, titel, abfrage);
-        if (angebot.art === abfrage.art) angebote.push(angebot);
+        // Liefert alle Arten der Abfrageklasse; nach den gewünschten Arten filtert der Planer.
+        angebote.push(zuAngebot(geprueft.data, titel, abfrage));
       }
       if (ungueltig) console.warn(`ba-jobs: ${ungueltig} ungültige Einträge übersprungen`);
       return { angebote, gesamt: daten.maxErgebnisse };

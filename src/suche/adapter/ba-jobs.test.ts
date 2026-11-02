@@ -25,12 +25,10 @@ function stubFetch(daten: unknown, status = 200) {
   return { aufrufe, fetch };
 }
 
-/** Holt Ausbildung und duales Studium – zusammen ergibt das alle Einträge einer angebotsart=4-Antwort. */
+/** Eine angebotsart=4-Antwort liefert Ausbildung und duales Studium zusammen (gefiltert wird im Planer). */
 async function alleAusbildungsArten(daten: unknown) {
   const a = erstelleBaJobsAdapter({ basisUrl: BASIS, fetch: stubFetch(daten).fetch });
-  const arten: Angebotsart[] = ['ausbildung', 'dual'];
-  const teile = await Promise.all(arten.map((art) => a.suche({ was: 'x', art, seite: 1 }, signal)));
-  return teile.flatMap((t) => t.angebote);
+  return (await a.suche({ was: 'x', art: 'ausbildung', seite: 1 }, signal)).angebote;
 }
 
 describe('BA-Jobsuche-Adapter', () => {
@@ -41,6 +39,8 @@ describe('BA-Jobsuche-Adapter', () => {
     expect([a.seitenGroesse, a.maxSeiten]).toEqual([100, 20]);
     const arten: Angebotsart[] = ['ausbildung', 'dual', 'job', 'studium'];
     expect(arten.map((art) => a.unterstuetzt(art))).toEqual([true, true, true, false]);
+    expect(a.abfrageKlasse('ausbildung')).toBe(a.abfrageKlasse('dual'));
+    expect(a.abfrageKlasse('job')).not.toBe(a.abfrageKlasse('ausbildung'));
   });
 
   test('baut die Abfrage-URL inkl. Umlauten, Sonderzeichen und Header', async () => {
@@ -127,16 +127,15 @@ describe('BA-Jobsuche-Adapter', () => {
     expect(istDual(titel, art)).toBe(erwartet);
   });
 
-  test('liefert nur die angefragte Art', async () => {
+  test('ordnet jede Anzeige ihrer Art zu und liefert beide Arten (gefiltert wird im Planer)', async () => {
     const gemischt = { ...mechatroniker, ergebnisliste: [...mechatroniker.ergebnisliste.slice(0, 10), ...informatik.ergebnisliste.slice(0, 10)] };
     const a = erstelleBaJobsAdapter({ basisUrl: BASIS, fetch: stubFetch(gemischt).fetch });
-    const dual = (await a.suche({ was: 'Informatik', art: 'dual', seite: 1 }, signal)).angebote;
-    const ausbildung = (await a.suche({ was: 'Informatik', art: 'ausbildung', seite: 1 }, signal)).angebote;
-    expect(dual.length).toBeGreaterThan(0);
-    expect(ausbildung.length).toBeGreaterThan(0);
-    expect(dual.every((x) => x.art === 'dual')).toBe(true);
-    expect(ausbildung.every((x) => x.art === 'ausbildung')).toBe(true);
-    expect(dual.length + ausbildung.length).toBe(20);
+    for (const art of ['ausbildung', 'dual'] as const) {
+      const angebote = (await a.suche({ was: 'Informatik', art, seite: 1 }, signal)).angebote;
+      expect(angebote).toHaveLength(20);
+      expect(angebote.filter((x) => x.art === 'dual')).toHaveLength(10);
+      expect(angebote.filter((x) => x.art === 'ausbildung')).toHaveLength(10);
+    }
   });
 
   test('Job-Angebote haben Art job', async () => {

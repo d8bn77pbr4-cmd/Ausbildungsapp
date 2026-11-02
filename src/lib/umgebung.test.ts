@@ -27,3 +27,8 @@ test('E2E_OHNE_LOGIN wirkt nie in Produktion', () => {
   expect(leseUmgebung({ ...basis, E2E_OHNE_LOGIN: '1', NODE_ENV: 'production' }).e2eOhneLogin).toBe(false);
   expect(leseUmgebung({ ...basis, E2E_OHNE_LOGIN: '1', NODE_ENV: 'development' }).e2eOhneLogin).toBe(true);
 });
+
+test('CRON_SECRET ist optional', () => {
+  expect(leseUmgebung(basis).cronGeheimnis).toBeUndefined();
+  expect(leseUmgebung({ ...basis, CRON_SECRET: 'ein-langes-geheimnis-1234567890' }).cronGeheimnis).toBe('ein-langes-geheimnis-1234567890');
+});

@@ -27,19 +27,23 @@ Du brauchst: dein GitHub-Konto (hast du schon) und eine E-Mail-Adresse.
    <h2>Dein Code: {{ .Token }}</h2>
    ```
    → **Save**. Warum? Auf dem iPhone teilt die App vom Home-Bildschirm keine Anmeldung mit Safari. Mit dem Code meldest du dich direkt in der App an.
+6. **Wichtig – an wen Supabase Mails schickt:** Ohne eigenen Mailserver verschickt Supabase Login-Mails **nur an Mitglieder deines Supabase-Teams** (und nur wenige pro Stunde).
+   - Am einfachsten: Trage später in `ERLAUBTE_EMAILS` genau die E-Mail-Adresse ein, mit der du bei Supabase angemeldet bist (Profilbild oben rechts → dort steht sie).
+   - Eine andere Adresse? Dann lade sie unter **Organization → Team → Invite** ein und nimm die Einladung an.
 
 ## 2. Vercel: die App online stellen
 
 1. Gehe auf [vercel.com](https://vercel.com) → **Sign Up** → **Continue with GitHub**.
 2. **Add New…** → **Project** → bei `Ausbildungsapp` auf **Import**.
-3. Klappe **Environment Variables** auf und trage diese vier Werte ein (Name links, Wert rechts):
+3. Klappe **Environment Variables** auf und trage diese fünf Werte ein (Name links, Wert rechts):
 
    | Name | Wert |
    |---|---|
    | `NEXT_PUBLIC_SUPABASE_URL` | deine Project URL aus Schritt 1.4 |
    | `NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY` | dein Publishable key |
    | `SUPABASE_SECRET_KEY` | dein Secret key |
-   | `ERLAUBTE_EMAILS` | deine E-Mail-Adresse (mehrere mit Komma trennen) |
+   | `ERLAUBTE_EMAILS` | deine E-Mail-Adresse – dieselbe wie bei Supabase (siehe 1.6), mehrere mit Komma trennen |
+   | `CRON_SECRET` | ein langes Zufallswort, mind. 16 Zeichen (z. B. aus einem Passwort-Generator) – damit hält Vercel dein Supabase-Projekt täglich wach |
 
    ⚠️ **`E2E_OHNE_LOGIN` niemals eintragen** – das ist nur für automatische Tests.
 4. **Deploy** und ca. 1–2 Minuten warten.
@@ -68,7 +72,8 @@ Du brauchst: dein GitHub-Konto (hast du schon) und eine E-Mail-Adresse.
 
 | Problem | Lösung |
 |---|---|
-| Seite zeigt einen Fehler mit „Fehlende oder ungültige Einstellung: …“ | Die genannte Variable in Vercel prüfen (Project → Settings → Environment Variables), dann **Deployments → Redeploy**. |
-| Keine Mail angekommen | Spam-Ordner prüfen. Supabase verschickt im Gratis-Tarif nur wenige Mails pro Stunde – kurz warten. Hast du deine Adresse in `ERLAUBTE_EMAILS` richtig geschrieben? |
+| Seite zeigt „Application error“ oder Fehler 500 | In Vercel: Project → **Logs**. Steht dort „Fehlende oder ungültige Einstellung: …“, die genannte Variable unter Settings → Environment Variables prüfen, dann **Deployments → Redeploy**. |
+| Keine Mail angekommen | Spam-Ordner prüfen. Ist die Adresse in `ERLAUBTE_EMAILS` **dieselbe wie dein Supabase-Konto** (Schritt 1.6)? Supabase schickt nur wenige Mails pro Stunde – kurz warten. In Vercel → Logs bedeutet „Email address not authorized“: Adresse ist kein Team-Mitglied. |
+| Login klappt nach längerer Pause nicht mehr | Supabase pausiert Gratis-Projekte nach 7 Tagen ohne Nutzung. Ist `CRON_SECRET` gesetzt, passiert das nicht. Sonst: Supabase-Dashboard → Projekt → **Restore project**. |
 | Mail enthält keinen Code | Schritt 1.5 wiederholen (beide Vorlagen). |
 | „Der Link ist abgelaufen …“ | Einfach den Code aus derselben Mail in der App eingeben. |

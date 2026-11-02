@@ -78,3 +78,23 @@ export function ausBaRegion(region: string | undefined): Bundesland | undefined 
 export function istBundesland(wert: string): wert is Bundesland {
   return wert in BUNDESLAENDER;
 }
+
+const TRENNER = /\s*(?:[,;+/]|\s(?:und|&)\s)\s*/i;
+
+/**
+ * Zerlegt eine Eingabe im „Wo?“-Feld: „Hessen, NRW“, „Hessen und NRW“, „Hessen + Frankfurt“.
+ * Teile, die ein Bundesland sind, werden nie als Ort an die Quelle geschickt.
+ */
+export function zerlegeWoEingabe(text: string): { orte: string[]; bundeslaender: Bundesland[] } {
+  const orte: string[] = [];
+  const bundeslaender: Bundesland[] = [];
+  for (const roh of text.split(TRENNER)) {
+    const teil = roh.trim().replace(/[.,;:!?]+$/, '').trim();
+    if (!teil) continue;
+    const bl = erkenneBundesland(teil);
+    if (bl) {
+      if (!bundeslaender.includes(bl)) bundeslaender.push(bl);
+    } else if (!orte.some((o) => o.toLowerCase() === teil.toLowerCase())) orte.push(teil);
+  }
+  return { orte, bundeslaender };
+}

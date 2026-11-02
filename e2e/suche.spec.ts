@@ -23,6 +23,14 @@ test('Bundesland eintippen ergibt Bundesland-Chip und filtert', async ({ page })
   await expect(page.getByText(/^\d+ Treffer$/)).toHaveText(`${hessen.length} Treffer`);
 });
 
+test('„Hessen, NRW“ in einem Rutsch ergibt zwei Bundesland-Chips', async ({ page }) => {
+  await page.goto('/suchen');
+  await page.getByLabel('Wo?').fill('Hessen, NRW');
+  await page.getByLabel('Wo?').press('Enter');
+  await expect(page.getByRole('button', { name: 'Hessen entfernen' })).toBeVisible();
+  await expect(page.getByRole('button', { name: 'Nordrhein-Westfalen entfernen' })).toBeVisible();
+});
+
 test('unbekannter Ort zeigt Hinweis statt bundesweiter Suche', async ({ page }) => {
   await suche(page, 'Mechatroniker', ['Frankfrt']);
   await expect(page.getByText('Ort nicht gefunden: Frankfrt')).toBeVisible();

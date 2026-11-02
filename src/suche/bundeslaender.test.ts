@@ -1,5 +1,5 @@
-import { expect, test } from 'vitest';
-import { ausBaRegion, BUNDESLAENDER, erkenneBundesland } from './bundeslaender';
+import { describe, expect, test } from 'vitest';
+import { ausBaRegion, BUNDESLAENDER, erkenneBundesland, zerlegeWoEingabe } from './bundeslaender';
 
 test.each([
   ['hessen', 'HE'], ['NRW', 'NW'], ['Nordrhein-Westfalen', 'NW'], ['Baden-Württemberg', 'BW'], ['baden wuerttemberg', 'BW'],
@@ -25,4 +25,21 @@ test('BA-Regionen werden auf Codes abgebildet', () => {
 test('alle 16 Bundesländer haben Anzeigenamen', () => {
   expect(Object.keys(BUNDESLAENDER)).toHaveLength(16);
   expect(BUNDESLAENDER.NW).toBe('Nordrhein-Westfalen');
+});
+
+describe('zerlegeWoEingabe', () => {
+  test.each([
+    ['Hessen, NRW', [], ['HE', 'NW']],
+    ['Hessen und NRW', [], ['HE', 'NW']],
+    ['Hessen,', [], ['HE']],
+    ['Hessen.', [], ['HE']],
+    ['Hessen + Frankfurt', ['Frankfurt'], ['HE']],
+    ['Frankfurt; Köln', ['Frankfurt', 'Köln'], []],
+    ['Bayern/Sachsen', [], ['BY', 'SN']],
+    ['Frankfurt (Oder)', ['Frankfurt (Oder)'], []],
+    ['Mülheim an der Ruhr', ['Mülheim an der Ruhr'], []],
+    ['  ', [], []],
+  ] as const)('%s', (text, orte, bundeslaender) => {
+    expect(zerlegeWoEingabe(text)).toEqual({ orte, bundeslaender });
+  });
 });

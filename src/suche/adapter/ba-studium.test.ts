@@ -28,6 +28,7 @@ describe('BA-Studiensuche-Adapter', () => {
     expect([a.seitenGroesse, a.maxSeiten]).toEqual([20, 50]);
     const arten: Angebotsart[] = ['ausbildung', 'dual', 'job', 'studium'];
     expect(arten.map((art) => a.unterstuetzt(art))).toEqual([false, false, false, true]);
+    expect(a.abfrageKlasse('studium')).toBe('studium');
   });
 
   test('URL mit Bundesländern und Seite', async () => {

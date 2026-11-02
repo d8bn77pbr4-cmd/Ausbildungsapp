@@ -1,5 +1,5 @@
 import { z } from 'zod';
-import { BUNDESLAENDER } from './bundeslaender';
+import { BUNDESLAENDER, erkenneBundesland } from './bundeslaender';
 import { sucheAusfuehren, type SuchDeps } from './planer';
 import type { Bundesland, SuchAnfrage, SuchErgebnis } from './typen';
 
@@ -34,7 +34,18 @@ export const SuchAnfrageSchema = z.object({
     .optional(),
   sortierung: z.enum(['relevanz', 'entfernung', 'beginn', 'neueste']).default('relevanz'),
   seite: z.number().int().min(1).max(100).default(1),
-}) satisfies z.ZodType<SuchAnfrage, unknown>;
+})
+  // Bundesland-Namen im Ortsfeld nie als Ort an die Quelle schicken („Hessen“ ≠ „Hessen bei Halberstadt“).
+  .transform((a) => {
+    const bundeslaender = [...a.bundeslaender];
+    const orte = a.orte.filter((o) => {
+      const bl = erkenneBundesland(o.ort);
+      if (!bl) return true;
+      if (!bundeslaender.includes(bl)) bundeslaender.push(bl);
+      return false;
+    });
+    return { ...a, orte, bundeslaender };
+  }) satisfies z.ZodType<SuchAnfrage, unknown>;
 
 export type SuchAntwort =
   | { status: 200; body: SuchErgebnis }

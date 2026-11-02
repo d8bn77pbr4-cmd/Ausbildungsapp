@@ -1,7 +1,8 @@
 export type Zugriff = 'weiter' | 'zum_login' | 'api_nicht_angemeldet' | 'nicht_freigegeben';
 
 const OEFFENTLICH_EXAKT = new Set(['/login', '/auth/callback', '/manifest.webmanifest', '/icon.svg', '/apple-icon']);
-const OEFFENTLICH_PRAEFIX = ['/app-icon/'];
+// /api/cron/* prüft selbst ein Geheimnis (src/lib/cron.ts).
+const OEFFENTLICH_PRAEFIX = ['/app-icon/', '/api/cron/'];
 
 /** Ist die E-Mail-Adresse freigegeben? Vergleich ohne Groß-/Kleinschreibung und Leerzeichen. */
 export function istErlaubt(email: string | null | undefined, erlaubteEmails: string[]): boolean {

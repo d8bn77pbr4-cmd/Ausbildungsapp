@@ -23,6 +23,7 @@ function fakeAdapter(o: FakeOptionen = {}) {
   const adapter: QuellenAdapter = {
     name: o.name ?? 'ba-jobs',
     unterstuetzt: (art) => (o.arten ?? ['ausbildung', 'dual', 'job']).includes(art),
+    abfrageKlasse: (art) => (art === 'dual' ? 'ausbildung' : art),
     faehigkeiten: o.faehigkeiten ?? { umkreis: true, bundesland: false },
     seitenGroesse: o.seitenGroesse ?? 100,
     maxSeiten: o.maxSeiten ?? 10,
@@ -63,15 +64,26 @@ describe('planeAbfragen', () => {
     expect(plan).toEqual(TEST_KREISE.HE!.map((kreis) => ({ adapter: 'ba-jobs', abfrage: { was: 'x', art: 'ausbildung', kreis }, filterBundeslaender: ['HE'] })));
   });
 
-  test('Bundesland bei ba-studium → genau eine Abfrage mit allen Ländern', () => {
+  test('Bundesland bei ba-studium → je Land eine Abfrage (Seitenlimit gilt je Land)', () => {
     const plan = planeAbfragen({ ...basis, arten: ['studium'], bundeslaender: ['HE', 'NW'] }, [fakeAdapter(studiumFaehig).adapter], kreiseFuer);
-    expect(plan).toEqual([{ adapter: 'ba-studium', abfrage: { was: 'x', art: 'studium', bundeslaender: ['HE', 'NW'] }, filterBundeslaender: ['HE', 'NW'] }]);
+    expect(plan).toEqual([
+      { adapter: 'ba-studium', abfrage: { was: 'x', art: 'studium', bundeslaender: ['HE'] }, filterBundeslaender: ['HE'] },
+      { adapter: 'ba-studium', abfrage: { was: 'x', art: 'studium', bundeslaender: ['NW'] }, filterBundeslaender: ['NW'] },
+    ]);
   });
 
-  test('Ort bei ba-studium → Abfrage ohne Ort, mit Kreisfilter', () => {
+  test('Ort bei ba-studium → Abfrage in den Bundesländern rund um den Ort, mit Kreisfilter', () => {
     const k = K('Gießen');
     const plan = planeAbfragen({ ...basis, arten: ['studium'], kreise: [k] }, [fakeAdapter(studiumFaehig).adapter], kreiseFuer);
-    expect(plan).toEqual([{ adapter: 'ba-studium', abfrage: { was: 'x', art: 'studium' }, filterKreis: k }]);
+    expect(plan).toEqual([
+      { adapter: 'ba-studium', abfrage: { was: 'x', art: 'studium', bundeslaender: ['HE'] }, filterKreis: k },
+      { adapter: 'ba-studium', abfrage: { was: 'x', art: 'studium', bundeslaender: ['NW'] }, filterKreis: k },
+    ]);
+  });
+
+  test('Ausbildung + Duales Studium → eine Abfrage je Abfrageklasse der Quelle', () => {
+    const plan = planeAbfragen({ ...basis, arten: ['ausbildung', 'dual', 'job'], bundesweit: true }, [fakeAdapter().adapter], kreiseFuer);
+    expect(plan.map((p) => p.abfrage.art)).toEqual(['ausbildung', 'job']);
   });
 
   test('Ort bei ba-jobs → Abfrage mit Kreis, ohne Filter', () => {
@@ -214,5 +226,76 @@ describe('sucheAusfuehren', () => {
       deps([adapter]),
     );
     expect(r.angebote.map((a) => a.id)).toEqual([nah.id, fern.id]);
+  });
+
+  test('Ausbildung + Duales Studium → ein Abruf je Seite, nicht angefragte Arten gefiltert', async () => {
+    const aus = angebot({ art: 'ausbildung' });
+    const dual = angebot({ art: 'dual' });
+    const job = angebot({ art: 'job' });
+    const { adapter, aufrufe } = fakeAdapter({ antwort: () => ({ angebote: [aus, dual, job], gesamt: 3 }) });
+    const r = await sucheAusfuehren(anfrage({ arten: ['ausbildung', 'dual'] }), deps([adapter]));
+    expect(aufrufe).toHaveLength(1);
+    expect(r.angebote.map((a) => a.id)).toEqual([aus.id, dual.id]);
+  });
+
+  test('Seitenbudget je Suche: fair über alle Abfragen verteilt, dann Hinweis', async () => {
+    const { adapter, aufrufe } = fakeAdapter({ seitenGroesse: 1, maxSeiten: 10, antwort: (a) => ({ angebote: [angebot({ quellenId: `${a.kreis?.name}-${a.seite}` })], gesamt: 10 }) });
+    const r = await sucheAusfuehren(anfrage({ bundeslaender: ['HE'] }), deps([adapter], { seitenBudget: 6 }));
+    expect(aufrufe).toHaveLength(6);
+    expect(aufrufe.filter((a) => a.kreis?.name === 'he1').map((a) => a.seite).sort()).toEqual([1, 2, 3]);
+    expect(aufrufe.filter((a) => a.kreis?.name === 'he2').map((a) => a.seite).sort()).toEqual([1, 2, 3]);
+    expect(r.hinweise).toEqual([{ typ: 'zu_viele_treffer' }]);
+  });
+
+  test('hängende Quelle mit Notreserve: nur ein Timeout, danach sofort die Reserve', async () => {
+    let jetzt = new Date('2026-11-02T08:00:00Z');
+    const cache = new SpeicherCache(() => jetzt);
+    let haengen = false;
+    const { adapter } = fakeAdapter({
+      seitenGroesse: 1,
+      maxSeiten: 20,
+      antwort: (a, signal) => (haengen ? haengt(a, signal) : { angebote: [angebot({ quellenId: `${a.kreis?.name}-${a.seite}` })], gesamt: 20 }),
+    });
+    const suche = anfrage({ bundeslaender: ['HE', 'NW'] });
+    const erste = await sucheAusfuehren(suche, deps([adapter], { cache, seitenBudget: 1000, timeoutMs: 100 }));
+    jetzt = new Date('2026-11-02T15:00:00Z');
+    haengen = true;
+    const start = Date.now();
+    const r = await sucheAusfuehren(suche, deps([adapter], { cache, seitenBudget: 1000, timeoutMs: 100 }));
+    expect(Date.now() - start).toBeLessThan(300);
+    expect(r.gesamt).toBe(erste.gesamt);
+    expect(r.hinweise).toEqual([{ typ: 'veralteter_stand', quelle: 'ba-jobs', stand: '2026-11-02T08:00:00.000Z' }]);
+  });
+
+  test('Abbruch durch den Browser beendet die Suche sofort', async () => {
+    const { adapter } = fakeAdapter({ antwort: haengt });
+    const start = Date.now();
+    const r = await sucheAusfuehren(anfrage(), deps([adapter], { timeoutMs: 5000, abbruch: AbortSignal.abort() }));
+    expect(Date.now() - start).toBeLessThan(500);
+    expect(r.angebote).toEqual([]);
+  });
+
+  test('Ortserkennung wird gecacht', async () => {
+    let anzahl = 0;
+    const d = deps([fakeAdapter().adapter], { geokodiere: async () => (anzahl++, GIESSEN) });
+    await sucheAusfuehren(anfrage({ orte: [{ ort: 'Gießen', umkreisKm: 25 }] }), d);
+    await sucheAusfuehren(anfrage({ orte: [{ ort: ' gießen ', umkreisKm: 25 }], seite: 2 }), d);
+    expect(anzahl).toBe(1);
+  });
+
+  test('BA komplett ausgefallen: Ortssuche nutzt die Notreserve (Ort und Seiten)', async () => {
+    let jetzt = new Date('2026-11-02T08:00:00Z');
+    const cache = new SpeicherCache(() => jetzt);
+    let kaputt = false;
+    const x = angebot();
+    const { adapter } = fakeAdapter({ antwort: () => { if (kaputt) throw new Error('503'); return { angebote: [x], gesamt: 1 }; } });
+    const geokodiere = async () => { if (kaputt) throw new Error('503'); return GIESSEN; };
+    const suche = anfrage({ orte: [{ ort: 'Gießen', umkreisKm: 25 }] });
+    await sucheAusfuehren(suche, deps([adapter], { cache, geokodiere }));
+    jetzt = new Date('2026-11-02T15:00:00Z');
+    kaputt = true;
+    const r = await sucheAusfuehren(suche, deps([adapter], { cache, geokodiere }));
+    expect(r.angebote.map((a) => a.id)).toEqual([x.id]);
+    expect(r.hinweise).toEqual([{ typ: 'veralteter_stand', quelle: 'ba-jobs', stand: '2026-11-02T08:00:00.000Z' }]);
   });
 });

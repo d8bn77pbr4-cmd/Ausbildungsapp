@@ -47,6 +47,8 @@ export interface AdapterSeite {
 export interface QuellenAdapter {
   name: QuellenName;
   unterstuetzt(art: Angebotsart): boolean;
+  /** Arten mit gleicher Klasse holt die Quelle mit derselben Abfrage (BA: Ausbildung + duales Studium). */
+  abfrageKlasse(art: Angebotsart): string;
   faehigkeiten: { umkreis: boolean; bundesland: boolean };
   seitenGroesse: number;
   maxSeiten: number;

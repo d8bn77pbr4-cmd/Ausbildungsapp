@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import { Hinweis } from '@/design/komponenten/Hinweis';
-import { erkenneBundesland } from '../bundeslaender';
+import { zerlegeWoEingabe } from '../bundeslaender';
 import type { Angebot, Angebotsart, Bundesland, Sortierung, SuchAnfrage, SuchErgebnis, SuchFilter } from '../typen';
 import { AngebotSheet } from './AngebotSheet';
 import { ErgebnisListe } from './ErgebnisListe';
@@ -45,11 +45,12 @@ export function SuchSeite() {
     let neueOrte = orte;
     let neueLaender = bundeslaender;
     if (text) {
-      const bl = erkenneBundesland(text);
-      if (bl) {
-        if (!bundeslaender.includes(bl)) neueLaender = [...bundeslaender, bl];
-      } else if (orte.length < MAX_ORTE && !orte.some((o) => o.ort.toLowerCase() === text.toLowerCase())) {
-        neueOrte = [...orte, { ort: text, umkreisKm: 25 }];
+      const teile = zerlegeWoEingabe(text);
+      neueLaender = [...bundeslaender, ...teile.bundeslaender.filter((bl) => !bundeslaender.includes(bl))];
+      for (const ort of teile.orte) {
+        if (neueOrte.length < MAX_ORTE && !neueOrte.some((o) => o.ort.toLowerCase() === ort.toLowerCase())) {
+          neueOrte = [...neueOrte, { ort, umkreisKm: 25 }];
+        }
       }
       setOrte(neueOrte);
       setBundeslaender(neueLaender);

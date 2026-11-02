@@ -183,10 +183,12 @@ interface QuellenAdapter {
    - Orte der Nutzerin/des Nutzers werden zuerst über `woOutput` der BA-Jobsuche geokodiert. Bei einem unbekannten Ort erscheint der Hinweis „Ort nicht gefunden“. Ist er der einzige Ort, wird **nicht** stillschweigend bundesweit gesucht.
    - Bundesland bei Adaptern ohne Bundeslandfilter (BA-Jobsuche) → vordefinierte Abdeckungskreise aus `data/bundesland-kreise.json` (Radius ≤ 100 km, höchstens 6 Kreise je Bundesland, von Hand festgelegt und per Test gegen die Randorte jedes Bundeslands geprüft). Danach wird nach `bundesland` gefiltert.
      - Grund: Die BA-Jobsuche kennt keinen Bundeslandfilter. `wo=Hessen` findet den Ort „Hessen bei Halberstadt“ (getestet). Mit Gießen + 100 km lagen 66 % der Treffer in Hessen, der Rest wird gefiltert.
-   - Bundesland bei Adaptern mit Bundeslandfilter (BA-Studiensuche) → eine Abfrage mit allen gewählten Bundesländern.
+   - Bundesland bei Adaptern mit Bundeslandfilter (BA-Studiensuche) → je Bundesland eine Abfrage (das Seitenlimit gilt je Land).
+   - Ort bei Adaptern ohne Umkreissuche (BA-Studiensuche) → je Bundesland, dessen Abdeckungskreise den Suchkreis berühren, eine Abfrage; danach Entfernungsfilter.
+   - Arten mit gleicher Abfrageklasse (BA: Ausbildung + duales Studium = `angebotsart=4`) werden nur einmal abgerufen und danach nach Art getrennt.
    - Stadtstaaten (Berlin, Hamburg, Bremen) → 1 Kreis.
    - Art: Für Ausbildung und duales Studium fragt die BA-Jobsuche `angebotsart=4` ab. Als `dual` gilt ein Angebot bei `ausbildungsart = DUALES_STUDIUM` oder wenn der Titel „duales Studium“, „dualer Bachelor“ o. Ä. enthält, sonst als `ausbildung`.
-2. **Abfragen:** Für jeden Kreis werden alle passenden Adapter parallel abgefragt (Timeout 8 s je Abfrage). Pro Abfrage gibt es höchstens 20 Seiten à 100 Einträge (BA-Studiensuche: 50 à 20). Wird das Limit erreicht: Hinweis „Sehr viele Treffer – grenze die Suche ein, um alle zu sehen.“
+2. **Abfragen:** Für jeden Kreis werden alle passenden Adapter parallel abgefragt (Timeout 8 s je Abfrage). Je Suche höchstens 80 Abrufe bei den Quellen (erst Seite 1 aller Abfragen, dann Folgeseiten verschränkt nach Seitennummer); darüber Hinweis „Sehr viele Treffer“. Fällt eine Quelle aus, wird nur einmal gewartet: laufende Abrufe werden abgebrochen, weitere nutzen sofort die Notreserve. Die Ortserkennung wird ebenfalls gecacht (gleiche Notreserve). Pro Abfrage gibt es höchstens 20 Seiten à 100 Einträge (BA-Studiensuche: 50 à 20). Wird das Limit erreicht: Hinweis „Sehr viele Treffer – grenze die Suche ein, um alle zu sehen.“
 3. **Zusammenführen:**
    - Gleiche `id` → ein Eintrag.
    - Über Quellen hinweg: Ist der normalisierte Anbietername, der normalisierte Titel und die PLZ gleich, wird zusammengeführt. Alle Quellen-Links bleiben in `weitereQuellen` erhalten.
@@ -220,7 +222,7 @@ interface QuellenAdapter {
 - Web Push mit VAPID-Schlüsseln. Auf dem iPhone funktioniert das nur als installierte Web-App (iOS ≥ 16.4). Die App erklärt das beim Aktivieren.
 - Der Vercel-Gratis-Tarif erlaubt den Cron einmal täglich. Das passt zum 24-h-Kriterium.
 - **Zeitbudget je Lauf:** Suchen werden nacheinander verarbeitet. Nicht geschaffte Suchen kommen beim nächsten Lauf zuerst dran.
-- Der tägliche Lauf greift auf die Datenbank zu. Dadurch wird das kostenlose Supabase-Projekt nicht wegen Inaktivität pausiert.
+- Der tägliche Lauf greift auf die Datenbank zu. Dadurch wird das kostenlose Supabase-Projekt nicht wegen Inaktivität pausiert. Schon ab Phase 1–2 gibt es dafür einen täglichen Weckruf (`/api/cron/wachhalten`, geschützt durch `CRON_SECRET`).
 
 ### 6.6 Gmail-Dienst
 

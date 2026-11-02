@@ -9,6 +9,7 @@ const x = angebot();
 const adapter: QuellenAdapter = {
   name: 'ba-jobs',
   unterstuetzt: () => true,
+  abfrageKlasse: (art) => art,
   faehigkeiten: { umkreis: true, bundesland: false },
   seitenGroesse: 100,
   maxSeiten: 10,
@@ -54,6 +55,14 @@ describe('verarbeiteSuchAnfrage', () => {
 });
 
 describe('SuchAnfrageSchema', () => {
+  test('Bundesland-Namen in „orte“ werden zu Bundesländern (auch ohne Oberfläche)', () => {
+    const a = SuchAnfrageSchema.parse({ was: 'Mechatroniker', arten: ['ausbildung'], orte: [{ ort: 'Hessen', umkreisKm: 25 }, { ort: 'Gießen', umkreisKm: 25 }], bundeslaender: ['HE'] });
+    expect(a.orte).toEqual([{ ort: 'Gießen', umkreisKm: 25 }]);
+    expect(a.bundeslaender).toEqual(['HE']);
+    const b = SuchAnfrageSchema.parse({ was: 'Mechatroniker', arten: ['ausbildung'], orte: [{ ort: 'nrw', umkreisKm: 25 }] });
+    expect(b).toMatchObject({ orte: [], bundeslaender: ['NW'] });
+  });
+
   test('Standardwerte und Aufräumen', () => {
     const a = SuchAnfrageSchema.parse({ was: '  Mechatroniker ', arten: ['ausbildung', 'ausbildung'] });
     expect(a).toEqual({ was: 'Mechatroniker', arten: ['ausbildung'], orte: [], bundeslaender: [], sortierung: 'relevanz', seite: 1 });

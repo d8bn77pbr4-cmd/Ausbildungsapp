@@ -9,6 +9,7 @@ export interface Umgebung {
   suchCache: 'supabase' | 'speicher';
   baJobsUrl: string;
   baStudiumUrl: string;
+  cronGeheimnis?: string;
 }
 
 const emailListe = z
@@ -31,6 +32,7 @@ const Schema = z.object({
   SUCH_CACHE: z.enum(['supabase', 'speicher']).default('supabase'),
   BA_JOBS_URL: z.url().default('https://rest.arbeitsagentur.de/jobboerse/jobsuche-service'),
   BA_STUDIUM_URL: z.url().default('https://rest.arbeitsagentur.de/infosysbub/studisu'),
+  CRON_SECRET: z.string().optional(),
 });
 
 /** Liest und prüft alle Einstellungen. Wirft eine verständliche Meldung, wenn etwas fehlt. */
@@ -50,5 +52,6 @@ export function leseUmgebung(env: Record<string, string | undefined>): Umgebung 
     suchCache: e.SUCH_CACHE,
     baJobsUrl: e.BA_JOBS_URL.replace(/\/$/, ''),
     baStudiumUrl: e.BA_STUDIUM_URL.replace(/\/$/, ''),
+    cronGeheimnis: e.CRON_SECRET || undefined,
   };
 }

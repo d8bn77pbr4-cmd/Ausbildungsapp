@@ -15,6 +15,7 @@ test.each([
   ['/app-icon/192', null, 'weiter'],
   ['/apple-icon', null, 'weiter'],
   ['/icon.svg', null, 'weiter'],
+  ['/api/cron/wachhalten', null, 'weiter'],
   ['/heute', null, 'zum_login'],
   ['/', null, 'zum_login'],
   ['/api/suche', null, 'api_nicht_angemeldet'],

@@ -57,6 +57,7 @@ export function erstelleBaStudiumAdapter(opt: Optionen): QuellenAdapter {
   return {
     name: 'ba-studium',
     unterstuetzt: (art) => art === 'studium',
+    abfrageKlasse: () => 'studium',
     faehigkeiten: { umkreis: false, bundesland: true },
     seitenGroesse: 20,
     maxSeiten: 50,
