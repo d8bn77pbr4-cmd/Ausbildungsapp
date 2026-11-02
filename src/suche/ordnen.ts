@@ -34,7 +34,7 @@ export function filtere(angebote: Angebot[], filter: SuchFilter | undefined, heu
   });
 }
 
-function aufsteigend<T>(wert: (a: Angebot) => T | undefined) {
+function aufsteigend<T extends string | number>(wert: (a: Angebot) => T | undefined) {
   return (a: Angebot, b: Angebot) => {
     const x = wert(a);
     const y = wert(b);
