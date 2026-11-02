@@ -4,6 +4,8 @@ Diese Anleitung bringt deine App ins Internet. Danach hast du einen Link, den du
 
 Du brauchst: dein GitHub-Konto (hast du schon) und eine E-Mail-Adresse.
 
+> Vercel baut automatisch den Branch `main` deines Repositorys `Ausbildungsapp`. Jede Änderung, die dort landet, ist ein bis zwei Minuten später live – du musst nichts weiter tun.
+
 ---
 
 ## 1. Supabase: Datenbank und Login
@@ -30,7 +32,7 @@ Du brauchst: dein GitHub-Konto (hast du schon) und eine E-Mail-Adresse.
 
 1. Gehe auf [vercel.com](https://vercel.com) → **Sign Up** → **Continue with GitHub**.
 2. **Add New…** → **Project** → bei `Ausbildungsapp` auf **Import**.
-3. Klappe **Environment Variables** auf und trage diese fünf Werte ein (Name links, Wert rechts):
+3. Klappe **Environment Variables** auf und trage diese vier Werte ein (Name links, Wert rechts):
 
    | Name | Wert |
    |---|---|

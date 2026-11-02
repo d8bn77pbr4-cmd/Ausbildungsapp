@@ -1,36 +1,25 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Bewerbungsradar
 
-## Getting Started
+Private Web-App, die die Suche nach **Ausbildungen, dualen Studiengängen, Studiengängen und Jobs** in Deutschland bündelt – nach Orten mit Umkreis und nach mehreren Bundesländern gleichzeitig. Läuft im Browser und lässt sich auf dem Handy als App speichern.
 
-First, run the development server:
+- **Einrichten (Supabase + Vercel, ca. 15 Min.):** [docs/einrichtung.md](docs/einrichtung.md)
+- **Design-Spezifikation:** [docs/superpowers/specs/2026-11-02-bewerbungsradar-design.md](docs/superpowers/specs/2026-11-02-bewerbungsradar-design.md)
+- **Umsetzungsplan Phase 1–2:** [docs/superpowers/plans/2026-11-02-bewerbungsradar-phase-1-2.md](docs/superpowers/plans/2026-11-02-bewerbungsradar-phase-1-2.md)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Quellen
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Jobsuche der Bundesagentur für Arbeit (Ausbildung, duales Studium, Jobs)
+- Studiensuche der Bundesagentur für Arbeit (Studiengänge)
+- Indeed, StepStone, Azubiyo: nur als Links mit vorausgefüllter Suche (deren Angebote werden nicht ausgelesen)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Befehle
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+| Befehl | Zweck |
+|---|---|
+| `npm run dev` | lokal starten (braucht `.env.local`, siehe `.env.example`) |
+| `npm test` | Unit-Tests |
+| `npm run test:e2e` | Browser-Tests (iPhone- und Desktop-Größe) gegen nachgestellte Quellen |
+| `npm run test:vertrag` | Live-Prüfung, ob die BA-Schnittstellen noch wie erwartet antworten |
+| `npm run lint` / `npm run typecheck` / `npm run build` | Qualität und Produktions-Build |
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Hilfsskripte: `scripts/fixtures-aufnehmen.ts` (Testdaten neu aufnehmen), `scripts/kreise-erzeugen.ts` (Suchkreise je Bundesland), `scripts/randorte-geokodieren.ts` (Prüfpunkte für die Kreise).
