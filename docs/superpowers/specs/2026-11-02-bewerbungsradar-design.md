@@ -122,17 +122,34 @@ interface Angebot {
   weitereQuellen?: { quelle: Angebot['quelle']; url: string }[];  // nach Zusammenführung
 }
 
+interface Kreis {
+  name: string;               // Anzeigename, z. B. „Frankfurt am Main“
+  wo: string;                 // Wert für die Quelle (Ortsname oder PLZ)
+  lat: number;
+  lon: number;
+  umkreisKm: number;
+}
+
 interface AdapterAbfrage {
   was: string;
   art: Angebotsart;
-  kreis?: { ort: string; lat?: number; lon?: number; umkreisKm: number };
-  seite: number;              // ab 1
+  kreis?: Kreis;                // nur an Adapter mit faehigkeiten.umkreis
+  bundeslaender?: Bundesland[]; // nur an Adapter mit faehigkeiten.bundesland
+  seite: number;                // ab 1
+}
+
+interface AdapterSeite {
+  angebote: Angebot[];
+  gesamt: number;             // Gesamtzahl laut Quelle (vor eigener Filterung)
 }
 
 interface QuellenAdapter {
   name: Angebot['quelle'];
   unterstuetzt(art: Angebotsart): boolean;
-  suche(abfrage: AdapterAbfrage, signal: AbortSignal): Promise<{ angebote: Angebot[]; gesamt: number }>;
+  faehigkeiten: { umkreis: boolean; bundesland: boolean };
+  seitenGroesse: number;      // BA-Jobs 100, BA-Studium 20
+  maxSeiten: number;          // BA-Jobs 10, BA-Studium 50 → je höchstens 1.000 Einträge
+  suche(abfrage: AdapterAbfrage, signal: AbortSignal): Promise<AdapterSeite>;
 }
 ```
 
@@ -144,9 +161,13 @@ interface QuellenAdapter {
   - Parameter: `was`, `wo`, `umkreis` (bis 200 getestet), `angebotsart` (4 = Ausbildung/Duales Studium, 1 = Arbeit), `size` ≤ 100, `page`.
   - Antwort: `ergebnisliste[]` mit `referenznummer`, `stellenangebotsTitel`, `firma`, `stellenlokationen[].adresse` (`plz`, `ort`, `region` z. B. `HESSEN`), `breite`/`laenge`, `eintrittszeitraum`, `verguetungsangabe`, `externeURL`, `aenderungsdatum`. Außerdem `facetten` (u. a. `ausbildungsverguetung`, `arbeitsort`).
   - Nur ca. 12 % der Ausbildungsangebote haben eine Vergütungsangabe als Feld (813 von 6.684 im Test).
+  - `ausbildungsart` (Filterwert 0 = Ausbildung, 1/2 = duales Studium). Die BA ordnet manche dualen Studiengänge als Ausbildung ein; deshalb wird zusätzlich der Titel geprüft.
+  - Link zur Anzeige: `externeURL`, sonst `https://www.arbeitsagentur.de/jobsuche/jobdetail/{referenznummer}`.
+  - `wo` akzeptiert auch eine PLZ. `woOutput` liefert den erkannten Ort mit Koordinaten und dient als Geokodierung. Tippfehler wie „Frankfrut“ werden von der BA selbst korrigiert.
 - **BA-Studiensuche**
   - `GET https://rest.arbeitsagentur.de/infosysbub/studisu/pc/v1/studienangebote?sw=…`, Header `X-API-Key: infosysbub-studisu`.
-  - Felder u. a. `studiBezeichnung`, `studienanbieter`, `region` (Bundesland), `studienort`, `studienform`, `studiBeginn`, `hochschulart`, `abschlussgrad`.
+  - Felder u. a. `studiBezeichnung`, `studienanbieter`, `region` (Bundesland), `studienort` (inkl. `location` mit Koordinaten), `studienform`, `studiBeginn`, `hochschulart`, `abschlussgrad`.
+  - Seiten à 20 Einträge über `pg`. Bundeslandfilter `re=HE;NW` (mehrere Länder per Semikolon, getestet). Keine Umkreissuche: Die Entfernung wird aus `studienort.location` selbst berechnet.
 - **Adzuna**
   - `GET https://api.adzuna.com/v1/api/jobs/de/search/{seite}` mit `app_id`/`app_key` (kostenlose Registrierung). Ergänzt vor allem Jobs.
 - **Direkt-Links**
@@ -159,15 +180,18 @@ interface QuellenAdapter {
 
 1. **Eingabe → Suchkreise**
    - Ort + Umkreis → 1 Kreis.
-   - Bundesland → vordefinierte Abdeckungskreise aus `data/bundesland-kreise.json` (je 1–4 Kreise, Radius ≤ 100 km, erzeugt aus offenen Geodaten der Landesgrenzen). Danach wird nach `bundesland` gefiltert.
+   - Orte der Nutzerin/des Nutzers werden zuerst über `woOutput` der BA-Jobsuche geokodiert. Bei einem unbekannten Ort erscheint der Hinweis „Ort nicht gefunden“. Ist er der einzige Ort, wird **nicht** stillschweigend bundesweit gesucht.
+   - Bundesland bei Adaptern ohne Bundeslandfilter (BA-Jobsuche) → vordefinierte Abdeckungskreise aus `data/bundesland-kreise.json` (Radius ≤ 100 km, höchstens 6 Kreise je Bundesland, von Hand festgelegt und per Test gegen die Randorte jedes Bundeslands geprüft). Danach wird nach `bundesland` gefiltert.
      - Grund: Die BA-Jobsuche kennt keinen Bundeslandfilter. `wo=Hessen` findet den Ort „Hessen bei Halberstadt“ (getestet). Mit Gießen + 100 km lagen 66 % der Treffer in Hessen, der Rest wird gefiltert.
+   - Bundesland bei Adaptern mit Bundeslandfilter (BA-Studiensuche) → eine Abfrage mit allen gewählten Bundesländern.
    - Stadtstaaten (Berlin, Hamburg, Bremen) → 1 Kreis.
+   - Art: Für Ausbildung und duales Studium fragt die BA-Jobsuche `angebotsart=4` ab. Als `dual` gilt ein Angebot bei `ausbildungsart = DUALES_STUDIUM` oder wenn der Titel „duales Studium“, „dualer Bachelor“ o. Ä. enthält, sonst als `ausbildung`.
 2. **Abfragen:** Für jeden Kreis werden alle passenden Adapter parallel abgefragt (Timeout 8 s je Abfrage). Pro Abfrage gibt es höchstens 10 Seiten à 100 Einträge. Wird das Limit erreicht: Hinweis „Mehr als 1.000 Treffer – Suche eingrenzen“.
 3. **Zusammenführen:**
    - Gleiche `id` → ein Eintrag.
    - Über Quellen hinweg: Ist der normalisierte Anbietername, der normalisierte Titel und die PLZ gleich, wird zusammengeführt. Alle Quellen-Links bleiben in `weitereQuellen` erhalten.
 4. **Filtern, sortieren, ausliefern:** nach Bundesland und Zusatzfiltern, 30 Einträge pro Seite.
-5. **Cache:** Schlüssel ist die normalisierte Abfrage je Kreis und Adapter. Gültig 6 h, gespeichert in Postgres.
+5. **Cache:** Schlüssel ist die normalisierte Abfrage je Kreis und Adapter. Gültig 6 h, gespeichert in Postgres. Abgelaufene Einträge bleiben 7 Tage als Notreserve: Fällt eine Quelle aus, wird dieser ältere Stand gezeigt, mit Hinweis auf das Datum. Danach werden sie gelöscht.
 
 ### 6.4 Steckbrief-Dienst
 
@@ -291,8 +315,8 @@ Jede Phase endet mit einer lauffähigen, online gestellten Version samt Tests.
 ## 12. Offene Punkte (werden in der jeweiligen Phase geklärt)
 
 1. BA-Detail-Endpunkt in v6 für den vollständigen Anzeigentext (Phase 3, erster Schritt).
-2. Unterscheidung Ausbildung vs. duales Studium in den BA-Daten (Werte von `ausbildungsart`) (Phase 2).
-3. Ort-/Umkreis-Parameter der BA-Studiensuche (Phase 2).
+2. ✅ Geklärt am 2026-11-02: Unterscheidung Ausbildung vs. duales Studium (siehe 6.2 und 6.3).
+3. ✅ Geklärt am 2026-11-02: Die Studiensuche hat keine Umkreissuche, aber einen Bundeslandfilter (siehe 6.2).
 4. Aktueller Wert der Mindestausbildungsvergütung (Phase 3).
 5. URL-Muster der Direkt-Links für Indeed, StepStone und Azubiyo (Phase 6).
 6. Adzuna-Zugangsschlüssel – Registrierung durch die Nutzerin/den Nutzer (Phase 6).
