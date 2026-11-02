@@ -1,0 +1,482 @@
+[
+ {
+  "bundesland": "SH",
+  "plz": "25992",
+  "lat": 55.0298,
+  "lon": 8.4051
+ },
+ {
+  "bundesland": "SH",
+  "plz": "23769",
+  "lat": 54.464,
+  "lon": 11.1423
+ },
+ {
+  "bundesland": "SH",
+  "plz": "21502",
+  "lat": 53.4492,
+  "lon": 10.4187
+ },
+ {
+  "bundesland": "SH",
+  "plz": "25541",
+  "lat": 53.9127,
+  "lon": 9.1268
+ },
+ {
+  "bundesland": "HH",
+  "plz": "22559",
+  "lat": 53.5823,
+  "lon": 9.7582
+ },
+ {
+  "bundesland": "HH",
+  "plz": "21039",
+  "lat": 53.4704,
+  "lon": 10.3155
+ },
+ {
+  "bundesland": "HH",
+  "plz": "22397",
+  "lat": 53.6994,
+  "lon": 10.1199
+ },
+ {
+  "bundesland": "HB",
+  "plz": "27568",
+  "lat": 53.5686,
+  "lon": 8.5618
+ },
+ {
+  "bundesland": "HB",
+  "plz": "28757",
+  "lat": 53.1784,
+  "lon": 8.6357
+ },
+ {
+  "bundesland": "HB",
+  "plz": "28309",
+  "lat": 53.0495,
+  "lon": 8.8953
+ },
+ {
+  "bundesland": "BE",
+  "plz": "13591",
+  "lat": 52.5349,
+  "lon": 13.1439
+ },
+ {
+  "bundesland": "BE",
+  "plz": "12559",
+  "lat": 52.4174,
+  "lon": 13.6552
+ },
+ {
+  "bundesland": "BE",
+  "plz": "13465",
+  "lat": 52.6401,
+  "lon": 13.2871
+ },
+ {
+  "bundesland": "BE",
+  "plz": "12309",
+  "lat": 52.3916,
+  "lon": 13.4169
+ },
+ {
+  "bundesland": "NI",
+  "plz": "26721",
+  "lat": 53.3826,
+  "lon": 7.2067
+ },
+ {
+  "bundesland": "NI",
+  "plz": "27472",
+  "lat": 53.8524,
+  "lon": 8.7123
+ },
+ {
+  "bundesland": "NI",
+  "plz": "34346",
+  "lat": 51.4379,
+  "lon": 9.663
+ },
+ {
+  "bundesland": "NI",
+  "plz": "29439",
+  "lat": 52.9773,
+  "lon": 11.1522
+ },
+ {
+  "bundesland": "NI",
+  "plz": "49808",
+  "lat": 52.5336,
+  "lon": 7.2844
+ },
+ {
+  "bundesland": "NI",
+  "plz": "37441",
+  "lat": 51.5911,
+  "lon": 10.5487
+ },
+ {
+  "bundesland": "NW",
+  "plz": "52062",
+  "lat": 50.7767,
+  "lon": 6.0867
+ },
+ {
+  "bundesland": "NW",
+  "plz": "32469",
+  "lat": 52.3959,
+  "lon": 8.9886
+ },
+ {
+  "bundesland": "NW",
+  "plz": "37671",
+  "lat": 51.7799,
+  "lon": 9.3437
+ },
+ {
+  "bundesland": "NW",
+  "plz": "57299",
+  "lat": 50.7407,
+  "lon": 8.0937
+ },
+ {
+  "bundesland": "NW",
+  "plz": "48599",
+  "lat": 52.1894,
+  "lon": 7.0351
+ },
+ {
+  "bundesland": "NW",
+  "plz": "53604",
+  "lat": 50.6502,
+  "lon": 7.2901
+ },
+ {
+  "bundesland": "NW",
+  "plz": "57319",
+  "lat": 51.0576,
+  "lon": 8.4114
+ },
+ {
+  "bundesland": "HE",
+  "plz": "34385",
+  "lat": 51.6358,
+  "lon": 9.4565
+ },
+ {
+  "bundesland": "HE",
+  "plz": "69239",
+  "lat": 49.4191,
+  "lon": 8.8528
+ },
+ {
+  "bundesland": "HE",
+  "plz": "36129",
+  "lat": 50.4528,
+  "lon": 9.8897
+ },
+ {
+  "bundesland": "HE",
+  "plz": "65385",
+  "lat": 50.003,
+  "lon": 7.9104
+ },
+ {
+  "bundesland": "HE",
+  "plz": "35066",
+  "lat": 51.0697,
+  "lon": 8.8007
+ },
+ {
+  "bundesland": "RP",
+  "plz": "76887",
+  "lat": 49.1063,
+  "lon": 7.9293
+ },
+ {
+  "bundesland": "RP",
+  "plz": "57567",
+  "lat": 50.7402,
+  "lon": 7.9623
+ },
+ {
+  "bundesland": "RP",
+  "plz": "54595",
+  "lat": 50.2024,
+  "lon": 6.409
+ },
+ {
+  "bundesland": "RP",
+  "plz": "67547",
+  "lat": 49.6282,
+  "lon": 8.364
+ },
+ {
+  "bundesland": "RP",
+  "plz": "66953",
+  "lat": 49.2127,
+  "lon": 7.6215
+ },
+ {
+  "bundesland": "SL",
+  "plz": "66706",
+  "lat": 49.5032,
+  "lon": 6.4325
+ },
+ {
+  "bundesland": "SL",
+  "plz": "66424",
+  "lat": 49.3294,
+  "lon": 7.3338
+ },
+ {
+  "bundesland": "SL",
+  "plz": "66693",
+  "lat": 49.4978,
+  "lon": 6.5448
+ },
+ {
+  "bundesland": "SL",
+  "plz": "66606",
+  "lat": 49.4678,
+  "lon": 7.1843
+ },
+ {
+  "bundesland": "BW",
+  "plz": "97877",
+  "lat": 49.7456,
+  "lon": 9.5234
+ },
+ {
+  "bundesland": "BW",
+  "plz": "79539",
+  "lat": 47.6157,
+  "lon": 7.6611
+ },
+ {
+  "bundesland": "BW",
+  "plz": "78462",
+  "lat": 47.6625,
+  "lon": 9.17
+ },
+ {
+  "bundesland": "BW",
+  "plz": "74564",
+  "lat": 49.1456,
+  "lon": 10.0635
+ },
+ {
+  "bundesland": "BW",
+  "plz": "77694",
+  "lat": 48.5666,
+  "lon": 7.8525
+ },
+ {
+  "bundesland": "BW",
+  "plz": "89073",
+  "lat": 48.4049,
+  "lon": 9.9994
+ },
+ {
+  "bundesland": "BY",
+  "plz": "63739",
+  "lat": 49.9755,
+  "lon": 9.1657
+ },
+ {
+  "bundesland": "BY",
+  "plz": "95028",
+  "lat": 50.3251,
+  "lon": 11.9369
+ },
+ {
+  "bundesland": "BY",
+  "plz": "94032",
+  "lat": 48.5677,
+  "lon": 13.4649
+ },
+ {
+  "bundesland": "BY",
+  "plz": "83471",
+  "lat": 47.606,
+  "lon": 13.0001
+ },
+ {
+  "bundesland": "BY",
+  "plz": "87561",
+  "lat": 47.3839,
+  "lon": 10.2678
+ },
+ {
+  "bundesland": "BY",
+  "plz": "88131",
+  "lat": 47.5724,
+  "lon": 9.6759
+ },
+ {
+  "bundesland": "BY",
+  "plz": "96450",
+  "lat": 50.2622,
+  "lon": 10.9718
+ },
+ {
+  "bundesland": "TH",
+  "plz": "04600",
+  "lat": 50.9786,
+  "lon": 12.441
+ },
+ {
+  "bundesland": "TH",
+  "plz": "99817",
+  "lat": 50.9897,
+  "lon": 10.301
+ },
+ {
+  "bundesland": "TH",
+  "plz": "96515",
+  "lat": 50.4081,
+  "lon": 11.2036
+ },
+ {
+  "bundesland": "TH",
+  "plz": "99734",
+  "lat": 51.5161,
+  "lon": 10.8114
+ },
+ {
+  "bundesland": "SN",
+  "plz": "02826",
+  "lat": 51.148,
+  "lon": 14.9786
+ },
+ {
+  "bundesland": "SN",
+  "plz": "08523",
+  "lat": 50.4918,
+  "lon": 12.1172
+ },
+ {
+  "bundesland": "SN",
+  "plz": "04860",
+  "lat": 51.5626,
+  "lon": 12.9243
+ },
+ {
+  "bundesland": "SN",
+  "plz": "09484",
+  "lat": 50.4363,
+  "lon": 12.9674
+ },
+ {
+  "bundesland": "SN",
+  "plz": "02763",
+  "lat": 50.9125,
+  "lon": 14.7781
+ },
+ {
+  "bundesland": "ST",
+  "plz": "29410",
+  "lat": 52.8416,
+  "lon": 11.136
+ },
+ {
+  "bundesland": "ST",
+  "plz": "06712",
+  "lat": 51.0141,
+  "lon": 12.1324
+ },
+ {
+  "bundesland": "ST",
+  "plz": "38855",
+  "lat": 51.8742,
+  "lon": 10.8286
+ },
+ {
+  "bundesland": "ST",
+  "plz": "06886",
+  "lat": 51.8808,
+  "lon": 12.622
+ },
+ {
+  "bundesland": "ST",
+  "plz": "39619",
+  "lat": 52.8468,
+  "lon": 11.4749
+ },
+ {
+  "bundesland": "BB",
+  "plz": "17291",
+  "lat": 53.3032,
+  "lon": 13.8854
+ },
+ {
+  "bundesland": "BB",
+  "plz": "16303",
+  "lat": 53.0958,
+  "lon": 14.2017
+ },
+ {
+  "bundesland": "BB",
+  "plz": "01968",
+  "lat": 51.5187,
+  "lon": 13.9904
+ },
+ {
+  "bundesland": "BB",
+  "plz": "15230",
+  "lat": 52.3399,
+  "lon": 14.5465
+ },
+ {
+  "bundesland": "BB",
+  "plz": "19348",
+  "lat": 53.1508,
+  "lon": 11.8417
+ },
+ {
+  "bundesland": "BB",
+  "plz": "03046",
+  "lat": 51.7584,
+  "lon": 14.3119
+ },
+ {
+  "bundesland": "MV",
+  "plz": "18055",
+  "lat": 54.0823,
+  "lon": 12.1629
+ },
+ {
+  "bundesland": "MV",
+  "plz": "18546",
+  "lat": 54.5221,
+  "lon": 13.6195
+ },
+ {
+  "bundesland": "MV",
+  "plz": "19258",
+  "lat": 53.4255,
+  "lon": 10.7546
+ },
+ {
+  "bundesland": "MV",
+  "plz": "17373",
+  "lat": 53.7329,
+  "lon": 14.0634
+ },
+ {
+  "bundesland": "MV",
+  "plz": "17235",
+  "lat": 53.3474,
+  "lon": 13.0582
+ },
+ {
+  "bundesland": "MV",
+  "plz": "23966",
+  "lat": 53.8586,
+  "lon": 11.3843
+ }
+]

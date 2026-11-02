@@ -1,0 +1,342 @@
+{
+ "SH": [
+  {
+   "name": "Husum",
+   "wo": "25813",
+   "lat": 54.4694,
+   "lon": 9.0627,
+   "umkreisKm": 100
+  },
+  {
+   "name": "Bad Segeberg",
+   "wo": "23795",
+   "lat": 53.9394,
+   "lon": 10.3246,
+   "umkreisKm": 100
+  }
+ ],
+ "HH": [
+  {
+   "name": "Hamburg",
+   "wo": "20095",
+   "lat": 53.5507,
+   "lon": 9.9997,
+   "umkreisKm": 30
+  }
+ ],
+ "HB": [
+  {
+   "name": "Bremen",
+   "wo": "28195",
+   "lat": 53.0796,
+   "lon": 8.8059,
+   "umkreisKm": 65
+  }
+ ],
+ "BE": [
+  {
+   "name": "Berlin",
+   "wo": "10117",
+   "lat": 52.5173,
+   "lon": 13.3883,
+   "umkreisKm": 30
+  }
+ ],
+ "NI": [
+  {
+   "name": "Oldenburg",
+   "wo": "26122",
+   "lat": 53.138,
+   "lon": 8.2094,
+   "umkreisKm": 100
+  },
+  {
+   "name": "Osnabrück",
+   "wo": "49074",
+   "lat": 52.2753,
+   "lon": 8.0529,
+   "umkreisKm": 100
+  },
+  {
+   "name": "Hannover",
+   "wo": "30159",
+   "lat": 52.3746,
+   "lon": 9.7401,
+   "umkreisKm": 100
+  },
+  {
+   "name": "Göttingen",
+   "wo": "37073",
+   "lat": 51.5381,
+   "lon": 9.9328,
+   "umkreisKm": 100
+  },
+  {
+   "name": "Uelzen",
+   "wo": "29525",
+   "lat": 52.9692,
+   "lon": 10.5688,
+   "umkreisKm": 100
+  }
+ ],
+ "NW": [
+  {
+   "name": "Köln",
+   "wo": "50667",
+   "lat": 50.9387,
+   "lon": 6.953,
+   "umkreisKm": 100
+  },
+  {
+   "name": "Münster",
+   "wo": "48143",
+   "lat": 51.9614,
+   "lon": 7.6259,
+   "umkreisKm": 100
+  },
+  {
+   "name": "Bielefeld",
+   "wo": "33602",
+   "lat": 52.0189,
+   "lon": 8.5326,
+   "umkreisKm": 100
+  },
+  {
+   "name": "Siegen",
+   "wo": "57072",
+   "lat": 50.8793,
+   "lon": 7.9978,
+   "umkreisKm": 100
+  }
+ ],
+ "HE": [
+  {
+   "name": "Kassel",
+   "wo": "34117",
+   "lat": 51.316,
+   "lon": 9.4919,
+   "umkreisKm": 100
+  },
+  {
+   "name": "Fulda",
+   "wo": "36037",
+   "lat": 50.5565,
+   "lon": 9.6857,
+   "umkreisKm": 100
+  },
+  {
+   "name": "Frankfurt am Main",
+   "wo": "60311",
+   "lat": 50.1113,
+   "lon": 8.6819,
+   "umkreisKm": 100
+  }
+ ],
+ "RP": [
+  {
+   "name": "Koblenz",
+   "wo": "56068",
+   "lat": 50.353,
+   "lon": 7.591,
+   "umkreisKm": 100
+  },
+  {
+   "name": "Kaiserslautern",
+   "wo": "67655",
+   "lat": 49.4414,
+   "lon": 7.7662,
+   "umkreisKm": 100
+  },
+  {
+   "name": "Trier",
+   "wo": "54290",
+   "lat": 49.7505,
+   "lon": 6.6368,
+   "umkreisKm": 100
+  }
+ ],
+ "SL": [
+  {
+   "name": "Saarbrücken",
+   "wo": "66111",
+   "lat": 49.236,
+   "lon": 6.9985,
+   "umkreisKm": 60
+  }
+ ],
+ "BW": [
+  {
+   "name": "Heilbronn",
+   "wo": "74072",
+   "lat": 49.1397,
+   "lon": 9.2158,
+   "umkreisKm": 100
+  },
+  {
+   "name": "Karlsruhe",
+   "wo": "76133",
+   "lat": 49.013,
+   "lon": 8.3906,
+   "umkreisKm": 100
+  },
+  {
+   "name": "Stuttgart",
+   "wo": "70173",
+   "lat": 48.7813,
+   "lon": 9.1806,
+   "umkreisKm": 100
+  },
+  {
+   "name": "Freiburg",
+   "wo": "79098",
+   "lat": 47.9948,
+   "lon": 7.8496,
+   "umkreisKm": 100
+  },
+  {
+   "name": "Ravensburg",
+   "wo": "88212",
+   "lat": 47.7794,
+   "lon": 9.6184,
+   "umkreisKm": 100
+  }
+ ],
+ "BY": [
+  {
+   "name": "Würzburg",
+   "wo": "97070",
+   "lat": 49.7945,
+   "lon": 9.9335,
+   "umkreisKm": 100
+  },
+  {
+   "name": "Bayreuth",
+   "wo": "95444",
+   "lat": 49.9435,
+   "lon": 11.5764,
+   "umkreisKm": 100
+  },
+  {
+   "name": "Straubing",
+   "wo": "94315",
+   "lat": 48.8834,
+   "lon": 12.5725,
+   "umkreisKm": 100
+  },
+  {
+   "name": "Rosenheim",
+   "wo": "83022",
+   "lat": 47.8554,
+   "lon": 12.1281,
+   "umkreisKm": 100
+  },
+  {
+   "name": "Kempten",
+   "wo": "87435",
+   "lat": 47.7124,
+   "lon": 10.3031,
+   "umkreisKm": 100
+  },
+  {
+   "name": "Ingolstadt",
+   "wo": "85049",
+   "lat": 48.766,
+   "lon": 11.3532,
+   "umkreisKm": 100
+  }
+ ],
+ "TH": [
+  {
+   "name": "Erfurt",
+   "wo": "99084",
+   "lat": 50.9758,
+   "lon": 11.0265,
+   "umkreisKm": 100
+  },
+  {
+   "name": "Gera",
+   "wo": "07545",
+   "lat": 50.8793,
+   "lon": 12.0838,
+   "umkreisKm": 100
+  }
+ ],
+ "SN": [
+  {
+   "name": "Dresden",
+   "wo": "01067",
+   "lat": 51.0582,
+   "lon": 13.7204,
+   "umkreisKm": 100
+  },
+  {
+   "name": "Chemnitz",
+   "wo": "09111",
+   "lat": 50.8356,
+   "lon": 12.9247,
+   "umkreisKm": 100
+  },
+  {
+   "name": "Leipzig",
+   "wo": "04109",
+   "lat": 51.339,
+   "lon": 12.3665,
+   "umkreisKm": 100
+  }
+ ],
+ "ST": [
+  {
+   "name": "Magdeburg",
+   "wo": "39104",
+   "lat": 52.1196,
+   "lon": 11.6348,
+   "umkreisKm": 100
+  },
+  {
+   "name": "Halle (Saale)",
+   "wo": "06108",
+   "lat": 51.4866,
+   "lon": 11.964,
+   "umkreisKm": 100
+  }
+ ],
+ "BB": [
+  {
+   "name": "Berlin (Umland)",
+   "wo": "10117",
+   "lat": 52.5173,
+   "lon": 13.3883,
+   "umkreisKm": 100
+  },
+  {
+   "name": "Cottbus",
+   "wo": "03046",
+   "lat": 51.7584,
+   "lon": 14.3119,
+   "umkreisKm": 100
+  },
+  {
+   "name": "Neuruppin",
+   "wo": "16816",
+   "lat": 52.8956,
+   "lon": 12.8295,
+   "umkreisKm": 100
+  }
+ ],
+ "MV": [
+  {
+   "name": "Schwerin",
+   "wo": "19053",
+   "lat": 53.6247,
+   "lon": 11.406,
+   "umkreisKm": 100
+  },
+  {
+   "name": "Greifswald",
+   "wo": "17489",
+   "lat": 54.0864,
+   "lon": 13.3815,
+   "umkreisKm": 100
+  }
+ ]
+}

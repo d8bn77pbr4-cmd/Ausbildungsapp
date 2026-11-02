@@ -3,6 +3,8 @@
 import { describe, expect, test } from 'vitest';
 import { erstelleBaJobsAdapter, geokodiere } from '@/suche/adapter/ba-jobs';
 import { erstelleBaStudiumAdapter } from '@/suche/adapter/ba-studium';
+import { entfernungKm } from '@/suche/geo';
+import { ALLE_KREISE } from '@/suche/kreise';
 
 const JOBS = 'https://rest.arbeitsagentur.de/jobboerse/jobsuche-service';
 const STUDIUM = 'https://rest.arbeitsagentur.de/infosysbub/studisu';
@@ -39,5 +41,17 @@ describe.skipIf(!process.env.VERTRAG)('Vertrag BA-Studiensuche', () => {
     expect(angebote.length).toBeGreaterThan(0);
     expect(angebote.every((a) => a.ort.bundesland === 'HE')).toBe(true);
     expect(angebote.every((a) => typeof a.ort.lat === 'number')).toBe(true);
+  });
+});
+
+describe.skipIf(!process.env.VERTRAG)('Vertrag Kreismitten', () => {
+  test('jede Kreismitte wird von der BA noch an derselben Stelle erkannt (≤ 10 km)', { timeout: 180_000 }, async () => {
+    for (const [land, kreise] of Object.entries(ALLE_KREISE)) {
+      for (const k of kreise) {
+        const t = await geokodiere(k.wo, { basisUrl: JOBS, signal: signal() });
+        expect(t, `${land} ${k.name}`).not.toBeNull();
+        expect(entfernungKm(k, t!), `${land} ${k.name}`).toBeLessThanOrEqual(10);
+      }
+    }
   });
 });
