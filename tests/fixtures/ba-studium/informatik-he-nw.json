@@ -1,0 +1,1551 @@
+{
+ "items": [
+  {
+   "studienangebot": {
+    "abschlussgrad": {
+     "id": 2,
+     "label": "Bachelor/Bakkalaureus"
+    },
+    "externalLinks": [
+     {
+      "tooltip": "Für diesen Studiengang sind zugeschnittene Studiencheck-Tests verfügbar.",
+      "link": "https://studichecks.de/show/g307305",
+      "name": "studiencheck"
+     },
+     {
+      "tooltip": "Für diesen Studiengang ist ein webbasierter Selbsttest verfügbar.",
+      "link": "https://www.selbsttest.uni-bonn.de",
+      "name": "osa"
+     }
+    ],
+    "fitFuerStudiumFacettenOptions": [
+     {
+      "id": -1,
+      "label": ""
+     },
+     {
+      "id": 2,
+      "label": "OSA"
+     }
+    ],
+    "hochschulart": {
+     "id": 108,
+     "label": "Universität"
+    },
+    "id": "10843193",
+    "region": {
+     "id": 9,
+     "Key": "NW",
+     "label": "Nordrhein-Westfalen"
+    },
+    "studiBeginn": "Auf Anfrage",
+    "studiBezeichnung": "Informatik Bachelor of Science",
+    "studiInhalt": "<p>Inhalte bitte bei der Hochschule erfragen</p>",
+    "studienanbieter": {
+     "banId": 26482,
+     "name": "Universität Bonn",
+     "logo": {
+      "id": 4831,
+      "url": "http://prod-server.infosysbub-kursnet-rest-dmz.svc.cluster.local:8080/ct/v1/bildungsanbieter/26482/logos/4831",
+      "externalURL": "https://rest.arbeitsagentur.de/infosysbub/kursnet-rest/ct/v1/bildungsanbieter/26482/logos/4831"
+     }
+    },
+    "studienfaecher": [
+     "Informatik (grundständig)"
+    ],
+    "studienform": {
+     "id": 1,
+     "label": "Vollzeitstudium"
+    },
+    "studienmodelle": [],
+    "studienort": {
+     "bundesland": "Nordrhein-Westfalen",
+     "location": {
+      "lat": 50.7342,
+      "lon": 7.0992
+     },
+     "ort": "Bonn",
+     "postfach": null,
+     "postfachBundesland": null,
+     "postfachOrt": null,
+     "postfachPostleitzahl": null,
+     "postfachStaat": null,
+     "postleitzahl": "53113",
+     "staat": "Deutschland",
+     "strasse": "Regina-Pacis-Weg 3"
+    },
+    "studientyp": {
+     "id": 0,
+     "label": "Studiengang grundständig"
+    }
+   },
+   "abstaende": []
+  },
+  {
+   "studienangebot": {
+    "abschlussgrad": {
+     "id": 2,
+     "label": "Bachelor/Bakkalaureus"
+    },
+    "externalLinks": [
+     {
+      "tooltip": "Für diesen Studiengang sind zugeschnittene Studiencheck-Tests verfügbar.",
+      "link": "http://studicheck.nrw/meine-studichecks?studiengang=g1062575",
+      "name": "studiencheck"
+     },
+     {
+      "tooltip": "Für diesen Studiengang ist ein webbasierter Selbsttest verfügbar.",
+      "link": "https://www.selbsttest.uni-bonn.de",
+      "name": "osa"
+     }
+    ],
+    "fitFuerStudiumFacettenOptions": [
+     {
+      "id": -1,
+      "label": ""
+     },
+     {
+      "id": 2,
+      "label": "OSA"
+     }
+    ],
+    "hochschulart": {
+     "id": 108,
+     "label": "Universität"
+    },
+    "id": "10843229",
+    "region": {
+     "id": 9,
+     "Key": "NW",
+     "label": "Nordrhein-Westfalen"
+    },
+    "studiBeginn": "Auf Anfrage",
+    "studiBezeichnung": "Informatik Bachelor Lehramt an Gymnasien und Gesamtschulen",
+    "studiInhalt": "<p>Inhalte bitte bei der Hochschule erfragen</p>",
+    "studienanbieter": {
+     "banId": 26482,
+     "name": "Universität Bonn",
+     "logo": {
+      "id": 4831,
+      "url": "http://prod-server.infosysbub-kursnet-rest-dmz.svc.cluster.local:8080/ct/v1/bildungsanbieter/26482/logos/4831",
+      "externalURL": "https://rest.arbeitsagentur.de/infosysbub/kursnet-rest/ct/v1/bildungsanbieter/26482/logos/4831"
+     }
+    },
+    "studienfaecher": [
+     "Lehramt an Gymnasien (grundständig außer Staatsexamen)"
+    ],
+    "studienform": {
+     "id": 1,
+     "label": "Vollzeitstudium"
+    },
+    "studienmodelle": [],
+    "studienort": {
+     "bundesland": "Nordrhein-Westfalen",
+     "location": {
+      "lat": 50.7342,
+      "lon": 7.0992
+     },
+     "ort": "Bonn",
+     "postfach": null,
+     "postfachBundesland": null,
+     "postfachOrt": null,
+     "postfachPostleitzahl": null,
+     "postfachStaat": null,
+     "postleitzahl": "53113",
+     "staat": "Deutschland",
+     "strasse": "Regina-Pacis-Weg 3"
+    },
+    "studientyp": {
+     "id": 0,
+     "label": "Studiengang grundständig"
+    }
+   },
+   "abstaende": []
+  },
+  {
+   "studienangebot": {
+    "abschlussgrad": {
+     "id": 12,
+     "label": "Staatsexamen"
+    },
+    "externalLinks": [],
+    "fitFuerStudiumFacettenOptions": [],
+    "hochschulart": {
+     "id": 108,
+     "label": "Universität"
+    },
+    "id": "10852726",
+    "region": {
+     "id": 6,
+     "Key": "HE",
+     "label": "Hessen"
+    },
+    "studiBeginn": "Auf Anfrage",
+    "studiBezeichnung": "Informatik Lehramt an Gymnasien",
+    "studiInhalt": "<h4>Schwerpunkte: </h4><p>Gesellschaftliche Aspekte der Informatik, Systementwicklung, Systemumgebung, Theoretische Informatik<br/></p><h4>Anmerkung der Hochschule: </h4><p>Das Studium des Fachs Informatik im Studiengang Lehramt an Gymnasien ist an den Anforderungen der Praxis des Informatikunterrichts an Gymnasien orientiert.<br/>Es werden die für die Ausübung des Lehrerberufs an Gymnasien erforderlichen wesentlichen Denkweisen der I&hellip;</p>",
+    "studienanbieter": {
+     "banId": 26324,
+     "name": "Universität Marburg",
+     "logo": {
+      "id": 4605,
+      "url": "http://prod-server.infosysbub-kursnet-rest-dmz.svc.cluster.local:8080/ct/v1/bildungsanbieter/26324/logos/4605",
+      "externalURL": "https://rest.arbeitsagentur.de/infosysbub/kursnet-rest/ct/v1/bildungsanbieter/26324/logos/4605"
+     }
+    },
+    "studienfaecher": [
+     "Lehramt an Gymnasien (Staatsexamen)"
+    ],
+    "studienform": {
+     "id": 1,
+     "label": "Vollzeitstudium"
+    },
+    "studienmodelle": [],
+    "studienort": {
+     "bundesland": "Hessen",
+     "location": {
+      "lat": 50.8089,
+      "lon": 8.7692
+     },
+     "ort": "Marburg",
+     "postfach": null,
+     "postfachBundesland": null,
+     "postfachOrt": null,
+     "postfachPostleitzahl": null,
+     "postfachStaat": null,
+     "postleitzahl": "35037",
+     "staat": "Deutschland",
+     "strasse": "Biegenstraße 10"
+    },
+    "studientyp": {
+     "id": 0,
+     "label": "Studiengang grundständig"
+    }
+   },
+   "abstaende": []
+  },
+  {
+   "studienangebot": {
+    "abschlussgrad": {
+     "id": 2,
+     "label": "Bachelor/Bakkalaureus"
+    },
+    "externalLinks": [],
+    "fitFuerStudiumFacettenOptions": [],
+    "hochschulart": {
+     "id": 108,
+     "label": "Universität"
+    },
+    "id": "10852756",
+    "region": {
+     "id": 6,
+     "Key": "HE",
+     "label": "Hessen"
+    },
+    "studiBeginn": "Auf Anfrage",
+    "studiBezeichnung": "Informatik Monobachelor",
+    "studiInhalt": "<h4>Schwerpunkte: </h4><p>Anwendungsfach Betriebswirtschaftslehre, Anwendungsfach Computational Physics, Anwendungsfach Geoinformatik, Anwendungsfach Medizin-Informatik<br/></p><h4>Anmerkung der Hochschule: </h4><p>Das Studium im Bachelor-Studiengang Informatik besteht aus einer soliden Ausbildung in Informatik mit Wahlmöglichkeiten, einer Grundausbildung in Mathematik, einem Praktikum zur Berufsorientierung sowie aus einem Neben&hellip;</p>",
+    "studienanbieter": {
+     "banId": 26324,
+     "name": "Universität Marburg",
+     "logo": {
+      "id": 4605,
+      "url": "http://prod-server.infosysbub-kursnet-rest-dmz.svc.cluster.local:8080/ct/v1/bildungsanbieter/26324/logos/4605",
+      "externalURL": "https://rest.arbeitsagentur.de/infosysbub/kursnet-rest/ct/v1/bildungsanbieter/26324/logos/4605"
+     }
+    },
+    "studienfaecher": [
+     "Informatik (grundständig)"
+    ],
+    "studienform": {
+     "id": 1,
+     "label": "Vollzeitstudium"
+    },
+    "studienmodelle": [],
+    "studienort": {
+     "bundesland": "Hessen",
+     "location": {
+      "lat": 50.8089,
+      "lon": 8.7692
+     },
+     "ort": "Marburg",
+     "postfach": null,
+     "postfachBundesland": null,
+     "postfachOrt": null,
+     "postfachPostleitzahl": null,
+     "postfachStaat": null,
+     "postleitzahl": "35037",
+     "staat": "Deutschland",
+     "strasse": "Biegenstraße 10"
+    },
+    "studientyp": {
+     "id": 0,
+     "label": "Studiengang grundständig"
+    }
+   },
+   "abstaende": []
+  },
+  {
+   "studienangebot": {
+    "abschlussgrad": {
+     "id": 2,
+     "label": "Bachelor/Bakkalaureus"
+    },
+    "externalLinks": [],
+    "fitFuerStudiumFacettenOptions": [],
+    "hochschulart": {
+     "id": 108,
+     "label": "Universität"
+    },
+    "id": "10852759",
+    "region": {
+     "id": 6,
+     "Key": "HE",
+     "label": "Hessen"
+    },
+    "studiBeginn": "Auf Anfrage",
+    "studiBezeichnung": "Physik Monobachelor",
+    "studiInhalt": "<h4>Schwerpunkte: </h4><p>Experimentalphysik, Mathematische Grundlagen, Theoretische Physik<br/></p><h4>Anmerkung der Hochschule: </h4><p>Du möchtest die Physik von Halbleitern, Laserstrukturen, Licht-Materie-Wechselwirkung, Solarzellenmaterialien, stark korrelierten Materialien oder komplexer Systeme untersuchen? Dann studiere den B.Sc. Physik in Marburg. Da die Physik die Grundlage aller Naturwissenschaft ist, ist das Studium e&hellip;</p>",
+    "studienanbieter": {
+     "banId": 26324,
+     "name": "Universität Marburg",
+     "logo": {
+      "id": 4605,
+      "url": "http://prod-server.infosysbub-kursnet-rest-dmz.svc.cluster.local:8080/ct/v1/bildungsanbieter/26324/logos/4605",
+      "externalURL": "https://rest.arbeitsagentur.de/infosysbub/kursnet-rest/ct/v1/bildungsanbieter/26324/logos/4605"
+     }
+    },
+    "studienfaecher": [
+     "Physik (grundständig)"
+    ],
+    "studienform": {
+     "id": 1,
+     "label": "Vollzeitstudium"
+    },
+    "studienmodelle": [],
+    "studienort": {
+     "bundesland": "Hessen",
+     "location": {
+      "lat": 50.8089,
+      "lon": 8.7692
+     },
+     "ort": "Marburg",
+     "postfach": null,
+     "postfachBundesland": null,
+     "postfachOrt": null,
+     "postfachPostleitzahl": null,
+     "postfachStaat": null,
+     "postleitzahl": "35037",
+     "staat": "Deutschland",
+     "strasse": "Biegenstraße 10"
+    },
+    "studientyp": {
+     "id": 0,
+     "label": "Studiengang grundständig"
+    }
+   },
+   "abstaende": []
+  },
+  {
+   "studienangebot": {
+    "abschlussgrad": {
+     "id": 2,
+     "label": "Bachelor/Bakkalaureus"
+    },
+    "externalLinks": [
+     {
+      "tooltip": "Für diesen Studiengang sind zugeschnittene Studiencheck-Tests verfügbar.",
+      "link": "https://studichecks.de/show/12986",
+      "name": "studiencheck"
+     }
+    ],
+    "fitFuerStudiumFacettenOptions": [
+     {
+      "id": -1,
+      "label": ""
+     }
+    ],
+    "hochschulart": {
+     "id": 108,
+     "label": "Universität"
+    },
+    "id": "10853414",
+    "region": {
+     "id": 9,
+     "Key": "NW",
+     "label": "Nordrhein-Westfalen"
+    },
+    "studiBeginn": "Auf Anfrage",
+    "studiBezeichnung": "Angewandte Naturwissenschaften Bachelor",
+    "studiInhalt": "<p>Inhalte bitte bei der Hochschule erfragen<br/></p><h4>Anmerkung der Hochschule: </h4><p>Kombination von zwei etwa gleich großen Teilstudiengängen aus: Chemie, Informatik, Mathematik, Physik</p>",
+    "studienanbieter": {
+     "banId": 26232,
+     "name": "Bergische Universität Wuppertal",
+     "logo": {
+      "id": 8864,
+      "url": "http://prod-server.infosysbub-kursnet-rest-dmz.svc.cluster.local:8080/ct/v1/bildungsanbieter/26232/logos/8864",
+      "externalURL": "https://rest.arbeitsagentur.de/infosysbub/kursnet-rest/ct/v1/bildungsanbieter/26232/logos/8864"
+     }
+    },
+    "studienfaecher": [
+     "Angewandte Naturwissenschaft (grundständig)"
+    ],
+    "studienform": {
+     "id": 1,
+     "label": "Vollzeitstudium"
+    },
+    "studienmodelle": [],
+    "studienort": {
+     "bundesland": "Nordrhein-Westfalen",
+     "location": {
+      "lat": 51.2714,
+      "lon": 7.1958
+     },
+     "ort": "Wuppertal",
+     "postfach": null,
+     "postfachBundesland": null,
+     "postfachOrt": null,
+     "postfachPostleitzahl": null,
+     "postfachStaat": null,
+     "postleitzahl": "42119",
+     "staat": "Deutschland",
+     "strasse": "Gaußstraße 20"
+    },
+    "studientyp": {
+     "id": 0,
+     "label": "Studiengang grundständig"
+    }
+   },
+   "abstaende": []
+  },
+  {
+   "studienangebot": {
+    "abschlussgrad": {
+     "id": 2,
+     "label": "Bachelor/Bakkalaureus"
+    },
+    "externalLinks": [
+     {
+      "tooltip": "Für diesen Studiengang sind zugeschnittene Studiencheck-Tests verfügbar.",
+      "link": "https://studichecks.de/show/g689207",
+      "name": "studiencheck"
+     }
+    ],
+    "fitFuerStudiumFacettenOptions": [
+     {
+      "id": -1,
+      "label": ""
+     }
+    ],
+    "hochschulart": {
+     "id": 108,
+     "label": "Universität"
+    },
+    "id": "10853456",
+    "region": {
+     "id": 9,
+     "Key": "NW",
+     "label": "Nordrhein-Westfalen"
+    },
+    "studiBeginn": "Auf Anfrage",
+    "studiBezeichnung": "Informatik Bachelor 2 Hauptfächer",
+    "studiInhalt": "<p>Inhalte bitte bei der Hochschule erfragen<br/></p><h4>Anmerkung der Hochschule: </h4><p>Das Studium besteht aus dem gleichberechtigten Studium zweier Fächer plus einem Optionalbereich (Kombinatorischer Bachelorstudiengang of Arts)</p>",
+    "studienanbieter": {
+     "banId": 26232,
+     "name": "Bergische Universität Wuppertal",
+     "logo": {
+      "id": 8864,
+      "url": "http://prod-server.infosysbub-kursnet-rest-dmz.svc.cluster.local:8080/ct/v1/bildungsanbieter/26232/logos/8864",
+      "externalURL": "https://rest.arbeitsagentur.de/infosysbub/kursnet-rest/ct/v1/bildungsanbieter/26232/logos/8864"
+     }
+    },
+    "studienfaecher": [
+     "Informatik (grundständig)"
+    ],
+    "studienform": {
+     "id": 1,
+     "label": "Vollzeitstudium"
+    },
+    "studienmodelle": [],
+    "studienort": {
+     "bundesland": "Nordrhein-Westfalen",
+     "location": {
+      "lat": 51.2714,
+      "lon": 7.1958
+     },
+     "ort": "Wuppertal",
+     "postfach": null,
+     "postfachBundesland": null,
+     "postfachOrt": null,
+     "postfachPostleitzahl": null,
+     "postfachStaat": null,
+     "postleitzahl": "42119",
+     "staat": "Deutschland",
+     "strasse": "Gaußstraße 20"
+    },
+    "studientyp": {
+     "id": 0,
+     "label": "Studiengang grundständig"
+    }
+   },
+   "abstaende": []
+  },
+  {
+   "studienangebot": {
+    "abschlussgrad": {
+     "id": 10,
+     "label": "Master"
+    },
+    "externalLinks": [],
+    "fitFuerStudiumFacettenOptions": [],
+    "hochschulart": {
+     "id": 108,
+     "label": "Universität"
+    },
+    "id": "10853512",
+    "region": {
+     "id": 9,
+     "Key": "NW",
+     "label": "Nordrhein-Westfalen"
+    },
+    "studiBeginn": "Auf Anfrage",
+    "studiBezeichnung": "Informatik Master of Education (Gymnasien und Gesamtschulen)",
+    "studiInhalt": "<p>Inhalte bitte bei der Hochschule erfragen<br/></p><h4>Anmerkung der Hochschule: </h4><p>Kann nur als zweites Fach gewählt werden</p>",
+    "studienanbieter": {
+     "banId": 26232,
+     "name": "Bergische Universität Wuppertal",
+     "logo": {
+      "id": 8864,
+      "url": "http://prod-server.infosysbub-kursnet-rest-dmz.svc.cluster.local:8080/ct/v1/bildungsanbieter/26232/logos/8864",
+      "externalURL": "https://rest.arbeitsagentur.de/infosysbub/kursnet-rest/ct/v1/bildungsanbieter/26232/logos/8864"
+     }
+    },
+    "studienfaecher": [
+     "Lehramt an Gymnasien (weiterführend)"
+    ],
+    "studienform": {
+     "id": 1,
+     "label": "Vollzeitstudium"
+    },
+    "studienmodelle": [],
+    "studienort": {
+     "bundesland": "Nordrhein-Westfalen",
+     "location": {
+      "lat": 51.2714,
+      "lon": 7.1958
+     },
+     "ort": "Wuppertal",
+     "postfach": null,
+     "postfachBundesland": null,
+     "postfachOrt": null,
+     "postfachPostleitzahl": null,
+     "postfachStaat": null,
+     "postleitzahl": "42119",
+     "staat": "Deutschland",
+     "strasse": "Gaußstraße 20"
+    },
+    "studientyp": {
+     "id": 1,
+     "label": "Studiengang weiterführend"
+    }
+   },
+   "abstaende": []
+  },
+  {
+   "studienangebot": {
+    "abschlussgrad": {
+     "id": 10,
+     "label": "Master"
+    },
+    "externalLinks": [],
+    "fitFuerStudiumFacettenOptions": [],
+    "hochschulart": {
+     "id": 108,
+     "label": "Universität"
+    },
+    "id": "10853563",
+    "region": {
+     "id": 9,
+     "Key": "NW",
+     "label": "Nordrhein-Westfalen"
+    },
+    "studiBeginn": "Auf Anfrage",
+    "studiBezeichnung": "Informatik Master of Education (Berufskollegs)",
+    "studiInhalt": "<p>Inhalte bitte bei der Hochschule erfragen</p>",
+    "studienanbieter": {
+     "banId": 26232,
+     "name": "Bergische Universität Wuppertal",
+     "logo": {
+      "id": 8864,
+      "url": "http://prod-server.infosysbub-kursnet-rest-dmz.svc.cluster.local:8080/ct/v1/bildungsanbieter/26232/logos/8864",
+      "externalURL": "https://rest.arbeitsagentur.de/infosysbub/kursnet-rest/ct/v1/bildungsanbieter/26232/logos/8864"
+     }
+    },
+    "studienfaecher": [
+     "Lehramt an berufsbildenden/beruflichen Schulen/Berufskollegs (weiterführend)"
+    ],
+    "studienform": {
+     "id": 1,
+     "label": "Vollzeitstudium"
+    },
+    "studienmodelle": [],
+    "studienort": {
+     "bundesland": "Nordrhein-Westfalen",
+     "location": {
+      "lat": 51.2714,
+      "lon": 7.1958
+     },
+     "ort": "Wuppertal",
+     "postfach": null,
+     "postfachBundesland": null,
+     "postfachOrt": null,
+     "postfachPostleitzahl": null,
+     "postfachStaat": null,
+     "postleitzahl": "42119",
+     "staat": "Deutschland",
+     "strasse": "Gaußstraße 20"
+    },
+    "studientyp": {
+     "id": 1,
+     "label": "Studiengang weiterführend"
+    }
+   },
+   "abstaende": []
+  },
+  {
+   "studienangebot": {
+    "abschlussgrad": {
+     "id": 10,
+     "label": "Master"
+    },
+    "externalLinks": [],
+    "fitFuerStudiumFacettenOptions": [],
+    "hochschulart": {
+     "id": 108,
+     "label": "Universität"
+    },
+    "id": "13399458",
+    "region": {
+     "id": 9,
+     "Key": "NW",
+     "label": "Nordrhein-Westfalen"
+    },
+    "studiBeginn": "Auf Anfrage",
+    "studiBezeichnung": "Technische Informatik Master of Education (Berufskollegs)",
+    "studiInhalt": "<p>Inhalte bitte bei der Hochschule erfragen<br/></p><h4>Anmerkung der Hochschule: </h4><p>Kann als \"kleine\" berufliche Fachrichtung zu den \"großen\" beruflichen Fachrichtungen Elektrotechnik oder Maschinenbautechnik gewählt werden.</p>",
+    "studienanbieter": {
+     "banId": 26232,
+     "name": "Bergische Universität Wuppertal",
+     "logo": {
+      "id": 8864,
+      "url": "http://prod-server.infosysbub-kursnet-rest-dmz.svc.cluster.local:8080/ct/v1/bildungsanbieter/26232/logos/8864",
+      "externalURL": "https://rest.arbeitsagentur.de/infosysbub/kursnet-rest/ct/v1/bildungsanbieter/26232/logos/8864"
+     }
+    },
+    "studienfaecher": [
+     "Lehramt an berufsbildenden/beruflichen Schulen/Berufskollegs (weiterführend)"
+    ],
+    "studienform": {
+     "id": 1,
+     "label": "Vollzeitstudium"
+    },
+    "studienmodelle": [],
+    "studienort": {
+     "bundesland": "Nordrhein-Westfalen",
+     "location": {
+      "lat": 51.2714,
+      "lon": 7.1958
+     },
+     "ort": "Wuppertal",
+     "postfach": null,
+     "postfachBundesland": null,
+     "postfachOrt": null,
+     "postfachPostleitzahl": null,
+     "postfachStaat": null,
+     "postleitzahl": "42119",
+     "staat": "Deutschland",
+     "strasse": "Gaußstraße 20"
+    },
+    "studientyp": {
+     "id": 1,
+     "label": "Studiengang weiterführend"
+    }
+   },
+   "abstaende": []
+  },
+  {
+   "studienangebot": {
+    "abschlussgrad": {
+     "id": 10,
+     "label": "Master"
+    },
+    "externalLinks": [],
+    "fitFuerStudiumFacettenOptions": [],
+    "hochschulart": {
+     "id": 108,
+     "label": "Universität"
+    },
+    "id": "16708124",
+    "region": {
+     "id": 9,
+     "Key": "NW",
+     "label": "Nordrhein-Westfalen"
+    },
+    "studiBeginn": "Auf Anfrage",
+    "studiBezeichnung": "Informatik Master Lehramt an Gymnasien und Gesamtschulen",
+    "studiInhalt": "<p>Inhalte bitte bei der Hochschule erfragen</p>",
+    "studienanbieter": {
+     "banId": 26482,
+     "name": "Universität Bonn",
+     "logo": {
+      "id": 4831,
+      "url": "http://prod-server.infosysbub-kursnet-rest-dmz.svc.cluster.local:8080/ct/v1/bildungsanbieter/26482/logos/4831",
+      "externalURL": "https://rest.arbeitsagentur.de/infosysbub/kursnet-rest/ct/v1/bildungsanbieter/26482/logos/4831"
+     }
+    },
+    "studienfaecher": [
+     "Lehramt an Gymnasien (weiterführend)"
+    ],
+    "studienform": {
+     "id": 1,
+     "label": "Vollzeitstudium"
+    },
+    "studienmodelle": [],
+    "studienort": {
+     "bundesland": "Nordrhein-Westfalen",
+     "location": {
+      "lat": 50.7342,
+      "lon": 7.0992
+     },
+     "ort": "Bonn",
+     "postfach": null,
+     "postfachBundesland": null,
+     "postfachOrt": null,
+     "postfachPostleitzahl": null,
+     "postfachStaat": null,
+     "postleitzahl": "53113",
+     "staat": "Deutschland",
+     "strasse": "Regina-Pacis-Weg 3"
+    },
+    "studientyp": {
+     "id": 1,
+     "label": "Studiengang weiterführend"
+    }
+   },
+   "abstaende": []
+  },
+  {
+   "studienangebot": {
+    "abschlussgrad": {
+     "id": 10,
+     "label": "Master"
+    },
+    "externalLinks": [],
+    "fitFuerStudiumFacettenOptions": [],
+    "hochschulart": {
+     "id": 108,
+     "label": "Universität"
+    },
+    "id": "23964692",
+    "region": {
+     "id": 9,
+     "Key": "NW",
+     "label": "Nordrhein-Westfalen"
+    },
+    "studiBeginn": "Auf Anfrage",
+    "studiBezeichnung": "Technische Informatik Master of Education dual (Berufskollegs)",
+    "studiInhalt": "<p>Inhalte bitte bei der Hochschule erfragen</p>",
+    "studienanbieter": {
+     "banId": 26232,
+     "name": "Bergische Universität Wuppertal",
+     "logo": {
+      "id": 8864,
+      "url": "http://prod-server.infosysbub-kursnet-rest-dmz.svc.cluster.local:8080/ct/v1/bildungsanbieter/26232/logos/8864",
+      "externalURL": "https://rest.arbeitsagentur.de/infosysbub/kursnet-rest/ct/v1/bildungsanbieter/26232/logos/8864"
+     }
+    },
+    "studienfaecher": [
+     "Lehramt an berufsbildenden/beruflichen Schulen/Berufskollegs (weiterführend)"
+    ],
+    "studienform": {
+     "id": 2,
+     "label": "Teilzeitstudium"
+    },
+    "studienmodelle": [
+     {
+      "id": 4,
+      "label": "praxis&shy;integrierend"
+     },
+     {
+      "id": 5,
+      "label": "Duales Studium"
+     }
+    ],
+    "studienort": {
+     "bundesland": "Nordrhein-Westfalen",
+     "location": {
+      "lat": 51.2714,
+      "lon": 7.1958
+     },
+     "ort": "Wuppertal",
+     "postfach": null,
+     "postfachBundesland": null,
+     "postfachOrt": null,
+     "postfachPostleitzahl": null,
+     "postfachStaat": null,
+     "postleitzahl": "42119",
+     "staat": "Deutschland",
+     "strasse": "Gaußstraße 20"
+    },
+    "studientyp": {
+     "id": 1,
+     "label": "Studiengang weiterführend"
+    }
+   },
+   "abstaende": []
+  },
+  {
+   "studienangebot": {
+    "abschlussgrad": {
+     "id": 2,
+     "label": "Bachelor/Bakkalaureus"
+    },
+    "externalLinks": [
+     {
+      "tooltip": "Für diesen Studiengang sind zugeschnittene Studiencheck-Tests verfügbar.",
+      "link": "https://studichecks.de/show/g11463",
+      "name": "studiencheck"
+     }
+    ],
+    "fitFuerStudiumFacettenOptions": [
+     {
+      "id": -1,
+      "label": ""
+     }
+    ],
+    "hochschulart": {
+     "id": 108,
+     "label": "Universität"
+    },
+    "id": "73023893",
+    "region": {
+     "id": 9,
+     "Key": "NW",
+     "label": "Nordrhein-Westfalen"
+    },
+    "studiBeginn": "Auf Anfrage",
+    "studiBezeichnung": "Technische Informatik Bachelor of Science (Lehramt an Berufskollegs)",
+    "studiInhalt": "<p>Inhalte bitte bei der Hochschule erfragen<br/></p><h4>Anmerkung der Hochschule: </h4><p>Technische Informatik ist als \"kleine berufliche Fachrichtung\" nur kombinierbar mit der \"großen beruflichen Fachrichtung\" Elektrotechnik.</p><p>Informationen zu den Fächerkombinationen finden Sie unter http://www.uni-siegen.de/zlb/studieninformationen/lehramtsstudium.</p>",
+    "studienanbieter": {
+     "banId": 26273,
+     "name": "Universität Siegen",
+     "logo": {
+      "id": 8922,
+      "url": "http://prod-server.infosysbub-kursnet-rest-dmz.svc.cluster.local:8080/ct/v1/bildungsanbieter/26273/logos/8922",
+      "externalURL": "https://rest.arbeitsagentur.de/infosysbub/kursnet-rest/ct/v1/bildungsanbieter/26273/logos/8922"
+     }
+    },
+    "studienfaecher": [
+     "Lehramt an berufsbildenden/beruflichen Schulen/Berufskollegs (grundständig außer Staatsexamen)"
+    ],
+    "studienform": {
+     "id": 1,
+     "label": "Vollzeitstudium"
+    },
+    "studienmodelle": [],
+    "studienort": {
+     "bundesland": "Nordrhein-Westfalen",
+     "location": {
+      "lat": 50.8744,
+      "lon": 8.0247
+     },
+     "ort": "Siegen",
+     "postfach": null,
+     "postfachBundesland": null,
+     "postfachOrt": null,
+     "postfachPostleitzahl": null,
+     "postfachStaat": null,
+     "postleitzahl": "57076",
+     "staat": "Deutschland",
+     "strasse": "Adolf-Reichwein-Straße 2"
+    },
+    "studientyp": {
+     "id": 0,
+     "label": "Studiengang grundständig"
+    }
+   },
+   "abstaende": []
+  },
+  {
+   "studienangebot": {
+    "abschlussgrad": {
+     "id": 2,
+     "label": "Bachelor/Bakkalaureus"
+    },
+    "externalLinks": [
+     {
+      "tooltip": "Für diesen Studiengang sind zugeschnittene Studiencheck-Tests verfügbar.",
+      "link": "https://studichecks.de/show/g11465",
+      "name": "studiencheck"
+     }
+    ],
+    "fitFuerStudiumFacettenOptions": [
+     {
+      "id": -1,
+      "label": ""
+     }
+    ],
+    "hochschulart": {
+     "id": 108,
+     "label": "Universität"
+    },
+    "id": "73023894",
+    "region": {
+     "id": 9,
+     "Key": "NW",
+     "label": "Nordrhein-Westfalen"
+    },
+    "studiBeginn": "Auf Anfrage",
+    "studiBezeichnung": "Informatik Bachelor of Science (Lehramt an Gymnasien und Gesamtschulen)",
+    "studiInhalt": "<p>Inhalte bitte bei der Hochschule erfragen<br/></p><h4>Anmerkung der Hochschule: </h4><p>Informationen zu den Fächerkombinationen finden Sie unter http://www.uni-siegen.de/zlb/studieninformationen/lehramtsstudium.</p>",
+    "studienanbieter": {
+     "banId": 26273,
+     "name": "Universität Siegen",
+     "logo": {
+      "id": 8922,
+      "url": "http://prod-server.infosysbub-kursnet-rest-dmz.svc.cluster.local:8080/ct/v1/bildungsanbieter/26273/logos/8922",
+      "externalURL": "https://rest.arbeitsagentur.de/infosysbub/kursnet-rest/ct/v1/bildungsanbieter/26273/logos/8922"
+     }
+    },
+    "studienfaecher": [
+     "Lehramt an Gymnasien (grundständig außer Staatsexamen)",
+     "Lehramt für Schularten der Sekundarstufe I (grundständig außer Staatsexamen)"
+    ],
+    "studienform": {
+     "id": 1,
+     "label": "Vollzeitstudium"
+    },
+    "studienmodelle": [],
+    "studienort": {
+     "bundesland": "Nordrhein-Westfalen",
+     "location": {
+      "lat": 50.8744,
+      "lon": 8.0247
+     },
+     "ort": "Siegen",
+     "postfach": null,
+     "postfachBundesland": null,
+     "postfachOrt": null,
+     "postfachPostleitzahl": null,
+     "postfachStaat": null,
+     "postleitzahl": "57076",
+     "staat": "Deutschland",
+     "strasse": "Adolf-Reichwein-Straße 2"
+    },
+    "studientyp": {
+     "id": 0,
+     "label": "Studiengang grundständig"
+    }
+   },
+   "abstaende": []
+  },
+  {
+   "studienangebot": {
+    "abschlussgrad": {
+     "id": 2,
+     "label": "Bachelor/Bakkalaureus"
+    },
+    "externalLinks": [
+     {
+      "tooltip": "Für diesen Studiengang sind zugeschnittene Studiencheck-Tests verfügbar.",
+      "link": "https://studichecks.de/show/g229228",
+      "name": "studiencheck"
+     }
+    ],
+    "fitFuerStudiumFacettenOptions": [
+     {
+      "id": -1,
+      "label": ""
+     }
+    ],
+    "hochschulart": {
+     "id": 108,
+     "label": "Universität"
+    },
+    "id": "73023918",
+    "region": {
+     "id": 9,
+     "Key": "NW",
+     "label": "Nordrhein-Westfalen"
+    },
+    "studiBeginn": "Auf Anfrage",
+    "studiBezeichnung": "Informatik Bachelor of Science",
+    "studiInhalt": "<p>Inhalte bitte bei der Hochschule erfragen<br/></p><h4>Anmerkung der Hochschule: </h4><p>Wird auch als praxisintegrierter dualer Studiengang angeboten (Studium + praktische Tätigkeit im Unternehmen).</p>",
+    "studienanbieter": {
+     "banId": 26273,
+     "name": "Universität Siegen",
+     "logo": {
+      "id": 8922,
+      "url": "http://prod-server.infosysbub-kursnet-rest-dmz.svc.cluster.local:8080/ct/v1/bildungsanbieter/26273/logos/8922",
+      "externalURL": "https://rest.arbeitsagentur.de/infosysbub/kursnet-rest/ct/v1/bildungsanbieter/26273/logos/8922"
+     }
+    },
+    "studienfaecher": [
+     "Informatik (grundständig)"
+    ],
+    "studienform": {
+     "id": 1,
+     "label": "Vollzeitstudium"
+    },
+    "studienmodelle": [],
+    "studienort": {
+     "bundesland": "Nordrhein-Westfalen",
+     "location": {
+      "lat": 50.8744,
+      "lon": 8.0247
+     },
+     "ort": "Siegen",
+     "postfach": null,
+     "postfachBundesland": null,
+     "postfachOrt": null,
+     "postfachPostleitzahl": null,
+     "postfachStaat": null,
+     "postleitzahl": "57076",
+     "staat": "Deutschland",
+     "strasse": "Adolf-Reichwein-Straße 2"
+    },
+    "studientyp": {
+     "id": 0,
+     "label": "Studiengang grundständig"
+    }
+   },
+   "abstaende": []
+  },
+  {
+   "studienangebot": {
+    "abschlussgrad": {
+     "id": 2,
+     "label": "Bachelor/Bakkalaureus"
+    },
+    "externalLinks": [
+     {
+      "tooltip": "Für diesen Studiengang sind zugeschnittene Studiencheck-Tests verfügbar.",
+      "link": "https://studichecks.de/show/g487935",
+      "name": "studiencheck"
+     }
+    ],
+    "fitFuerStudiumFacettenOptions": [
+     {
+      "id": -1,
+      "label": ""
+     }
+    ],
+    "hochschulart": {
+     "id": 108,
+     "label": "Universität"
+    },
+    "id": "73023941",
+    "region": {
+     "id": 9,
+     "Key": "NW",
+     "label": "Nordrhein-Westfalen"
+    },
+    "studiBeginn": "Auf Anfrage",
+    "studiBezeichnung": "Informatik Bachelor of Science (Lehramt an Haupt-, Real-, Sekundar- und Gesamtschulen)",
+    "studiInhalt": "<p>Inhalte bitte bei der Hochschule erfragen<br/></p><h4>Anmerkung der Hochschule: </h4><p>Informationen zu den Fächerkombinationen finden Sie unter http://www.uni-siegen.de/zlb/studieninformationen/lehramtsstudium.</p>",
+    "studienanbieter": {
+     "banId": 26273,
+     "name": "Universität Siegen",
+     "logo": {
+      "id": 8922,
+      "url": "http://prod-server.infosysbub-kursnet-rest-dmz.svc.cluster.local:8080/ct/v1/bildungsanbieter/26273/logos/8922",
+      "externalURL": "https://rest.arbeitsagentur.de/infosysbub/kursnet-rest/ct/v1/bildungsanbieter/26273/logos/8922"
+     }
+    },
+    "studienfaecher": [
+     "Lehramt für Schularten der Sekundarstufe I (grundständig außer Staatsexamen)"
+    ],
+    "studienform": {
+     "id": 1,
+     "label": "Vollzeitstudium"
+    },
+    "studienmodelle": [],
+    "studienort": {
+     "bundesland": "Nordrhein-Westfalen",
+     "location": {
+      "lat": 50.8744,
+      "lon": 8.0247
+     },
+     "ort": "Siegen",
+     "postfach": null,
+     "postfachBundesland": null,
+     "postfachOrt": null,
+     "postfachPostleitzahl": null,
+     "postfachStaat": null,
+     "postleitzahl": "57076",
+     "staat": "Deutschland",
+     "strasse": "Adolf-Reichwein-Straße 2"
+    },
+    "studientyp": {
+     "id": 0,
+     "label": "Studiengang grundständig"
+    }
+   },
+   "abstaende": []
+  },
+  {
+   "studienangebot": {
+    "abschlussgrad": {
+     "id": 2,
+     "label": "Bachelor/Bakkalaureus"
+    },
+    "externalLinks": [
+     {
+      "tooltip": "Für diesen Studiengang sind zugeschnittene Studiencheck-Tests verfügbar.",
+      "link": "https://studichecks.de/show/g487936",
+      "name": "studiencheck"
+     }
+    ],
+    "fitFuerStudiumFacettenOptions": [
+     {
+      "id": -1,
+      "label": ""
+     }
+    ],
+    "hochschulart": {
+     "id": 108,
+     "label": "Universität"
+    },
+    "id": "73023942",
+    "region": {
+     "id": 9,
+     "Key": "NW",
+     "label": "Nordrhein-Westfalen"
+    },
+    "studiBeginn": "Auf Anfrage",
+    "studiBezeichnung": "Informatik Bachelor of Science (Lehramt an Berufskollegs)",
+    "studiInhalt": "<p>Inhalte bitte bei der Hochschule erfragen<br/></p><h4>Anmerkung der Hochschule: </h4><p>Informationen zu den Fächerkombinationen finden Sie unter http://www.uni-siegen.de/zlb/studieninformationen/lehramtsstudium.</p>",
+    "studienanbieter": {
+     "banId": 26273,
+     "name": "Universität Siegen",
+     "logo": {
+      "id": 8922,
+      "url": "http://prod-server.infosysbub-kursnet-rest-dmz.svc.cluster.local:8080/ct/v1/bildungsanbieter/26273/logos/8922",
+      "externalURL": "https://rest.arbeitsagentur.de/infosysbub/kursnet-rest/ct/v1/bildungsanbieter/26273/logos/8922"
+     }
+    },
+    "studienfaecher": [
+     "Lehramt an berufsbildenden/beruflichen Schulen/Berufskollegs (grundständig außer Staatsexamen)"
+    ],
+    "studienform": {
+     "id": 1,
+     "label": "Vollzeitstudium"
+    },
+    "studienmodelle": [],
+    "studienort": {
+     "bundesland": "Nordrhein-Westfalen",
+     "location": {
+      "lat": 50.8744,
+      "lon": 8.0247
+     },
+     "ort": "Siegen",
+     "postfach": null,
+     "postfachBundesland": null,
+     "postfachOrt": null,
+     "postfachPostleitzahl": null,
+     "postfachStaat": null,
+     "postleitzahl": "57076",
+     "staat": "Deutschland",
+     "strasse": "Adolf-Reichwein-Straße 2"
+    },
+    "studientyp": {
+     "id": 0,
+     "label": "Studiengang grundständig"
+    }
+   },
+   "abstaende": []
+  },
+  {
+   "studienangebot": {
+    "abschlussgrad": {
+     "id": 2,
+     "label": "Bachelor/Bakkalaureus"
+    },
+    "externalLinks": [
+     {
+      "tooltip": "Für diesen Studiengang sind zugeschnittene Studiencheck-Tests verfügbar.",
+      "link": "https://studichecks.de/show/g618527",
+      "name": "studiencheck"
+     }
+    ],
+    "fitFuerStudiumFacettenOptions": [
+     {
+      "id": -1,
+      "label": ""
+     }
+    ],
+    "hochschulart": {
+     "id": 108,
+     "label": "Universität"
+    },
+    "id": "73023944",
+    "region": {
+     "id": 9,
+     "Key": "NW",
+     "label": "Nordrhein-Westfalen"
+    },
+    "studiBeginn": "Auf Anfrage",
+    "studiBezeichnung": "Informatik Bachelor of Science",
+    "studiInhalt": "<p>Inhalte bitte bei der Hochschule erfragen<br/></p><h4>Anmerkung der Hochschule: </h4><p>Die Vorlage eines Arbeitsvertrages und eine aktuelle Liste der Firmen, die im Kreisgebiet Siegen-Wittgenstein die Möglichkeit des Dualen Studiums anbieten oder bereits angeboten haben, finden Sie im Internet auf der Seite der IHK Siegen: www.ihk-siegen.de (unter der Rubrik \"Duales Studium\")</p><p>Bei der tatsächlichen Einschreibung im Stu&hellip;</p>",
+    "studienanbieter": {
+     "banId": 26273,
+     "name": "Universität Siegen",
+     "logo": {
+      "id": 8922,
+      "url": "http://prod-server.infosysbub-kursnet-rest-dmz.svc.cluster.local:8080/ct/v1/bildungsanbieter/26273/logos/8922",
+      "externalURL": "https://rest.arbeitsagentur.de/infosysbub/kursnet-rest/ct/v1/bildungsanbieter/26273/logos/8922"
+     }
+    },
+    "studienfaecher": [
+     "Informatik (grundständig)"
+    ],
+    "studienform": {
+     "id": 1,
+     "label": "Vollzeitstudium"
+    },
+    "studienmodelle": [
+     {
+      "id": 4,
+      "label": "praxis&shy;integrierend"
+     },
+     {
+      "id": 5,
+      "label": "Duales Studium"
+     }
+    ],
+    "studienort": {
+     "bundesland": "Nordrhein-Westfalen",
+     "location": {
+      "lat": 50.8744,
+      "lon": 8.0247
+     },
+     "ort": "Siegen",
+     "postfach": null,
+     "postfachBundesland": null,
+     "postfachOrt": null,
+     "postfachPostleitzahl": null,
+     "postfachStaat": null,
+     "postleitzahl": "57076",
+     "staat": "Deutschland",
+     "strasse": "Adolf-Reichwein-Straße 2"
+    },
+    "studientyp": {
+     "id": 0,
+     "label": "Studiengang grundständig"
+    }
+   },
+   "abstaende": []
+  },
+  {
+   "studienangebot": {
+    "abschlussgrad": {
+     "id": 10,
+     "label": "Master"
+    },
+    "externalLinks": [],
+    "fitFuerStudiumFacettenOptions": [],
+    "hochschulart": {
+     "id": 108,
+     "label": "Universität"
+    },
+    "id": "73024106",
+    "region": {
+     "id": 9,
+     "Key": "NW",
+     "label": "Nordrhein-Westfalen"
+    },
+    "studiBeginn": "Auf Anfrage",
+    "studiBezeichnung": "Informatik Master of Education (Lehramt an Gymnasien und Gesamtschulen)",
+    "studiInhalt": "<p>Inhalte bitte bei der Hochschule erfragen<br/></p><h4>Anmerkung der Hochschule: </h4><p>Informationen zu den Fächerkombinationen finden Sie unter http://www.uni-siegen.de/zlb/studieninformationen/lehramtsstudium.</p>",
+    "studienanbieter": {
+     "banId": 26273,
+     "name": "Universität Siegen",
+     "logo": {
+      "id": 8922,
+      "url": "http://prod-server.infosysbub-kursnet-rest-dmz.svc.cluster.local:8080/ct/v1/bildungsanbieter/26273/logos/8922",
+      "externalURL": "https://rest.arbeitsagentur.de/infosysbub/kursnet-rest/ct/v1/bildungsanbieter/26273/logos/8922"
+     }
+    },
+    "studienfaecher": [
+     "Lehramt für Schularten der Sekundarstufe I (weiterführend)",
+     "Lehramt an berufsbildenden/beruflichen Schulen/Berufskollegs (weiterführend)",
+     "Lehramt an Gymnasien (weiterführend)"
+    ],
+    "studienform": {
+     "id": 1,
+     "label": "Vollzeitstudium"
+    },
+    "studienmodelle": [],
+    "studienort": {
+     "bundesland": "Nordrhein-Westfalen",
+     "location": {
+      "lat": 50.8744,
+      "lon": 8.0247
+     },
+     "ort": "Siegen",
+     "postfach": null,
+     "postfachBundesland": null,
+     "postfachOrt": null,
+     "postfachPostleitzahl": null,
+     "postfachStaat": null,
+     "postleitzahl": "57076",
+     "staat": "Deutschland",
+     "strasse": "Adolf-Reichwein-Straße 2"
+    },
+    "studientyp": {
+     "id": 1,
+     "label": "Studiengang weiterführend"
+    }
+   },
+   "abstaende": []
+  },
+  {
+   "studienangebot": {
+    "abschlussgrad": {
+     "id": 10,
+     "label": "Master"
+    },
+    "externalLinks": [],
+    "fitFuerStudiumFacettenOptions": [],
+    "hochschulart": {
+     "id": 108,
+     "label": "Universität"
+    },
+    "id": "73024156",
+    "region": {
+     "id": 9,
+     "Key": "NW",
+     "label": "Nordrhein-Westfalen"
+    },
+    "studiBeginn": "Auf Anfrage",
+    "studiBezeichnung": "Technische Informatik Master of Education (Lehramt an Berufskollegs)",
+    "studiInhalt": "<p>Inhalte bitte bei der Hochschule erfragen<br/></p><h4>Anmerkung der Hochschule: </h4><p>Technische Informatik ist als \"kleine berufliche Fachrichtung\" nur kombinierbar mit der \"großen beruflichen Fachrichtung\" Elektrotechnik.</p><p>Informationen zu den Fächerkombinationen finden Sie unter http://www.uni-siegen.de/zlb/studieninformationen/lehramtsstudium.</p>",
+    "studienanbieter": {
+     "banId": 26273,
+     "name": "Universität Siegen",
+     "logo": {
+      "id": 8922,
+      "url": "http://prod-server.infosysbub-kursnet-rest-dmz.svc.cluster.local:8080/ct/v1/bildungsanbieter/26273/logos/8922",
+      "externalURL": "https://rest.arbeitsagentur.de/infosysbub/kursnet-rest/ct/v1/bildungsanbieter/26273/logos/8922"
+     }
+    },
+    "studienfaecher": [
+     "Lehramt an berufsbildenden/beruflichen Schulen/Berufskollegs (weiterführend)"
+    ],
+    "studienform": {
+     "id": 1,
+     "label": "Vollzeitstudium"
+    },
+    "studienmodelle": [],
+    "studienort": {
+     "bundesland": "Nordrhein-Westfalen",
+     "location": {
+      "lat": 50.8744,
+      "lon": 8.0247
+     },
+     "ort": "Siegen",
+     "postfach": null,
+     "postfachBundesland": null,
+     "postfachOrt": null,
+     "postfachPostleitzahl": null,
+     "postfachStaat": null,
+     "postleitzahl": "57076",
+     "staat": "Deutschland",
+     "strasse": "Adolf-Reichwein-Straße 2"
+    },
+    "studientyp": {
+     "id": 1,
+     "label": "Studiengang weiterführend"
+    }
+   },
+   "abstaende": []
+  }
+ ],
+ "maxErgebnisse": 175,
+ "studienangeboteIds": [
+  "10843193",
+  "10843229",
+  "10852726",
+  "10852756",
+  "10852759",
+  "10853414",
+  "10853456",
+  "10853512",
+  "10853563",
+  "13399458",
+  "16708124",
+  "23964692",
+  "73023893",
+  "73023894",
+  "73023918",
+  "73023941",
+  "73023942",
+  "73023944",
+  "73024106",
+  "73024156",
+  "73024415",
+  "73024433",
+  "73024463",
+  "73025273",
+  "73210147",
+  "73210162",
+  "73210164",
+  "73210451",
+  "73210498",
+  "73210506",
+  "73210553",
+  "73210607",
+  "73210609",
+  "73210624",
+  "73210725",
+  "73210740",
+  "73210744",
+  "73210749",
+  "73423504",
+  "73424313",
+  "73424329",
+  "73424346",
+  "73424363",
+  "73424404",
+  "73424426",
+  "73425945",
+  "73426063",
+  "73426156",
+  "73426159",
+  "73426301",
+  "73428329",
+  "73428353",
+  "73428480",
+  "73429232",
+  "73429361",
+  "73429425",
+  "73429428",
+  "73429636",
+  "73429668",
+  "73429698",
+  "73430081",
+  "73430089",
+  "73430094",
+  "73430426",
+  "73430458",
+  "73430489",
+  "73430551",
+  "73430759",
+  "73430808",
+  "73431364",
+  "73431393",
+  "73431395",
+  "73431716",
+  "73431924",
+  "73434348",
+  "73434444",
+  "73434597",
+  "73434625",
+  "78846121",
+  "78846145",
+  "78846156",
+  "78846240",
+  "78846459",
+  "78846467",
+  "78846500",
+  "78846544",
+  "78846547",
+  "78846556",
+  "78846593",
+  "78846829",
+  "78846836",
+  "78846838",
+  "78846914",
+  "78847016",
+  "78847090",
+  "78847316",
+  "78848692",
+  "78848962",
+  "78848968",
+  "78849044",
+  "78849761",
+  "78849765",
+  "78849770",
+  "78849785",
+  "78849788",
+  "78849809",
+  "78849965",
+  "78849967",
+  "78850043",
+  "78850204",
+  "78850228",
+  "78850332",
+  "78850336",
+  "78850341",
+  "78850376",
+  "92365667",
+  "92365669",
+  "92482874",
+  "92655228",
+  "92655231",
+  "92680876",
+  "92680880",
+  "92680892",
+  "92928239",
+  "100026548",
+  "101378553",
+  "112336080",
+  "120011727",
+  "123110090",
+  "123110094",
+  "123110133",
+  "123110152",
+  "123512657",
+  "126266997",
+  "126267077",
+  "126267289",
+  "126267646",
+  "128112581",
+  "130157684",
+  "130157686",
+  "130466094",
+  "130466095",
+  "131254812",
+  "132879087",
+  "132879109",
+  "132879135",
+  "135223062",
+  "136997815",
+  "140554819",
+  "140554827",
+  "174742694",
+  "175649086",
+  "220594922",
+  "220594939",
+  "220594963",
+  "244279156",
+  "272379395",
+  "272379423",
+  "307600668",
+  "308845792",
+  "315333899",
+  "316981034",
+  "327357210",
+  "327357214",
+  "329043624",
+  "329048646",
+  "380314351",
+  "380314655",
+  "380314664",
+  "380314670",
+  "381794942",
+  "383300618",
+  "409312610",
+  "419387817",
+  "409312611"
+ ]
+}

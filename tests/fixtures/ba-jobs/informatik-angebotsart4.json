@@ -1,0 +1,5058 @@
+{
+ "ergebnisliste": [
+  {
+   "stellenangebotsart": "AUSBILDUNG",
+   "ausbildungsart": "DUALES_STUDIUM",
+   "studienform": "PRAXISINTEGRIEREND",
+   "stellenangebotsTitel": "Informatik",
+   "arbeitszeitSchichtNachtWochenende": false,
+   "arbeitszeitTeilzeitAbend": false,
+   "arbeitszeitTeilzeitNachmittag": false,
+   "arbeitszeitTeilzeitVormittag": false,
+   "arbeitszeitTeilzeitFlexibel": false,
+   "arbeitszeitVollzeit": true,
+   "eintrittszeitraum": {
+    "von": "2027-08-01"
+   },
+   "verguetungsangabe": "KEINE_ANGABEN",
+   "vertragsdauer": "KEINE_ANGABE",
+   "stellenlokationen": [
+    {
+     "adresse": {
+      "strasse": "Berliner Ring",
+      "hausnummer": "2",
+      "plz": "38440",
+      "ort": "Wolfsburg",
+      "region": "NIEDERSACHSEN",
+      "land": "DEUTSCHLAND"
+     },
+     "breite": 52.435188,
+     "laenge": 10.7954145
+    }
+   ],
+   "veroeffentlichungszeitraum": {
+    "von": "2026-08-01"
+   },
+   "datumErsteVeroeffentlichung": "2026-08-01",
+   "aenderungsdatum": "2026-07-02T15:29:57.585",
+   "studiengang": "Bachelor of Science - Allgemeine Informatik",
+   "firma": "Volkswagen AG 11001101",
+   "arbeitgeberKundennummerHash": "xk1utbcstA3h7atNY9h2qlAdiv2RD8MMNy_ySlaie6M=",
+   "referenznummer": "10000-1207038225-S"
+  },
+  {
+   "stellenangebotsart": "AUSBILDUNG",
+   "ausbildungsart": "DUALES_STUDIUM",
+   "studienform": "PRAXISINTEGRIEREND",
+   "stellenangebotsTitel": "Informatik (m/w/d)",
+   "arbeitszeitSchichtNachtWochenende": false,
+   "arbeitszeitTeilzeitAbend": false,
+   "arbeitszeitTeilzeitNachmittag": false,
+   "arbeitszeitTeilzeitVormittag": false,
+   "arbeitszeitTeilzeitFlexibel": false,
+   "arbeitszeitVollzeit": true,
+   "eintrittszeitraum": {
+    "von": "2027-10-01"
+   },
+   "verguetungsangabe": "KEINE_ANGABEN",
+   "vertragsdauer": "KEINE_ANGABE",
+   "stellenlokationen": [
+    {
+     "adresse": {
+      "strasse": "Stuttgarter Str.",
+      "hausnummer": "45-51",
+      "plz": "72654",
+      "ort": "Neckartenzlingen",
+      "region": "BADEN_WUERTTEMBERG",
+      "land": "DEUTSCHLAND"
+     },
+     "breite": 48.596184,
+     "laenge": 9.2401425
+    }
+   ],
+   "homeofficemoeglich": false,
+   "veroeffentlichungszeitraum": {
+    "von": "2026-05-06"
+   },
+   "datumErsteVeroeffentlichung": "2026-05-06",
+   "aenderungsdatum": "2026-05-06T15:55:59.907",
+   "studiengang": "Bachelor of Science - Informatik",
+   "firma": "Hirschmann Automation and Control GmbH",
+   "arbeitgeberKundennummerHash": "UzRxX1Zgs012bueU1t_uRPGEWWMmlEX4IIv8jNNmM1c=",
+   "referenznummer": "10000-1206431685-S"
+  },
+  {
+   "stellenangebotsart": "AUSBILDUNG",
+   "ausbildungsart": "DUALES_STUDIUM",
+   "studienform": "AUSBILDUNGSINTEGRIEREND",
+   "stellenangebotsTitel": "Informatik",
+   "quereinstiegGeeignet": false,
+   "arbeitszeitSchichtNachtWochenende": false,
+   "arbeitszeitTeilzeitAbend": false,
+   "arbeitszeitTeilzeitNachmittag": false,
+   "arbeitszeitTeilzeitVormittag": false,
+   "arbeitszeitTeilzeitFlexibel": false,
+   "arbeitszeitVollzeit": true,
+   "eintrittszeitraum": {
+    "von": "2027-09-01"
+   },
+   "verguetungsangabe": "KEINE_ANGABEN",
+   "vertragsdauer": "KEINE_ANGABE",
+   "istGeringfuegigeBeschaeftigung": false,
+   "stellenlokationen": [
+    {
+     "adresse": {
+      "strasse": "Wilhelm-Johnen-Straße",
+      "plz": "52428",
+      "ort": "Jülich",
+      "region": "NORDRHEIN_WESTFALEN",
+      "land": "DEUTSCHLAND"
+     },
+     "breite": 50.9290487,
+     "laenge": 6.3727756
+    }
+   ],
+   "homeofficemoeglich": false,
+   "chiffrenummer": "400578",
+   "veroeffentlichungszeitraum": {
+    "von": "2026-09-26"
+   },
+   "datumErsteVeroeffentlichung": "2026-09-26",
+   "aenderungsdatum": "2026-10-23T07:02:23.149",
+   "externeURL": "https://www.aubi-plus.de/duales-studium/forschungszentrum-juelich-gmbh-informatik-juelich-400578/?mtm_campaign=jobboard&mtm_source=Arbeitsagentur",
+   "hauptberuf": "Mathematisch-technische/r Softwareentwickler/in",
+   "studiengang": "Bachelor of Science - Informatik",
+   "firma": "Forschungszentrum Jülich GmbH",
+   "referenznummer": "13647-2027400578-S",
+   "alleBerufe": [
+    "Mathematisch-technische/r Softwareentwickler/in"
+   ]
+  },
+  {
+   "stellenangebotsart": "AUSBILDUNG",
+   "ausbildungsart": "DUALES_STUDIUM",
+   "studienform": "PRAXISINTEGRIEREND",
+   "stellenangebotsTitel": "Bachelor Informatik (m/w/d)",
+   "arbeitszeitSchichtNachtWochenende": false,
+   "arbeitszeitTeilzeitAbend": false,
+   "arbeitszeitTeilzeitNachmittag": false,
+   "arbeitszeitTeilzeitVormittag": false,
+   "arbeitszeitTeilzeitFlexibel": false,
+   "arbeitszeitVollzeit": true,
+   "eintrittszeitraum": {
+    "von": "2027-09-01"
+   },
+   "verguetungsangabe": "AUSBILDUNGSVERGUETUNG_NACH_JAHREN",
+   "ausbildungsverguetungJahr1": 1377.5,
+   "ausbildungsverguetungJahr2": 1488.5,
+   "ausbildungsverguetungJahr3": 1563,
+   "ausbildungsverguetungJahr4": 1563,
+   "vertragsdauer": "KEINE_ANGABE",
+   "stellenlokationen": [
+    {
+     "adresse": {
+      "strasse": "Heinrich-Hertz-Str.",
+      "hausnummer": "45",
+      "plz": "78052",
+      "ort": "Villingen-Schwenningen",
+      "region": "BADEN_WUERTTEMBERG",
+      "land": "DEUTSCHLAND"
+     },
+     "breite": 48.0870769,
+     "laenge": 8.4501125
+    }
+   ],
+   "veroeffentlichungszeitraum": {
+    "von": "2026-06-29"
+   },
+   "datumErsteVeroeffentlichung": "2026-06-29",
+   "aenderungsdatum": "2026-07-03T12:31:41.217",
+   "studiengang": "Bachelor of Arts - Informatik",
+   "firma": "AUMOVIO Germany GmbH",
+   "arbeitgeberKundennummerHash": "wUoerI85ArTjiD0AhUcPiDi6nWC6xxtc4Z8iZMwsbBo=",
+   "referenznummer": "10001-1003298058-S"
+  },
+  {
+   "stellenangebotsart": "AUSBILDUNG",
+   "ausbildungsart": "DUALES_STUDIUM",
+   "studienform": "PRAXISINTEGRIEREND",
+   "stellenangebotsTitel": "Bachelor Informatik (m/w/d)",
+   "quereinstiegGeeignet": false,
+   "arbeitszeitVollzeit": true,
+   "eintrittszeitraum": {
+    "von": "2026-09-01"
+   },
+   "verguetungsangabe": "KEINE_ANGABEN",
+   "vertragsdauer": "KEINE_ANGABE",
+   "istGeringfuegigeBeschaeftigung": false,
+   "stellenlokationen": [
+    {
+     "adresse": {
+      "strasse": "Siemensstraße",
+      "hausnummer": "12",
+      "plz": "93055",
+      "ort": "Regensburg",
+      "region": "BAYERN",
+      "land": "DEUTSCHLAND"
+     },
+     "breite": 49.006962,
+     "laenge": 12.142035
+    }
+   ],
+   "chiffrenummer": "REF2229Q",
+   "veroeffentlichungszeitraum": {
+    "von": "2026-03-04"
+   },
+   "datumErsteVeroeffentlichung": "2026-03-04",
+   "aenderungsdatum": "2026-03-14T08:30:25.000",
+   "studiengang": "Bachelor of Arts - Informatik",
+   "firma": "AUMOVIO SE Haupverwaltung",
+   "arbeitgeberKundennummerHash": "NCdtcYoUMonfFUrN9mucBaFovT-I1VzNrQhs9oxXAZ4=",
+   "referenznummer": "19801-931161958-S"
+  },
+  {
+   "stellenangebotsart": "AUSBILDUNG",
+   "ausbildungsart": "DUALES_STUDIUM",
+   "studienform": "PRAXISINTEGRIEREND",
+   "stellenangebotsTitel": "Technische Informatik",
+   "quereinstiegGeeignet": false,
+   "arbeitszeitSchichtNachtWochenende": false,
+   "arbeitszeitTeilzeitAbend": false,
+   "arbeitszeitTeilzeitNachmittag": false,
+   "arbeitszeitTeilzeitVormittag": false,
+   "arbeitszeitTeilzeitFlexibel": false,
+   "arbeitszeitVollzeit": true,
+   "eintrittszeitraum": {
+    "von": "2027-08-01"
+   },
+   "verguetungsangabe": "KEINE_ANGABEN",
+   "vertragsdauer": "KEINE_ANGABE",
+   "istGeringfuegigeBeschaeftigung": false,
+   "stellenlokationen": [
+    {
+     "adresse": {
+      "strasse": "Flachsmarktstraße 8",
+      "plz": "32825",
+      "ort": "Blomberg, Lippe",
+      "region": "NORDRHEIN_WESTFALEN",
+      "land": "DEUTSCHLAND"
+     },
+     "breite": 51.934914,
+     "laenge": 9.104652
+    }
+   ],
+   "homeofficemoeglich": false,
+   "chiffrenummer": "459832",
+   "veroeffentlichungszeitraum": {
+    "von": "2026-10-15"
+   },
+   "datumErsteVeroeffentlichung": "2026-10-15",
+   "aenderungsdatum": "2026-10-15T07:02:00.240",
+   "externeURL": "https://www.aubi-plus.de/duales-studium/phoenix-contact-gmbh-co-kg-technische-informatik-blomberg-459832/?mtm_campaign=jobboard&mtm_source=Arbeitsagentur",
+   "studiengang": "Bachelor of Science - Technische Informatik",
+   "firma": "Phoenix Contact GmbH & Co. KG",
+   "referenznummer": "13647-2027459832-S"
+  },
+  {
+   "stellenangebotsart": "AUSBILDUNG",
+   "ausbildungsart": "DUALES_STUDIUM",
+   "studienform": "PRAXISINTEGRIEREND",
+   "stellenangebotsTitel": "Duales Studium Informatik (m/w/d)",
+   "quereinstiegGeeignet": false,
+   "arbeitszeitSchichtNachtWochenende": false,
+   "arbeitszeitTeilzeitAbend": false,
+   "arbeitszeitTeilzeitNachmittag": false,
+   "arbeitszeitTeilzeitVormittag": false,
+   "arbeitszeitTeilzeitFlexibel": false,
+   "arbeitszeitVollzeit": true,
+   "eintrittszeitraum": {
+    "von": "2027-09-01"
+   },
+   "verguetungsangabe": "KEINE_ANGABEN",
+   "vertragsdauer": "KEINE_ANGABE",
+   "istGeringfuegigeBeschaeftigung": false,
+   "stellenlokationen": [
+    {
+     "adresse": {
+      "strasse": "Wilhelm-Pfitzer-Straße 1",
+      "plz": "70736",
+      "ort": "Fellbach, Württemberg",
+      "region": "BADEN_WUERTTEMBERG",
+      "land": "DEUTSCHLAND"
+     },
+     "breite": 48.817008,
+     "laenge": 9.265824
+    }
+   ],
+   "homeofficemoeglich": false,
+   "veroeffentlichungszeitraum": {
+    "von": "2026-10-06"
+   },
+   "datumErsteVeroeffentlichung": "2026-09-10",
+   "aenderungsdatum": "2026-10-06T08:03:39.530",
+   "externeURL": "https://www.ausbildung.de/stellen/duales-studium-informatik-m-w-d-bei-finanz-informatik-technologie-service-gmbh-co-kg-in-fellbach-4aa2901e-d8e7-4f24-b09c-6ce888983857/?utm_campaign=kooperation&utm_medium=jobfeed&utm_source=bundesagentur",
+   "studiengang": "Bachelor of Arts - Informatik",
+   "firma": "Finanz Informatik Technologie Service GmbH & Co. KG",
+   "referenznummer": "14756-3908c7a9fa534cde-S"
+  },
+  {
+   "stellenangebotsart": "AUSBILDUNG",
+   "ausbildungsart": "DUALES_STUDIUM",
+   "studienform": "PRAXISINTEGRIEREND",
+   "stellenangebotsTitel": "Duales Studium Informatik (m/w/d)",
+   "quereinstiegGeeignet": false,
+   "arbeitszeitSchichtNachtWochenende": false,
+   "arbeitszeitTeilzeitAbend": false,
+   "arbeitszeitTeilzeitNachmittag": false,
+   "arbeitszeitTeilzeitVormittag": false,
+   "arbeitszeitTeilzeitFlexibel": false,
+   "arbeitszeitVollzeit": true,
+   "eintrittszeitraum": {
+    "von": "2027-09-01"
+   },
+   "verguetungsangabe": "KEINE_ANGABEN",
+   "vertragsdauer": "KEINE_ANGABE",
+   "istGeringfuegigeBeschaeftigung": false,
+   "stellenlokationen": [
+    {
+     "adresse": {
+      "strasse": "Richard-Reitzner-Allee 8",
+      "plz": "85540",
+      "ort": "Haar, Kreis München",
+      "region": "BAYERN",
+      "land": "DEUTSCHLAND"
+     },
+     "breite": 48.11508,
+     "laenge": 11.731662
+    }
+   ],
+   "homeofficemoeglich": false,
+   "veroeffentlichungszeitraum": {
+    "von": "2026-10-06"
+   },
+   "datumErsteVeroeffentlichung": "2026-09-10",
+   "aenderungsdatum": "2026-10-06T08:03:39.358",
+   "externeURL": "https://www.ausbildung.de/stellen/duales-studium-informatik-m-w-d-bei-finanz-informatik-technologie-service-gmbh-co-kg-in-haar-3da46c90-692a-425a-ba6d-4c0ddfd8f0d6/?utm_campaign=kooperation&utm_medium=jobfeed&utm_source=bundesagentur",
+   "studiengang": "Bachelor of Arts - Informatik",
+   "firma": "Finanz Informatik Technologie Service GmbH & Co. KG",
+   "referenznummer": "14756-1f51bd41adc042f5-S"
+  },
+  {
+   "stellenangebotsart": "AUSBILDUNG",
+   "ausbildungsart": "DUALES_STUDIUM",
+   "studienform": "PRAXISINTEGRIEREND",
+   "stellenangebotsTitel": "BA-Studium Informatik (m/w/d)",
+   "arbeitszeitSchichtNachtWochenende": false,
+   "arbeitszeitTeilzeitAbend": false,
+   "arbeitszeitTeilzeitNachmittag": false,
+   "arbeitszeitTeilzeitVormittag": false,
+   "arbeitszeitTeilzeitFlexibel": false,
+   "arbeitszeitVollzeit": true,
+   "eintrittszeitraum": {
+    "von": "2026-10-01"
+   },
+   "verguetungsangabe": "KEINE_ANGABEN",
+   "vertragsdauer": "KEINE_ANGABE",
+   "stellenlokationen": [
+    {
+     "adresse": {
+      "strasse": "Friedrich-Ebert-Str.",
+      "hausnummer": "61",
+      "plz": "04109",
+      "ort": "Leipzig",
+      "region": "SACHSEN",
+      "land": "DEUTSCHLAND"
+     },
+     "breite": 51.339141,
+     "laenge": 12.3618825
+    }
+   ],
+   "veroeffentlichungszeitraum": {
+    "von": "2026-01-28"
+   },
+   "datumErsteVeroeffentlichung": "2026-01-28",
+   "aenderungsdatum": "2026-08-19T10:33:33.293",
+   "studiengang": "Bachelor of Science - Allgemeine Informatik",
+   "firma": "WBS IT- Service GmbH",
+   "arbeitgeberKundennummerHash": "t-V2v4yPO0jfxCJu-3yNvFOOY4JuFCswwfXCRnYBN0k=",
+   "referenznummer": "10000-1205289025-S"
+  },
+  {
+   "stellenangebotsart": "AUSBILDUNG",
+   "ausbildungsart": "DUALES_STUDIUM",
+   "studienform": "PRAXISINTEGRIEREND",
+   "stellenangebotsTitel": "Duales Studium Informatik",
+   "arbeitszeitSchichtNachtWochenende": false,
+   "arbeitszeitTeilzeitAbend": false,
+   "arbeitszeitTeilzeitNachmittag": false,
+   "arbeitszeitTeilzeitVormittag": false,
+   "arbeitszeitTeilzeitFlexibel": false,
+   "arbeitszeitVollzeit": true,
+   "eintrittszeitraum": {
+    "von": "2027-09-01"
+   },
+   "verguetungsangabe": "KEINE_ANGABEN",
+   "vertragsdauer": "KEINE_ANGABE",
+   "stellenlokationen": [
+    {
+     "adresse": {
+      "strasse": "Fritz-Schäffer-Str.",
+      "hausnummer": "11-13",
+      "plz": "53113",
+      "ort": "Bonn",
+      "region": "NORDRHEIN_WESTFALEN",
+      "land": "DEUTSCHLAND"
+     },
+     "breite": 50.714784,
+     "laenge": 7.1262
+    }
+   ],
+   "veroeffentlichungszeitraum": {
+    "von": "2026-10-22"
+   },
+   "datumErsteVeroeffentlichung": "2026-10-22",
+   "aenderungsdatum": "2026-10-27T08:13:08.533",
+   "studiengang": "Bachelor of Science - Informatik",
+   "firma": "Xecuro GmbH",
+   "arbeitgeberKundennummerHash": "U5HfyDCbeCJSgTj3Xeo456LfH8RjYjgqHMs4Iw4942o=",
+   "referenznummer": "10000-1208381001-S"
+  },
+  {
+   "stellenangebotsart": "AUSBILDUNG",
+   "ausbildungsart": "DUALES_STUDIUM",
+   "studienform": "PRAXISINTEGRIEREND",
+   "stellenangebotsTitel": "Dualer Student Informatik (m/w/d)",
+   "quereinstiegGeeignet": false,
+   "arbeitszeitSchichtNachtWochenende": false,
+   "arbeitszeitTeilzeitAbend": false,
+   "arbeitszeitTeilzeitNachmittag": false,
+   "arbeitszeitTeilzeitVormittag": false,
+   "arbeitszeitTeilzeitFlexibel": false,
+   "arbeitszeitVollzeit": true,
+   "eintrittszeitraum": {
+    "von": "2026-10-28"
+   },
+   "verguetungsangabe": "KEINE_ANGABEN",
+   "vertragsdauer": "KEINE_ANGABE",
+   "istGeringfuegigeBeschaeftigung": false,
+   "stellenlokationen": [
+    {
+     "adresse": {
+      "plz": "27283",
+      "ort": "Verden (Aller)",
+      "region": "NIEDERSACHSEN",
+      "land": "DEUTSCHLAND"
+     },
+     "breite": 52.9370507,
+     "laenge": 9.2355796
+    }
+   ],
+   "homeofficemoeglich": false,
+   "veroeffentlichungszeitraum": {
+    "von": "2026-10-28"
+   },
+   "datumErsteVeroeffentlichung": "2026-10-28",
+   "aenderungsdatum": "2026-10-28T07:22:07.738",
+   "externeURL": "https://www.kalaydo.de/jobs/16420128/?utm_source=bundesagentur&utm_medium=unpaid-partner&utm_campaign=000",
+   "studiengang": "Bachelor of Arts - Informatik",
+   "firma": "Vereinigte Informationssysteme Tierhaltung w.V. (vit)",
+   "referenznummer": "12781-16420128-KAL-S"
+  },
+  {
+   "stellenangebotsart": "AUSBILDUNG",
+   "ausbildungsart": "DUALES_STUDIUM",
+   "studienform": "PRAXISINTEGRIEREND",
+   "stellenangebotsTitel": "Angewandte Informatik",
+   "quereinstiegGeeignet": false,
+   "arbeitszeitSchichtNachtWochenende": false,
+   "arbeitszeitTeilzeitAbend": false,
+   "arbeitszeitTeilzeitNachmittag": false,
+   "arbeitszeitTeilzeitVormittag": false,
+   "arbeitszeitTeilzeitFlexibel": false,
+   "arbeitszeitVollzeit": true,
+   "eintrittszeitraum": {
+    "von": "2026-10-17"
+   },
+   "verguetungsangabe": "KEINE_ANGABEN",
+   "vertragsdauer": "KEINE_ANGABE",
+   "istGeringfuegigeBeschaeftigung": false,
+   "stellenlokationen": [
+    {
+     "adresse": {
+      "strasse": "Am Hoppenhof 32 A",
+      "plz": "33104",
+      "ort": "Paderborn",
+      "region": "NORDRHEIN_WESTFALEN",
+      "land": "DEUTSCHLAND"
+     },
+     "breite": 51.731838,
+     "laenge": 8.7218145
+    }
+   ],
+   "homeofficemoeglich": false,
+   "chiffrenummer": "242289",
+   "veroeffentlichungszeitraum": {
+    "von": "2025-11-05"
+   },
+   "datumErsteVeroeffentlichung": "2025-11-05",
+   "aenderungsdatum": "2026-10-17T07:10:59.836",
+   "externeURL": "https://www.aubi-plus.de/duales-studium/net-at-work-gmbh-angewandte-informatik-paderborn-242289/?mtm_campaign=jobboard&mtm_source=Arbeitsagentur",
+   "studiengang": "Bachelor of Science - Angewandte Informatik",
+   "firma": "Net at Work GmbH",
+   "referenznummer": "13647-2026242289-S"
+  },
+  {
+   "stellenangebotsart": "AUSBILDUNG",
+   "ausbildungsart": "DUALES_STUDIUM",
+   "studienform": "PRAXISINTEGRIEREND",
+   "stellenangebotsTitel": "Duales Studium (m/w/d) - Informatik (2027)",
+   "quereinstiegGeeignet": false,
+   "arbeitszeitSchichtNachtWochenende": false,
+   "arbeitszeitTeilzeitAbend": false,
+   "arbeitszeitTeilzeitNachmittag": false,
+   "arbeitszeitTeilzeitVormittag": false,
+   "arbeitszeitTeilzeitFlexibel": false,
+   "arbeitszeitVollzeit": true,
+   "eintrittszeitraum": {
+    "von": "2026-11-02"
+   },
+   "verguetungsangabe": "KEINE_ANGABEN",
+   "vertragsdauer": "KEINE_ANGABE",
+   "istGeringfuegigeBeschaeftigung": false,
+   "stellenlokationen": [
+    {
+     "adresse": {
+      "plz": "95183",
+      "ort": "Töpen",
+      "region": "BAYERN",
+      "land": "DEUTSCHLAND"
+     },
+     "breite": 50.3907484,
+     "laenge": 11.8792726
+    }
+   ],
+   "homeofficemoeglich": false,
+   "veroeffentlichungszeitraum": {
+    "von": "2026-11-02"
+   },
+   "datumErsteVeroeffentlichung": "2026-11-02",
+   "aenderungsdatum": "2026-11-02T09:00:41.071",
+   "externeURL": "https://jobs4us.de/jobad/duales-studium-informatik-_j6vqqigvwy",
+   "studiengang": "Bachelor of Arts - Informatik",
+   "firma": "dennree GmbH",
+   "referenznummer": "14927-j6vqqigvwy-S"
+  },
+  {
+   "stellenangebotsart": "AUSBILDUNG",
+   "ausbildungsart": "DUALES_STUDIUM",
+   "studienform": "PRAXISINTEGRIEREND",
+   "stellenangebotsTitel": "Duales Studium Informatik (m/w/d)",
+   "arbeitszeitSchichtNachtWochenende": false,
+   "arbeitszeitTeilzeitAbend": false,
+   "arbeitszeitTeilzeitNachmittag": false,
+   "arbeitszeitTeilzeitVormittag": false,
+   "arbeitszeitTeilzeitFlexibel": false,
+   "arbeitszeitVollzeit": true,
+   "eintrittszeitraum": {
+    "von": "2027-09-01"
+   },
+   "verguetungsangabe": "KEINE_ANGABEN",
+   "vertragsdauer": "KEINE_ANGABE",
+   "stellenlokationen": [
+    {
+     "adresse": {
+      "strasse": "August-Bode-Str.",
+      "hausnummer": "1",
+      "plz": "34127",
+      "ort": "Kassel, Hessen",
+      "region": "HESSEN",
+      "land": "DEUTSCHLAND"
+     },
+     "breite": 51.322887,
+     "laenge": 9.4851225
+    }
+   ],
+   "veroeffentlichungszeitraum": {
+    "von": "2026-08-03"
+   },
+   "datumErsteVeroeffentlichung": "2026-08-03",
+   "aenderungsdatum": "2026-10-21T13:51:59.490",
+   "studiengang": "Bachelor of Science - Informatik",
+   "firma": "KNDS Deutschland GmbH & Co. KG",
+   "arbeitgeberKundennummerHash": "KwFrYE9TJ3hrK3sP9C5RMWmMjEc0rqpWXxRJ47snmZ0=",
+   "referenznummer": "10000-1207268699-S"
+  },
+  {
+   "stellenangebotsart": "AUSBILDUNG",
+   "ausbildungsart": "DUALES_STUDIUM",
+   "studienform": "PRAXISINTEGRIEREND",
+   "stellenangebotsTitel": "Bachelor of Science (B.Sc.), Informatik",
+   "arbeitszeitSchichtNachtWochenende": false,
+   "arbeitszeitTeilzeitAbend": false,
+   "arbeitszeitTeilzeitNachmittag": false,
+   "arbeitszeitTeilzeitVormittag": false,
+   "arbeitszeitTeilzeitFlexibel": false,
+   "arbeitszeitVollzeit": true,
+   "eintrittszeitraum": {
+    "von": "2027-10-01"
+   },
+   "verguetungsangabe": "KEINE_ANGABEN",
+   "vertragsdauer": "KEINE_ANGABE",
+   "stellenlokationen": [
+    {
+     "adresse": {
+      "strasse": "Adolf-Häfele-Str.",
+      "hausnummer": "1",
+      "plz": "72202",
+      "ort": "Nagold",
+      "region": "BADEN_WUERTTEMBERG",
+      "land": "DEUTSCHLAND"
+     },
+     "breite": 48.5478,
+     "laenge": 8.7171525
+    }
+   ],
+   "veroeffentlichungszeitraum": {
+    "von": "2026-10-30"
+   },
+   "datumErsteVeroeffentlichung": "2026-10-30",
+   "aenderungsdatum": "2026-10-30T13:47:39.495",
+   "studiengang": "Bachelor of Science - Allgemeine Informatik",
+   "firma": "Häfele SE & Co KG",
+   "arbeitgeberKundennummerHash": "pazA9DLU5rGrRJcofrmHVD8cD1xT007NH8X1JzMQQ38=",
+   "referenznummer": "10001-1003937336-S"
+  },
+  {
+   "stellenangebotsart": "AUSBILDUNG",
+   "ausbildungsart": "DUALES_STUDIUM",
+   "studienform": "PRAXISINTEGRIEREND",
+   "stellenangebotsTitel": "Duales Studium Technische Informatik",
+   "arbeitszeitSchichtNachtWochenende": false,
+   "arbeitszeitTeilzeitAbend": false,
+   "arbeitszeitTeilzeitNachmittag": false,
+   "arbeitszeitTeilzeitVormittag": false,
+   "arbeitszeitTeilzeitFlexibel": false,
+   "arbeitszeitVollzeit": true,
+   "eintrittszeitraum": {
+    "von": "2027-10-01"
+   },
+   "verguetungsangabe": "KEINE_ANGABEN",
+   "vertragsdauer": "KEINE_ANGABE",
+   "stellenlokationen": [
+    {
+     "adresse": {
+      "strasse": "Lange Str.",
+      "hausnummer": "6",
+      "plz": "99734",
+      "ort": "Nordhausen, Thüringen",
+      "region": "THUERINGEN",
+      "land": "DEUTSCHLAND"
+     },
+     "breite": 51.493176,
+     "laenge": 10.792098
+    }
+   ],
+   "veroeffentlichungszeitraum": {
+    "von": "2026-10-29"
+   },
+   "datumErsteVeroeffentlichung": "2026-10-29",
+   "aenderungsdatum": "2026-10-29T13:39:04.943",
+   "studiengang": "Bachelor of Engineering - Technische Informatik",
+   "firma": "Maximator GmbH",
+   "arbeitgeberKundennummerHash": "I7OTUM74sCv8f_RBxZj90wgt0UKu_miGOu8tAb7RDdE=",
+   "referenznummer": "10000-1208464609-S"
+  },
+  {
+   "stellenangebotsart": "AUSBILDUNG",
+   "ausbildungsart": "DUALES_STUDIUM",
+   "studienform": "PRAXISINTEGRIEREND",
+   "stellenangebotsTitel": "Duales Studium Informatik (m/w/d)",
+   "arbeitszeitSchichtNachtWochenende": false,
+   "arbeitszeitTeilzeitAbend": false,
+   "arbeitszeitTeilzeitNachmittag": false,
+   "arbeitszeitTeilzeitVormittag": false,
+   "arbeitszeitTeilzeitFlexibel": false,
+   "arbeitszeitVollzeit": true,
+   "eintrittszeitraum": {
+    "von": "2027-09-01"
+   },
+   "verguetungsangabe": "AUSBILDUNGSVERGUETUNG_NACH_JAHREN",
+   "ausbildungsverguetungJahr1": 1300,
+   "ausbildungsverguetungJahr2": 1400,
+   "ausbildungsverguetungJahr3": 1700,
+   "ausbildungsverguetungJahr4": 1700,
+   "vertragsdauer": "KEINE_ANGABE",
+   "stellenlokationen": [
+    {
+     "adresse": {
+      "strasse": "Aidenbachstr.",
+      "hausnummer": "40",
+      "plz": "81379",
+      "ort": "München",
+      "region": "BAYERN",
+      "land": "DEUTSCHLAND"
+     },
+     "breite": 48.098007,
+     "laenge": 11.5233165
+    }
+   ],
+   "homeofficemoeglich": true,
+   "homeofficetyp": "NACH_VEREINBARUNG",
+   "veroeffentlichungszeitraum": {
+    "von": "2026-10-08"
+   },
+   "datumErsteVeroeffentlichung": "2026-10-08",
+   "aenderungsdatum": "2026-10-13T15:03:06.892",
+   "studiengang": "Bachelor of Arts - Informatik",
+   "firma": "BRUNATA-METRONA GmbH & Co. KG",
+   "arbeitgeberKundennummerHash": "RNqm_4yboJIlkClMWp9l4eKCHqqtYTt47_BqJPnjC14=",
+   "referenznummer": "10001-1003827300-S"
+  },
+  {
+   "stellenangebotsart": "AUSBILDUNG",
+   "ausbildungsart": "DUALES_STUDIUM",
+   "studienform": "PRAXISINTEGRIEREND",
+   "stellenangebotsTitel": "Werkstudent/in in der Welt der Informatik (m/w/d)",
+   "arbeitszeitSchichtNachtWochenende": false,
+   "arbeitszeitTeilzeitAbend": false,
+   "arbeitszeitTeilzeitNachmittag": false,
+   "arbeitszeitTeilzeitVormittag": false,
+   "arbeitszeitTeilzeitFlexibel": false,
+   "arbeitszeitVollzeit": true,
+   "eintrittszeitraum": {
+    "von": "2026-10-22"
+   },
+   "verguetungsangabe": "KEINE_ANGABEN",
+   "vertragsdauer": "KEINE_ANGABE",
+   "stellenlokationen": [
+    {
+     "adresse": {
+      "strasse": "Lange Straße",
+      "hausnummer": "36",
+      "plz": "89537",
+      "ort": "Giengen an der Brenz",
+      "region": "BADEN_WUERTTEMBERG",
+      "land": "DEUTSCHLAND"
+     },
+     "breite": 48.621078,
+     "laenge": 10.2465945
+    },
+    {
+     "adresse": {
+      "strasse": "Lammstraße",
+      "hausnummer": "6",
+      "plz": "77933",
+      "ort": "Lahr, Schwarzwald",
+      "region": "BADEN_WUERTTEMBERG",
+      "land": "DEUTSCHLAND"
+     },
+     "breite": 48.341052,
+     "laenge": 7.871481
+    },
+    {
+     "adresse": {
+      "strasse": "Ob der Eck",
+      "hausnummer": "4",
+      "plz": "78148",
+      "ort": "Gütenbach",
+      "region": "BADEN_WUERTTEMBERG",
+      "land": "DEUTSCHLAND"
+     },
+     "breite": 48.041334,
+     "laenge": 8.1702225
+    }
+   ],
+   "homeofficemoeglich": false,
+   "veroeffentlichungszeitraum": {
+    "von": "2026-05-11"
+   },
+   "datumErsteVeroeffentlichung": "2026-05-11",
+   "aenderungsdatum": "2026-10-22T09:15:11.503",
+   "studiengang": "Bachelor of Science - Allgemeine Informatik",
+   "firma": "Netzint GmbH",
+   "arbeitgeberKundennummerHash": "-6CIE0nfKa-E_6JGJ6CqbOSmbsiOC3LFDC0nAymggcU=",
+   "referenznummer": "10001-1003057521-S"
+  },
+  {
+   "stellenangebotsart": "AUSBILDUNG",
+   "ausbildungsart": "DUALES_STUDIUM",
+   "studienform": "PRAXISINTEGRIEREND",
+   "stellenangebotsTitel": "Praxissemester in der Welt der Informatik (m/w/d)",
+   "arbeitszeitSchichtNachtWochenende": false,
+   "arbeitszeitTeilzeitAbend": false,
+   "arbeitszeitTeilzeitNachmittag": false,
+   "arbeitszeitTeilzeitVormittag": false,
+   "arbeitszeitTeilzeitFlexibel": false,
+   "arbeitszeitVollzeit": true,
+   "eintrittszeitraum": {
+    "von": "2026-10-22"
+   },
+   "verguetungsangabe": "KEINE_ANGABEN",
+   "vertragsdauer": "KEINE_ANGABE",
+   "stellenlokationen": [
+    {
+     "adresse": {
+      "strasse": "Lange Straße",
+      "hausnummer": "36",
+      "plz": "89537",
+      "ort": "Giengen an der Brenz",
+      "region": "BADEN_WUERTTEMBERG",
+      "land": "DEUTSCHLAND"
+     },
+     "breite": 48.621078,
+     "laenge": 10.2465945
+    },
+    {
+     "adresse": {
+      "strasse": "Ob der Eck",
+      "hausnummer": "4",
+      "plz": "78148",
+      "ort": "Gütenbach",
+      "region": "BADEN_WUERTTEMBERG",
+      "land": "DEUTSCHLAND"
+     },
+     "breite": 48.041334,
+     "laenge": 8.1702225
+    },
+    {
+     "adresse": {
+      "strasse": "Lammstraße",
+      "hausnummer": "6",
+      "plz": "77933",
+      "ort": "Lahr, Schwarzwald",
+      "region": "BADEN_WUERTTEMBERG",
+      "land": "DEUTSCHLAND"
+     },
+     "breite": 48.341052,
+     "laenge": 7.871481
+    }
+   ],
+   "homeofficemoeglich": false,
+   "veroeffentlichungszeitraum": {
+    "von": "2026-05-11"
+   },
+   "datumErsteVeroeffentlichung": "2026-05-11",
+   "aenderungsdatum": "2026-10-22T09:14:56.962",
+   "studiengang": "Bachelor of Science - Allgemeine Informatik",
+   "firma": "Netzint GmbH",
+   "arbeitgeberKundennummerHash": "-6CIE0nfKa-E_6JGJ6CqbOSmbsiOC3LFDC0nAymggcU=",
+   "referenznummer": "10001-1003057132-S"
+  },
+  {
+   "stellenangebotsart": "AUSBILDUNG",
+   "ausbildungsart": "DUALES_STUDIUM",
+   "studienform": "PRAXISINTEGRIEREND",
+   "stellenangebotsTitel": "BA-Studium technische Informatik (m/w/d)",
+   "arbeitszeitSchichtNachtWochenende": false,
+   "arbeitszeitTeilzeitAbend": false,
+   "arbeitszeitTeilzeitNachmittag": false,
+   "arbeitszeitTeilzeitVormittag": false,
+   "arbeitszeitTeilzeitFlexibel": false,
+   "arbeitszeitVollzeit": true,
+   "eintrittszeitraum": {
+    "von": "2026-10-01"
+   },
+   "verguetungsangabe": "KEINE_ANGABEN",
+   "vertragsdauer": "KEINE_ANGABE",
+   "stellenlokationen": [
+    {
+     "adresse": {
+      "strasse": "Friedrich-Ebert-Str.",
+      "hausnummer": "61",
+      "plz": "04109",
+      "ort": "Leipzig",
+      "region": "SACHSEN",
+      "land": "DEUTSCHLAND"
+     },
+     "breite": 51.339141,
+     "laenge": 12.3618825
+    }
+   ],
+   "veroeffentlichungszeitraum": {
+    "von": "2026-01-28"
+   },
+   "datumErsteVeroeffentlichung": "2026-01-28",
+   "aenderungsdatum": "2026-08-19T10:33:33.041",
+   "studiengang": "Bachelor of Engineering - Technische Informatik",
+   "firma": "WBS IT- Service GmbH",
+   "arbeitgeberKundennummerHash": "t-V2v4yPO0jfxCJu-3yNvFOOY4JuFCswwfXCRnYBN0k=",
+   "referenznummer": "10000-1205288979-S"
+  },
+  {
+   "stellenangebotsart": "AUSBILDUNG",
+   "ausbildungsart": "DUALES_STUDIUM",
+   "studienform": "AUSBILDUNGSINTEGRIEREND",
+   "stellenangebotsTitel": "Dualer Bachelor in Informatik (m/w/d)",
+   "arbeitszeitSchichtNachtWochenende": false,
+   "arbeitszeitTeilzeitAbend": false,
+   "arbeitszeitTeilzeitNachmittag": false,
+   "arbeitszeitTeilzeitVormittag": false,
+   "arbeitszeitTeilzeitFlexibel": false,
+   "arbeitszeitVollzeit": true,
+   "eintrittszeitraum": {
+    "von": "2027-08-01"
+   },
+   "verguetungsangabe": "KEINE_ANGABEN",
+   "vertragsdauer": "KEINE_ANGABE",
+   "stellenlokationen": [
+    {
+     "adresse": {
+      "strasse": "Hansestr.",
+      "hausnummer": "6",
+      "plz": "48165",
+      "ort": "Münster, Westfalen",
+      "region": "NORDRHEIN_WESTFALEN",
+      "land": "DEUTSCHLAND"
+     },
+     "breite": 51.893199,
+     "laenge": 7.62408
+    }
+   ],
+   "veroeffentlichungszeitraum": {
+    "von": "2026-08-19"
+   },
+   "datumErsteVeroeffentlichung": "2026-08-19",
+   "aenderungsdatum": "2026-08-19T10:34:20.319",
+   "hauptberuf": "Fachinformatiker/in - Systemintegration",
+   "studiengang": "Bachelor of Arts - Informatik",
+   "firma": "WHEELS Logistics GmbH & Co. KG",
+   "arbeitgeberKundennummerHash": "UURXgsw2DXGz7uySWhpJn24B779_8oy8R5Vhw8uTD7A=",
+   "referenznummer": "10000-1207586943-S",
+   "alleBerufe": [
+    "Fachinformatiker/in - Systemintegration"
+   ]
+  },
+  {
+   "stellenangebotsart": "AUSBILDUNG",
+   "ausbildungsart": "DUALES_STUDIUM",
+   "studienform": "PRAXISINTEGRIEREND",
+   "stellenangebotsTitel": "Studium Plus Informatik (m/w/d)",
+   "quereinstiegGeeignet": false,
+   "arbeitszeitSchichtNachtWochenende": false,
+   "arbeitszeitTeilzeitAbend": false,
+   "arbeitszeitTeilzeitNachmittag": false,
+   "arbeitszeitTeilzeitVormittag": false,
+   "arbeitszeitTeilzeitFlexibel": false,
+   "arbeitszeitVollzeit": true,
+   "eintrittszeitraum": {
+    "von": "2027-09-01"
+   },
+   "verguetungsangabe": "KEINE_ANGABEN",
+   "vertragsdauer": "KEINE_ANGABE",
+   "istGeringfuegigeBeschaeftigung": false,
+   "stellenlokationen": [
+    {
+     "adresse": {
+      "strasse": "Bregstraße 1",
+      "plz": "78120",
+      "ort": "Furtwangen im Schwarzwald",
+      "region": "BADEN_WUERTTEMBERG",
+      "land": "DEUTSCHLAND"
+     },
+     "breite": 48.049056,
+     "laenge": 8.2028925
+    }
+   ],
+   "homeofficemoeglich": false,
+   "chiffrenummer": "424007",
+   "veroeffentlichungszeitraum": {
+    "von": "2026-02-07"
+   },
+   "datumErsteVeroeffentlichung": "2026-02-07",
+   "aenderungsdatum": "2026-10-14T10:04:57.663",
+   "externeURL": "https://www.aubi-plus.de/duales-studium/s-siedle-soehne-telefon-und-telegrafenwerke-ohg-informatik-furtwangen-im-schwarzwald-424007/?mtm_campaign=jobboard&mtm_source=Arbeitsagentur",
+   "studiengang": "Bachelor of Science - Informatik",
+   "firma": "S. Siedle & Söhne Telefon- und Telegrafenwerke OHG",
+   "referenznummer": "13647-2027424007-S"
+  },
+  {
+   "stellenangebotsart": "AUSBILDUNG",
+   "ausbildungsart": "DUALES_STUDIUM",
+   "studienform": "PRAXISINTEGRIEREND",
+   "stellenangebotsTitel": "Dualer Student Informatik (m/w/d) 2027",
+   "arbeitszeitSchichtNachtWochenende": false,
+   "arbeitszeitTeilzeitAbend": false,
+   "arbeitszeitTeilzeitNachmittag": false,
+   "arbeitszeitTeilzeitVormittag": false,
+   "arbeitszeitTeilzeitFlexibel": false,
+   "arbeitszeitVollzeit": true,
+   "eintrittszeitraum": {
+    "von": "2027-09-01"
+   },
+   "verguetungsangabe": "KEINE_ANGABEN",
+   "vertragsdauer": "KEINE_ANGABE",
+   "stellenlokationen": [
+    {
+     "adresse": {
+      "strasse": "Miesbacher Str.",
+      "hausnummer": "5",
+      "plz": "83626",
+      "ort": "Valley, Oberbayern",
+      "ortsteil": "Oberlaindern",
+      "region": "BAYERN",
+      "land": "DEUTSCHLAND"
+     },
+     "breite": 47.87604,
+     "laenge": 11.741301
+    }
+   ],
+   "veroeffentlichungszeitraum": {
+    "von": "2026-10-14"
+   },
+   "datumErsteVeroeffentlichung": "2026-10-14",
+   "aenderungsdatum": "2026-10-14T17:48:49.476",
+   "studiengang": "Bachelor of Science - Informatik",
+   "firma": "Avery Zweckform GmbH",
+   "arbeitgeberKundennummerHash": "85WXy4bkwV2JvuwgkXVRg25nUVEUNbkNVtvYxmqOfsQ=",
+   "referenznummer": "10000-1208293228-S"
+  },
+  {
+   "stellenangebotsart": "AUSBILDUNG",
+   "ausbildungsart": "DUALES_STUDIUM",
+   "studienform": "PRAXISINTEGRIEREND",
+   "stellenangebotsTitel": "Duales Studium Informatik (m/w/d)",
+   "quereinstiegGeeignet": false,
+   "arbeitszeitSchichtNachtWochenende": false,
+   "arbeitszeitTeilzeitAbend": false,
+   "arbeitszeitTeilzeitNachmittag": false,
+   "arbeitszeitTeilzeitVormittag": false,
+   "arbeitszeitTeilzeitFlexibel": false,
+   "arbeitszeitVollzeit": true,
+   "eintrittszeitraum": {
+    "von": "2026-10-22"
+   },
+   "verguetungsangabe": "KEINE_ANGABEN",
+   "vertragsdauer": "KEINE_ANGABE",
+   "istGeringfuegigeBeschaeftigung": false,
+   "stellenlokationen": [
+    {
+     "adresse": {
+      "strasse": "Industriepark Höchst",
+      "plz": "65929",
+      "ort": "Frankfurt am Main",
+      "region": "HESSEN",
+      "land": "DEUTSCHLAND"
+     },
+     "breite": 50.1056835,
+     "laenge": 8.5339684
+    }
+   ],
+   "homeofficemoeglich": false,
+   "veroeffentlichungszeitraum": {
+    "von": "2026-10-22"
+   },
+   "datumErsteVeroeffentlichung": "2026-02-27",
+   "aenderungsdatum": "2026-10-22T08:02:41.703",
+   "externeURL": "https://www.ausbildung.de/sv-url/d8eb0dc9-5e60-455f-bd08-5a8c1930ddae/?utm_campaign=kooperation&utm_medium=jobfeed&utm_source=bundesagentur",
+   "studiengang": "Bachelor of Arts - Informatik",
+   "firma": "Provadis School of International Management and Technology AG",
+   "referenznummer": "14756-f004f6ca464f4dcc-S"
+  },
+  {
+   "stellenangebotsart": "AUSBILDUNG",
+   "ausbildungsart": "DUALES_STUDIUM",
+   "studienform": "PRAXISINTEGRIEREND",
+   "stellenangebotsTitel": "Ingenieur­informatik",
+   "arbeitszeitSchichtNachtWochenende": false,
+   "arbeitszeitTeilzeitAbend": false,
+   "arbeitszeitTeilzeitNachmittag": false,
+   "arbeitszeitTeilzeitVormittag": false,
+   "arbeitszeitTeilzeitFlexibel": false,
+   "arbeitszeitVollzeit": true,
+   "eintrittszeitraum": {
+    "von": "2027-08-01"
+   },
+   "verguetungsangabe": "KEINE_ANGABEN",
+   "vertragsdauer": "KEINE_ANGABE",
+   "stellenlokationen": [
+    {
+     "adresse": {
+      "strasse": "Berliner Ring",
+      "hausnummer": "2",
+      "plz": "38440",
+      "ort": "Wolfsburg",
+      "region": "NIEDERSACHSEN",
+      "land": "DEUTSCHLAND"
+     },
+     "breite": 52.435188,
+     "laenge": 10.7954145
+    }
+   ],
+   "veroeffentlichungszeitraum": {
+    "von": "2026-08-03"
+   },
+   "datumErsteVeroeffentlichung": "2026-08-03",
+   "aenderungsdatum": "2026-08-03T13:49:04.993",
+   "studiengang": "Bachelor of Engineering - Ingenieurinformatik",
+   "firma": "Volkswagen AG 11001101",
+   "arbeitgeberKundennummerHash": "xk1utbcstA3h7atNY9h2qlAdiv2RD8MMNy_ySlaie6M=",
+   "referenznummer": "10000-1207407241-S"
+  },
+  {
+   "stellenangebotsart": "AUSBILDUNG",
+   "ausbildungsart": "DUALES_STUDIUM",
+   "studienform": "PRAXISINTEGRIEREND",
+   "stellenangebotsTitel": "Wirtschafts­informatik",
+   "arbeitszeitSchichtNachtWochenende": false,
+   "arbeitszeitTeilzeitAbend": false,
+   "arbeitszeitTeilzeitNachmittag": false,
+   "arbeitszeitTeilzeitVormittag": false,
+   "arbeitszeitTeilzeitFlexibel": false,
+   "arbeitszeitVollzeit": true,
+   "eintrittszeitraum": {
+    "von": "2027-08-01"
+   },
+   "verguetungsangabe": "KEINE_ANGABEN",
+   "vertragsdauer": "KEINE_ANGABE",
+   "stellenlokationen": [
+    {
+     "adresse": {
+      "strasse": "Berliner Ring",
+      "hausnummer": "2",
+      "plz": "38440",
+      "ort": "Wolfsburg",
+      "region": "NIEDERSACHSEN",
+      "land": "DEUTSCHLAND"
+     },
+     "breite": 52.435188,
+     "laenge": 10.7954145
+    }
+   ],
+   "veroeffentlichungszeitraum": {
+    "von": "2026-08-03"
+   },
+   "datumErsteVeroeffentlichung": "2026-08-03",
+   "aenderungsdatum": "2026-08-03T14:28:39.949",
+   "studiengang": "Bachelor of Science - Wirtschaftsinformatik",
+   "firma": "Volkswagen AG 11001101",
+   "arbeitgeberKundennummerHash": "xk1utbcstA3h7atNY9h2qlAdiv2RD8MMNy_ySlaie6M=",
+   "referenznummer": "10000-1207408714-S"
+  },
+  {
+   "stellenangebotsart": "AUSBILDUNG",
+   "ausbildungsart": "DUALES_STUDIUM",
+   "studienform": "PRAXISINTEGRIEREND",
+   "stellenangebotsTitel": "Dualer Student Informatik (m/w/d) 2027",
+   "arbeitszeitSchichtNachtWochenende": false,
+   "arbeitszeitTeilzeitAbend": false,
+   "arbeitszeitTeilzeitNachmittag": false,
+   "arbeitszeitTeilzeitVormittag": false,
+   "arbeitszeitTeilzeitFlexibel": false,
+   "arbeitszeitVollzeit": true,
+   "eintrittszeitraum": {
+    "von": "2027-10-01"
+   },
+   "verguetungsangabe": "KEINE_ANGABEN",
+   "vertragsdauer": "KEINE_ANGABE",
+   "stellenlokationen": [
+    {
+     "adresse": {
+      "plz": "72669",
+      "ort": "Unterensingen",
+      "region": "BADEN_WUERTTEMBERG",
+      "land": "DEUTSCHLAND"
+     },
+     "breite": 48.6593606,
+     "laenge": 9.3436815
+    }
+   ],
+   "chiffrenummer": "744000154069599",
+   "veroeffentlichungszeitraum": {
+    "von": "2026-10-08"
+   },
+   "datumErsteVeroeffentlichung": "2026-10-08",
+   "aenderungsdatum": "2026-10-08T11:10:47.411",
+   "studiengang": "Bachelor of Science - Informatik",
+   "firma": "Swarco Traffic System GmbH",
+   "arbeitgeberKundennummerHash": "A-2eRtlR8Bv99BA-KyroyaFU5KNcikJwlqhRx_9iJJc=",
+   "referenznummer": "10000-1208215745-S"
+  },
+  {
+   "stellenangebotsart": "AUSBILDUNG",
+   "ausbildungsart": "DUALES_STUDIUM",
+   "studienform": "PRAXISINTEGRIEREND",
+   "stellenangebotsTitel": "Duales Studium Informatik mit der Vertiefung Technische Informatik",
+   "arbeitszeitSchichtNachtWochenende": false,
+   "arbeitszeitTeilzeitAbend": false,
+   "arbeitszeitTeilzeitNachmittag": false,
+   "arbeitszeitTeilzeitVormittag": false,
+   "arbeitszeitTeilzeitFlexibel": false,
+   "arbeitszeitVollzeit": true,
+   "eintrittszeitraum": {
+    "von": "2027-08-01"
+   },
+   "verguetungsangabe": "KEINE_ANGABEN",
+   "vertragsdauer": "KEINE_ANGABE",
+   "stellenlokationen": [
+    {
+     "adresse": {
+      "strasse": "Campusallee",
+      "hausnummer": "12",
+      "plz": "32657",
+      "ort": "Lemgo",
+      "region": "NORDRHEIN_WESTFALEN",
+      "land": "DEUTSCHLAND"
+     },
+     "breite": 52.017057,
+     "laenge": 8.905977
+    }
+   ],
+   "veroeffentlichungszeitraum": {
+    "von": "2026-10-30"
+   },
+   "datumErsteVeroeffentlichung": "2026-10-30",
+   "aenderungsdatum": "2026-10-28T15:29:38.200",
+   "studiengang": "Bachelor of Arts - Informatik",
+   "firma": "Technische Hochschule Ostwestfalen-Lippe",
+   "arbeitgeberKundennummerHash": "XGmXpC_lDg8TgmYpdTi8nleFMQC2oH6nLL9c1DFu1ys=",
+   "referenznummer": "10001-1003927187-S"
+  },
+  {
+   "stellenangebotsart": "AUSBILDUNG",
+   "ausbildungsart": "DUALES_STUDIUM",
+   "studienform": "PRAXISINTEGRIEREND",
+   "stellenangebotsTitel": "Duales Studium Informatik 2027",
+   "quereinstiegGeeignet": false,
+   "arbeitszeitSchichtNachtWochenende": false,
+   "arbeitszeitTeilzeitAbend": false,
+   "arbeitszeitTeilzeitNachmittag": false,
+   "arbeitszeitTeilzeitVormittag": false,
+   "arbeitszeitTeilzeitFlexibel": false,
+   "arbeitszeitVollzeit": true,
+   "eintrittszeitraum": {
+    "von": "2027-10-01"
+   },
+   "verguetungsangabe": "KEINE_ANGABEN",
+   "vertragsdauer": "KEINE_ANGABE",
+   "istGeringfuegigeBeschaeftigung": false,
+   "stellenlokationen": [
+    {
+     "adresse": {
+      "strasse": "Kokenhorststraße 12",
+      "plz": "30938",
+      "ort": "Burgwedel",
+      "region": "NIEDERSACHSEN",
+      "land": "DEUTSCHLAND"
+     },
+     "breite": 52.487811,
+     "laenge": 9.842706
+    }
+   ],
+   "homeofficemoeglich": false,
+   "veroeffentlichungszeitraum": {
+    "von": "2026-10-20"
+   },
+   "datumErsteVeroeffentlichung": "2026-10-20",
+   "aenderungsdatum": "2026-10-21T15:00:50.229",
+   "studiengang": "Bachelor of Science - Informatik (Softwaretechnik)",
+   "firma": "KIND GmbH & Co. KG",
+   "arbeitgeberKundennummerHash": "1olhmLDkr5pOetBGpCGCzqiRqOWiwumb5rYEQOH_KKs=",
+   "referenznummer": "16856-0068226026-S"
+  },
+  {
+   "stellenangebotsart": "AUSBILDUNG",
+   "ausbildungsart": "DUALES_STUDIUM",
+   "studienform": "PRAXISINTEGRIEREND",
+   "stellenangebotsTitel": "Duales Studium INFORMATIK 2027",
+   "arbeitszeitSchichtNachtWochenende": false,
+   "arbeitszeitTeilzeitAbend": false,
+   "arbeitszeitTeilzeitNachmittag": false,
+   "arbeitszeitTeilzeitVormittag": false,
+   "arbeitszeitTeilzeitFlexibel": false,
+   "arbeitszeitVollzeit": true,
+   "eintrittszeitraum": {
+    "von": "2027-08-01"
+   },
+   "verguetungsangabe": "KEINE_ANGABEN",
+   "vertragsdauer": "KEINE_ANGABE",
+   "stellenlokationen": [
+    {
+     "adresse": {
+      "strasse": "Heinrich-Schröder-Weg",
+      "hausnummer": "1",
+      "plz": "27283",
+      "ort": "Verden (Aller)",
+      "region": "NIEDERSACHSEN",
+      "land": "DEUTSCHLAND"
+     },
+     "breite": 52.929819,
+     "laenge": 9.2664675
+    }
+   ],
+   "veroeffentlichungszeitraum": {
+    "von": "2026-10-19"
+   },
+   "datumErsteVeroeffentlichung": "2026-10-19",
+   "aenderungsdatum": "2026-10-19T08:56:05.410",
+   "studiengang": "Bachelor of Science - Allgemeine Informatik",
+   "firma": "VIT w.V.",
+   "arbeitgeberKundennummerHash": "Te8vxuOKPIxLl7VMuL0KSVjshBnNBeJW2R7j2itG7b8=",
+   "referenznummer": "10000-1208328522-S"
+  },
+  {
+   "stellenangebotsart": "AUSBILDUNG",
+   "ausbildungsart": "DUALES_STUDIUM",
+   "studienform": "PRAXISINTEGRIEREND",
+   "stellenangebotsTitel": "Bachelor of Science Informatik",
+   "arbeitszeitSchichtNachtWochenende": false,
+   "arbeitszeitTeilzeitAbend": false,
+   "arbeitszeitTeilzeitNachmittag": false,
+   "arbeitszeitTeilzeitVormittag": false,
+   "arbeitszeitTeilzeitFlexibel": false,
+   "arbeitszeitVollzeit": true,
+   "eintrittszeitraum": {
+    "von": "2027-09-01"
+   },
+   "verguetungsangabe": "AUSBILDUNGSVERGUETUNG_NACH_JAHREN",
+   "ausbildungsverguetungJahr1": 1574,
+   "ausbildungsverguetungJahr2": 1701,
+   "ausbildungsverguetungJahr3": 1786,
+   "vertragsdauer": "KEINE_ANGABE",
+   "stellenlokationen": [
+    {
+     "adresse": {
+      "strasse": "Blanc-und-Fischer-Platz",
+      "hausnummer": "1-3",
+      "plz": "75038",
+      "ort": "Oberderdingen",
+      "region": "BADEN_WUERTTEMBERG",
+      "land": "DEUTSCHLAND"
+     },
+     "breite": 49.068081,
+     "laenge": 8.8028235
+    }
+   ],
+   "veroeffentlichungszeitraum": {
+    "von": "2026-07-30"
+   },
+   "datumErsteVeroeffentlichung": "2026-07-30",
+   "aenderungsdatum": "2026-08-05T14:37:02.732",
+   "studiengang": "Bachelor of Arts - Informatik",
+   "firma": "Blanc und Fischer IT Service GmbH",
+   "arbeitgeberKundennummerHash": "MX0eGkvs9c2JjyudqNaOAmC77JO0O2c3CVxzsMc47tU=",
+   "referenznummer": "10001-1003471467-S"
+  },
+  {
+   "stellenangebotsart": "AUSBILDUNG",
+   "ausbildungsart": "DUALES_STUDIUM",
+   "studienform": "PRAXISINTEGRIEREND",
+   "stellenangebotsTitel": "Duales Studium (DHBW) Informatik 2027",
+   "quereinstiegGeeignet": false,
+   "arbeitszeitSchichtNachtWochenende": false,
+   "arbeitszeitTeilzeitAbend": false,
+   "arbeitszeitTeilzeitNachmittag": false,
+   "arbeitszeitTeilzeitVormittag": false,
+   "arbeitszeitTeilzeitFlexibel": false,
+   "arbeitszeitVollzeit": true,
+   "eintrittszeitraum": {
+    "von": "2026-11-01"
+   },
+   "verguetungsangabe": "KEINE_ANGABEN",
+   "vertragsdauer": "KEINE_ANGABE",
+   "istGeringfuegigeBeschaeftigung": false,
+   "stellenlokationen": [
+    {
+     "adresse": {
+      "plz": "73728",
+      "ort": "Esslingen am Neckar",
+      "region": "BADEN_WUERTTEMBERG",
+      "land": "DEUTSCHLAND"
+     },
+     "breite": 48.7409388,
+     "laenge": 9.3105826
+    }
+   ],
+   "homeofficemoeglich": false,
+   "veroeffentlichungszeitraum": {
+    "von": "2026-11-01"
+   },
+   "datumErsteVeroeffentlichung": "2026-11-01",
+   "aenderungsdatum": "2026-11-01T13:03:54.721",
+   "externeURL": "https://jobs4us.de/jobad/duales-studium-informatik-2027_ikzircsmmi",
+   "studiengang": "Bachelor of Arts - Informatik",
+   "firma": "Eberspächer Gruppe GmbH & Co. KG",
+   "referenznummer": "14927-ikzircsmmi-S"
+  },
+  {
+   "stellenangebotsart": "AUSBILDUNG",
+   "ausbildungsart": "DUALES_STUDIUM",
+   "studienform": "AUSBILDUNGSINTEGRIEREND",
+   "stellenangebotsTitel": "Bachelor Informatik (m/w/d) - REF2096S",
+   "quereinstiegGeeignet": false,
+   "arbeitszeitSchichtNachtWochenende": false,
+   "arbeitszeitTeilzeitAbend": false,
+   "arbeitszeitTeilzeitNachmittag": false,
+   "arbeitszeitTeilzeitVormittag": false,
+   "arbeitszeitTeilzeitFlexibel": false,
+   "arbeitszeitVollzeit": true,
+   "eintrittszeitraum": {
+    "von": "2026-09-08"
+   },
+   "verguetungsangabe": "KEINE_ANGABEN",
+   "vertragsdauer": "KEINE_ANGABE",
+   "istGeringfuegigeBeschaeftigung": false,
+   "stellenlokationen": [
+    {
+     "adresse": {
+      "strasse": "Heinrich-Hertz-Straße",
+      "hausnummer": "45",
+      "adresszusatz": "Heinrich-Hertz-Straße 45",
+      "plz": "78052",
+      "ort": "Villingen-Schwenningen",
+      "region": "BADEN_WUERTTEMBERG",
+      "land": "DEUTSCHLAND"
+     },
+     "breite": 48.087081,
+     "laenge": 8.4501135
+    }
+   ],
+   "chiffrenummer": "REF2096S",
+   "veroeffentlichungszeitraum": {
+    "von": "2026-03-03"
+   },
+   "datumErsteVeroeffentlichung": "2026-03-03",
+   "aenderungsdatum": "2026-10-05T16:33:59.403",
+   "hauptberuf": "Mathematisch-technische/r Softwareentwickler/in",
+   "studiengang": "Bachelor of Engineering - Informatik",
+   "firma": "AUMOVIO SE Haupverwaltung",
+   "arbeitgeberKundennummerHash": "NCdtcYoUMonfFUrN9mucBaFovT-I1VzNrQhs9oxXAZ4=",
+   "referenznummer": "19801-930518176-S",
+   "alleBerufe": [
+    "Mathematisch-technische/r Softwareentwickler/in"
+   ]
+  },
+  {
+   "stellenangebotsart": "AUSBILDUNG",
+   "ausbildungsart": "DUALES_STUDIUM",
+   "studienform": "PRAXISINTEGRIEREND",
+   "stellenangebotsTitel": "Informatik - Duales Studium 2027",
+   "arbeitszeitVollzeit": true,
+   "eintrittszeitraum": {
+    "von": "2027-09-01"
+   },
+   "verguetungsangabe": "KEINE_ANGABEN",
+   "vertragsdauer": "KEINE_ANGABE",
+   "stellenlokationen": [
+    {
+     "adresse": {
+      "strasse": "Wilhelm-Stolte-Str.",
+      "hausnummer": "90",
+      "plz": "17235",
+      "ort": "Neustrelitz",
+      "region": "MECKLENBURG_VORPOMMERN",
+      "land": "DEUTSCHLAND"
+     },
+     "breite": 53.335602,
+     "laenge": 13.0903695
+    }
+   ],
+   "veroeffentlichungszeitraum": {
+    "von": "2026-09-24"
+   },
+   "datumErsteVeroeffentlichung": "2026-09-24",
+   "aenderungsdatum": "2026-09-24T08:47:26.745",
+   "studiengang": "Bachelor of Arts - Informatik",
+   "firma": "Stadtwerke Neustrelitz GmbH",
+   "arbeitgeberKundennummerHash": "j7fbW8TLdfLcQ_EX6DQmLEy4_WoqqZ5W0GKJ0uOqO3E=",
+   "referenznummer": "10001-1003754697-S"
+  },
+  {
+   "stellenangebotsart": "AUSBILDUNG",
+   "ausbildungsart": "DUALES_STUDIUM",
+   "studienform": "PRAXISINTEGRIEREND",
+   "stellenangebotsTitel": "Duales Studium Informatik 2027",
+   "arbeitszeitVollzeit": true,
+   "eintrittszeitraum": {
+    "von": "2027-10-01"
+   },
+   "verguetungsangabe": "KEINE_ANGABEN",
+   "vertragsdauer": "KEINE_ANGABE",
+   "stellenlokationen": [
+    {
+     "adresse": {
+      "strasse": "Klaus-Gutsch-Str.",
+      "hausnummer": "7",
+      "plz": "78628",
+      "ort": "Rottweil",
+      "region": "BADEN_WUERTTEMBERG",
+      "land": "DEUTSCHLAND"
+     },
+     "breite": 48.14865,
+     "laenge": 8.6434965
+    }
+   ],
+   "veroeffentlichungszeitraum": {
+    "von": "2026-07-10"
+   },
+   "datumErsteVeroeffentlichung": "2026-06-25",
+   "aenderungsdatum": "2026-07-10T08:09:15.388",
+   "studiengang": "Bachelor of Science - Informatik",
+   "firma": "MRS Electronic GmbH & Co. KG",
+   "arbeitgeberKundennummerHash": "n7dJHeLJEG9gg9-ErTRa8lW9iNMN6pGkFT9adxbpvy0=",
+   "referenznummer": "10001-1003284659-S"
+  },
+  {
+   "stellenangebotsart": "AUSBILDUNG",
+   "ausbildungsart": "DUALES_STUDIUM",
+   "studienform": "PRAXISINTEGRIEREND",
+   "stellenangebotsTitel": "Duales Studium Informatik 2027",
+   "arbeitszeitSchichtNachtWochenende": false,
+   "arbeitszeitTeilzeitAbend": false,
+   "arbeitszeitTeilzeitNachmittag": false,
+   "arbeitszeitTeilzeitVormittag": false,
+   "arbeitszeitTeilzeitFlexibel": false,
+   "arbeitszeitVollzeit": true,
+   "eintrittszeitraum": {
+    "von": "2027-09-01"
+   },
+   "verguetungsangabe": "AUSBILDUNGSVERGUETUNG_NACH_JAHREN",
+   "ausbildungsverguetungJahr1": 1368,
+   "ausbildungsverguetungJahr2": 1418,
+   "ausbildungsverguetungJahr3": 1464,
+   "vertragsdauer": "KEINE_ANGABE",
+   "stellenlokationen": [
+    {
+     "adresse": {
+      "strasse": "Hahn-Meitner-Platz",
+      "hausnummer": "1",
+      "plz": "14109",
+      "ort": "Berlin",
+      "region": "BERLIN",
+      "land": "DEUTSCHLAND"
+     },
+     "breite": 52.411185,
+     "laenge": 13.1297715
+    }
+   ],
+   "chiffrenummer": "IT 2026/8",
+   "veroeffentlichungszeitraum": {
+    "von": "2026-10-20"
+   },
+   "datumErsteVeroeffentlichung": "2026-09-25",
+   "aenderungsdatum": "2026-10-20T16:22:02.958",
+   "studiengang": "Bachelor of Science - Informatik",
+   "firma": "Helmholtz-Zentrum Berlin für Materialien und Energie GmbH",
+   "arbeitgeberKundennummerHash": "ZBL48usqCgrdJjLcnSEU47Z6pWnRcNmdlrpvXkdtw4c=",
+   "referenznummer": "10001-1003762309-S"
+  },
+  {
+   "stellenangebotsart": "AUSBILDUNG",
+   "ausbildungsart": "DUALES_STUDIUM",
+   "studienform": "PRAXISINTEGRIEREND",
+   "stellenangebotsTitel": "DH-Studium 2027 Informatik (m/w/d)",
+   "arbeitszeitSchichtNachtWochenende": false,
+   "arbeitszeitTeilzeitAbend": false,
+   "arbeitszeitTeilzeitNachmittag": false,
+   "arbeitszeitTeilzeitVormittag": false,
+   "arbeitszeitTeilzeitFlexibel": false,
+   "arbeitszeitVollzeit": true,
+   "eintrittszeitraum": {
+    "von": "2027-10-01"
+   },
+   "verguetungsangabe": "KEINE_ANGABEN",
+   "vertragsdauer": "KEINE_ANGABE",
+   "stellenlokationen": [
+    {
+     "adresse": {
+      "strasse": "Victor-Gollancz-Str.",
+      "hausnummer": "3",
+      "plz": "76137",
+      "ort": "Karlsruhe, Baden",
+      "region": "BADEN_WUERTTEMBERG",
+      "land": "DEUTSCHLAND"
+     },
+     "breite": 48.9932387,
+     "laenge": 8.3975322
+    }
+   ],
+   "veroeffentlichungszeitraum": {
+    "von": "2026-09-01"
+   },
+   "datumErsteVeroeffentlichung": "2026-09-01",
+   "aenderungsdatum": "2026-09-01T16:15:25.962",
+   "studiengang": "Bachelor of Science - Informatik",
+   "firma": "Bee360 GmbH",
+   "arbeitgeberKundennummerHash": "o8DIPs2cW41NOtN6er5YWlF2HNIyUzyLWrlZ0wFaQd8=",
+   "referenznummer": "10001-1003634616-S"
+  },
+  {
+   "stellenangebotsart": "AUSBILDUNG",
+   "ausbildungsart": "DUALES_STUDIUM",
+   "studienform": "PRAXISINTEGRIEREND",
+   "stellenangebotsTitel": "Duales Studium \"Verwaltungsdigitalisierung und -informatik\"",
+   "arbeitszeitSchichtNachtWochenende": false,
+   "arbeitszeitTeilzeitAbend": false,
+   "arbeitszeitTeilzeitNachmittag": false,
+   "arbeitszeitTeilzeitVormittag": false,
+   "arbeitszeitTeilzeitFlexibel": false,
+   "arbeitszeitVollzeit": true,
+   "eintrittszeitraum": {
+    "von": "2027-09-01"
+   },
+   "verguetungsangabe": "AUSBILDUNGSVERGUETUNG_NACH_JAHREN",
+   "ausbildungsverguetungJahr1": 1550,
+   "ausbildungsverguetungJahr2": 1550,
+   "ausbildungsverguetungJahr3": 1550,
+   "ausbildungsverguetungJahr4": 1550,
+   "vertragsdauer": "KEINE_ANGABE",
+   "stellenlokationen": [
+    {
+     "adresse": {
+      "strasse": "Friedrich-Ebert-Str.",
+      "hausnummer": "42",
+      "plz": "38820",
+      "ort": "Halberstadt",
+      "region": "SACHSEN_ANHALT",
+      "land": "DEUTSCHLAND"
+     },
+     "breite": 51.8882059,
+     "laenge": 11.0577137
+    }
+   ],
+   "veroeffentlichungszeitraum": {
+    "von": "2026-08-28"
+   },
+   "datumErsteVeroeffentlichung": "2026-08-28",
+   "aenderungsdatum": "2026-08-28T10:55:49.350",
+   "studiengang": "Bachelor of Science - Informatik",
+   "firma": "Landkreis Harz",
+   "arbeitgeberKundennummerHash": "BrL3h16QDFeimLudZybjGDXBNkwXRkoH5ZndyhMlQDE=",
+   "referenznummer": "10001-1003615093-S"
+  },
+  {
+   "stellenangebotsart": "AUSBILDUNG",
+   "ausbildungsart": "DUALES_STUDIUM",
+   "studienform": "PRAXISINTEGRIEREND",
+   "stellenangebotsTitel": "Duales Studium - Informatik 2027",
+   "arbeitszeitSchichtNachtWochenende": false,
+   "arbeitszeitTeilzeitAbend": false,
+   "arbeitszeitTeilzeitNachmittag": false,
+   "arbeitszeitTeilzeitVormittag": false,
+   "arbeitszeitTeilzeitFlexibel": false,
+   "arbeitszeitVollzeit": true,
+   "eintrittszeitraum": {
+    "von": "2027-10-01"
+   },
+   "verguetungsangabe": "KEINE_ANGABEN",
+   "vertragsdauer": "KEINE_ANGABE",
+   "stellenlokationen": [
+    {
+     "adresse": {
+      "strasse": "Alpenstr.",
+      "hausnummer": "34",
+      "plz": "87700",
+      "ort": "Memmingen",
+      "region": "BAYERN",
+      "land": "DEUTSCHLAND"
+     },
+     "breite": 47.974131,
+     "laenge": 10.1895525
+    }
+   ],
+   "veroeffentlichungszeitraum": {
+    "von": "2026-05-12"
+   },
+   "datumErsteVeroeffentlichung": "2026-05-12",
+   "aenderungsdatum": "2026-09-02T16:08:20.278",
+   "studiengang": "Bachelor of Science - Informatik",
+   "firma": "Christ Akademie Aus- und Weiterbildungs-GmbH",
+   "arbeitgeberKundennummerHash": "V_pxkAxNHQYxTuN8lOo5dFi7T4XmvSWDFjYVhr3Waws=",
+   "referenznummer": "10000-1206494133-S"
+  },
+  {
+   "stellenangebotsart": "AUSBILDUNG",
+   "ausbildungsart": "DUALES_STUDIUM",
+   "studienform": "PRAXISINTEGRIEREND",
+   "stellenangebotsTitel": "Duales Studium 2027 Informatik",
+   "arbeitszeitSchichtNachtWochenende": false,
+   "arbeitszeitTeilzeitAbend": false,
+   "arbeitszeitTeilzeitNachmittag": false,
+   "arbeitszeitTeilzeitVormittag": false,
+   "arbeitszeitTeilzeitFlexibel": false,
+   "arbeitszeitVollzeit": true,
+   "eintrittszeitraum": {
+    "von": "2027-10-01"
+   },
+   "verguetungsangabe": "KEINE_ANGABEN",
+   "vertragsdauer": "KEINE_ANGABE",
+   "stellenlokationen": [
+    {
+     "adresse": {
+      "strasse": "Schwerborner Str.",
+      "hausnummer": "30",
+      "plz": "99087",
+      "ort": "Erfurt",
+      "ortsteil": "Hohenwinden",
+      "region": "THUERINGEN",
+      "land": "DEUTSCHLAND"
+     },
+     "breite": 51.015267,
+     "laenge": 11.03913
+    }
+   ],
+   "veroeffentlichungszeitraum": {
+    "von": "2026-09-09"
+   },
+   "datumErsteVeroeffentlichung": "2026-09-09",
+   "aenderungsdatum": "2026-10-07T07:24:51.179",
+   "studiengang": "Bachelor of Arts - Informatik",
+   "firma": "TEAG Thüringer Energie AG",
+   "arbeitgeberKundennummerHash": "bb8XUyjSJ43J_Kqv0vwdfYxmmSCOg6omYmvePxhROnQ=",
+   "referenznummer": "10000-1207786333-S"
+  },
+  {
+   "stellenangebotsart": "AUSBILDUNG",
+   "ausbildungsart": "DUALES_STUDIUM",
+   "studienform": "PRAXISINTEGRIEREND",
+   "stellenangebotsTitel": "Duales Studium 2027: Informatik",
+   "arbeitszeitSchichtNachtWochenende": false,
+   "arbeitszeitTeilzeitAbend": false,
+   "arbeitszeitTeilzeitNachmittag": false,
+   "arbeitszeitTeilzeitVormittag": false,
+   "arbeitszeitTeilzeitFlexibel": false,
+   "arbeitszeitVollzeit": true,
+   "eintrittszeitraum": {
+    "von": "2027-10-01"
+   },
+   "verguetungsangabe": "KEINE_ANGABEN",
+   "vertragsdauer": "KEINE_ANGABE",
+   "stellenlokationen": [
+    {
+     "adresse": {
+      "strasse": "Industriestr.",
+      "hausnummer": "22",
+      "plz": "86637",
+      "ort": "Wertingen",
+      "region": "BAYERN",
+      "land": "DEUTSCHLAND"
+     },
+     "breite": 48.566583,
+     "laenge": 10.6895115
+    }
+   ],
+   "veroeffentlichungszeitraum": {
+    "von": "2026-08-25"
+   },
+   "datumErsteVeroeffentlichung": "2026-08-25",
+   "aenderungsdatum": "2026-08-25T10:23:51.995",
+   "studiengang": "Bachelor of Arts - Informatik",
+   "firma": "buttinette Textil-Versandhaus GmbH",
+   "arbeitgeberKundennummerHash": "1syMLf2UV1mU4Ew_zbkvgbmOZaGPFxF04A7iMeX-TWw=",
+   "referenznummer": "10000-1207590743-S"
+  },
+  {
+   "stellenangebotsart": "AUSBILDUNG",
+   "ausbildungsart": "DUALES_STUDIUM",
+   "studienform": "PRAXISINTEGRIEREND",
+   "stellenangebotsTitel": "Bachelor of Engineering - Informatik",
+   "arbeitszeitSchichtNachtWochenende": false,
+   "arbeitszeitTeilzeitAbend": false,
+   "arbeitszeitTeilzeitNachmittag": false,
+   "arbeitszeitTeilzeitVormittag": false,
+   "arbeitszeitTeilzeitFlexibel": false,
+   "arbeitszeitVollzeit": true,
+   "eintrittszeitraum": {
+    "von": "2027-08-02"
+   },
+   "verguetungsangabe": "KEINE_ANGABEN",
+   "vertragsdauer": "KEINE_ANGABE",
+   "stellenlokationen": [
+    {
+     "adresse": {
+      "strasse": "Ernst-Sachs-Str.",
+      "hausnummer": "62",
+      "plz": "97424",
+      "ort": "Schweinfurt",
+      "region": "BAYERN",
+      "land": "DEUTSCHLAND"
+     },
+     "breite": 50.0319873,
+     "laenge": 10.2123426
+    }
+   ],
+   "veroeffentlichungszeitraum": {
+    "von": "2026-08-12"
+   },
+   "datumErsteVeroeffentlichung": "2026-08-12",
+   "aenderungsdatum": "2026-08-13T07:29:40.944",
+   "studiengang": "Bachelor of Engineering - Praktische Informatik",
+   "firma": "ZF Friedrichshafen AG",
+   "arbeitgeberKundennummerHash": "jnHKcqSP_OkcW4ZhNca7-BHB0nvNnzvBX96eNeYIA48=",
+   "referenznummer": "10001-1003528847-S"
+  },
+  {
+   "stellenangebotsart": "AUSBILDUNG",
+   "ausbildungsart": "DUALES_STUDIUM",
+   "studienform": "PRAXISINTEGRIEREND",
+   "stellenangebotsTitel": "Duales Studium 2027 Fachrichtung Informatik",
+   "arbeitszeitSchichtNachtWochenende": false,
+   "arbeitszeitTeilzeitAbend": false,
+   "arbeitszeitTeilzeitNachmittag": false,
+   "arbeitszeitTeilzeitVormittag": false,
+   "arbeitszeitTeilzeitFlexibel": false,
+   "arbeitszeitVollzeit": true,
+   "eintrittszeitraum": {
+    "von": "2027-10-01"
+   },
+   "verguetungsangabe": "KEINE_ANGABEN",
+   "vertragsdauer": "KEINE_ANGABE",
+   "stellenlokationen": [
+    {
+     "adresse": {
+      "strasse": "Seedorfer Str.",
+      "hausnummer": "91",
+      "plz": "78713",
+      "ort": "Schramberg",
+      "region": "BADEN_WUERTTEMBERG",
+      "land": "DEUTSCHLAND"
+     },
+     "breite": 48.2599668,
+     "laenge": 8.4875517
+    }
+   ],
+   "veroeffentlichungszeitraum": {
+    "von": "2026-05-11"
+   },
+   "datumErsteVeroeffentlichung": "2026-05-11",
+   "aenderungsdatum": "2026-05-11T15:40:08.055",
+   "studiengang": "Bachelor of Science - Informatik",
+   "firma": "Schwäbische Werkzeugmaschinen GmbH",
+   "arbeitgeberKundennummerHash": "l19y3YK27gu2j6-Il_NnmXrLqxn1YHYoxl1yaI9BxSE=",
+   "referenznummer": "10001-1003053188-S"
+  },
+  {
+   "stellenangebotsart": "AUSBILDUNG",
+   "ausbildungsart": "DUALES_STUDIUM",
+   "studienform": "PRAXISINTEGRIEREND",
+   "stellenangebotsTitel": "Duales Studium Informatik (m/w/d) 2027",
+   "arbeitszeitSchichtNachtWochenende": false,
+   "arbeitszeitTeilzeitAbend": false,
+   "arbeitszeitTeilzeitNachmittag": false,
+   "arbeitszeitTeilzeitVormittag": false,
+   "arbeitszeitTeilzeitFlexibel": false,
+   "arbeitszeitVollzeit": true,
+   "eintrittszeitraum": {
+    "von": "2027-09-01"
+   },
+   "verguetungsangabe": "AUSBILDUNGSVERGUETUNG_NACH_JAHREN",
+   "ausbildungsverguetungJahr1": 1300,
+   "ausbildungsverguetungJahr2": 1400,
+   "ausbildungsverguetungJahr3": 1500,
+   "vertragsdauer": "KEINE_ANGABE",
+   "stellenlokationen": [
+    {
+     "adresse": {
+      "strasse": "Neue Straße",
+      "hausnummer": "97-99",
+      "plz": "89073",
+      "ort": "Ulm, Donau",
+      "region": "BADEN_WUERTTEMBERG",
+      "land": "DEUTSCHLAND"
+     },
+     "breite": 48.397707,
+     "laenge": 9.99477
+    }
+   ],
+   "veroeffentlichungszeitraum": {
+    "von": "2026-09-18"
+   },
+   "datumErsteVeroeffentlichung": "2026-08-17",
+   "aenderungsdatum": "2026-09-18T13:55:31.815",
+   "studiengang": "Bachelor of Arts - Informatik",
+   "firma": "RSU GmbH",
+   "arbeitgeberKundennummerHash": "6gkaZ4uai3FZz1rK0wPsJXpZ58v0SuyIrnTJT9S4cQw=",
+   "referenznummer": "10001-1003553130-S"
+  },
+  {
+   "stellenangebotsart": "AUSBILDUNG",
+   "ausbildungsart": "DUALES_STUDIUM",
+   "studienform": "PRAXISINTEGRIEREND",
+   "stellenangebotsTitel": "Duales Studium 2026 - Informatik",
+   "arbeitszeitSchichtNachtWochenende": false,
+   "arbeitszeitTeilzeitAbend": false,
+   "arbeitszeitTeilzeitNachmittag": false,
+   "arbeitszeitTeilzeitVormittag": false,
+   "arbeitszeitTeilzeitFlexibel": false,
+   "arbeitszeitVollzeit": true,
+   "eintrittszeitraum": {
+    "von": "2026-09-18"
+   },
+   "verguetungsangabe": "KEINE_ANGABEN",
+   "vertragsdauer": "KEINE_ANGABE",
+   "stellenlokationen": [
+    {
+     "adresse": {
+      "strasse": "Gerberstr.",
+      "hausnummer": "49",
+      "plz": "71522",
+      "ort": "Backnang",
+      "region": "BADEN_WUERTTEMBERG",
+      "land": "DEUTSCHLAND"
+     },
+     "breite": 48.94503,
+     "laenge": 9.4241779
+    }
+   ],
+   "veroeffentlichungszeitraum": {
+    "von": "2025-08-21"
+   },
+   "datumErsteVeroeffentlichung": "2025-08-21",
+   "aenderungsdatum": "2026-09-18T11:39:02.116",
+   "studiengang": "Bachelor of Science - Informatik",
+   "firma": "Tesat-Spacecom GmbH & Co. KG",
+   "arbeitgeberKundennummerHash": "5z9SWoqw4o6Pw49h2LhoGJdyB3Ybv0wsCCeKUwYzMuc=",
+   "referenznummer": "10000-1203500157-S"
+  },
+  {
+   "stellenangebotsart": "AUSBILDUNG",
+   "ausbildungsart": "DUALES_STUDIUM",
+   "studienform": "PRAXISINTEGRIEREND",
+   "stellenangebotsTitel": "Duales Studium Informatik (d/m/w)",
+   "arbeitszeitSchichtNachtWochenende": false,
+   "arbeitszeitTeilzeitAbend": false,
+   "arbeitszeitTeilzeitNachmittag": false,
+   "arbeitszeitTeilzeitVormittag": false,
+   "arbeitszeitTeilzeitFlexibel": false,
+   "arbeitszeitVollzeit": true,
+   "eintrittszeitraum": {
+    "von": "2027-10-01"
+   },
+   "verguetungsangabe": "KEINE_ANGABEN",
+   "vertragsdauer": "KEINE_ANGABE",
+   "stellenlokationen": [
+    {
+     "adresse": {
+      "plz": "13353",
+      "ort": "Berlin",
+      "region": "BERLIN",
+      "land": "DEUTSCHLAND"
+     },
+     "breite": 52.5419904,
+     "laenge": 13.3509485
+    }
+   ],
+   "chiffrenummer": "1465186",
+   "veroeffentlichungszeitraum": {
+    "von": "2026-07-08"
+   },
+   "datumErsteVeroeffentlichung": "2026-07-08",
+   "aenderungsdatum": "2026-10-09T10:08:57.544",
+   "studiengang": "Bachelor of Science - Informatik",
+   "firma": "Robert Koch-Institut",
+   "arbeitgeberKundennummerHash": "cXw9biqOcBtngXyDHE3CeIdUC7rbxkw7f-zR5QtbIGI=",
+   "referenznummer": "10000-1207124975-S"
+  },
+  {
+   "stellenangebotsart": "AUSBILDUNG",
+   "ausbildungsart": "DUALES_STUDIUM",
+   "studienform": "PRAXISINTEGRIEREND",
+   "stellenangebotsTitel": "Duales Studium Informatik/ Technische Informatik",
+   "arbeitszeitSchichtNachtWochenende": false,
+   "arbeitszeitTeilzeitAbend": false,
+   "arbeitszeitTeilzeitNachmittag": false,
+   "arbeitszeitTeilzeitVormittag": false,
+   "arbeitszeitTeilzeitFlexibel": false,
+   "arbeitszeitVollzeit": true,
+   "eintrittszeitraum": {
+    "von": "2027-09-01"
+   },
+   "verguetungsangabe": "KEINE_ANGABEN",
+   "vertragsdauer": "KEINE_ANGABE",
+   "stellenlokationen": [
+    {
+     "adresse": {
+      "strasse": "Siegfried-Meister-Str.",
+      "hausnummer": "1",
+      "plz": "86899",
+      "ort": "Landsberg am Lech",
+      "region": "BAYERN",
+      "land": "DEUTSCHLAND"
+     },
+     "breite": 48.059262,
+     "laenge": 10.854738
+    }
+   ],
+   "chiffrenummer": "16219",
+   "veroeffentlichungszeitraum": {
+    "von": "2026-07-30"
+   },
+   "datumErsteVeroeffentlichung": "2026-07-30",
+   "aenderungsdatum": "2026-10-08T10:01:20.401",
+   "studiengang": "Bachelor of Engineering - Informatik",
+   "firma": "RATIONAL Ausbildungsgesellschaft mbH Fr. Port",
+   "arbeitgeberKundennummerHash": "YPrf90rgclKOj02xR16vY3GiUnTlKkCUbniAqh-FJqs=",
+   "referenznummer": "10000-1207376465-S"
+  },
+  {
+   "stellenangebotsart": "AUSBILDUNG",
+   "ausbildungsart": "DUALES_STUDIUM",
+   "studienform": "PRAXISINTEGRIEREND",
+   "stellenangebotsTitel": "Duales Studium 2027: Informatik (w/m/d)",
+   "arbeitszeitSchichtNachtWochenende": false,
+   "arbeitszeitTeilzeitAbend": false,
+   "arbeitszeitTeilzeitNachmittag": false,
+   "arbeitszeitTeilzeitVormittag": false,
+   "arbeitszeitTeilzeitFlexibel": false,
+   "arbeitszeitVollzeit": true,
+   "eintrittszeitraum": {
+    "von": "2027-10-01"
+   },
+   "verguetungsangabe": "KEINE_ANGABEN",
+   "vertragsdauer": "KEINE_ANGABE",
+   "stellenlokationen": [
+    {
+     "adresse": {
+      "strasse": "Herm-v-Helmholtz-Platz",
+      "hausnummer": "1",
+      "plz": "76344",
+      "ort": "Eggenstein-Leopoldshafen",
+      "region": "BADEN_WUERTTEMBERG",
+      "land": "DEUTSCHLAND"
+     },
+     "breite": 49.0912784,
+     "laenge": 8.3990384
+    },
+    {
+     "adresse": {
+      "strasse": "Kaiserstraße",
+      "hausnummer": "12",
+      "plz": "76131",
+      "ort": "Karlsruhe, Baden",
+      "region": "BADEN_WUERTTEMBERG",
+      "land": "DEUTSCHLAND"
+     },
+     "breite": 49.0093413,
+     "laenge": 8.4121837
+    }
+   ],
+   "veroeffentlichungszeitraum": {
+    "von": "2026-06-17"
+   },
+   "datumErsteVeroeffentlichung": "2026-06-17",
+   "aenderungsdatum": "2026-06-17T13:29:40.078",
+   "studiengang": "Bachelor of Science - Informatik",
+   "firma": "Karlsruher Institut für Technologie Universitätsbereich",
+   "arbeitgeberKundennummerHash": "rQZZMkR04x34Dof-RA8P0FqSVF16nYroiEvgxgapFkw=",
+   "referenznummer": "10001-1003241101-S"
+  },
+  {
+   "stellenangebotsart": "AUSBILDUNG",
+   "ausbildungsart": "DUALES_STUDIUM",
+   "studienform": "PRAXISINTEGRIEREND",
+   "stellenangebotsTitel": "Dualer Student Informatik (m/w/d) 2026",
+   "arbeitszeitSchichtNachtWochenende": false,
+   "arbeitszeitTeilzeitAbend": false,
+   "arbeitszeitTeilzeitNachmittag": false,
+   "arbeitszeitTeilzeitVormittag": false,
+   "arbeitszeitTeilzeitFlexibel": false,
+   "arbeitszeitVollzeit": true,
+   "eintrittszeitraum": {
+    "von": "2026-10-14"
+   },
+   "verguetungsangabe": "KEINE_ANGABEN",
+   "vertragsdauer": "KEINE_ANGABE",
+   "stellenlokationen": [
+    {
+     "adresse": {
+      "strasse": "Miesbacher Str.",
+      "hausnummer": "5",
+      "plz": "83626",
+      "ort": "Valley, Oberbayern",
+      "ortsteil": "Oberlaindern",
+      "region": "BAYERN",
+      "land": "DEUTSCHLAND"
+     },
+     "breite": 47.87604,
+     "laenge": 11.741301
+    }
+   ],
+   "veroeffentlichungszeitraum": {
+    "von": "2025-12-18"
+   },
+   "datumErsteVeroeffentlichung": "2025-12-18",
+   "aenderungsdatum": "2026-10-14T17:38:32.265",
+   "studiengang": "Bachelor of Science - Informatik",
+   "firma": "Avery Zweckform GmbH",
+   "arbeitgeberKundennummerHash": "85WXy4bkwV2JvuwgkXVRg25nUVEUNbkNVtvYxmqOfsQ=",
+   "referenznummer": "10000-1204900716-S"
+  },
+  {
+   "stellenangebotsart": "AUSBILDUNG",
+   "ausbildungsart": "DUALES_STUDIUM",
+   "studienform": "PRAXISINTEGRIEREND",
+   "stellenangebotsTitel": "Duales Studium Angewandte Informatik (m/w/d)",
+   "quereinstiegGeeignet": false,
+   "arbeitszeitSchichtNachtWochenende": false,
+   "arbeitszeitTeilzeitAbend": false,
+   "arbeitszeitTeilzeitNachmittag": false,
+   "arbeitszeitTeilzeitVormittag": false,
+   "arbeitszeitTeilzeitFlexibel": false,
+   "arbeitszeitVollzeit": true,
+   "eintrittszeitraum": {
+    "von": "2027-09-01"
+   },
+   "verguetungsangabe": "KEINE_ANGABEN",
+   "vertragsdauer": "KEINE_ANGABE",
+   "istGeringfuegigeBeschaeftigung": false,
+   "stellenlokationen": [
+    {
+     "adresse": {
+      "strasse": "Rosenberger Straße 28",
+      "plz": "74706",
+      "ort": "Osterburken",
+      "region": "BADEN_WUERTTEMBERG",
+      "land": "DEUTSCHLAND"
+     },
+     "breite": 49.429764,
+     "laenge": 9.43749
+    }
+   ],
+   "homeofficemoeglich": false,
+   "veroeffentlichungszeitraum": {
+    "von": "2026-10-17"
+   },
+   "datumErsteVeroeffentlichung": "2026-10-17",
+   "aenderungsdatum": "2026-10-17T08:02:02.954",
+   "externeURL": "https://www.ausbildung.de/stellen/duales-studium-angewandte-informatik-m-w-d-bei-azo-gmbh-co-kg-in-osterburken-423b6258-59e0-4201-bff7-af67dc955b72/?utm_campaign=kooperation&utm_medium=jobfeed&utm_source=bundesagentur",
+   "studiengang": "Bachelor of Science - Angewandte Informatik",
+   "firma": "AZO GmbH + Co. KG",
+   "referenznummer": "14756-a2779a59662b4c34-S"
+  },
+  {
+   "stellenangebotsart": "AUSBILDUNG",
+   "ausbildungsart": "DUALES_STUDIUM",
+   "studienform": "PRAXISINTEGRIEREND",
+   "stellenangebotsTitel": "Studiengang Informatik (Standort Berlin)",
+   "quereinstiegGeeignet": false,
+   "arbeitszeitSchichtNachtWochenende": false,
+   "arbeitszeitTeilzeitAbend": false,
+   "arbeitszeitTeilzeitNachmittag": false,
+   "arbeitszeitTeilzeitVormittag": false,
+   "arbeitszeitTeilzeitFlexibel": false,
+   "arbeitszeitVollzeit": true,
+   "eintrittszeitraum": {
+    "von": "2027-09-01"
+   },
+   "verguetungsangabe": "AUSBILDUNGSVERGUETUNG_NACH_JAHREN",
+   "ausbildungsverguetungJahr1": 1626.79,
+   "vertragsdauer": "KEINE_ANGABE",
+   "istGeringfuegigeBeschaeftigung": false,
+   "stellenlokationen": [
+    {
+     "adresse": {
+      "strasse": "Knobelsdorffstr.",
+      "hausnummer": "92",
+      "plz": "14059",
+      "ort": "Berlin",
+      "region": "BERLIN",
+      "land": "DEUTSCHLAND"
+     },
+     "breite": 52.513173,
+     "laenge": 13.2821775
+    }
+   ],
+   "homeofficemoeglich": false,
+   "veroeffentlichungszeitraum": {
+    "von": "2026-07-21"
+   },
+   "datumErsteVeroeffentlichung": "2026-07-21",
+   "aenderungsdatum": "2026-09-04T12:33:15.326",
+   "studiengang": "Bachelor of Science - Informatik",
+   "firma": "DRV Berlin-Brandenburg",
+   "arbeitgeberKundennummerHash": "rLJ00TuEXkhvVoRY2V8wI9MBJPCNVqJDOFRFMFhlSdI=",
+   "referenznummer": "16328-K2UL8BH9Wrimll-S"
+  },
+  {
+   "stellenangebotsart": "AUSBILDUNG",
+   "ausbildungsart": "DUALES_STUDIUM",
+   "studienform": "PRAXISINTEGRIEREND",
+   "stellenangebotsTitel": "Duales Studium 2026 - Informatik",
+   "arbeitszeitSchichtNachtWochenende": false,
+   "arbeitszeitTeilzeitAbend": false,
+   "arbeitszeitTeilzeitNachmittag": false,
+   "arbeitszeitTeilzeitVormittag": false,
+   "arbeitszeitTeilzeitFlexibel": false,
+   "arbeitszeitVollzeit": true,
+   "eintrittszeitraum": {
+    "von": "2026-09-18"
+   },
+   "verguetungsangabe": "KEINE_ANGABEN",
+   "vertragsdauer": "KEINE_ANGABE",
+   "stellenlokationen": [
+    {
+     "adresse": {
+      "strasse": "Gerberstr.",
+      "hausnummer": "49",
+      "plz": "71522",
+      "ort": "Backnang",
+      "region": "BADEN_WUERTTEMBERG",
+      "land": "DEUTSCHLAND"
+     },
+     "breite": 48.94503,
+     "laenge": 9.4241779
+    }
+   ],
+   "veroeffentlichungszeitraum": {
+    "von": "2025-08-21"
+   },
+   "datumErsteVeroeffentlichung": "2025-08-21",
+   "aenderungsdatum": "2026-09-18T11:38:08.996",
+   "studiengang": "Bachelor of Science - Informatik",
+   "firma": "Tesat-Spacecom GmbH & Co. KG",
+   "arbeitgeberKundennummerHash": "5z9SWoqw4o6Pw49h2LhoGJdyB3Ybv0wsCCeKUwYzMuc=",
+   "referenznummer": "10000-1203499470-S"
+  },
+  {
+   "stellenangebotsart": "AUSBILDUNG",
+   "ausbildungsart": "DUALES_STUDIUM",
+   "studienform": "PRAXISINTEGRIEREND",
+   "stellenangebotsTitel": "Duales Studium Informatik Reise",
+   "quereinstiegGeeignet": false,
+   "arbeitszeitVollzeit": true,
+   "eintrittszeitraum": {
+    "von": "2026-10-13"
+   },
+   "verguetungsangabe": "KEINE_ANGABEN",
+   "vertragsdauer": "KEINE_ANGABE",
+   "istGeringfuegigeBeschaeftigung": false,
+   "stellenlokationen": [
+    {
+     "adresse": {
+      "strasse": "Tröndlinring 3",
+      "plz": "04105",
+      "ort": "Leipzig",
+      "region": "SACHSEN",
+      "land": "DEUTSCHLAND"
+     },
+     "breite": 51.34446,
+     "laenge": 12.3752925
+    }
+   ],
+   "veroeffentlichungszeitraum": {
+    "von": "2026-06-01"
+   },
+   "datumErsteVeroeffentlichung": "2026-06-01",
+   "aenderungsdatum": "2026-10-13T07:26:45.311",
+   "studiengang": "Bachelor of Science - Informatik",
+   "firma": "CHECK24 Services Personal GmbH",
+   "arbeitgeberKundennummerHash": "ATlvyTemXbegu9lQNQ29igPMUF9O2QuFjimoEWazx40=",
+   "referenznummer": "20208-1da90a52850c45fcb72-S"
+  },
+  {
+   "stellenangebotsart": "AUSBILDUNG",
+   "ausbildungsart": "DUALES_STUDIUM",
+   "studienform": "PRAXISINTEGRIEREND",
+   "stellenangebotsTitel": "Duales Studium Angewandte Informatik (m/w/d)",
+   "arbeitszeitVollzeit": true,
+   "eintrittszeitraum": {
+    "von": "2026-10-09"
+   },
+   "verguetungsangabe": "KEINE_ANGABEN",
+   "vertragsdauer": "KEINE_ANGABE",
+   "stellenlokationen": [
+    {
+     "adresse": {
+      "strasse": "Kardex-Platz",
+      "plz": "76756",
+      "ort": "Bellheim",
+      "region": "RHEINLAND_PFALZ",
+      "land": "DEUTSCHLAND"
+     },
+     "breite": 49.1868458,
+     "laenge": 8.2938721
+    }
+   ],
+   "veroeffentlichungszeitraum": {
+    "von": "2026-10-09"
+   },
+   "datumErsteVeroeffentlichung": "2026-10-09",
+   "aenderungsdatum": "2026-10-09T14:19:43.049",
+   "studiengang": "Bachelor of Engineering - Angewandte Informatik (Infotronik)",
+   "firma": "Kardex Produktion Deutschland GmbH Werk Bellheim",
+   "arbeitgeberKundennummerHash": "t7o7DIqQHuezEYxPY7PUeZJnHiGiqkB2Go03SW9gg-c=",
+   "referenznummer": "10001-1003835593-S"
+  },
+  {
+   "stellenangebotsart": "AUSBILDUNG",
+   "ausbildungsart": "DUALES_STUDIUM",
+   "studienform": "PRAXISINTEGRIEREND",
+   "stellenangebotsTitel": "Bachelor of Science - Informatik 2027 (m/w/d)",
+   "arbeitszeitSchichtNachtWochenende": false,
+   "arbeitszeitTeilzeitAbend": false,
+   "arbeitszeitTeilzeitNachmittag": false,
+   "arbeitszeitTeilzeitVormittag": false,
+   "arbeitszeitTeilzeitFlexibel": false,
+   "arbeitszeitVollzeit": true,
+   "eintrittszeitraum": {
+    "von": "2027-10-01"
+   },
+   "verguetungsangabe": "KEINE_ANGABEN",
+   "vertragsdauer": "KEINE_ANGABE",
+   "stellenlokationen": [
+    {
+     "adresse": {
+      "strasse": "Carl-Zeiss-Str.",
+      "hausnummer": "2",
+      "plz": "74172",
+      "ort": "Neckarsulm",
+      "region": "BADEN_WUERTTEMBERG",
+      "land": "DEUTSCHLAND"
+     },
+     "breite": 49.177971,
+     "laenge": 9.2320155
+    }
+   ],
+   "veroeffentlichungszeitraum": {
+    "von": "2026-10-16"
+   },
+   "datumErsteVeroeffentlichung": "2026-10-16",
+   "aenderungsdatum": "2026-10-16T09:44:36.133",
+   "studiengang": "Bachelor of Science - Informatik",
+   "firma": "Software-Schmiede Vogler & Hauke GmbH",
+   "arbeitgeberKundennummerHash": "hFMbik0FusjD_Fl2rXsoGVr6WSAh7HrrEbivVOqx5Oo=",
+   "referenznummer": "10000-1208316229-S"
+  },
+  {
+   "stellenangebotsart": "AUSBILDUNG",
+   "ausbildungsart": "DUALES_STUDIUM",
+   "studienform": "PRAXISINTEGRIEREND",
+   "stellenangebotsTitel": "Kooperatives Studium Praktische Informatik 2027",
+   "arbeitszeitSchichtNachtWochenende": false,
+   "arbeitszeitTeilzeitAbend": false,
+   "arbeitszeitTeilzeitNachmittag": false,
+   "arbeitszeitTeilzeitVormittag": false,
+   "arbeitszeitTeilzeitFlexibel": false,
+   "arbeitszeitVollzeit": true,
+   "eintrittszeitraum": {
+    "von": "2026-11-02"
+   },
+   "verguetungsangabe": "KEINE_ANGABEN",
+   "vertragsdauer": "KEINE_ANGABE",
+   "stellenlokationen": [
+    {
+     "adresse": {
+      "strasse": "Zum Gunterstal",
+      "plz": "66440",
+      "ort": "Blieskastel",
+      "ortsteil": "Mimbach",
+      "region": "SAARLAND",
+      "land": "DEUTSCHLAND"
+     },
+     "breite": 49.2344284,
+     "laenge": 7.2738524
+    }
+   ],
+   "homeofficemoeglich": false,
+   "veroeffentlichungszeitraum": {
+    "von": "2026-10-27"
+   },
+   "datumErsteVeroeffentlichung": "2026-10-27",
+   "aenderungsdatum": "2026-11-02T12:29:42.904",
+   "studiengang": "Bachelor of Engineering - Praktische Informatik",
+   "firma": "Hager Vertriebsgesellschaft mbH & Co. KG",
+   "arbeitgeberKundennummerHash": "KhC4OENI-_5eU0mlYQSnzk9yvcdisDEJyNurVAXq2Rc=",
+   "referenznummer": "10000-1208432309-S"
+  },
+  {
+   "stellenangebotsart": "AUSBILDUNG",
+   "ausbildungsart": "DUALES_STUDIUM",
+   "studienform": "PRAXISINTEGRIEREND",
+   "stellenangebotsTitel": "Duales Studium Technische Informatik (m/w/d)",
+   "arbeitszeitVollzeit": true,
+   "eintrittszeitraum": {
+    "von": "2026-10-01"
+   },
+   "verguetungsangabe": "KEINE_ANGABEN",
+   "vertragsdauer": "KEINE_ANGABE",
+   "stellenlokationen": [
+    {
+     "adresse": {
+      "strasse": "Zwickauer Str.",
+      "hausnummer": "30b",
+      "plz": "09366",
+      "ort": "Stollberg/Erzgebirge",
+      "region": "SACHSEN",
+      "land": "DEUTSCHLAND"
+     },
+     "breite": 50.703957,
+     "laenge": 12.756177
+    }
+   ],
+   "veroeffentlichungszeitraum": {
+    "von": "2026-08-19"
+   },
+   "datumErsteVeroeffentlichung": "2026-08-19",
+   "aenderungsdatum": "2026-08-19T10:53:14.720",
+   "studiengang": "Bachelor of Engineering - Technische Informatik",
+   "firma": "Henka Werkzeuge + Werkzeugmaschinen GmbH",
+   "arbeitgeberKundennummerHash": "GYBPsQ2w2ok9rxKctDeyywsqoq8IlncFG2_PUp2TQNU=",
+   "referenznummer": "10001-1003566450-S"
+  },
+  {
+   "stellenangebotsart": "AUSBILDUNG",
+   "ausbildungsart": "DUALES_STUDIUM",
+   "studienform": "PRAXISINTEGRIEREND",
+   "stellenangebotsTitel": "DH Studium 2027 Informatik (m/w/d)",
+   "arbeitszeitSchichtNachtWochenende": false,
+   "arbeitszeitTeilzeitAbend": false,
+   "arbeitszeitTeilzeitNachmittag": false,
+   "arbeitszeitTeilzeitVormittag": false,
+   "arbeitszeitTeilzeitFlexibel": false,
+   "arbeitszeitVollzeit": true,
+   "eintrittszeitraum": {
+    "von": "2027-09-01"
+   },
+   "verguetungsangabe": "KEINE_ANGABEN",
+   "vertragsdauer": "KEINE_ANGABE",
+   "stellenlokationen": [
+    {
+     "adresse": {
+      "ort": "Ulm, Donau",
+      "region": "BADEN_WUERTTEMBERG",
+      "land": "DEUTSCHLAND"
+     },
+     "breite": 48.3906475,
+     "laenge": 9.9558042
+    }
+   ],
+   "chiffrenummer": "f918",
+   "veroeffentlichungszeitraum": {
+    "von": "2026-03-27"
+   },
+   "datumErsteVeroeffentlichung": "2026-03-27",
+   "aenderungsdatum": "2026-03-27T10:07:38.141",
+   "studiengang": "Bachelor of Arts - Informatik",
+   "firma": "ZWICKROELL GMBH & CO. KG",
+   "arbeitgeberKundennummerHash": "epw4WyEiRVqv8ha6l-Nq_cVDahoK9Qy7-AFmCJgSWoY=",
+   "referenznummer": "10000-1205947194-S"
+  },
+  {
+   "stellenangebotsart": "AUSBILDUNG",
+   "ausbildungsart": "DUALES_STUDIUM",
+   "studienform": "PRAXISINTEGRIEREND",
+   "stellenangebotsTitel": "Bachelor of Science - Informatik (m/w/d)",
+   "arbeitszeitSchichtNachtWochenende": false,
+   "arbeitszeitTeilzeitAbend": false,
+   "arbeitszeitTeilzeitNachmittag": false,
+   "arbeitszeitTeilzeitVormittag": false,
+   "arbeitszeitTeilzeitFlexibel": false,
+   "arbeitszeitVollzeit": true,
+   "eintrittszeitraum": {
+    "von": "2027-10-01"
+   },
+   "verguetungsangabe": "AUSBILDUNGSVERGUETUNG_NACH_JAHREN",
+   "ausbildungsverguetungJahr1": 1820,
+   "ausbildungsverguetungJahr2": 1850,
+   "ausbildungsverguetungJahr3": 1850,
+   "vertragsdauer": "KEINE_ANGABE",
+   "stellenlokationen": [
+    {
+     "adresse": {
+      "strasse": "Rotebühlplatz",
+      "hausnummer": "30",
+      "plz": "70178",
+      "ort": "Stuttgart",
+      "region": "BADEN_WUERTTEMBERG",
+      "land": "DEUTSCHLAND"
+     },
+     "breite": 48.7746944,
+     "laenge": 9.1717342
+    },
+    {
+     "adresse": {
+      "strasse": "Moltkestraße",
+      "hausnummer": "80",
+      "plz": "76133",
+      "ort": "Karlsruhe, Baden",
+      "region": "BADEN_WUERTTEMBERG",
+      "land": "DEUTSCHLAND"
+     },
+     "breite": 49.016529,
+     "laenge": 8.3777805
+    }
+   ],
+   "homeofficemoeglich": true,
+   "homeofficetyp": "ANGABE_IN_PROZENT",
+   "homeofficeprozent": 60,
+   "veroeffentlichungszeitraum": {
+    "von": "2026-08-24"
+   },
+   "datumErsteVeroeffentlichung": "2026-07-09",
+   "aenderungsdatum": "2026-09-02T23:44:12.960",
+   "studiengang": "Bachelor of Science - Informatik",
+   "firma": "Oberfinanzdirektion BW - Landeszentrum für Datenverarbeitung",
+   "arbeitgeberKundennummerHash": "GK6u_VELvhpqiKXFZ_QjZhUFsNQacU6Wm6Nj7c2K5rc=",
+   "referenznummer": "10001-1003356645-S"
+  },
+  {
+   "stellenangebotsart": "AUSBILDUNG",
+   "ausbildungsart": "DUALES_STUDIUM",
+   "studienform": "PRAXISINTEGRIEREND",
+   "stellenangebotsTitel": "Duales Studium 2027: Angewandte Informatik (m/w/d)",
+   "arbeitszeitSchichtNachtWochenende": false,
+   "arbeitszeitTeilzeitAbend": false,
+   "arbeitszeitTeilzeitNachmittag": false,
+   "arbeitszeitTeilzeitVormittag": false,
+   "arbeitszeitTeilzeitFlexibel": false,
+   "arbeitszeitVollzeit": true,
+   "eintrittszeitraum": {
+    "von": "2027-10-01"
+   },
+   "verguetungsangabe": "AUSBILDUNGSVERGUETUNG_NACH_JAHREN",
+   "ausbildungsverguetungJahr1": 1025,
+   "ausbildungsverguetungJahr2": 1090,
+   "ausbildungsverguetungJahr3": 1195,
+   "vertragsdauer": "KEINE_ANGABE",
+   "stellenlokationen": [
+    {
+     "adresse": {
+      "strasse": "Hans-Ulrich-Breymann-Str.",
+      "hausnummer": "35",
+      "plz": "74706",
+      "ort": "Osterburken",
+      "region": "BADEN_WUERTTEMBERG",
+      "land": "DEUTSCHLAND"
+     },
+     "breite": 49.425444,
+     "laenge": 9.4186125
+    }
+   ],
+   "veroeffentlichungszeitraum": {
+    "von": "2026-10-26"
+   },
+   "datumErsteVeroeffentlichung": "2026-10-26",
+   "aenderungsdatum": "2026-10-26T16:14:49.074",
+   "studiengang": "Bachelor of Engineering - Angewandte Informatik (Infotronik)",
+   "firma": "BLEICHERT Automation GmbH & Co. KG",
+   "arbeitgeberKundennummerHash": "XBKeR2jKikPtI0hZ494wz0i6ZuRUtMBGbznadR1RRtA=",
+   "referenznummer": "10000-1208415644-S"
+  },
+  {
+   "stellenangebotsart": "AUSBILDUNG",
+   "ausbildungsart": "DUALES_STUDIUM",
+   "studienform": "PRAXISINTEGRIEREND",
+   "stellenangebotsTitel": "Duales Studium: Angewandte Informatik",
+   "arbeitszeitSchichtNachtWochenende": false,
+   "arbeitszeitTeilzeitAbend": false,
+   "arbeitszeitTeilzeitNachmittag": false,
+   "arbeitszeitTeilzeitVormittag": false,
+   "arbeitszeitTeilzeitFlexibel": false,
+   "arbeitszeitVollzeit": true,
+   "eintrittszeitraum": {
+    "von": "2027-09-01"
+   },
+   "verguetungsangabe": "KEINE_ANGABEN",
+   "vertragsdauer": "KEINE_ANGABE",
+   "stellenlokationen": [
+    {
+     "adresse": {
+      "ort": "Mosbach, Baden",
+      "region": "BADEN_WUERTTEMBERG",
+      "land": "DEUTSCHLAND"
+     },
+     "breite": 49.3730249,
+     "laenge": 9.1382008
+    }
+   ],
+   "chiffrenummer": "5847",
+   "veroeffentlichungszeitraum": {
+    "von": "2026-05-19"
+   },
+   "datumErsteVeroeffentlichung": "2026-05-19",
+   "aenderungsdatum": "2026-05-19T12:48:16.411",
+   "studiengang": "Bachelor of Science - Angewandte Informatik",
+   "firma": "WITTENSTEIN SE",
+   "arbeitgeberKundennummerHash": "jpiJSv6fNFoy6XuSW7nNdpIVyaCadugP4qPdD1WFTeM=",
+   "referenznummer": "10000-1206556613-S"
+  },
+  {
+   "stellenangebotsart": "AUSBILDUNG",
+   "ausbildungsart": "DUALES_STUDIUM",
+   "studienform": "PRAXISINTEGRIEREND",
+   "stellenangebotsTitel": "Duales Studium Angewandte Informatik",
+   "arbeitszeitSchichtNachtWochenende": false,
+   "arbeitszeitTeilzeitAbend": false,
+   "arbeitszeitTeilzeitNachmittag": false,
+   "arbeitszeitTeilzeitVormittag": false,
+   "arbeitszeitTeilzeitFlexibel": false,
+   "arbeitszeitVollzeit": true,
+   "eintrittszeitraum": {
+    "von": "2027-08-01"
+   },
+   "verguetungsangabe": "KEINE_ANGABEN",
+   "vertragsdauer": "KEINE_ANGABE",
+   "stellenlokationen": [
+    {
+     "adresse": {
+      "strasse": "Lotzenarbachstr.",
+      "hausnummer": "1",
+      "plz": "57290",
+      "ort": "Neunkirchen, Siegerl",
+      "region": "NORDRHEIN_WESTFALEN",
+      "land": "DEUTSCHLAND"
+     },
+     "breite": 50.805405,
+     "laenge": 8.0120565
+    }
+   ],
+   "veroeffentlichungszeitraum": {
+    "von": "2026-03-05"
+   },
+   "datumErsteVeroeffentlichung": "2026-03-05",
+   "aenderungsdatum": "2026-05-12T11:34:10.271",
+   "studiengang": "Bachelor of Science - Angewandte Informatik",
+   "firma": "SIS Internationale Speditions-GmbH",
+   "arbeitgeberKundennummerHash": "dYNk16UTygtNvpkhFT-LkCcuXHwGD5XtQlF3ekLYV3s=",
+   "referenznummer": "10000-1205733305-S"
+  },
+  {
+   "stellenangebotsart": "AUSBILDUNG",
+   "ausbildungsart": "DUALES_STUDIUM",
+   "studienform": "PRAXISINTEGRIEREND",
+   "stellenangebotsTitel": "Bachelor- oder Masterarbeit in der Welt der Informatik (m/w/d)",
+   "arbeitszeitSchichtNachtWochenende": false,
+   "arbeitszeitTeilzeitAbend": false,
+   "arbeitszeitTeilzeitNachmittag": false,
+   "arbeitszeitTeilzeitVormittag": false,
+   "arbeitszeitTeilzeitFlexibel": false,
+   "arbeitszeitVollzeit": true,
+   "eintrittszeitraum": {
+    "von": "2026-10-22"
+   },
+   "verguetungsangabe": "KEINE_ANGABEN",
+   "vertragsdauer": "KEINE_ANGABE",
+   "stellenlokationen": [
+    {
+     "adresse": {
+      "strasse": "Lammstraße",
+      "hausnummer": "6",
+      "plz": "77933",
+      "ort": "Lahr, Schwarzwald",
+      "region": "BADEN_WUERTTEMBERG",
+      "land": "DEUTSCHLAND"
+     },
+     "breite": 48.341052,
+     "laenge": 7.871481
+    },
+    {
+     "adresse": {
+      "strasse": "Lange Straße",
+      "hausnummer": "36",
+      "plz": "89537",
+      "ort": "Giengen an der Brenz",
+      "region": "BADEN_WUERTTEMBERG",
+      "land": "DEUTSCHLAND"
+     },
+     "breite": 48.621078,
+     "laenge": 10.2465945
+    },
+    {
+     "adresse": {
+      "strasse": "Ob der Eck",
+      "hausnummer": "4",
+      "plz": "78148",
+      "ort": "Gütenbach",
+      "region": "BADEN_WUERTTEMBERG",
+      "land": "DEUTSCHLAND"
+     },
+     "breite": 48.041334,
+     "laenge": 8.1702225
+    }
+   ],
+   "homeofficemoeglich": true,
+   "homeofficetyp": "NACH_VEREINBARUNG",
+   "veroeffentlichungszeitraum": {
+    "von": "2026-05-11"
+   },
+   "datumErsteVeroeffentlichung": "2026-05-11",
+   "aenderungsdatum": "2026-10-22T09:14:49.642",
+   "studiengang": "Bachelor of Science - Allgemeine Informatik",
+   "firma": "Netzint GmbH",
+   "arbeitgeberKundennummerHash": "-6CIE0nfKa-E_6JGJ6CqbOSmbsiOC3LFDC0nAymggcU=",
+   "referenznummer": "10001-1003057414-S"
+  },
+  {
+   "stellenangebotsart": "AUSBILDUNG",
+   "ausbildungsart": "DUALES_STUDIUM",
+   "studienform": "PRAXISINTEGRIEREND",
+   "stellenangebotsTitel": "Duales Studium Informatik 2027 (m/w/d)",
+   "quereinstiegGeeignet": false,
+   "arbeitszeitSchichtNachtWochenende": false,
+   "arbeitszeitTeilzeitAbend": false,
+   "arbeitszeitTeilzeitNachmittag": false,
+   "arbeitszeitTeilzeitVormittag": false,
+   "arbeitszeitTeilzeitFlexibel": false,
+   "arbeitszeitVollzeit": true,
+   "eintrittszeitraum": {
+    "von": "2027-09-01"
+   },
+   "verguetungsangabe": "KEINE_ANGABEN",
+   "vertragsdauer": "KEINE_ANGABE",
+   "istGeringfuegigeBeschaeftigung": false,
+   "stellenlokationen": [
+    {
+     "adresse": {
+      "plz": "51067",
+      "ort": "Köln",
+      "region": "NORDRHEIN_WESTFALEN",
+      "land": "DEUTSCHLAND"
+     },
+     "breite": 50.9652475,
+     "laenge": 7.0408234
+    }
+   ],
+   "homeofficemoeglich": false,
+   "veroeffentlichungszeitraum": {
+    "von": "2026-10-22"
+   },
+   "datumErsteVeroeffentlichung": "2026-09-23",
+   "aenderungsdatum": "2026-10-22T08:02:28.443",
+   "externeURL": "https://www.ausbildung.de/stellen/duales-studium-informatik-2027-m-w-d-bei-axa-konzern-ag-in-koeln-66253e7a-6db6-4f59-9355-61f33334a973/?utm_campaign=kooperation&utm_medium=jobfeed&utm_source=bundesagentur",
+   "studiengang": "Bachelor of Arts - Informatik",
+   "firma": "AXA Konzern AG",
+   "referenznummer": "14756-a80719a6e65c4ae4-S"
+  },
+  {
+   "stellenangebotsart": "AUSBILDUNG",
+   "ausbildungsart": "DUALES_STUDIUM",
+   "studienform": "PRAXISINTEGRIEREND",
+   "stellenangebotsTitel": "DH Angewandte Informatik 2027",
+   "arbeitszeitSchichtNachtWochenende": false,
+   "arbeitszeitTeilzeitAbend": false,
+   "arbeitszeitTeilzeitNachmittag": false,
+   "arbeitszeitTeilzeitVormittag": false,
+   "arbeitszeitTeilzeitFlexibel": false,
+   "arbeitszeitVollzeit": true,
+   "eintrittszeitraum": {
+    "von": "2027-09-01"
+   },
+   "verguetungsangabe": "KEINE_ANGABEN",
+   "vertragsdauer": "KEINE_ANGABE",
+   "stellenlokationen": [
+    {
+     "adresse": {
+      "strasse": "Heinz-Ziehl-Str.",
+      "hausnummer": "1",
+      "plz": "74653",
+      "ort": "Künzelsau",
+      "region": "BADEN_WUERTTEMBERG",
+      "land": "DEUTSCHLAND"
+     },
+     "breite": 49.280229,
+     "laenge": 9.6840045
+    }
+   ],
+   "veroeffentlichungszeitraum": {
+    "von": "2026-04-30"
+   },
+   "datumErsteVeroeffentlichung": "2026-04-30",
+   "aenderungsdatum": "2026-06-02T09:38:47.737",
+   "studiengang": "Bachelor of Science - Angewandte Informatik",
+   "firma": "ZIEHL-ABEGG SE",
+   "arbeitgeberKundennummerHash": "PXIzqk1LlSoNqka2BDZVD445aFU5xVbJLHMsCAGJhJw=",
+   "referenznummer": "10000-1206353329-S"
+  },
+  {
+   "stellenangebotsart": "AUSBILDUNG",
+   "ausbildungsart": "DUALES_STUDIUM",
+   "studienform": "PRAXISINTEGRIEREND",
+   "stellenangebotsTitel": "Duales Hochschulstudium Allgemeine Informatik (m/w/d)",
+   "arbeitszeitSchichtNachtWochenende": false,
+   "arbeitszeitTeilzeitAbend": false,
+   "arbeitszeitTeilzeitNachmittag": false,
+   "arbeitszeitTeilzeitVormittag": false,
+   "arbeitszeitTeilzeitFlexibel": false,
+   "arbeitszeitVollzeit": true,
+   "eintrittszeitraum": {
+    "von": "2027-09-01"
+   },
+   "verguetungsangabe": "AUSBILDUNGSVERGUETUNG_NACH_JAHREN",
+   "ausbildungsverguetungJahr1": 1200,
+   "vertragsdauer": "KEINE_ANGABE",
+   "stellenlokationen": [
+    {
+     "adresse": {
+      "plz": "89264",
+      "ort": "Weißenhorn",
+      "region": "BAYERN",
+      "land": "DEUTSCHLAND"
+     },
+     "breite": 48.3068319,
+     "laenge": 10.1723895
+    }
+   ],
+   "veroeffentlichungszeitraum": {
+    "von": "2026-06-22"
+   },
+   "datumErsteVeroeffentlichung": "2026-06-22",
+   "aenderungsdatum": "2026-06-22T07:03:07.545",
+   "studiengang": "Bachelor of Science - Allgemeine Informatik",
+   "firma": "Peri-Werk A. Schwörer GmbH & Co. KG",
+   "arbeitgeberKundennummerHash": "3UzWcXMuJm8uGZy_A3gnhi14ozp9sz-2LUpHgTJt9uI=",
+   "referenznummer": "10000-1206907126-S"
+  },
+  {
+   "stellenangebotsart": "AUSBILDUNG",
+   "ausbildungsart": "DUALES_STUDIUM",
+   "studienform": "PRAXISINTEGRIEREND",
+   "stellenangebotsTitel": "Duales Studium für angewandte Informatik",
+   "arbeitszeitSchichtNachtWochenende": false,
+   "arbeitszeitTeilzeitAbend": false,
+   "arbeitszeitTeilzeitNachmittag": false,
+   "arbeitszeitTeilzeitVormittag": false,
+   "arbeitszeitTeilzeitFlexibel": false,
+   "arbeitszeitVollzeit": true,
+   "eintrittszeitraum": {
+    "von": "2027-08-01"
+   },
+   "verguetungsangabe": "KEINE_ANGABEN",
+   "vertragsdauer": "KEINE_ANGABE",
+   "stellenlokationen": [
+    {
+     "adresse": {
+      "strasse": "Itzehoer Platz",
+      "plz": "25524",
+      "ort": "Itzehoe",
+      "region": "SCHLESWIG_HOLSTEIN",
+      "land": "DEUTSCHLAND"
+     },
+     "breite": 53.9350907,
+     "laenge": 9.4979786
+    }
+   ],
+   "veroeffentlichungszeitraum": {
+    "von": "2026-07-03"
+   },
+   "datumErsteVeroeffentlichung": "2026-07-03",
+   "aenderungsdatum": "2026-10-29T10:24:32.949",
+   "studiengang": "Bachelor of Science - Angewandte Informatik",
+   "firma": "Itzehoer Versicherung/ Brandgilde von 1691 Versicherungsverein a.G.",
+   "arbeitgeberKundennummerHash": "h2EMUZmV1uWCwqdQ3gxybqz8AFSTmeOvJiej46RUUV0=",
+   "referenznummer": "10000-1207073108-S"
+  },
+  {
+   "stellenangebotsart": "AUSBILDUNG",
+   "ausbildungsart": "DUALES_STUDIUM",
+   "studienform": "PRAXISINTEGRIEREND",
+   "stellenangebotsTitel": "Duales Studium Informatik – 2027",
+   "arbeitszeitSchichtNachtWochenende": false,
+   "arbeitszeitTeilzeitAbend": false,
+   "arbeitszeitTeilzeitNachmittag": false,
+   "arbeitszeitTeilzeitVormittag": false,
+   "arbeitszeitTeilzeitFlexibel": false,
+   "arbeitszeitVollzeit": true,
+   "eintrittszeitraum": {
+    "von": "2027-10-01"
+   },
+   "verguetungsangabe": "KEINE_ANGABEN",
+   "vertragsdauer": "KEINE_ANGABE",
+   "stellenlokationen": [
+    {
+     "adresse": {
+      "strasse": "Alfred-Nobel-Str.",
+      "hausnummer": "20",
+      "plz": "97080",
+      "ort": "Würzburg",
+      "region": "BAYERN",
+      "land": "DEUTSCHLAND"
+     },
+     "breite": 49.8113387,
+     "laenge": 9.8886897
+    }
+   ],
+   "chiffrenummer": "8395",
+   "veroeffentlichungszeitraum": {
+    "von": "2026-10-26"
+   },
+   "datumErsteVeroeffentlichung": "2026-08-12",
+   "aenderungsdatum": "2026-10-26T07:17:08.950",
+   "studiengang": "Bachelor of Engineering - Angewandte Informatik (Infotronik)",
+   "firma": "FLYERALARM GmbH",
+   "arbeitgeberKundennummerHash": "d7lGbNN7hcC0-9hia3ZQYtzY7mWONH_c955Cu4lS6rQ=",
+   "referenznummer": "10001-1003531106-S"
+  },
+  {
+   "stellenangebotsart": "AUSBILDUNG",
+   "ausbildungsart": "DUALES_STUDIUM",
+   "studienform": "AUSBILDUNGSINTEGRIEREND",
+   "stellenangebotsTitel": "Duales Studium 2027: Informatik",
+   "arbeitszeitSchichtNachtWochenende": false,
+   "arbeitszeitTeilzeitAbend": false,
+   "arbeitszeitTeilzeitNachmittag": false,
+   "arbeitszeitTeilzeitVormittag": false,
+   "arbeitszeitTeilzeitFlexibel": false,
+   "arbeitszeitVollzeit": true,
+   "eintrittszeitraum": {
+    "von": "2027-08-01"
+   },
+   "verguetungsangabe": "KEINE_ANGABEN",
+   "vertragsdauer": "KEINE_ANGABE",
+   "stellenlokationen": [
+    {
+     "adresse": {
+      "strasse": "In der Seugn",
+      "hausnummer": "20",
+      "plz": "92431",
+      "ort": "Neunburg vorm Wald",
+      "region": "BAYERN",
+      "land": "DEUTSCHLAND"
+     },
+     "breite": 49.341357,
+     "laenge": 12.397158
+    }
+   ],
+   "veroeffentlichungszeitraum": {
+    "von": "2026-08-28"
+   },
+   "datumErsteVeroeffentlichung": "2026-08-28",
+   "aenderungsdatum": "2026-08-28T14:56:59.157",
+   "hauptberuf": "Fachinformatiker/in - Anwendungsentwicklung",
+   "studiengang": "Bachelor of Arts - Informatik",
+   "firma": "F.EE Industrieautomation GmbH & Co. KG",
+   "arbeitgeberKundennummerHash": "GZDCF7EdN5E8PNGGbtNlqpj_iiFAVJT6Xh14eMqJVyo=",
+   "referenznummer": "10000-1207696384-S",
+   "alleBerufe": [
+    "Fachinformatiker/in - Anwendungsentwicklung"
+   ]
+  },
+  {
+   "stellenangebotsart": "AUSBILDUNG",
+   "ausbildungsart": "DUALES_STUDIUM",
+   "studienform": "PRAXISINTEGRIEREND",
+   "stellenangebotsTitel": "Duales Studium Informatik / Wirtschaftsinformatik - Schwerpunkt Cyber Security",
+   "arbeitszeitVollzeit": true,
+   "eintrittszeitraum": {
+    "von": "2027-10-01"
+   },
+   "verguetungsangabe": "KEINE_ANGABEN",
+   "vertragsdauer": "KEINE_ANGABE",
+   "stellenlokationen": [
+    {
+     "adresse": {
+      "strasse": "Justus-von-Liebig-Str.",
+      "hausnummer": "18",
+      "plz": "53121",
+      "ort": "Bonn",
+      "region": "NORDRHEIN_WESTFALEN",
+      "land": "DEUTSCHLAND"
+     },
+     "breite": 50.739597,
+     "laenge": 7.0578495
+    }
+   ],
+   "chiffrenummer": "1582",
+   "veroeffentlichungszeitraum": {
+    "von": "2026-10-29"
+   },
+   "datumErsteVeroeffentlichung": "2026-10-29",
+   "aenderungsdatum": "2026-10-29T11:02:13.261",
+   "studiengang": "Bachelor of Engineering - Informatik",
+   "firma": "steep GmbH",
+   "arbeitgeberKundennummerHash": "f-wWYbgaJk_VEkwi_WZ7fJxe-0GLs5nEhj0RbrL4zXk=",
+   "referenznummer": "10001-1003931876-S"
+  },
+  {
+   "stellenangebotsart": "AUSBILDUNG",
+   "ausbildungsart": "DUALES_STUDIUM",
+   "studienform": "PRAXISINTEGRIEREND",
+   "stellenangebotsTitel": "Duales Studium Informatik - Angewandte Informatik (m/w/d)",
+   "arbeitszeitSchichtNachtWochenende": false,
+   "arbeitszeitTeilzeitAbend": false,
+   "arbeitszeitTeilzeitNachmittag": false,
+   "arbeitszeitTeilzeitVormittag": false,
+   "arbeitszeitTeilzeitFlexibel": false,
+   "arbeitszeitVollzeit": true,
+   "eintrittszeitraum": {
+    "von": "2027-10-01"
+   },
+   "verguetungsangabe": "AUSBILDUNGSVERGUETUNG_NACH_JAHREN",
+   "ausbildungsverguetungJahr1": 1391.19,
+   "ausbildungsverguetungJahr3": 1576.76,
+   "vertragsdauer": "KEINE_ANGABE",
+   "stellenlokationen": [
+    {
+     "adresse": {
+      "strasse": "IFM-Str.",
+      "hausnummer": "1",
+      "plz": "88069",
+      "ort": "Tettnang",
+      "region": "BADEN_WUERTTEMBERG",
+      "land": "DEUTSCHLAND"
+     },
+     "breite": 47.679732,
+     "laenge": 9.588447
+    }
+   ],
+   "chiffrenummer": "c84436",
+   "veroeffentlichungszeitraum": {
+    "von": "2026-04-08"
+   },
+   "datumErsteVeroeffentlichung": "2026-04-08",
+   "aenderungsdatum": "2026-09-21T07:12:49.984",
+   "studiengang": "Bachelor of Science - Angewandte Informatik",
+   "firma": "ifm group services gmbh GmbH",
+   "arbeitgeberKundennummerHash": "VH0jgTZt_Uj0LIhy3wm5hi4SJW8hB6o18AU9GvbGiA4=",
+   "referenznummer": "10000-1206097641-S"
+  },
+  {
+   "stellenangebotsart": "AUSBILDUNG",
+   "ausbildungsart": "DUALES_STUDIUM",
+   "studienform": "PRAXISINTEGRIEREND",
+   "stellenangebotsTitel": "Duales Studium Informatik 2027 (w/m/d)",
+   "quereinstiegGeeignet": false,
+   "arbeitszeitSchichtNachtWochenende": false,
+   "arbeitszeitTeilzeitAbend": false,
+   "arbeitszeitTeilzeitNachmittag": false,
+   "arbeitszeitTeilzeitVormittag": false,
+   "arbeitszeitTeilzeitFlexibel": false,
+   "arbeitszeitVollzeit": true,
+   "eintrittszeitraum": {
+    "von": "2027-09-15"
+   },
+   "verguetungsangabe": "KEINE_ANGABEN",
+   "vertragsdauer": "KEINE_ANGABE",
+   "istGeringfuegigeBeschaeftigung": false,
+   "stellenlokationen": [
+    {
+     "adresse": {
+      "plz": "60313",
+      "ort": "Frankfurt am Main",
+      "region": "HESSEN",
+      "land": "DEUTSCHLAND"
+     },
+     "breite": 50.115356,
+     "laenge": 8.6832822
+    }
+   ],
+   "homeofficemoeglich": false,
+   "chiffrenummer": "571630",
+   "veroeffentlichungszeitraum": {
+    "von": "2026-08-26"
+   },
+   "datumErsteVeroeffentlichung": "2026-06-30",
+   "aenderungsdatum": "2026-10-19T10:40:07.969",
+   "studiengang": "Bachelor of Science - Angewandte Informatik",
+   "firma": "Deutsche Bahn AG",
+   "arbeitgeberKundennummerHash": "yjIOvgjf5Crlw0chSxcAnUCWkGmLYyoftEbH3IL5NMc=",
+   "referenznummer": "12456-1593599-1-S"
+  },
+  {
+   "stellenangebotsart": "AUSBILDUNG",
+   "ausbildungsart": "DUALES_STUDIUM",
+   "studienform": "PRAXISINTEGRIEREND",
+   "stellenangebotsTitel": "Duales Studium – angewandte Informatik",
+   "arbeitszeitSchichtNachtWochenende": false,
+   "arbeitszeitTeilzeitAbend": false,
+   "arbeitszeitTeilzeitNachmittag": false,
+   "arbeitszeitTeilzeitVormittag": false,
+   "arbeitszeitTeilzeitFlexibel": false,
+   "arbeitszeitVollzeit": true,
+   "eintrittszeitraum": {
+    "von": "2026-10-01"
+   },
+   "verguetungsangabe": "KEINE_ANGABEN",
+   "vertragsdauer": "KEINE_ANGABE",
+   "stellenlokationen": [
+    {
+     "adresse": {
+      "strasse": "Schloßmattenstr.",
+      "hausnummer": "9a",
+      "plz": "79268",
+      "ort": "Bötzingen",
+      "region": "BADEN_WUERTTEMBERG",
+      "land": "DEUTSCHLAND"
+     },
+     "breite": 48.063762,
+     "laenge": 7.720641
+    }
+   ],
+   "veroeffentlichungszeitraum": {
+    "von": "2026-08-27"
+   },
+   "datumErsteVeroeffentlichung": "2026-02-17",
+   "aenderungsdatum": "2026-09-25T06:50:08.410",
+   "studiengang": "Bachelor of Science - Angewandte Informatik",
+   "firma": "ABOSCO GmbH",
+   "arbeitgeberKundennummerHash": "W5ruNRw5vKzoiSg7IamKWPYm0G8MiMkO48rEOcIifl8=",
+   "referenznummer": "10000-1205526982-S"
+  },
+  {
+   "stellenangebotsart": "AUSBILDUNG",
+   "ausbildungsart": "DUALES_STUDIUM",
+   "studienform": "PRAXISINTEGRIEREND",
+   "stellenangebotsTitel": "Duales Studium Praktische Informatik",
+   "quereinstiegGeeignet": false,
+   "arbeitszeitSchichtNachtWochenende": false,
+   "arbeitszeitTeilzeitAbend": false,
+   "arbeitszeitTeilzeitNachmittag": false,
+   "arbeitszeitTeilzeitVormittag": false,
+   "arbeitszeitTeilzeitFlexibel": false,
+   "arbeitszeitVollzeit": true,
+   "eintrittszeitraum": {
+    "von": "2026-10-27"
+   },
+   "verguetungsangabe": "KEINE_ANGABEN",
+   "vertragsdauer": "KEINE_ANGABE",
+   "istGeringfuegigeBeschaeftigung": false,
+   "stellenlokationen": [
+    {
+     "adresse": {
+      "strasse": "Im Funkwerk",
+      "hausnummer": "5",
+      "plz": "99625",
+      "ort": "Kölleda",
+      "region": "THUERINGEN",
+      "land": "DEUTSCHLAND"
+     },
+     "breite": 51.195762,
+     "laenge": 11.2054005
+    }
+   ],
+   "homeofficemoeglich": false,
+   "chiffrenummer": "915348",
+   "veroeffentlichungszeitraum": {
+    "von": "2026-10-01"
+   },
+   "datumErsteVeroeffentlichung": "2026-10-01",
+   "aenderungsdatum": "2026-10-27T07:00:57.754",
+   "externeURL": "https://thaff-thueringen.de/Stellenangebote/duales-studium-technische-informatik",
+   "studiengang": "Bachelor of Engineering - Praktische Informatik",
+   "firma": "Funkwerk Systems GmbH",
+   "referenznummer": "16481-915348-S"
+  },
+  {
+   "stellenangebotsart": "AUSBILDUNG",
+   "ausbildungsart": "DUALES_STUDIUM",
+   "studienform": "PRAXISINTEGRIEREND",
+   "stellenangebotsTitel": "Dualer Student Angewandte Informatik (m/w/d)",
+   "arbeitszeitSchichtNachtWochenende": false,
+   "arbeitszeitTeilzeitAbend": false,
+   "arbeitszeitTeilzeitNachmittag": false,
+   "arbeitszeitTeilzeitVormittag": false,
+   "arbeitszeitTeilzeitFlexibel": false,
+   "arbeitszeitVollzeit": true,
+   "eintrittszeitraum": {
+    "von": "2027-10-01"
+   },
+   "verguetungsangabe": "KEINE_ANGABEN",
+   "vertragsdauer": "KEINE_ANGABE",
+   "stellenlokationen": [
+    {
+     "adresse": {
+      "strasse": "Flemingstr.",
+      "hausnummer": "18",
+      "plz": "36041",
+      "ort": "Fulda",
+      "region": "HESSEN",
+      "land": "DEUTSCHLAND"
+     },
+     "breite": 50.55201,
+     "laenge": 9.6429105
+    }
+   ],
+   "chiffrenummer": "216197",
+   "veroeffentlichungszeitraum": {
+    "von": "2026-04-16"
+   },
+   "datumErsteVeroeffentlichung": "2026-04-16",
+   "aenderungsdatum": "2026-06-30T14:38:36.020",
+   "studiengang": "Bachelor of Science - Angewandte Informatik",
+   "firma": "Orexes GmbH",
+   "arbeitgeberKundennummerHash": "aeP81XAO-q4NM0_K7nFUm7CTOVe0YJ8I-GKXMYi1ZoU=",
+   "referenznummer": "10000-1206196294-S"
+  },
+  {
+   "stellenangebotsart": "AUSBILDUNG",
+   "ausbildungsart": "DUALES_STUDIUM",
+   "studienform": "PRAXISINTEGRIEREND",
+   "stellenangebotsTitel": "Duales Studium Informatik (all genders) 2027",
+   "quereinstiegGeeignet": false,
+   "arbeitszeitSchichtNachtWochenende": false,
+   "arbeitszeitTeilzeitAbend": false,
+   "arbeitszeitTeilzeitNachmittag": false,
+   "arbeitszeitTeilzeitVormittag": false,
+   "arbeitszeitTeilzeitFlexibel": false,
+   "arbeitszeitVollzeit": true,
+   "eintrittszeitraum": {
+    "von": "2027-08-02"
+   },
+   "verguetungsangabe": "KEINE_ANGABEN",
+   "vertragsdauer": "KEINE_ANGABE",
+   "istGeringfuegigeBeschaeftigung": false,
+   "stellenlokationen": [
+    {
+     "adresse": {
+      "plz": "40591",
+      "ort": "Düsseldorf",
+      "region": "NORDRHEIN_WESTFALEN",
+      "land": "DEUTSCHLAND"
+     },
+     "breite": 51.1909944,
+     "laenge": 6.8207276
+    }
+   ],
+   "homeofficemoeglich": false,
+   "chiffrenummer": "10524",
+   "veroeffentlichungszeitraum": {
+    "von": "2026-10-30"
+   },
+   "datumErsteVeroeffentlichung": "2026-10-30",
+   "aenderungsdatum": "2026-10-29T09:51:36.807",
+   "studiengang": "Bachelor of Science - Informatik",
+   "firma": "Provinzial Holding AG",
+   "arbeitgeberKundennummerHash": "tr0UxoKDOceDHFdoRpQ9Vi0745wKdeuh_wB26OSC1Fk=",
+   "referenznummer": "19130-44539892-1029-S"
+  },
+  {
+   "stellenangebotsart": "AUSBILDUNG",
+   "ausbildungsart": "DUALES_STUDIUM",
+   "studienform": "AUSBILDUNGSINTEGRIEREND",
+   "stellenangebotsTitel": "Duales Studium Informatik / Wirtschaftsinformatik",
+   "arbeitszeitSchichtNachtWochenende": false,
+   "arbeitszeitTeilzeitAbend": false,
+   "arbeitszeitTeilzeitNachmittag": false,
+   "arbeitszeitTeilzeitVormittag": false,
+   "arbeitszeitTeilzeitFlexibel": false,
+   "arbeitszeitVollzeit": true,
+   "eintrittszeitraum": {
+    "von": "2027-02-01"
+   },
+   "verguetungsangabe": "KEINE_ANGABEN",
+   "vertragsdauer": "KEINE_ANGABE",
+   "stellenlokationen": [
+    {
+     "adresse": {
+      "strasse": "Martin-Luther-King-Weg",
+      "hausnummer": "5",
+      "plz": "48155",
+      "ort": "Münster, Westfalen",
+      "region": "NORDRHEIN_WESTFALEN",
+      "land": "DEUTSCHLAND"
+     },
+     "breite": 51.935454,
+     "laenge": 7.655211
+    }
+   ],
+   "homeofficemoeglich": true,
+   "homeofficetyp": "NACH_VEREINBARUNG",
+   "veroeffentlichungszeitraum": {
+    "von": "2026-05-13"
+   },
+   "datumErsteVeroeffentlichung": "2026-05-13",
+   "aenderungsdatum": "2026-10-23T12:02:59.628",
+   "hauptberuf": "Fachinformatiker/in - Anwendungsentwicklung",
+   "studiengang": "Bachelor of Science - Informatik",
+   "firma": "UNIPLUS Software GmbH",
+   "arbeitgeberKundennummerHash": "1ouWxVAHmsWNq36kQrh8fPEVt--mqHnNNUUqGH4kFe8=",
+   "referenznummer": "10000-1206505433-S",
+   "alleBerufe": [
+    "Fachinformatiker/in - Anwendungsentwicklung"
+   ]
+  },
+  {
+   "stellenangebotsart": "AUSBILDUNG",
+   "ausbildungsart": "DUALES_STUDIUM",
+   "studienform": "PRAXISINTEGRIEREND",
+   "stellenangebotsTitel": "Duales Studium Informatik (m/w/d) 2027",
+   "arbeitszeitSchichtNachtWochenende": false,
+   "arbeitszeitTeilzeitAbend": false,
+   "arbeitszeitTeilzeitNachmittag": false,
+   "arbeitszeitTeilzeitVormittag": false,
+   "arbeitszeitTeilzeitFlexibel": false,
+   "arbeitszeitVollzeit": true,
+   "eintrittszeitraum": {
+    "von": "2027-10-01"
+   },
+   "verguetungsangabe": "KEINE_ANGABEN",
+   "vertragsdauer": "KEINE_ANGABE",
+   "stellenlokationen": [
+    {
+     "adresse": {
+      "strasse": "Thalesplatz",
+      "hausnummer": "1",
+      "plz": "71254",
+      "ort": "Ditzingen",
+      "region": "BADEN_WUERTTEMBERG",
+      "land": "DEUTSCHLAND"
+     },
+     "breite": 48.81609,
+     "laenge": 9.060507
+    }
+   ],
+   "veroeffentlichungszeitraum": {
+    "von": "2026-06-18"
+   },
+   "datumErsteVeroeffentlichung": "2026-06-18",
+   "aenderungsdatum": "2026-10-29T09:07:33.079",
+   "studiengang": "Bachelor of Science - Angewandte Informatik",
+   "firma": "Hitachi Rail GTS Deutschland GmbH",
+   "arbeitgeberKundennummerHash": "Ovekkp8oDgHNWwbyIt-L-JdE9dlh6ybynCuqOSOISks=",
+   "referenznummer": "10000-1206866855-S"
+  },
+  {
+   "stellenangebotsart": "AUSBILDUNG",
+   "ausbildungsart": "DUALES_STUDIUM",
+   "studienform": "PRAXISINTEGRIEREND",
+   "stellenangebotsTitel": "Duales Studium 2027 - Informatik",
+   "arbeitszeitSchichtNachtWochenende": false,
+   "arbeitszeitTeilzeitAbend": false,
+   "arbeitszeitTeilzeitNachmittag": false,
+   "arbeitszeitTeilzeitVormittag": false,
+   "arbeitszeitTeilzeitFlexibel": false,
+   "arbeitszeitVollzeit": true,
+   "eintrittszeitraum": {
+    "von": "2027-10-01"
+   },
+   "verguetungsangabe": "KEINE_ANGABEN",
+   "vertragsdauer": "KEINE_ANGABE",
+   "stellenlokationen": [
+    {
+     "adresse": {
+      "strasse": "Schloßstr.",
+      "hausnummer": "16",
+      "plz": "78604",
+      "ort": "Rietheim-Weilheim",
+      "region": "BADEN_WUERTTEMBERG",
+      "land": "DEUTSCHLAND"
+     },
+     "breite": 48.0364109,
+     "laenge": 8.7820255
+    }
+   ],
+   "veroeffentlichungszeitraum": {
+    "von": "2026-06-10"
+   },
+   "datumErsteVeroeffentlichung": "2026-06-08",
+   "aenderungsdatum": "2026-06-10T11:00:41.245",
+   "studiengang": "Bachelor of Engineering - Informatik",
+   "firma": "Marquardt GmbH",
+   "arbeitgeberKundennummerHash": "tmtOP9DPjzo5jw0uoAQxwpP8YJ_3mzjx-Rwpf9jQ8Mo=",
+   "referenznummer": "10001-1003187420-S"
+  },
+  {
+   "stellenangebotsart": "AUSBILDUNG",
+   "ausbildungsart": "DUALES_STUDIUM",
+   "studienform": "PRAXISINTEGRIEREND",
+   "stellenangebotsTitel": "Duales Studium Informatik (w/m/d) 2027",
+   "arbeitszeitSchichtNachtWochenende": false,
+   "arbeitszeitTeilzeitAbend": false,
+   "arbeitszeitTeilzeitNachmittag": false,
+   "arbeitszeitTeilzeitVormittag": false,
+   "arbeitszeitTeilzeitFlexibel": false,
+   "arbeitszeitVollzeit": true,
+   "eintrittszeitraum": {
+    "von": "2027-09-10"
+   },
+   "verguetungsangabe": "AUSBILDUNGSVERGUETUNG_NACH_JAHREN",
+   "ausbildungsverguetungJahr1": 1452,
+   "ausbildungsverguetungJahr2": 1697,
+   "ausbildungsverguetungJahr3": 2124,
+   "vertragsdauer": "KEINE_ANGABE",
+   "stellenlokationen": [
+    {
+     "adresse": {
+      "ort": "Waiblingen, Rems",
+      "region": "BADEN_WUERTTEMBERG",
+      "land": "DEUTSCHLAND"
+     },
+     "breite": 48.8523664,
+     "laenge": 9.3195263
+    }
+   ],
+   "chiffrenummer": "57537",
+   "veroeffentlichungszeitraum": {
+    "von": "2026-06-03"
+   },
+   "datumErsteVeroeffentlichung": "2026-06-03",
+   "aenderungsdatum": "2026-06-15T00:12:04.346",
+   "studiengang": "Bachelor of Science - Informatik",
+   "firma": "ANDREAS STIHL AG & CO. KG",
+   "arbeitgeberKundennummerHash": "QVFGrptHiRC3q7eH40dD_QGBQXrLg98k7RVTGm0C9LU=",
+   "referenznummer": "10000-1206712691-S"
+  },
+  {
+   "stellenangebotsart": "AUSBILDUNG",
+   "ausbildungsart": "DUALES_STUDIUM",
+   "studienform": "PRAXISINTEGRIEREND",
+   "stellenangebotsTitel": "Bachelor of Science - Angewandte Informatik",
+   "arbeitszeitSchichtNachtWochenende": false,
+   "arbeitszeitTeilzeitAbend": false,
+   "arbeitszeitTeilzeitNachmittag": false,
+   "arbeitszeitTeilzeitVormittag": false,
+   "arbeitszeitTeilzeitFlexibel": false,
+   "arbeitszeitVollzeit": true,
+   "eintrittszeitraum": {
+    "von": "2027-10-01"
+   },
+   "verguetungsangabe": "AUSBILDUNGSVERGUETUNG_NACH_JAHREN",
+   "ausbildungsverguetungJahr1": 1368.26,
+   "ausbildungsverguetungJahr2": 1418.2,
+   "ausbildungsverguetungJahr3": 1464.02,
+   "vertragsdauer": "KEINE_ANGABE",
+   "stellenlokationen": [
+    {
+     "adresse": {
+      "strasse": "Hellmut-Hartert-Str.",
+      "hausnummer": "1",
+      "plz": "67655",
+      "ort": "Kaiserslautern",
+      "region": "RHEINLAND_PFALZ",
+      "land": "DEUTSCHLAND"
+     },
+     "breite": 49.442256,
+     "laenge": 7.7568615
+    }
+   ],
+   "veroeffentlichungszeitraum": {
+    "von": "2026-10-06"
+   },
+   "datumErsteVeroeffentlichung": "2026-10-06",
+   "aenderungsdatum": "2026-10-08T13:18:34.106",
+   "studiengang": "Bachelor of Science - Angewandte Informatik",
+   "firma": "Westpfalz- Klinikum GmbH Kaiserslautern Standort I Kaiserslautern",
+   "arbeitgeberKundennummerHash": "DEyb9auC04Ooo5PUg3vHXh41dvTWNT_AU9ERJZodoK8=",
+   "referenznummer": "10001-1003810793-S"
+  },
+  {
+   "stellenangebotsart": "AUSBILDUNG",
+   "ausbildungsart": "DUALES_STUDIUM",
+   "studienform": "PRAXISINTEGRIEREND",
+   "stellenangebotsTitel": "Duales Studium Technische Informatik",
+   "quereinstiegGeeignet": false,
+   "arbeitszeitSchichtNachtWochenende": false,
+   "arbeitszeitTeilzeitAbend": false,
+   "arbeitszeitTeilzeitNachmittag": false,
+   "arbeitszeitTeilzeitVormittag": false,
+   "arbeitszeitTeilzeitFlexibel": false,
+   "arbeitszeitVollzeit": true,
+   "eintrittszeitraum": {
+    "von": "2026-10-11"
+   },
+   "verguetungsangabe": "KEINE_ANGABEN",
+   "vertragsdauer": "KEINE_ANGABE",
+   "istGeringfuegigeBeschaeftigung": false,
+   "stellenlokationen": [
+    {
+     "adresse": {
+      "strasse": "Lange Straße",
+      "hausnummer": "6",
+      "plz": "99734",
+      "ort": "Nordhausen, Thüringen",
+      "region": "THUERINGEN",
+      "land": "DEUTSCHLAND"
+     },
+     "breite": 51.493176,
+     "laenge": 10.792098
+    }
+   ],
+   "homeofficemoeglich": false,
+   "chiffrenummer": "1474436",
+   "veroeffentlichungszeitraum": {
+    "von": "2026-09-14"
+   },
+   "datumErsteVeroeffentlichung": "2026-09-14",
+   "aenderungsdatum": "2026-10-11T07:09:41.802",
+   "externeURL": "https://thaff-thueringen.de/Stellenangebote/duales-studium-technische-informatik-2",
+   "studiengang": "Bachelor of Engineering - Technische Informatik",
+   "firma": "Maximator GmbH",
+   "referenznummer": "16481-1474436-S"
+  },
+  {
+   "stellenangebotsart": "AUSBILDUNG",
+   "ausbildungsart": "DUALES_STUDIUM",
+   "studienform": "PRAXISINTEGRIEREND",
+   "stellenangebotsTitel": "Duales Studium Informatik an der DHBW (m/w/d)",
+   "quereinstiegGeeignet": false,
+   "arbeitszeitSchichtNachtWochenende": false,
+   "arbeitszeitTeilzeitAbend": false,
+   "arbeitszeitTeilzeitNachmittag": false,
+   "arbeitszeitTeilzeitVormittag": false,
+   "arbeitszeitTeilzeitFlexibel": false,
+   "arbeitszeitVollzeit": true,
+   "eintrittszeitraum": {
+    "von": "2027-09-01"
+   },
+   "verguetungsangabe": "KEINE_ANGABEN",
+   "vertragsdauer": "KEINE_ANGABE",
+   "istGeringfuegigeBeschaeftigung": false,
+   "stellenlokationen": [
+    {
+     "adresse": {
+      "strasse": "Bregstraße 1",
+      "plz": "78120",
+      "ort": "Furtwangen im Schwarzwald",
+      "region": "BADEN_WUERTTEMBERG",
+      "land": "DEUTSCHLAND"
+     },
+     "breite": 48.049056,
+     "laenge": 8.2028925
+    }
+   ],
+   "homeofficemoeglich": false,
+   "chiffrenummer": "424004",
+   "veroeffentlichungszeitraum": {
+    "von": "2026-02-07"
+   },
+   "datumErsteVeroeffentlichung": "2026-02-07",
+   "aenderungsdatum": "2026-10-14T10:04:57.325",
+   "externeURL": "https://www.aubi-plus.de/duales-studium/s-siedle-soehne-telefon-und-telegrafenwerke-ohg-informatik-furtwangen-im-schwarzwald-424004/?mtm_campaign=jobboard&mtm_source=Arbeitsagentur",
+   "studiengang": "Bachelor of Science - Informatik",
+   "firma": "S. Siedle & Söhne Telefon- und Telegrafenwerke OHG",
+   "referenznummer": "13647-2027424004-S"
+  },
+  {
+   "stellenangebotsart": "AUSBILDUNG",
+   "ausbildungsart": "DUALES_STUDIUM",
+   "studienform": "PRAXISINTEGRIEREND",
+   "stellenangebotsTitel": "Bachelor of Science - Medizinische Informatik (m/w/d)",
+   "arbeitszeitSchichtNachtWochenende": false,
+   "arbeitszeitTeilzeitAbend": false,
+   "arbeitszeitTeilzeitNachmittag": false,
+   "arbeitszeitTeilzeitVormittag": false,
+   "arbeitszeitTeilzeitFlexibel": false,
+   "arbeitszeitVollzeit": true,
+   "eintrittszeitraum": {
+    "von": "2027-10-01"
+   },
+   "verguetungsangabe": "KEINE_ANGABEN",
+   "vertragsdauer": "KEINE_ANGABE",
+   "stellenlokationen": [
+    {
+     "adresse": {
+      "strasse": "Hellmut-Hartert-Str.",
+      "hausnummer": "1",
+      "plz": "67655",
+      "ort": "Kaiserslautern",
+      "region": "RHEINLAND_PFALZ",
+      "land": "DEUTSCHLAND"
+     },
+     "breite": 49.442256,
+     "laenge": 7.7568615
+    }
+   ],
+   "veroeffentlichungszeitraum": {
+    "von": "2026-10-06"
+   },
+   "datumErsteVeroeffentlichung": "2026-10-06",
+   "aenderungsdatum": "2026-10-08T12:59:36.413",
+   "studiengang": "Bachelor of Science - Medizinische Informatik",
+   "firma": "Westpfalz- Klinikum GmbH Kaiserslautern Standort I Kaiserslautern",
+   "arbeitgeberKundennummerHash": "DEyb9auC04Ooo5PUg3vHXh41dvTWNT_AU9ERJZodoK8=",
+   "referenznummer": "10001-1003810699-S"
+  },
+  {
+   "stellenangebotsart": "AUSBILDUNG",
+   "ausbildungsart": "DUALES_STUDIUM",
+   "studienform": "AUSBILDUNGSINTEGRIEREND",
+   "stellenangebotsTitel": "Bachelor (m/w/d) of Science Angewandte Informatik",
+   "arbeitszeitSchichtNachtWochenende": false,
+   "arbeitszeitTeilzeitAbend": false,
+   "arbeitszeitTeilzeitNachmittag": false,
+   "arbeitszeitTeilzeitVormittag": false,
+   "arbeitszeitTeilzeitFlexibel": false,
+   "arbeitszeitVollzeit": true,
+   "eintrittszeitraum": {
+    "von": "2027-08-01"
+   },
+   "verguetungsangabe": "KEINE_ANGABEN",
+   "vertragsdauer": "KEINE_ANGABE",
+   "stellenlokationen": [
+    {
+     "adresse": {
+      "strasse": "Mühlendamm",
+      "hausnummer": "1",
+      "plz": "24113",
+      "ort": "Kiel",
+      "region": "SCHLESWIG_HOLSTEIN",
+      "land": "DEUTSCHLAND"
+     },
+     "breite": 54.312183,
+     "laenge": 10.099314
+    }
+   ],
+   "veroeffentlichungszeitraum": {
+    "von": "2026-08-12"
+   },
+   "datumErsteVeroeffentlichung": "2026-08-12",
+   "aenderungsdatum": "2026-08-13T13:56:54.850",
+   "hauptberuf": "Fachinformatiker/in - Anwendungsentwicklung",
+   "studiengang": "Bachelor of Science - Angewandte Informatik",
+   "firma": "CITTI Handelsgesellschaft mbH & Co. KG",
+   "arbeitgeberKundennummerHash": "Cdgpu6thqceZGjkD-DdW_azkkFhZrKkCRURiOBx1kX4=",
+   "referenznummer": "10001-1003530121-S",
+   "alleBerufe": [
+    "Fachinformatiker/in - Anwendungsentwicklung"
+   ]
+  },
+  {
+   "stellenangebotsart": "AUSBILDUNG",
+   "ausbildungsart": "DUALES_STUDIUM",
+   "studienform": "AUSBILDUNGSINTEGRIEREND",
+   "stellenangebotsTitel": "Bachelor of Science (m/w/d) Fachrichtung Informatik",
+   "arbeitszeitSchichtNachtWochenende": false,
+   "arbeitszeitTeilzeitAbend": false,
+   "arbeitszeitTeilzeitNachmittag": false,
+   "arbeitszeitTeilzeitVormittag": false,
+   "arbeitszeitTeilzeitFlexibel": false,
+   "arbeitszeitVollzeit": true,
+   "eintrittszeitraum": {
+    "von": "2027-08-01"
+   },
+   "verguetungsangabe": "KEINE_ANGABEN",
+   "vertragsdauer": "KEINE_ANGABE",
+   "stellenlokationen": [
+    {
+     "adresse": {
+      "strasse": "Holtumsweg",
+      "hausnummer": "26",
+      "plz": "47652",
+      "ort": "Weeze",
+      "region": "NORDRHEIN_WESTFALEN",
+      "land": "DEUTSCHLAND"
+     },
+     "breite": 51.6198643,
+     "laenge": 6.1996393
+    }
+   ],
+   "veroeffentlichungszeitraum": {
+    "von": "2026-08-25"
+   },
+   "datumErsteVeroeffentlichung": "2026-08-25",
+   "aenderungsdatum": "2026-08-28T11:26:21.802",
+   "hauptberuf": "Fachinformatiker/in - Anwendungsentwicklung",
+   "studiengang": "Bachelor of Science - Informatik",
+   "firma": "CHEFS CULINAR West GmbH & Co. KG",
+   "arbeitgeberKundennummerHash": "9rVGjLBtpqKdomufkiMxsaqrjoWot79muMeWtD26MvQ=",
+   "referenznummer": "10001-1003594999-S",
+   "alleBerufe": [
+    "Fachinformatiker/in - Anwendungsentwicklung"
+   ]
+  },
+  {
+   "stellenangebotsart": "AUSBILDUNG",
+   "ausbildungsart": "DUALES_STUDIUM",
+   "studienform": "PRAXISINTEGRIEREND",
+   "stellenangebotsTitel": "Onlinestudium Informatik für die Rentenversicherung - IT von Mensch zu Mensch",
+   "arbeitszeitSchichtNachtWochenende": false,
+   "arbeitszeitTeilzeitAbend": false,
+   "arbeitszeitTeilzeitNachmittag": false,
+   "arbeitszeitTeilzeitVormittag": false,
+   "arbeitszeitTeilzeitFlexibel": false,
+   "arbeitszeitVollzeit": true,
+   "eintrittszeitraum": {
+    "von": "2027-09-20"
+   },
+   "verguetungsangabe": "AUSBILDUNGSVERGUETUNG_NACH_JAHREN",
+   "ausbildungsverguetungJahr1": 1626.79,
+   "ausbildungsverguetungJahr2": 1626.79,
+   "ausbildungsverguetungJahr3": 1626.79,
+   "vertragsdauer": "KEINE_ANGABE",
+   "stellenlokationen": [
+    {
+     "adresse": {
+      "strasse": "Friedrich-Ebert-Damm",
+      "hausnummer": "245",
+      "plz": "22159",
+      "ort": "Hamburg",
+      "region": "HAMBURG",
+      "land": "DEUTSCHLAND"
+     },
+     "breite": 53.592057,
+     "laenge": 10.107171
+    },
+    {
+     "adresse": {
+      "strasse": "Georg-Schumann-Straße",
+      "hausnummer": "146",
+      "plz": "04159",
+      "ort": "Leipzig",
+      "region": "SACHSEN",
+      "land": "DEUTSCHLAND"
+     },
+     "breite": 51.368796,
+     "laenge": 12.3537915
+    },
+    {
+     "adresse": {
+      "strasse": "Ziegelstraße",
+      "hausnummer": "150",
+      "plz": "23556",
+      "ort": "Lübeck",
+      "region": "SCHLESWIG_HOLSTEIN",
+      "land": "DEUTSCHLAND"
+     },
+     "breite": 53.864109,
+     "laenge": 10.6503525
+    },
+    {
+     "adresse": {
+      "strasse": "Lange Weihe",
+      "hausnummer": "6",
+      "plz": "30880",
+      "ort": "Laatzen bei Hannover",
+      "region": "NIEDERSACHSEN",
+      "land": "DEUTSCHLAND"
+     },
+     "breite": 52.300278,
+     "laenge": 9.821601
+    }
+   ],
+   "veroeffentlichungszeitraum": {
+    "von": "2026-10-05"
+   },
+   "datumErsteVeroeffentlichung": "2026-10-05",
+   "aenderungsdatum": "2026-10-13T13:28:06.396",
+   "studiengang": "Bachelor of Science - Informatik",
+   "firma": "Deutsche Rentenversicherung Nord Ost West Informationstechnik GmbH",
+   "arbeitgeberKundennummerHash": "MCOrhbKjAXfmkh6odqcAFRWuaWrhIeThNux2F5rfCn8=",
+   "referenznummer": "10001-1003804667-S"
+  },
+  {
+   "stellenangebotsart": "AUSBILDUNG",
+   "ausbildungsart": "DUALES_STUDIUM",
+   "studienform": "PRAXISINTEGRIEREND",
+   "stellenangebotsTitel": "Ingenieurwesen - Elektrotechnik (m/w/d) Technische Informatik",
+   "arbeitszeitSchichtNachtWochenende": false,
+   "arbeitszeitTeilzeitAbend": false,
+   "arbeitszeitTeilzeitNachmittag": false,
+   "arbeitszeitTeilzeitVormittag": false,
+   "arbeitszeitTeilzeitFlexibel": false,
+   "arbeitszeitVollzeit": true,
+   "eintrittszeitraum": {
+    "von": "2027-08-01"
+   },
+   "verguetungsangabe": "KEINE_ANGABEN",
+   "vertragsdauer": "KEINE_ANGABE",
+   "stellenlokationen": [
+    {
+     "adresse": {
+      "strasse": "Kapellenstr.",
+      "hausnummer": "15",
+      "plz": "65555",
+      "ort": "Limburg an der Lahn",
+      "ortsteil": "Offheim",
+      "region": "HESSEN",
+      "land": "DEUTSCHLAND"
+     },
+     "breite": 50.410314,
+     "laenge": 8.06787
+    }
+   ],
+   "veroeffentlichungszeitraum": {
+    "von": "2026-07-06"
+   },
+   "datumErsteVeroeffentlichung": "2026-07-03",
+   "aenderungsdatum": "2026-07-06T08:40:19.100",
+   "studiengang": "Bachelor of Engineering - Technische Informatik",
+   "firma": "MOBA Mobile Automation AG",
+   "arbeitgeberKundennummerHash": "e1OnuxoF9lLOXkE1YIsqeb0g3Cgq1djLpaOaD0DyE3c=",
+   "referenznummer": "10001-1003327352-S"
+  },
+  {
+   "stellenangebotsart": "AUSBILDUNG",
+   "ausbildungsart": "DUALES_STUDIUM",
+   "studienform": "PRAXISINTEGRIEREND",
+   "stellenangebotsTitel": "Informatik (B.Sc.) 2027",
+   "quereinstiegGeeignet": false,
+   "arbeitszeitSchichtNachtWochenende": false,
+   "arbeitszeitTeilzeitAbend": false,
+   "arbeitszeitTeilzeitNachmittag": false,
+   "arbeitszeitTeilzeitVormittag": false,
+   "arbeitszeitTeilzeitFlexibel": false,
+   "arbeitszeitVollzeit": true,
+   "eintrittszeitraum": {
+    "von": "2027-09-01"
+   },
+   "verguetungsangabe": "KEINE_ANGABEN",
+   "vertragsdauer": "KEINE_ANGABE",
+   "istGeringfuegigeBeschaeftigung": false,
+   "stellenlokationen": [
+    {
+     "adresse": {
+      "plz": "76187",
+      "ort": "Karlsruhe, Baden",
+      "region": "BADEN_WUERTTEMBERG",
+      "land": "DEUTSCHLAND"
+     },
+     "breite": 49.0371748,
+     "laenge": 8.340292
+    }
+   ],
+   "homeofficemoeglich": false,
+   "chiffrenummer": "DE_SIEMENSGA03864-11505",
+   "veroeffentlichungszeitraum": {
+    "von": "2026-07-01"
+   },
+   "datumErsteVeroeffentlichung": "2026-06-26",
+   "aenderungsdatum": "2026-07-01T10:03:46.672",
+   "studiengang": "Bachelor of Science - Informatik",
+   "firma": "SIEMENS AG",
+   "arbeitgeberKundennummerHash": "qbJA7Av3xavQmJRiVia1CAef1wx2jjzh1AMk86VarAc=",
+   "referenznummer": "11209-467499855-S"
+  },
+  {
+   "stellenangebotsart": "AUSBILDUNG",
+   "ausbildungsart": "DUALES_STUDIUM",
+   "studienform": "PRAXISINTEGRIEREND",
+   "stellenangebotsTitel": "Informatik (B.Sc.) 2027",
+   "quereinstiegGeeignet": false,
+   "arbeitszeitSchichtNachtWochenende": false,
+   "arbeitszeitTeilzeitAbend": false,
+   "arbeitszeitTeilzeitNachmittag": false,
+   "arbeitszeitTeilzeitVormittag": false,
+   "arbeitszeitTeilzeitFlexibel": false,
+   "arbeitszeitVollzeit": true,
+   "eintrittszeitraum": {
+    "von": "2027-09-01"
+   },
+   "verguetungsangabe": "KEINE_ANGABEN",
+   "vertragsdauer": "KEINE_ANGABE",
+   "istGeringfuegigeBeschaeftigung": false,
+   "stellenlokationen": [
+    {
+     "adresse": {
+      "plz": "76187",
+      "ort": "Karlsruhe, Baden",
+      "region": "BADEN_WUERTTEMBERG",
+      "land": "DEUTSCHLAND"
+     },
+     "breite": 49.0371748,
+     "laenge": 8.340292
+    }
+   ],
+   "homeofficemoeglich": false,
+   "chiffrenummer": "DE_SIEMENSGA03848-11507",
+   "veroeffentlichungszeitraum": {
+    "von": "2026-07-01"
+   },
+   "datumErsteVeroeffentlichung": "2026-06-26",
+   "aenderungsdatum": "2026-07-01T10:03:45.141",
+   "studiengang": "Bachelor of Science - Informatik",
+   "firma": "SIEMENS AG",
+   "arbeitgeberKundennummerHash": "qbJA7Av3xavQmJRiVia1CAef1wx2jjzh1AMk86VarAc=",
+   "referenznummer": "11209-467494549-S"
+  },
+  {
+   "stellenangebotsart": "AUSBILDUNG",
+   "ausbildungsart": "DUALES_STUDIUM",
+   "studienform": "PRAXISINTEGRIEREND",
+   "stellenangebotsTitel": "Informatik (B.Sc.) 2027",
+   "quereinstiegGeeignet": false,
+   "arbeitszeitSchichtNachtWochenende": false,
+   "arbeitszeitTeilzeitAbend": false,
+   "arbeitszeitTeilzeitNachmittag": false,
+   "arbeitszeitTeilzeitVormittag": false,
+   "arbeitszeitTeilzeitFlexibel": false,
+   "arbeitszeitVollzeit": true,
+   "eintrittszeitraum": {
+    "von": "2027-08-01"
+   },
+   "verguetungsangabe": "KEINE_ANGABEN",
+   "vertragsdauer": "KEINE_ANGABE",
+   "istGeringfuegigeBeschaeftigung": false,
+   "stellenlokationen": [
+    {
+     "adresse": {
+      "plz": "68163",
+      "ort": "Mannheim",
+      "region": "BADEN_WUERTTEMBERG",
+      "land": "DEUTSCHLAND"
+     },
+     "breite": 49.4689362,
+     "laenge": 8.5044463
+    }
+   ],
+   "homeofficemoeglich": false,
+   "chiffrenummer": "DE_SIEMENSGA03989-11640",
+   "veroeffentlichungszeitraum": {
+    "von": "2026-06-24"
+   },
+   "datumErsteVeroeffentlichung": "2026-06-23",
+   "aenderungsdatum": "2026-06-24T09:44:23.325",
+   "studiengang": "Bachelor of Science - Informatik",
+   "firma": "SIEMENS AG",
+   "arbeitgeberKundennummerHash": "qbJA7Av3xavQmJRiVia1CAef1wx2jjzh1AMk86VarAc=",
+   "referenznummer": "11209-466921936-S"
+  },
+  {
+   "stellenangebotsart": "AUSBILDUNG",
+   "ausbildungsart": "DUALES_STUDIUM",
+   "studienform": "PRAXISINTEGRIEREND",
+   "stellenangebotsTitel": "Duale Studenten (m/w/d) im Bereich Informatik Anwendungsentwicklung",
+   "arbeitszeitSchichtNachtWochenende": false,
+   "arbeitszeitTeilzeitAbend": false,
+   "arbeitszeitTeilzeitNachmittag": false,
+   "arbeitszeitTeilzeitVormittag": false,
+   "arbeitszeitTeilzeitFlexibel": false,
+   "arbeitszeitVollzeit": true,
+   "eintrittszeitraum": {
+    "von": "2027-09-01"
+   },
+   "verguetungsangabe": "KEINE_ANGABEN",
+   "vertragsdauer": "KEINE_ANGABE",
+   "stellenlokationen": [
+    {
+     "adresse": {
+      "strasse": "Am weißen Kreuz",
+      "hausnummer": "5",
+      "plz": "97633",
+      "ort": "Großbardorf",
+      "region": "BAYERN",
+      "land": "DEUTSCHLAND"
+     },
+     "breite": 50.272578,
+     "laenge": 10.373571
+    }
+   ],
+   "veroeffentlichungszeitraum": {
+    "von": "2026-09-03"
+   },
+   "datumErsteVeroeffentlichung": "2026-09-03",
+   "aenderungsdatum": "2026-10-05T08:35:13.811",
+   "studiengang": "Bachelor of Engineering - Informatik",
+   "firma": "IFSYS GmbH Integrated Feeding Systems",
+   "arbeitgeberKundennummerHash": "otb1Jwmz0pHY08vywH-EvTVemABr08Kl7ILgg-N2iBY=",
+   "referenznummer": "10000-1207773798-S"
+  },
+  {
+   "stellenangebotsart": "AUSBILDUNG",
+   "ausbildungsart": "DUALES_STUDIUM",
+   "studienform": "PRAXISINTEGRIEREND",
+   "stellenangebotsTitel": "Informatik (B.Sc.) 2027",
+   "quereinstiegGeeignet": false,
+   "arbeitszeitSchichtNachtWochenende": false,
+   "arbeitszeitTeilzeitAbend": false,
+   "arbeitszeitTeilzeitNachmittag": false,
+   "arbeitszeitTeilzeitVormittag": false,
+   "arbeitszeitTeilzeitFlexibel": false,
+   "arbeitszeitVollzeit": true,
+   "eintrittszeitraum": {
+    "von": "2027-09-01"
+   },
+   "verguetungsangabe": "KEINE_ANGABEN",
+   "vertragsdauer": "KEINE_ANGABE",
+   "istGeringfuegigeBeschaeftigung": false,
+   "stellenlokationen": [
+    {
+     "adresse": {
+      "plz": "92224",
+      "ort": "Amberg, Oberpfalz",
+      "region": "BAYERN",
+      "land": "DEUTSCHLAND"
+     },
+     "breite": 49.453684,
+     "laenge": 11.8480666
+    }
+   ],
+   "homeofficemoeglich": false,
+   "chiffrenummer": "DE_SIEMENSGA03893-11564",
+   "veroeffentlichungszeitraum": {
+    "von": "2026-06-18"
+   },
+   "datumErsteVeroeffentlichung": "2026-06-16",
+   "aenderungsdatum": "2026-06-18T12:55:38.240",
+   "studiengang": "Bachelor of Science - Informatik",
+   "firma": "SIEMENS AG",
+   "arbeitgeberKundennummerHash": "qbJA7Av3xavQmJRiVia1CAef1wx2jjzh1AMk86VarAc=",
+   "referenznummer": "11209-465730225-S"
+  },
+  {
+   "stellenangebotsart": "AUSBILDUNG",
+   "ausbildungsart": "DUALES_STUDIUM",
+   "studienform": "PRAXISINTEGRIEREND",
+   "stellenangebotsTitel": "Informatik (B.Sc.) 2027",
+   "quereinstiegGeeignet": false,
+   "arbeitszeitSchichtNachtWochenende": false,
+   "arbeitszeitTeilzeitAbend": false,
+   "arbeitszeitTeilzeitNachmittag": false,
+   "arbeitszeitTeilzeitVormittag": false,
+   "arbeitszeitTeilzeitFlexibel": false,
+   "arbeitszeitVollzeit": true,
+   "eintrittszeitraum": {
+    "von": "2027-09-01"
+   },
+   "verguetungsangabe": "KEINE_ANGABEN",
+   "vertragsdauer": "KEINE_ANGABE",
+   "istGeringfuegigeBeschaeftigung": false,
+   "stellenlokationen": [
+    {
+     "adresse": {
+      "plz": "90766",
+      "ort": "Fürth, Bayern",
+      "region": "BAYERN",
+      "land": "DEUTSCHLAND"
+     },
+     "breite": 49.4852104,
+     "laenge": 10.9635706
+    }
+   ],
+   "homeofficemoeglich": false,
+   "chiffrenummer": "DE_SIEMENSGA03893-11562",
+   "veroeffentlichungszeitraum": {
+    "von": "2026-06-18"
+   },
+   "datumErsteVeroeffentlichung": "2026-06-16",
+   "aenderungsdatum": "2026-06-18T12:55:37.945",
+   "studiengang": "Bachelor of Science - Informatik",
+   "firma": "SIEMENS AG",
+   "arbeitgeberKundennummerHash": "qbJA7Av3xavQmJRiVia1CAef1wx2jjzh1AMk86VarAc=",
+   "referenznummer": "11209-465729822-S"
+  },
+  {
+   "stellenangebotsart": "AUSBILDUNG",
+   "ausbildungsart": "DUALES_STUDIUM",
+   "studienform": "PRAXISINTEGRIEREND",
+   "stellenangebotsTitel": "Informatik (B.Sc.) 2027",
+   "quereinstiegGeeignet": false,
+   "arbeitszeitSchichtNachtWochenende": false,
+   "arbeitszeitTeilzeitAbend": false,
+   "arbeitszeitTeilzeitNachmittag": false,
+   "arbeitszeitTeilzeitVormittag": false,
+   "arbeitszeitTeilzeitFlexibel": false,
+   "arbeitszeitVollzeit": true,
+   "eintrittszeitraum": {
+    "von": "2027-09-01"
+   },
+   "verguetungsangabe": "KEINE_ANGABEN",
+   "vertragsdauer": "KEINE_ANGABE",
+   "istGeringfuegigeBeschaeftigung": false,
+   "stellenlokationen": [
+    {
+     "adresse": {
+      "plz": "91058",
+      "ort": "Erlangen",
+      "region": "BAYERN",
+      "land": "DEUTSCHLAND"
+     },
+     "breite": 49.560917,
+     "laenge": 11.0076477
+    }
+   ],
+   "homeofficemoeglich": false,
+   "chiffrenummer": "DE_SIEMENSGA03893-11555",
+   "veroeffentlichungszeitraum": {
+    "von": "2026-06-18"
+   },
+   "datumErsteVeroeffentlichung": "2026-06-16",
+   "aenderungsdatum": "2026-06-18T12:55:37.695",
+   "studiengang": "Bachelor of Science - Informatik",
+   "firma": "SIEMENS AG",
+   "arbeitgeberKundennummerHash": "qbJA7Av3xavQmJRiVia1CAef1wx2jjzh1AMk86VarAc=",
+   "referenznummer": "11209-465721835-S"
+  },
+  {
+   "stellenangebotsart": "AUSBILDUNG",
+   "ausbildungsart": "DUALES_STUDIUM",
+   "studienform": "PRAXISINTEGRIEREND",
+   "stellenangebotsTitel": "B. Sc. Informatik (m/w/d) 2027",
+   "arbeitszeitSchichtNachtWochenende": false,
+   "arbeitszeitTeilzeitAbend": false,
+   "arbeitszeitTeilzeitNachmittag": false,
+   "arbeitszeitTeilzeitVormittag": false,
+   "arbeitszeitTeilzeitFlexibel": false,
+   "arbeitszeitVollzeit": true,
+   "eintrittszeitraum": {
+    "von": "2027-09-01"
+   },
+   "verguetungsangabe": "KEINE_ANGABEN",
+   "vertragsdauer": "KEINE_ANGABE",
+   "stellenlokationen": [
+    {
+     "adresse": {
+      "strasse": "Hansastr.",
+      "hausnummer": "27",
+      "plz": "32423",
+      "ort": "Minden, Westfalen",
+      "region": "NORDRHEIN_WESTFALEN",
+      "land": "DEUTSCHLAND"
+     },
+     "breite": 52.298766,
+     "laenge": 8.922303
+    }
+   ],
+   "homeofficemoeglich": false,
+   "veroeffentlichungszeitraum": {
+    "von": "2026-07-29"
+   },
+   "datumErsteVeroeffentlichung": "2026-07-29",
+   "aenderungsdatum": "2026-09-22T13:48:07.854",
+   "studiengang": "Bachelor of Science - Informatik",
+   "firma": "WAGO GmbH & Co. KG",
+   "arbeitgeberKundennummerHash": "42EE93t-e0zMkOUliz4oLKAUkKXCmf_qHYN_12nPlrM=",
+   "referenznummer": "10000-1207345559-S"
+  },
+  {
+   "stellenangebotsart": "AUSBILDUNG",
+   "ausbildungsart": "DUALES_STUDIUM",
+   "studienform": "PRAXISINTEGRIEREND",
+   "stellenangebotsTitel": "DH-Studium Informatik (2027)",
+   "arbeitszeitSchichtNachtWochenende": false,
+   "arbeitszeitTeilzeitAbend": false,
+   "arbeitszeitTeilzeitNachmittag": false,
+   "arbeitszeitTeilzeitVormittag": false,
+   "arbeitszeitTeilzeitFlexibel": false,
+   "arbeitszeitVollzeit": true,
+   "eintrittszeitraum": {
+    "von": "2027-09-01"
+   },
+   "verguetungsangabe": "KEINE_ANGABEN",
+   "vertragsdauer": "KEINE_ANGABE",
+   "stellenlokationen": [
+    {
+     "adresse": {
+      "strasse": "Carl-Benz-Str.",
+      "hausnummer": "34",
+      "plz": "74321",
+      "ort": "Bietigheim-Bissingen",
+      "ortsteil": "Bissingen",
+      "region": "BADEN_WUERTTEMBERG",
+      "land": "DEUTSCHLAND"
+     },
+     "breite": 48.9398993,
+     "laenge": 9.1273749
+    }
+   ],
+   "veroeffentlichungszeitraum": {
+    "von": "2026-05-11"
+   },
+   "datumErsteVeroeffentlichung": "2026-05-11",
+   "aenderungsdatum": "2026-10-28T11:37:57.983",
+   "studiengang": "Bachelor of Science - Allgemeine Informatik",
+   "firma": "Dürr Systems AG",
+   "arbeitgeberKundennummerHash": "Fhb3Of363Oy-gl4wQeyYaC25ldWNTlkF9TW9hhSm6Zs=",
+   "referenznummer": "10000-1206478769-S"
+  },
+  {
+   "stellenangebotsart": "AUSBILDUNG",
+   "ausbildungsart": "DUALES_STUDIUM",
+   "studienform": "PRAXISINTEGRIEREND",
+   "stellenangebotsTitel": "Bachelor of Science - Informatik (m/w/d) (2027)",
+   "arbeitszeitSchichtNachtWochenende": false,
+   "arbeitszeitTeilzeitAbend": false,
+   "arbeitszeitTeilzeitNachmittag": false,
+   "arbeitszeitTeilzeitVormittag": false,
+   "arbeitszeitTeilzeitFlexibel": false,
+   "arbeitszeitVollzeit": true,
+   "eintrittszeitraum": {
+    "von": "2027-10-01"
+   },
+   "verguetungsangabe": "KEINE_ANGABEN",
+   "vertragsdauer": "KEINE_ANGABE",
+   "stellenlokationen": [
+    {
+     "adresse": {
+      "strasse": "Neue Jüdenstr.",
+      "hausnummer": "1",
+      "plz": "10179",
+      "ort": "Berlin",
+      "region": "BERLIN",
+      "land": "DEUTSCHLAND"
+     },
+     "breite": 52.515477,
+     "laenge": 13.41072
+    }
+   ],
+   "veroeffentlichungszeitraum": {
+    "von": "2026-08-15"
+   },
+   "datumErsteVeroeffentlichung": "2026-08-18",
+   "aenderungsdatum": "2026-10-29T09:16:09.716",
+   "studiengang": "Bachelor of Science - Informatik",
+   "firma": "Berliner Wasserbetriebe",
+   "arbeitgeberKundennummerHash": "PxzAlvwB4TfnahMWw7L4UtShRCdfN_--XqqdJiwnevU=",
+   "referenznummer": "10000-1206917839-S"
+  },
+  {
+   "stellenangebotsart": "AUSBILDUNG",
+   "ausbildungsart": "DUALES_STUDIUM",
+   "studienform": "AUSBILDUNGSINTEGRIEREND",
+   "stellenangebotsTitel": "2027- Studium Plus: Informatik",
+   "arbeitszeitSchichtNachtWochenende": false,
+   "arbeitszeitTeilzeitAbend": false,
+   "arbeitszeitTeilzeitNachmittag": false,
+   "arbeitszeitTeilzeitVormittag": false,
+   "arbeitszeitTeilzeitFlexibel": false,
+   "arbeitszeitVollzeit": true,
+   "eintrittszeitraum": {
+    "von": "2027-09-01"
+   },
+   "verguetungsangabe": "KEINE_ANGABEN",
+   "vertragsdauer": "KEINE_ANGABE",
+   "stellenlokationen": [
+    {
+     "adresse": {
+      "strasse": "Anton-Häring-Str.",
+      "hausnummer": "1",
+      "plz": "78585",
+      "ort": "Bubsheim",
+      "region": "BADEN_WUERTTEMBERG",
+      "land": "DEUTSCHLAND"
+     },
+     "breite": 48.115584,
+     "laenge": 8.8297605
+    }
+   ],
+   "veroeffentlichungszeitraum": {
+    "von": "2026-05-22"
+   },
+   "datumErsteVeroeffentlichung": "2026-05-22",
+   "aenderungsdatum": "2026-10-19T08:05:39.019",
+   "hauptberuf": "Mathematisch-technische/r Softwareentwickler/in",
+   "studiengang": "Bachelor of Science - Informatik",
+   "firma": "Anton Häring Werk für Präzisionstechnik",
+   "arbeitgeberKundennummerHash": "P39Kbvc5-xYAEW80mt4Os6x2zVsi_0iTJq3vomEIK44=",
+   "referenznummer": "10001-1003119110-S",
+   "alleBerufe": [
+    "Mathematisch-technische/r Softwareentwickler/in"
+   ]
+  },
+  {
+   "stellenangebotsart": "AUSBILDUNG",
+   "ausbildungsart": "DUALES_STUDIUM",
+   "studienform": "PRAXISINTEGRIEREND",
+   "stellenangebotsTitel": "Bachelor of Arts - Informatik (m/w/d)",
+   "arbeitszeitSchichtNachtWochenende": false,
+   "arbeitszeitTeilzeitAbend": false,
+   "arbeitszeitTeilzeitNachmittag": false,
+   "arbeitszeitTeilzeitVormittag": false,
+   "arbeitszeitTeilzeitFlexibel": false,
+   "arbeitszeitVollzeit": true,
+   "eintrittszeitraum": {
+    "von": "2027-09-01"
+   },
+   "verguetungsangabe": "KEINE_ANGABEN",
+   "vertragsdauer": "KEINE_ANGABE",
+   "stellenlokationen": [
+    {
+     "adresse": {
+      "strasse": "Ehinger Str.",
+      "hausnummer": "34",
+      "plz": "88400",
+      "ort": "Biberach an der Riß",
+      "region": "BADEN_WUERTTEMBERG",
+      "land": "DEUTSCHLAND"
+     },
+     "breite": 48.1035949,
+     "laenge": 9.7868977
+    }
+   ],
+   "veroeffentlichungszeitraum": {
+    "von": "2026-03-25"
+   },
+   "datumErsteVeroeffentlichung": "2026-03-25",
+   "aenderungsdatum": "2026-10-02T08:37:51.275",
+   "studiengang": "Bachelor of Arts - Informatik",
+   "firma": "Vollmer Werke Maschinenfabrik GmbH",
+   "arbeitgeberKundennummerHash": "i2232MGJPxgNoR6lLDk6eTqDvj6TDZ7gZKaIGeODY38=",
+   "referenznummer": "10001-1002824728-S"
+  }
+ ],
+ "maxErgebnisse": 3157,
+ "page": 1,
+ "size": 100,
+ "facetten": {
+  "befristung": {
+   "counts": {
+    "3": 3157
+   },
+   "maxCount": 3157
+  },
+  "externestellenboersen": {
+   "counts": {
+    "false": 3093,
+    "true": 64
+   },
+   "maxCount": 3157
+  },
+  "behinderung": {
+   "counts": {
+    "false": 1680,
+    "true": 6
+   },
+   "maxCount": 3157
+  },
+  "berufsfeld": {
+   "counts": {
+    "Arzt- und Praxishilfe": 1,
+    "Biologie": 1,
+    "Büro und Sekretariat": 22,
+    "Chemie": 8,
+    "Drucktechnik, Buchbinderei": 1,
+    "Elektrotechnik": 103,
+    "Energietechnik": 216,
+    "Fahrzeug-, Luft-, Raumfahrt- und Schiffbautechnik": 21,
+    "Fahrzeugführung im Straßenverkehr": 3,
+    "Feinwerk- und Werkzeugtechnik": 27,
+    "Handel": 16,
+    "Holzbe- und -verarbeitung": 2,
+    "IT-Netzwerktechnik, -Administration, -Organisation": 13,
+    "IT-Systemanalyse, -Anwendungsberatung und -Vertrieb": 35,
+    "Immobilienwirtschaft und Facility-Management": 2,
+    "Industrielle Glasherstellung": 2,
+    "Informatik": 473,
+    "Innenarchitektur, Raumausstattung": 1,
+    "Kaufleute - Verkehr und Logistik": 1,
+    "Klempnerei, Sanitär-, Heizungs- und Klimatechnik": 10,
+    "Kunststoff- und Kautschukherstellung": 7,
+    "Körperpflege": 1,
+    "Lagerwirtschaft, Post und Zustellung, Güterumschlag": 24,
+    "Lebensmittel- und Genussmittelherstellung": 2,
+    "Maler, Stuckateure, Bautenschutz": 1,
+    "Maschinenbau- und Betriebstechnik": 112,
+    "Mechatronik und Automatisierungstechnik": 380,
+    "Medien-, Dokumentations- und Informationsdienste": 3,
+    "Medizinisches Laboratorium": 2,
+    "Metallbau und Schweißtechnik": 13,
+    "Metallbearbeitung": 48,
+    "Metallerzeugung": 1,
+    "Naturstein- und Mineralaufbereitung, Baustoffherstellung": 1,
+    "Objekt-, Personen-, Brandschutz, Arbeitssicherheit": 2,
+    "Papier- und Verpackungstechnik": 2,
+    "Physik": 3,
+    "Softwareentwicklung und Programmierung": 256,
+    "Technische Mediengestaltung": 2,
+    "Technische Produktionsplanung und -steuerung": 9,
+    "Technisches Zeichnen, Konstruktion und Modellbau": 40,
+    "Textilverarbeitung": 1,
+    "Tiefbau": 1,
+    "Umweltschutztechnik": 1,
+    "Unternehmensorganisation und -strategie": 18,
+    "Ver- und Entsorgung": 7,
+    "Veranstaltungs-, Kamera-, Tontechnik": 2,
+    "Vermessung und Kartografie": 14,
+    "Versicherungs- und Finanzdienstleistungen": 5,
+    "Verwaltung": 3
+   },
+   "maxCount": 3157
+  },
+  "pav": {
+   "counts": {
+    "false": 3147,
+    "true": 10
+   },
+   "maxCount": 3157
+  },
+  "topberuf": {
+   "counts": {
+    "Fachinformatiker/in - Anwendungsentwicklung": 238,
+    "Fachinformatiker/in - Systemintegration": 391,
+    "Mathematisch-technische/r Softwareentwickler/in": 18,
+    "Mechatroniker/in": 309,
+    "Kaufmann/-frau - Digitalisierungsmanagement": 40,
+    "Fachinformatiker/in - Daten- und Prozessanalyse": 29,
+    "Assistent/in - Informatik (Wirtschaftsinformatik)": 6,
+    "Kaufmann/-frau - IT-System-Management": 35,
+    "Bachelor of Science - Wirtschaftsinformatik": 3,
+    "Elektroniker/in - Betriebstechnik": 147,
+    "Fachinformatiker/in - Digitale Vernetzung": 12,
+    "Elektroniker/in - Automatisierungstechnik": 61,
+    "Informationselektroniker/in": 16,
+    "IT-System-Elektroniker/in": 22,
+    "Elektroniker/in - Geräte und Systeme": 51,
+    "Industriemechaniker/in": 103,
+    "Geomatiker/in": 5,
+    "Technische/r Produktdesigner/in - Maschinen- und Anlagenkonstruktion": 13,
+    "Mikrotechnologe/-technologin": 4,
+    "Vermessungstechniker/in - Vermessung": 9
+   },
+   "scores": {
+    "Fachinformatiker/in - Anwendungsentwicklung": 33470,
+    "Fachinformatiker/in - Systemintegration": 30759,
+    "Mathematisch-technische/r Softwareentwickler/in": 5953,
+    "Mechatroniker/in": 4237,
+    "Kaufmann/-frau - Digitalisierungsmanagement": 3437,
+    "Fachinformatiker/in - Daten- und Prozessanalyse": 2861,
+    "Assistent/in - Informatik (Wirtschaftsinformatik)": 2336,
+    "Kaufmann/-frau - IT-System-Management": 2298,
+    "Bachelor of Science - Wirtschaftsinformatik": 2228,
+    "Elektroniker/in - Betriebstechnik": 968,
+    "Fachinformatiker/in - Digitale Vernetzung": 775,
+    "Elektroniker/in - Automatisierungstechnik": 737,
+    "Informationselektroniker/in": 497,
+    "IT-System-Elektroniker/in": 492,
+    "Elektroniker/in - Geräte und Systeme": 428,
+    "Industriemechaniker/in": 173,
+    "Geomatiker/in": 163,
+    "Technische/r Produktdesigner/in - Maschinen- und Anlagenkonstruktion": 143,
+    "Mikrotechnologe/-technologin": 106,
+    "Vermessungstechniker/in - Vermessung": 103
+   },
+   "maxCount": 3157
+  },
+  "arbeitsort": {
+   "counts": {
+    "Aachen": 11,
+    "Albstadt, Württemberg": 7,
+    "Amberg, Oberpfalz": 8,
+    "Aschaffenburg": 7,
+    "Backnang": 10,
+    "Bad Mergentheim": 7,
+    "Bensheim": 8,
+    "Berlin": 92,
+    "Bielefeld": 13,
+    "Bochum": 7,
+    "Bonn": 33,
+    "Bopfingen": 7,
+    "Braunschweig": 17,
+    "Bremen": 34,
+    "Bremerhaven": 6,
+    "Bubsheim": 8,
+    "Chemnitz, Sachsen": 21,
+    "Crailsheim": 12,
+    "Crimmitschau": 6,
+    "Dessau-Roßlau": 6,
+    "Ditzingen": 8,
+    "Dortmund": 15,
+    "Dresden": 19,
+    "Duisburg": 13,
+    "Düsseldorf": 27,
+    "Emden, Ostfriesland": 7,
+    "Erfurt": 12,
+    "Erlangen": 8,
+    "Espelkamp": 6,
+    "Essen, Ruhr": 14,
+    "Esslingen am Neckar": 8,
+    "Frankfurt am Main": 69,
+    "Freiburg im Breisgau": 9,
+    "Fulda": 8,
+    "Gescher": 10,
+    "Giengen an der Brenz": 8,
+    "Gummersbach": 7,
+    "Göttingen": 9,
+    "Hamburg": 75,
+    "Hannover": 38,
+    "Herzogenaurach": 13,
+    "Karlsruhe, Baden": 38,
+    "Kassel, Hessen": 9,
+    "Kiel": 13,
+    "Koblenz am Rhein": 13,
+    "Köln": 33,
+    "Lahr, Schwarzwald": 7,
+    "Langenhagen, Han": 10,
+    "Leinfelden-Echterdingen": 9,
+    "Leipzig": 26,
+    "Lemgo": 8,
+    "Lingen (Ems)": 8,
+    "Lohne (Oldenburg)": 7,
+    "Ludwigshafen am Rhein": 9,
+    "Lübeck": 8,
+    "Mainz am Rhein": 8,
+    "Mannheim": 16,
+    "Marburg": 7,
+    "Maulburg": 7,
+    "Meckenheim, Rheinland": 7,
+    "Memmingen": 7,
+    "Menden (Sauerland)": 7,
+    "Mindelheim": 7,
+    "München": 47,
+    "Münster, Westfalen": 15,
+    "Nordhausen, Thüringen": 8,
+    "Nürnberg, Mittelfranken": 22,
+    "Offenburg": 10,
+    "Oldenburg (Oldb)": 7,
+    "Osnabrück": 8,
+    "Paderborn": 17,
+    "Parkstein": 14,
+    "Pirna": 8,
+    "Regensburg": 9,
+    "Reutlingen": 7,
+    "Roding, Regen": 9,
+    "Saarbrücken": 11,
+    "Salzgitter": 10,
+    "Schalkau": 10,
+    "Schramberg": 8,
+    "Schrobenhausen": 7,
+    "Schweinfurt": 7,
+    "Selb": 8,
+    "Sindelfingen": 7,
+    "Singen (Hohentwiel)": 9,
+    "Spelle": 21,
+    "St. Egidien": 8,
+    "Stuttgart": 49,
+    "Tuttlingen": 7,
+    "Ulm, Donau": 18,
+    "Villingen-Schwenningen": 7,
+    "Waldkirch, Breisgau": 9,
+    "Weißenhorn": 7,
+    "Wemding": 7,
+    "Werlte, Emsland": 12,
+    "Wertheim am Main": 8,
+    "Wiesbaden": 7,
+    "Wolfertschwenden": 9,
+    "Wolfsburg": 19,
+    "Zwickau": 7
+   },
+   "maxCount": 3157
+  },
+  "ausbildungsart": {
+   "counts": {
+    "0": 1726,
+    "1": 193,
+    "2": 1238
+   },
+   "maxCount": 3157
+  },
+  "veroeffentlichtseit": {
+   "counts": {
+    "0": 19,
+    "1": 24,
+    "7": 186,
+    "14": 296,
+    "28": 638,
+    "alle": 3157
+   },
+   "maxCount": 3157
+  },
+  "schulbildung": {
+   "counts": {
+    "0": 302,
+    "1": 303,
+    "2": 523,
+    "3": 1749,
+    "4": 2532,
+    "5": 2807,
+    "6": 3157,
+    "11": 303,
+    "12": 692
+   },
+   "maxCount": 3157
+  },
+  "arbeitsort_plz": {
+   "counts": {
+    "10115": 7,
+    "10557": 7,
+    "10587": 4,
+    "10789": 8,
+    "10969": 6,
+    "12277": 6,
+    "13089": 4,
+    "13158": 5,
+    "13353": 4,
+    "13509": 5,
+    "14974": 6,
+    "15366": 4,
+    "17291": 4,
+    "17509": 4,
+    "19370": 4,
+    "21129": 10,
+    "22113": 4,
+    "22179": 6,
+    "23556": 6,
+    "24114": 5,
+    "25524": 4,
+    "26133": 4,
+    "26723": 7,
+    "27283": 4,
+    "27572": 5,
+    "28199": 9,
+    "28309": 12,
+    "28359": 7,
+    "30159": 10,
+    "30165": 7,
+    "30419": 8,
+    "30453": 4,
+    "30855": 7,
+    "30880": 4,
+    "31785": 5,
+    "32312": 6,
+    "32339": 6,
+    "32423": 4,
+    "32657": 8,
+    "32683": 4,
+    "33100": 11,
+    "33104": 6,
+    "33415": 6,
+    "33609": 4,
+    "33775": 4,
+    "34225": 4,
+    "34286": 4,
+    "35041": 5,
+    "35066": 4,
+    "35108": 5,
+    "35683": 4,
+    "36041": 5,
+    "37073": 5,
+    "38112": 5,
+    "38122": 5,
+    "38126": 5,
+    "38239": 8,
+    "38440": 10,
+    "38442": 4,
+    "40472": 6,
+    "40474": 6,
+    "40549": 4,
+    "44227": 4,
+    "45127": 4,
+    "45141": 4,
+    "46325": 4,
+    "47051": 6,
+    "48155": 4,
+    "48480": 21,
+    "48496": 4,
+    "48599": 4,
+    "48683": 4,
+    "48712": 10,
+    "48734": 6,
+    "49393": 7,
+    "49401": 5,
+    "49479": 4,
+    "49525": 5,
+    "49565": 5,
+    "49733": 5,
+    "49740": 5,
+    "49757": 12,
+    "49770": 5,
+    "49779": 4,
+    "49808": 4,
+    "50667": 7,
+    "50679": 8,
+    "51645": 5,
+    "52070": 6,
+    "53113": 5,
+    "53119": 18,
+    "53175": 6,
+    "53340": 7,
+    "53757": 5,
+    "54343": 6,
+    "56073": 6,
+    "57392": 5,
+    "58762": 5,
+    "59494": 6,
+    "60313": 17,
+    "60549": 5,
+    "64625": 8,
+    "65189": 6,
+    "65929": 23,
+    "67346": 5,
+    "67547": 5,
+    "70372": 5,
+    "70469": 8,
+    "70771": 9,
+    "71063": 7,
+    "71254": 8,
+    "71364": 6,
+    "71522": 10,
+    "72336": 5,
+    "72458": 6,
+    "73054": 5,
+    "73441": 7,
+    "73760": 5,
+    "74172": 6,
+    "74177": 5,
+    "74196": 6,
+    "74564": 10,
+    "74653": 5,
+    "74706": 5,
+    "76131": 11,
+    "76137": 5,
+    "76187": 6,
+    "76227": 7,
+    "76344": 5,
+    "76532": 5,
+    "77656": 8,
+    "77933": 7,
+    "78120": 5,
+    "78148": 6,
+    "78224": 8,
+    "78532": 7,
+    "78585": 8,
+    "78713": 8,
+    "79183": 9,
+    "79677": 6,
+    "79689": 7,
+    "80331": 14,
+    "85551": 5,
+    "85579": 6,
+    "86529": 7,
+    "86650": 7,
+    "86899": 5,
+    "87700": 7,
+    "87719": 7,
+    "87787": 9,
+    "88069": 5,
+    "88400": 5,
+    "89073": 6,
+    "89264": 7,
+    "89537": 8,
+    "90402": 6,
+    "91058": 5,
+    "91220": 6,
+    "92224": 8,
+    "92431": 5,
+    "92637": 5,
+    "92711": 14,
+    "93055": 6,
+    "93426": 9,
+    "94234": 6,
+    "94315": 6,
+    "95100": 8,
+    "95643": 5,
+    "96465": 5,
+    "96528": 10,
+    "97424": 6,
+    "97616": 9,
+    "97877": 8,
+    "97941": 6,
+    "97980": 7,
+    "99087": 7,
+    "99734": 8,
+    "99817": 5,
+    "99848": 5,
+    "01109": 4,
+    "01558": 6,
+    "01705": 4,
+    "01731": 4,
+    "01744": 4,
+    "01796": 8,
+    "01809": 6,
+    "01904": 5,
+    "01990": 4,
+    "02923": 6,
+    "03238": 5,
+    "04109": 13,
+    "04720": 4,
+    "04860": 4,
+    "07318": 6,
+    "08451": 6,
+    "08468": 8,
+    "09116": 5,
+    "09356": 8,
+    "09366": 7,
+    "09465": 4
+   },
+   "maxCount": 3157
+  },
+  "arbeitgeber": {
+   "counts": {
+    "50Hertz Transmission GmbH AD Berlin": 11,
+    "ABB Ausbildungszentrum gGmbH": 5,
+    "ALSTOM Transportation Germany GmbH": 4,
+    "ANDREAS STIHL AG & CO. KG": 4,
+    "AUMOVIO SE Haupverwaltung": 9,
+    "Airbus Defence and Space GmbH": 15,
+    "Airbus Operations GmbH Werk Bremen": 13,
+    "Alfred Kärcher SE & Co. KG": 9,
+    "Anonymer Arbeitgeber": 8,
+    "Anton Häring Werk für Präzisionstechnik": 6,
+    "Atruvia AG": 4,
+    "BEGA Gantenbrink- Leuchten KG": 4,
+    "BENTELER Steel/Tube GmbH&Co.KG W41": 4,
+    "BGH Edelstahl Freital GmbH": 4,
+    "BSH Hausgeräte GmbH": 6,
+    "BWI GmbH": 21,
+    "Bechtle AG": 7,
+    "Bernard Krone Holding SE & Co. KG": 6,
+    "Berthold Technologies GmbH & Co. KG": 4,
+    "Borbet Sachsen GmbH": 6,
+    "Bundesdruckerei Gruppe GmbH": 6,
+    "Bühnen der Stadt Köln": 4,
+    "CLEVER Systemtechnik GmbH": 6,
+    "CURRENTA GmbH & Co. OHG": 6,
+    "ClaraNET GmbH": 4,
+    "Computacenter AG & Co. oHG": 4,
+    "Constellium Deutschland GmbH": 7,
+    "ContiTech Deutschland GmbH": 11,
+    "DPD Deutschland GmbH": 15,
+    "Daimler Truck AG": 12,
+    "Debeka Kranken- und Lebensversicherungsverein a.G.": 5,
+    "Dentsply Sirona Deutschland GmbH": 7,
+    "Deutsche Bahn AG": 68,
+    "Elektra GmbH": 10,
+    "Evonik Operations GmbH": 5,
+    "FEP Fahrzeugelektrik Pirna GmbH & Co. KG": 6,
+    "FGB Adolf Steinbach GmbH & Co. KG": 5,
+    "FIRMENGRUPPE APPL Holding GmbH & Co. KG": 5,
+    "Finanz Informatik GmbH & Co. KG": 6,
+    "Finanz Informatik Technologie Service GmbH & Co. KG": 6,
+    "GSK Vaccines GmbH": 5,
+    "Geberit Lichtenstein GmbH": 5,
+    "HAMM AG": 5,
+    "HAWE Hydraulik SE": 6,
+    "Heinzmann GmbH & Co. KG": 6,
+    "Hetzner Online GmbH": 10,
+    "IT-HAUS GmbH": 5,
+    "Iglo GmbH Werk Reken": 6,
+    "Infineon Technologies AG": 8,
+    "J+P Maschinenbau GmbH": 5,
+    "KPMG AG Wirtschaftsprüfungs gesellschaft": 8,
+    "KRONE Business Center DigITAL GmbH & Co. KG": 7,
+    "Karlsruher Institut für Technologie Universitätsbereich": 5,
+    "LINHARDT Viechtach GmbH & Co. KG": 5,
+    "LSK Engineering Services GmbH": 6,
+    "Lotter Metall GmbH & Co. KG": 5,
+    "MBDA Deutschland GmbH": 7,
+    "MULTIVAC Sepp Haggenmüller SE & Co. KG": 7,
+    "Max Bögl Stiftung & Co. KG": 6,
+    "Mercedes-Benz Group AG": 29,
+    "Metalltechnik GmbH Großenhainer Maschinenbau GmbH": 5,
+    "Miele & Cie. KG Werk Gütersloh": 5,
+    "Möhling GmbH & Co KG": 5,
+    "Mühlbauer Group": 5,
+    "Netze BW GmbH": 6,
+    "Otto GmbH & Co. KG aA": 5,
+    "Peri-Werk A. Schwörer GmbH & Co. KG": 5,
+    "Provadis Partner für Bildung und Beratung GmbH": 22,
+    "Pöppelmann GmbH & Co. KG": 6,
+    "RAPA Automotive GmbH & Co. KG": 8,
+    "Rheinmetall AG": 5,
+    "Robert Bosch GmbH": 34,
+    "SAUER GmbH & CO KG": 5,
+    "SICK AG": 11,
+    "SIEMENS AG": 34,
+    "SUSA S.Sauer GmbH & Co. KG": 6,
+    "Schaeffler Technologies AG & Co. KG": 15,
+    "Schwarz Corporate Solutions KG": 7,
+    "Siemens Mobility GmbH": 8,
+    "Stadt Köln, Personal-und Verwaltungsmanagement Ausbildungsleitung 111/3": 6,
+    "TEAG Thüringer Energie AG": 5,
+    "TKMS ATLAS ELEKTRONIK GmbH": 5,
+    "TRUMPF Laser SE": 5,
+    "TRUMPF SE + Co. KG": 5,
+    "TRUMPF Sachsen SE": 5,
+    "Technische Hochschule Ostwestfalen-Lippe": 5,
+    "Tesla Automation GmbH": 5,
+    "Theo Förch GmbH & Co. KG": 5,
+    "Thüringische Weidmüller GmbH": 5,
+    "Triumph Adler GmbH NLHamburg": 6,
+    "VAF GmbH": 5,
+    "Vodafone GmbH": 8,
+    "Volkswagen AG 11001101": 10,
+    "WBS IT- Service GmbH": 7,
+    "WITRON Logistik+Informatik GmbH & Co. KG": 14,
+    "ZF Friedrichshafen AG": 10,
+    "eck cellent IT GmbH": 6,
+    "genua GmbH": 5,
+    "telent GmbH": 6,
+    "transfluid Maschinen- bau GmbH": 5
+   },
+   "maxCount": 3157
+  },
+  "beruf": {
+   "counts": {
+    "Anlagenmechaniker/in": 4,
+    "Anlagenmechaniker/in - Sanitär-, Heizungs- und Klimatechnik": 3,
+    "Assistent/in - Informatik (Wirtschaftsinformatik)": 6,
+    "Assistent/in - Informatik (allgemeine Informatik)": 2,
+    "Associate Engineer - Mechanical Engineering": 2,
+    "Automatenfachmann/-frau - Automatenmechatronik": 1,
+    "Bachelor of Arts - BWL (Digitalisierung und Management)": 1,
+    "Bachelor of Engineering - Maschinenbau (Fahrzeug-System-Engineering)": 1,
+    "Bachelor of Engineering - Mechatronik": 2,
+    "Bachelor of Science - Angewandte Informatik": 1,
+    "Bachelor of Science - Wirtschaftsinformatik": 3,
+    "Bankkaufmann/-frau": 3,
+    "Bautechnische/r Konstrukteur/in - Architektur": 3,
+    "Bautechnische/r Konstrukteur/in - Ingenieurbau": 3,
+    "Beamter/Beamtin - Kommunalverwaltung (gehobener nichttechnischer Dienst)": 1,
+    "Berufskollegiat/in - Elektrotechnik": 1,
+    "Berufskollegiat/in - Kfz-Technik": 2,
+    "Berufskraftfahrer/in": 2,
+    "Biologielaborant/in": 1,
+    "Brunnenbauer/in": 1,
+    "Chemielaborant/in": 4,
+    "Chemikant/in": 3,
+    "Elektroanlagenmonteur/in": 2,
+    "Elektroniker/in - Automatisierungs- und Systemtechnik": 7,
+    "Elektroniker/in - Automatisierungstechnik": 61,
+    "Elektroniker/in - Automatisierungstechnik (Handwerk)": 1,
+    "Elektroniker/in - Betriebstechnik": 147,
+    "Elektroniker/in - Energie- und Gebäudetechnik": 43,
+    "Elektroniker/in - Gebäude- und Infrastruktursysteme": 1,
+    "Elektroniker/in - Gebäudesystemintegration": 3,
+    "Elektroniker/in - Geräte und Systeme": 51,
+    "Elektroniker/in - Informations- und Systemtechnik": 6,
+    "Elektroniker/in - Maschinen und Antriebstechnik (BBiG)": 6,
+    "Elektroniker/in - Maschinen und Antriebstechnik (HwO)": 2,
+    "Elektronikfachkraft (§66 BBiG/§42r HwO)": 1,
+    "Fachangestellte/r - Medien- und Informationsdienste - Archiv": 1,
+    "Fachangestellte/r - Medien- und Informationsdienste - Bibliothek": 1,
+    "Fachinformatiker/in - Anwendungsentwicklung": 238,
+    "Fachinformatiker/in - Daten- und Prozessanalyse": 29,
+    "Fachinformatiker/in - Digitale Vernetzung": 12,
+    "Fachinformatiker/in - Systemintegration": 391,
+    "Fachkraft - Fahrbetrieb": 1,
+    "Fachkraft - Lagerlogistik": 23,
+    "Fachkraft - Lebensmitteltechnik": 1,
+    "Fachkraft - Metalltechnik - Konstruktionstechnik": 3,
+    "Fachkraft - Metalltechnik - Montagetechnik": 2,
+    "Fachkraft - Metalltechnik - Umform- und Drahttechnik": 1,
+    "Fachkraft - Metalltechnik - Zerspanungstechnik": 3,
+    "Fachkraft - Schutz und Sicherheit": 2,
+    "Fachkraft - Veranstaltungstechnik": 1,
+    "Fachlagerist/in": 1,
+    "Feinwerkmechaniker/in": 10,
+    "Fluggerätmechaniker/in - Fertigungstechnik": 1,
+    "Fremdsprachenkorrespondent/in": 1,
+    "Geomatiker/in": 5,
+    "Holzbearbeitungsmechaniker/in": 2,
+    "IT-System-Elektroniker/in": 22,
+    "Immobilienkaufmann/-frau": 2,
+    "Industrieelektriker/in - Betriebstechnik": 10,
+    "Industrieelektriker/in - Geräte und Systeme": 2,
+    "Industriekaufmann/-frau": 18,
+    "Industriemechaniker/in": 103,
+    "Informatikkaufmann/-frau": 1,
+    "Informationselektroniker/in": 16,
+    "Kaufmann/-frau - Büromanagement": 21,
+    "Kaufmann/-frau - Digitalisierungsmanagement": 40,
+    "Kaufmann/-frau - E-Commerce": 6,
+    "Kaufmann/-frau - Groß- und Außenhandelsmanagement (Außenhandel)": 1,
+    "Kaufmann/-frau - Groß- und Außenhandelsmanagement (Großhandel)": 9,
+    "Kaufmann/-frau - IT-System-Management": 35,
+    "Kaufmann/-frau - Spedition und Logistikdienstleistung": 1,
+    "Kaufmann/-frau - Versicherungen und Finanzanlagen": 2,
+    "Konstruktionsmechaniker/in": 8,
+    "Kraftfahrzeugmechatroniker/in - Nutzfahrzeugtechnik": 10,
+    "Kraftfahrzeugmechatroniker/in - Personenkraftwagentechnik": 6,
+    "Kunststoff- und Kautschuktechnologe/-technologin - Compound- und Masterbatchherstellung": 1,
+    "Kunststoff- und Kautschuktechnologe/-technologin - Formteile": 5,
+    "Kunststoff- und Kautschuktechnologe/-technologin - Mehrschichtkautschukteile": 1,
+    "Land- und Baumaschinenmechatroniker/in": 1,
+    "Maler/in und Lackierer/in - Gestaltung und Instandhaltung": 1,
+    "Maschinen- und Anlagenführer/in (ohne Angabe des Schwerpunkts)": 6,
+    "Maschinen- und Anlagenführer/in - Druckweiter- und Papierverarbeitung": 2,
+    "Mathematisch-technische/r Softwareentwickler/in": 18,
+    "Mechatroniker/in": 309,
+    "Mechatroniker/in - Kältetechnik": 7,
+    "Metallbauer/in - Konstruktionstechnik": 2,
+    "Mikrotechnologe/-technologin": 4,
+    "Produktionstechnologe/-technologin": 9,
+    "Technische/r Produktdesigner/in - Maschinen- und Anlagenkonstruktion": 13,
+    "Technische/r Produktdesigner/in - Produktgestaltung und -konstruktion": 5,
+    "Technische/r Systemplaner/in - Elektrotechnische Systeme": 6,
+    "Technische/r Systemplaner/in - Stahl- und Metallbautechnik": 6,
+    "Technische/r Systemplaner/in - Versorgungs- und Ausrüstungstechnik": 4,
+    "Umwelttechnologe/-technologin - Abwasserbewirtschaftung": 2,
+    "Verfahrensmechaniker/in - Glastechnik": 2,
+    "Vermessungstechniker/in - Vermessung": 9,
+    "Verwaltungsfachangestellte/r - Kommunalverwaltung": 2,
+    "Werkstoffprüfer/in - Metalltechnik": 2,
+    "Werkzeugmechaniker/in": 17,
+    "Zerspanungsmechaniker/in": 43
+   },
+   "maxCount": 3157
+  },
+  "homeoffice": {
+   "counts": {
+    "prozentual": 13,
+    "nv_false": 13,
+    "nv_true": 76
+   },
+   "maxCount": 3157
+  },
+  "ausbildungsverguetung": {
+   "counts": {
+    "monat": 597
+   },
+   "maxCount": 3157
+  },
+  "angebotsart": {
+   "counts": {
+    "1": 9359,
+    "2": 68,
+    "4": 3157,
+    "34": 691
+   },
+   "maxCount": 13275
+  },
+  "branche": {
+   "counts": {
+    "1": 138,
+    "2": 75,
+    "3": 244,
+    "4": 68,
+    "5": 237,
+    "6": 64,
+    "7": 19,
+    "8": 170,
+    "9": 193,
+    "10": 9,
+    "11": 347,
+    "12": 5,
+    "13": 305,
+    "14": 16,
+    "15": 667,
+    "16": 19,
+    "17": 61,
+    "18": 112,
+    "19": 54,
+    "20": 6,
+    "21": 64,
+    "22": 113,
+    "23": 3,
+    "24": 3,
+    "25": 20,
+    "26": 48,
+    "27": 2,
+    "28": 1,
+    "29": 33
+   },
+   "maxCount": 3157
+  },
+  "quereinstieg": {
+   "counts": {
+    "false": 3157
+   },
+   "maxCount": 3157
+  },
+  "arbeitszeit": {
+   "counts": {
+    "tz": 64,
+    "vz": 3147
+   },
+   "maxCount": 3157
+  },
+  "eintrittsdatum": {
+   "counts": {
+    "10_01_01-now": 252,
+    "26_11_01-26_12_01": 23,
+    "27_01_01-27_02_01": 2,
+    "27_02_01-27_03_01": 15,
+    "27_03_01-27_04_01": 5,
+    "27_04_01-27_05_01": 8,
+    "27_06_01-27_07_01": 2,
+    "27_07_01-27_08_01": 21,
+    "27_08_01-27_09_01": 1142,
+    "27_09_01-27_10_01": 1313,
+    "27_10_01-27_11_01": 391,
+    "28_08_01-28_09_01": 3,
+    "28_09_01-28_10_01": 1
+   },
+   "maxCount": 3157
+  },
+  "zeitarbeit": {
+   "counts": {
+    "false": 3153,
+    "true": 4
+   },
+   "maxCount": 3157
+  },
+  "topberufsfeld": {
+   "counts": {
+    "Informatik": 473,
+    "Softwareentwicklung und Programmierung": 256,
+    "Mechatronik und Automatisierungstechnik": 380,
+    "Energietechnik": 216,
+    "Elektrotechnik": 103,
+    "Vermessung und Kartografie": 14,
+    "Technisches Zeichnen, Konstruktion und Modellbau": 40,
+    "IT-Systemanalyse, -Anwendungsberatung und -Vertrieb": 35,
+    "Feinwerk- und Werkzeugtechnik": 27,
+    "Medien-, Dokumentations- und Informationsdienste": 3
+   },
+   "scores": {
+    "Informatik": 21016,
+    "Softwareentwicklung und Programmierung": 10956,
+    "Mechatronik und Automatisierungstechnik": 7903,
+    "Energietechnik": 744,
+    "Elektrotechnik": 225,
+    "Vermessung und Kartografie": 184,
+    "Technisches Zeichnen, Konstruktion und Modellbau": 132,
+    "IT-Systemanalyse, -Anwendungsberatung und -Vertrieb": 126,
+    "Feinwerk- und Werkzeugtechnik": 73,
+    "Medien-, Dokumentations- und Informationsdienste": 6
+   },
+   "maxCount": 3157
+  }
+ }
+}

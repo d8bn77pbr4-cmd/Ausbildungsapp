@@ -1,0 +1,1926 @@
+{
+ "items": [
+  {
+   "studienangebot": {
+    "abschlussgrad": {
+     "id": 2,
+     "label": "Bachelor/Bakkalaureus"
+    },
+    "externalLinks": [
+     {
+      "tooltip": "Für diesen Studiengang sind zugeschnittene Studiencheck-Tests verfügbar.",
+      "link": "https://studichecks.de/show/g307305",
+      "name": "studiencheck"
+     },
+     {
+      "tooltip": "Für diesen Studiengang ist ein webbasierter Selbsttest verfügbar.",
+      "link": "https://www.selbsttest.uni-bonn.de",
+      "name": "osa"
+     }
+    ],
+    "fitFuerStudiumFacettenOptions": [
+     {
+      "id": -1,
+      "label": ""
+     },
+     {
+      "id": 2,
+      "label": "OSA"
+     }
+    ],
+    "hochschulart": {
+     "id": 108,
+     "label": "Universität"
+    },
+    "id": "10843193",
+    "region": {
+     "id": 9,
+     "Key": "NW",
+     "label": "Nordrhein-Westfalen"
+    },
+    "studiBeginn": "Auf Anfrage",
+    "studiBezeichnung": "Informatik Bachelor of Science",
+    "studiInhalt": "<p>Inhalte bitte bei der Hochschule erfragen</p>",
+    "studienanbieter": {
+     "banId": 26482,
+     "name": "Universität Bonn",
+     "logo": {
+      "id": 4831,
+      "url": "http://prod-server.infosysbub-kursnet-rest-dmz.svc.cluster.local:8080/ct/v1/bildungsanbieter/26482/logos/4831",
+      "externalURL": "https://rest.arbeitsagentur.de/infosysbub/kursnet-rest/ct/v1/bildungsanbieter/26482/logos/4831"
+     }
+    },
+    "studienfaecher": [
+     "Informatik (grundständig)"
+    ],
+    "studienform": {
+     "id": 1,
+     "label": "Vollzeitstudium"
+    },
+    "studienmodelle": [],
+    "studienort": {
+     "bundesland": "Nordrhein-Westfalen",
+     "location": {
+      "lat": 50.7342,
+      "lon": 7.0992
+     },
+     "ort": "Bonn",
+     "postfach": null,
+     "postfachBundesland": null,
+     "postfachOrt": null,
+     "postfachPostleitzahl": null,
+     "postfachStaat": null,
+     "postleitzahl": "53113",
+     "staat": "Deutschland",
+     "strasse": "Regina-Pacis-Weg 3"
+    },
+    "studientyp": {
+     "id": 0,
+     "label": "Studiengang grundständig"
+    }
+   },
+   "abstaende": []
+  },
+  {
+   "studienangebot": {
+    "abschlussgrad": {
+     "id": 2,
+     "label": "Bachelor/Bakkalaureus"
+    },
+    "externalLinks": [
+     {
+      "tooltip": "Für diesen Studiengang sind zugeschnittene Studiencheck-Tests verfügbar.",
+      "link": "http://studicheck.nrw/meine-studichecks?studiengang=g1062575",
+      "name": "studiencheck"
+     },
+     {
+      "tooltip": "Für diesen Studiengang ist ein webbasierter Selbsttest verfügbar.",
+      "link": "https://www.selbsttest.uni-bonn.de",
+      "name": "osa"
+     }
+    ],
+    "fitFuerStudiumFacettenOptions": [
+     {
+      "id": -1,
+      "label": ""
+     },
+     {
+      "id": 2,
+      "label": "OSA"
+     }
+    ],
+    "hochschulart": {
+     "id": 108,
+     "label": "Universität"
+    },
+    "id": "10843229",
+    "region": {
+     "id": 9,
+     "Key": "NW",
+     "label": "Nordrhein-Westfalen"
+    },
+    "studiBeginn": "Auf Anfrage",
+    "studiBezeichnung": "Informatik Bachelor Lehramt an Gymnasien und Gesamtschulen",
+    "studiInhalt": "<p>Inhalte bitte bei der Hochschule erfragen</p>",
+    "studienanbieter": {
+     "banId": 26482,
+     "name": "Universität Bonn",
+     "logo": {
+      "id": 4831,
+      "url": "http://prod-server.infosysbub-kursnet-rest-dmz.svc.cluster.local:8080/ct/v1/bildungsanbieter/26482/logos/4831",
+      "externalURL": "https://rest.arbeitsagentur.de/infosysbub/kursnet-rest/ct/v1/bildungsanbieter/26482/logos/4831"
+     }
+    },
+    "studienfaecher": [
+     "Lehramt an Gymnasien (grundständig außer Staatsexamen)"
+    ],
+    "studienform": {
+     "id": 1,
+     "label": "Vollzeitstudium"
+    },
+    "studienmodelle": [],
+    "studienort": {
+     "bundesland": "Nordrhein-Westfalen",
+     "location": {
+      "lat": 50.7342,
+      "lon": 7.0992
+     },
+     "ort": "Bonn",
+     "postfach": null,
+     "postfachBundesland": null,
+     "postfachOrt": null,
+     "postfachPostleitzahl": null,
+     "postfachStaat": null,
+     "postleitzahl": "53113",
+     "staat": "Deutschland",
+     "strasse": "Regina-Pacis-Weg 3"
+    },
+    "studientyp": {
+     "id": 0,
+     "label": "Studiengang grundständig"
+    }
+   },
+   "abstaende": []
+  },
+  {
+   "studienangebot": {
+    "abschlussgrad": {
+     "id": 2,
+     "label": "Bachelor/Bakkalaureus"
+    },
+    "externalLinks": [],
+    "fitFuerStudiumFacettenOptions": [],
+    "hochschulart": {
+     "id": 106,
+     "label": "Fachhochschule/Hochschule für angewandte Wissenschaften"
+    },
+    "id": "10850096",
+    "region": {
+     "id": 8,
+     "Key": "NI",
+     "label": "Niedersachsen"
+    },
+    "studiBeginn": "Auf Anfrage",
+    "studiBezeichnung": "Informatik - Technische Informatik Bachelor",
+    "studiInhalt": "<h4>Schwerpunkte: </h4><p>Algorithmen, Datenbanken, Embedded Systems, KI, Rechnerorganisation, Software-Engineering, Verteilte Systeme<br/></p><h4>Anmerkung der Hochschule: </h4><p>Auslandsstudiensemester möglich.</p>",
+    "studienanbieter": {
+     "banId": 26320,
+     "name": "Hochschule Osnabrück",
+     "logo": {
+      "id": 16822,
+      "url": "http://prod-server.infosysbub-kursnet-rest-dmz.svc.cluster.local:8080/ct/v1/bildungsanbieter/26320/logos/16822",
+      "externalURL": "https://rest.arbeitsagentur.de/infosysbub/kursnet-rest/ct/v1/bildungsanbieter/26320/logos/16822"
+     }
+    },
+    "studienfaecher": [
+     "Technische Informatik (grundständig)"
+    ],
+    "studienform": {
+     "id": 1,
+     "label": "Vollzeitstudium"
+    },
+    "studienmodelle": [],
+    "studienort": {
+     "bundesland": "Niedersachsen",
+     "location": {
+      "lat": 52.2769,
+      "lon": 8.0419
+     },
+     "ort": "Osnabrück",
+     "postfach": "1940",
+     "postfachBundesland": "Niedersachsen",
+     "postfachOrt": "Osnabrück",
+     "postfachPostleitzahl": "49009",
+     "postfachStaat": "Deutschland",
+     "postleitzahl": "49076",
+     "staat": "Deutschland",
+     "strasse": "Albrechtstraße 30"
+    },
+    "studientyp": {
+     "id": 0,
+     "label": "Studiengang grundständig"
+    }
+   },
+   "abstaende": []
+  },
+  {
+   "studienangebot": {
+    "abschlussgrad": {
+     "id": 2,
+     "label": "Bachelor/Bakkalaureus"
+    },
+    "externalLinks": [],
+    "fitFuerStudiumFacettenOptions": [],
+    "hochschulart": {
+     "id": 106,
+     "label": "Fachhochschule/Hochschule für angewandte Wissenschaften"
+    },
+    "id": "10850102",
+    "region": {
+     "id": 8,
+     "Key": "NI",
+     "label": "Niedersachsen"
+    },
+    "studiBeginn": "Auf Anfrage",
+    "studiBezeichnung": "Informatik - Medieninformatik Bachelor",
+    "studiInhalt": "<h4>Schwerpunkte: </h4><p>Audio- und Videotechnik, Datenstrukturen, KI, Mediengestaltung, Rich Media Applications, Webanwendungen<br/></p><h4>Anmerkung der Hochschule: </h4><p>Auslandsstudiensemester möglich</p>",
+    "studienanbieter": {
+     "banId": 26320,
+     "name": "Hochschule Osnabrück",
+     "logo": {
+      "id": 16822,
+      "url": "http://prod-server.infosysbub-kursnet-rest-dmz.svc.cluster.local:8080/ct/v1/bildungsanbieter/26320/logos/16822",
+      "externalURL": "https://rest.arbeitsagentur.de/infosysbub/kursnet-rest/ct/v1/bildungsanbieter/26320/logos/16822"
+     }
+    },
+    "studienfaecher": [
+     "Medieninformatik (grundständig)"
+    ],
+    "studienform": {
+     "id": 1,
+     "label": "Vollzeitstudium"
+    },
+    "studienmodelle": [],
+    "studienort": {
+     "bundesland": "Niedersachsen",
+     "location": {
+      "lat": 52.2769,
+      "lon": 8.0419
+     },
+     "ort": "Osnabrück",
+     "postfach": "1940",
+     "postfachBundesland": "Niedersachsen",
+     "postfachOrt": "Osnabrück",
+     "postfachPostleitzahl": "49009",
+     "postfachStaat": "Deutschland",
+     "postleitzahl": "49076",
+     "staat": "Deutschland",
+     "strasse": "Albrechtstraße 30"
+    },
+    "studientyp": {
+     "id": 0,
+     "label": "Studiengang grundständig"
+    }
+   },
+   "abstaende": []
+  },
+  {
+   "studienangebot": {
+    "abschlussgrad": {
+     "id": 2,
+     "label": "Bachelor/Bakkalaureus"
+    },
+    "externalLinks": [],
+    "fitFuerStudiumFacettenOptions": [],
+    "hochschulart": {
+     "id": 106,
+     "label": "Fachhochschule/Hochschule für angewandte Wissenschaften"
+    },
+    "id": "10850130",
+    "region": {
+     "id": 8,
+     "Key": "NI",
+     "label": "Niedersachsen"
+    },
+    "studiBeginn": "Auf Anfrage",
+    "studiBezeichnung": "Engineering technischer Systeme Bachelor",
+    "studiInhalt": "<h4>Schwerpunkte: </h4><p>Automatisierungstechnik, Chemie, Elektrotechnik, Kunststofftechnik, Maschinenbau, Mathematik, Mechatronik, Physik, Technische Informatik, Verfahrenstechnik<br/></p><h4>Anmerkung der Hochschule: </h4><p>Der Studiengang wird als Dualer Studiengang an den beiden Lernorten Fachhochschule und Unternehmen durchgeführt. Jeder Studierende steht für die Dauer des Studiums in einem verbindlichen Ausbildungsverhält&hellip;</p>",
+    "studienanbieter": {
+     "banId": 26320,
+     "name": "Hochschule Osnabrück",
+     "logo": {
+      "id": 16822,
+      "url": "http://prod-server.infosysbub-kursnet-rest-dmz.svc.cluster.local:8080/ct/v1/bildungsanbieter/26320/logos/16822",
+      "externalURL": "https://rest.arbeitsagentur.de/infosysbub/kursnet-rest/ct/v1/bildungsanbieter/26320/logos/16822"
+     }
+    },
+    "studienfaecher": [
+     "Ingenieurwissenschaft (grundständig)"
+    ],
+    "studienform": {
+     "id": 1,
+     "label": "Vollzeitstudium"
+    },
+    "studienmodelle": [
+     {
+      "id": 4,
+      "label": "praxis&shy;integrierend"
+     },
+     {
+      "id": 5,
+      "label": "Duales Studium"
+     }
+    ],
+    "studienort": {
+     "bundesland": "Niedersachsen",
+     "location": {
+      "lat": 52.5222,
+      "lon": 7.3167
+     },
+     "ort": "Lingen (Ems)",
+     "postfach": null,
+     "postfachBundesland": null,
+     "postfachOrt": null,
+     "postfachPostleitzahl": null,
+     "postfachStaat": null,
+     "postleitzahl": "49809",
+     "staat": "Deutschland",
+     "strasse": "Kaiserstraße 10c"
+    },
+    "studientyp": {
+     "id": 0,
+     "label": "Studiengang grundständig"
+    }
+   },
+   "abstaende": []
+  },
+  {
+   "studienangebot": {
+    "abschlussgrad": {
+     "id": 2,
+     "label": "Bachelor/Bakkalaureus"
+    },
+    "externalLinks": [],
+    "fitFuerStudiumFacettenOptions": [],
+    "hochschulart": {
+     "id": 106,
+     "label": "Fachhochschule/Hochschule für angewandte Wissenschaften"
+    },
+    "id": "10850135",
+    "region": {
+     "id": 8,
+     "Key": "NI",
+     "label": "Niedersachsen"
+    },
+    "studiBeginn": "Auf Anfrage",
+    "studiBezeichnung": "Mechatronik Bachelor",
+    "studiInhalt": "<h4>Schwerpunkte: </h4><p>Elektrotechnik, Informatik, Maschinenbau, Mechanik, Mechatronik, Systemtechnik<br/></p><h4>Anmerkung der Hochschule: </h4><p>Während des Studiums ist ein Auslandsstudiensemester möglich.</p>",
+    "studienanbieter": {
+     "banId": 26320,
+     "name": "Hochschule Osnabrück",
+     "logo": {
+      "id": 16822,
+      "url": "http://prod-server.infosysbub-kursnet-rest-dmz.svc.cluster.local:8080/ct/v1/bildungsanbieter/26320/logos/16822",
+      "externalURL": "https://rest.arbeitsagentur.de/infosysbub/kursnet-rest/ct/v1/bildungsanbieter/26320/logos/16822"
+     }
+    },
+    "studienfaecher": [
+     "Mechatronik (grundständig)"
+    ],
+    "studienform": {
+     "id": 1,
+     "label": "Vollzeitstudium"
+    },
+    "studienmodelle": [],
+    "studienort": {
+     "bundesland": "Niedersachsen",
+     "location": {
+      "lat": 52.2769,
+      "lon": 8.0419
+     },
+     "ort": "Osnabrück",
+     "postfach": "1940",
+     "postfachBundesland": "Niedersachsen",
+     "postfachOrt": "Osnabrück",
+     "postfachPostleitzahl": "49009",
+     "postfachStaat": "Deutschland",
+     "postleitzahl": "49076",
+     "staat": "Deutschland",
+     "strasse": "Albrechtstraße 30"
+    },
+    "studientyp": {
+     "id": 0,
+     "label": "Studiengang grundständig"
+    }
+   },
+   "abstaende": []
+  },
+  {
+   "studienangebot": {
+    "abschlussgrad": {
+     "id": 10,
+     "label": "Master"
+    },
+    "externalLinks": [],
+    "fitFuerStudiumFacettenOptions": [],
+    "hochschulart": {
+     "id": 106,
+     "label": "Fachhochschule/Hochschule für angewandte Wissenschaften"
+    },
+    "id": "10850171",
+    "region": {
+     "id": 8,
+     "Key": "NI",
+     "label": "Niedersachsen"
+    },
+    "studiBeginn": "Auf Anfrage",
+    "studiBezeichnung": "Informatik Master",
+    "studiInhalt": "<h4>Schwerpunkte: </h4><p>Angewandte Kryptologie, Internet der Dinge, KI, Mobile Anwendungen, Mobile Datenkommunikation, Parallele und verteilte Algorithmen, Projektmanagement und Führungstheorien, Software- und Data Engineering, Stochastische Prozesse, Usability und User Experience<br/></p><h4>Anmerkung der Hochschule: </h4><p>Möglichkeit des flexiblen Masters (Studium neben Teilzeitstelle)</p><p>Der Abschluss eröffnet die Möglichkeit &hellip;</p>",
+    "studienanbieter": {
+     "banId": 26320,
+     "name": "Hochschule Osnabrück",
+     "logo": {
+      "id": 16822,
+      "url": "http://prod-server.infosysbub-kursnet-rest-dmz.svc.cluster.local:8080/ct/v1/bildungsanbieter/26320/logos/16822",
+      "externalURL": "https://rest.arbeitsagentur.de/infosysbub/kursnet-rest/ct/v1/bildungsanbieter/26320/logos/16822"
+     }
+    },
+    "studienfaecher": [
+     "Informations-, Kommunikationstechnik (weiterführend)"
+    ],
+    "studienform": {
+     "id": 1,
+     "label": "Vollzeitstudium"
+    },
+    "studienmodelle": [],
+    "studienort": {
+     "bundesland": "Niedersachsen",
+     "location": {
+      "lat": 52.2769,
+      "lon": 8.0419
+     },
+     "ort": "Osnabrück",
+     "postfach": "1940",
+     "postfachBundesland": "Niedersachsen",
+     "postfachOrt": "Osnabrück",
+     "postfachPostleitzahl": "49009",
+     "postfachStaat": "Deutschland",
+     "postleitzahl": "49076",
+     "staat": "Deutschland",
+     "strasse": "Albrechtstraße 30"
+    },
+    "studientyp": {
+     "id": 1,
+     "label": "Studiengang weiterführend"
+    }
+   },
+   "abstaende": []
+  },
+  {
+   "studienangebot": {
+    "abschlussgrad": {
+     "id": 12,
+     "label": "Staatsexamen"
+    },
+    "externalLinks": [],
+    "fitFuerStudiumFacettenOptions": [],
+    "hochschulart": {
+     "id": 108,
+     "label": "Universität"
+    },
+    "id": "10852726",
+    "region": {
+     "id": 6,
+     "Key": "HE",
+     "label": "Hessen"
+    },
+    "studiBeginn": "Auf Anfrage",
+    "studiBezeichnung": "Informatik Lehramt an Gymnasien",
+    "studiInhalt": "<h4>Schwerpunkte: </h4><p>Gesellschaftliche Aspekte der Informatik, Systementwicklung, Systemumgebung, Theoretische Informatik<br/></p><h4>Anmerkung der Hochschule: </h4><p>Das Studium des Fachs Informatik im Studiengang Lehramt an Gymnasien ist an den Anforderungen der Praxis des Informatikunterrichts an Gymnasien orientiert.<br/>Es werden die für die Ausübung des Lehrerberufs an Gymnasien erforderlichen wesentlichen Denkweisen der I&hellip;</p>",
+    "studienanbieter": {
+     "banId": 26324,
+     "name": "Universität Marburg",
+     "logo": {
+      "id": 4605,
+      "url": "http://prod-server.infosysbub-kursnet-rest-dmz.svc.cluster.local:8080/ct/v1/bildungsanbieter/26324/logos/4605",
+      "externalURL": "https://rest.arbeitsagentur.de/infosysbub/kursnet-rest/ct/v1/bildungsanbieter/26324/logos/4605"
+     }
+    },
+    "studienfaecher": [
+     "Lehramt an Gymnasien (Staatsexamen)"
+    ],
+    "studienform": {
+     "id": 1,
+     "label": "Vollzeitstudium"
+    },
+    "studienmodelle": [],
+    "studienort": {
+     "bundesland": "Hessen",
+     "location": {
+      "lat": 50.8089,
+      "lon": 8.7692
+     },
+     "ort": "Marburg",
+     "postfach": null,
+     "postfachBundesland": null,
+     "postfachOrt": null,
+     "postfachPostleitzahl": null,
+     "postfachStaat": null,
+     "postleitzahl": "35037",
+     "staat": "Deutschland",
+     "strasse": "Biegenstraße 10"
+    },
+    "studientyp": {
+     "id": 0,
+     "label": "Studiengang grundständig"
+    }
+   },
+   "abstaende": []
+  },
+  {
+   "studienangebot": {
+    "abschlussgrad": {
+     "id": 2,
+     "label": "Bachelor/Bakkalaureus"
+    },
+    "externalLinks": [],
+    "fitFuerStudiumFacettenOptions": [],
+    "hochschulart": {
+     "id": 108,
+     "label": "Universität"
+    },
+    "id": "10852756",
+    "region": {
+     "id": 6,
+     "Key": "HE",
+     "label": "Hessen"
+    },
+    "studiBeginn": "Auf Anfrage",
+    "studiBezeichnung": "Informatik Monobachelor",
+    "studiInhalt": "<h4>Schwerpunkte: </h4><p>Anwendungsfach Betriebswirtschaftslehre, Anwendungsfach Computational Physics, Anwendungsfach Geoinformatik, Anwendungsfach Medizin-Informatik<br/></p><h4>Anmerkung der Hochschule: </h4><p>Das Studium im Bachelor-Studiengang Informatik besteht aus einer soliden Ausbildung in Informatik mit Wahlmöglichkeiten, einer Grundausbildung in Mathematik, einem Praktikum zur Berufsorientierung sowie aus einem Neben&hellip;</p>",
+    "studienanbieter": {
+     "banId": 26324,
+     "name": "Universität Marburg",
+     "logo": {
+      "id": 4605,
+      "url": "http://prod-server.infosysbub-kursnet-rest-dmz.svc.cluster.local:8080/ct/v1/bildungsanbieter/26324/logos/4605",
+      "externalURL": "https://rest.arbeitsagentur.de/infosysbub/kursnet-rest/ct/v1/bildungsanbieter/26324/logos/4605"
+     }
+    },
+    "studienfaecher": [
+     "Informatik (grundständig)"
+    ],
+    "studienform": {
+     "id": 1,
+     "label": "Vollzeitstudium"
+    },
+    "studienmodelle": [],
+    "studienort": {
+     "bundesland": "Hessen",
+     "location": {
+      "lat": 50.8089,
+      "lon": 8.7692
+     },
+     "ort": "Marburg",
+     "postfach": null,
+     "postfachBundesland": null,
+     "postfachOrt": null,
+     "postfachPostleitzahl": null,
+     "postfachStaat": null,
+     "postleitzahl": "35037",
+     "staat": "Deutschland",
+     "strasse": "Biegenstraße 10"
+    },
+    "studientyp": {
+     "id": 0,
+     "label": "Studiengang grundständig"
+    }
+   },
+   "abstaende": []
+  },
+  {
+   "studienangebot": {
+    "abschlussgrad": {
+     "id": 2,
+     "label": "Bachelor/Bakkalaureus"
+    },
+    "externalLinks": [],
+    "fitFuerStudiumFacettenOptions": [],
+    "hochschulart": {
+     "id": 108,
+     "label": "Universität"
+    },
+    "id": "10852759",
+    "region": {
+     "id": 6,
+     "Key": "HE",
+     "label": "Hessen"
+    },
+    "studiBeginn": "Auf Anfrage",
+    "studiBezeichnung": "Physik Monobachelor",
+    "studiInhalt": "<h4>Schwerpunkte: </h4><p>Experimentalphysik, Mathematische Grundlagen, Theoretische Physik<br/></p><h4>Anmerkung der Hochschule: </h4><p>Du möchtest die Physik von Halbleitern, Laserstrukturen, Licht-Materie-Wechselwirkung, Solarzellenmaterialien, stark korrelierten Materialien oder komplexer Systeme untersuchen? Dann studiere den B.Sc. Physik in Marburg. Da die Physik die Grundlage aller Naturwissenschaft ist, ist das Studium e&hellip;</p>",
+    "studienanbieter": {
+     "banId": 26324,
+     "name": "Universität Marburg",
+     "logo": {
+      "id": 4605,
+      "url": "http://prod-server.infosysbub-kursnet-rest-dmz.svc.cluster.local:8080/ct/v1/bildungsanbieter/26324/logos/4605",
+      "externalURL": "https://rest.arbeitsagentur.de/infosysbub/kursnet-rest/ct/v1/bildungsanbieter/26324/logos/4605"
+     }
+    },
+    "studienfaecher": [
+     "Physik (grundständig)"
+    ],
+    "studienform": {
+     "id": 1,
+     "label": "Vollzeitstudium"
+    },
+    "studienmodelle": [],
+    "studienort": {
+     "bundesland": "Hessen",
+     "location": {
+      "lat": 50.8089,
+      "lon": 8.7692
+     },
+     "ort": "Marburg",
+     "postfach": null,
+     "postfachBundesland": null,
+     "postfachOrt": null,
+     "postfachPostleitzahl": null,
+     "postfachStaat": null,
+     "postleitzahl": "35037",
+     "staat": "Deutschland",
+     "strasse": "Biegenstraße 10"
+    },
+    "studientyp": {
+     "id": 0,
+     "label": "Studiengang grundständig"
+    }
+   },
+   "abstaende": []
+  },
+  {
+   "studienangebot": {
+    "abschlussgrad": {
+     "id": 2,
+     "label": "Bachelor/Bakkalaureus"
+    },
+    "externalLinks": [
+     {
+      "tooltip": "Für diesen Studiengang sind zugeschnittene Studiencheck-Tests verfügbar.",
+      "link": "https://studichecks.de/show/12986",
+      "name": "studiencheck"
+     }
+    ],
+    "fitFuerStudiumFacettenOptions": [
+     {
+      "id": -1,
+      "label": ""
+     }
+    ],
+    "hochschulart": {
+     "id": 108,
+     "label": "Universität"
+    },
+    "id": "10853414",
+    "region": {
+     "id": 9,
+     "Key": "NW",
+     "label": "Nordrhein-Westfalen"
+    },
+    "studiBeginn": "Auf Anfrage",
+    "studiBezeichnung": "Angewandte Naturwissenschaften Bachelor",
+    "studiInhalt": "<p>Inhalte bitte bei der Hochschule erfragen<br/></p><h4>Anmerkung der Hochschule: </h4><p>Kombination von zwei etwa gleich großen Teilstudiengängen aus: Chemie, Informatik, Mathematik, Physik</p>",
+    "studienanbieter": {
+     "banId": 26232,
+     "name": "Bergische Universität Wuppertal",
+     "logo": {
+      "id": 8864,
+      "url": "http://prod-server.infosysbub-kursnet-rest-dmz.svc.cluster.local:8080/ct/v1/bildungsanbieter/26232/logos/8864",
+      "externalURL": "https://rest.arbeitsagentur.de/infosysbub/kursnet-rest/ct/v1/bildungsanbieter/26232/logos/8864"
+     }
+    },
+    "studienfaecher": [
+     "Angewandte Naturwissenschaft (grundständig)"
+    ],
+    "studienform": {
+     "id": 1,
+     "label": "Vollzeitstudium"
+    },
+    "studienmodelle": [],
+    "studienort": {
+     "bundesland": "Nordrhein-Westfalen",
+     "location": {
+      "lat": 51.2714,
+      "lon": 7.1958
+     },
+     "ort": "Wuppertal",
+     "postfach": null,
+     "postfachBundesland": null,
+     "postfachOrt": null,
+     "postfachPostleitzahl": null,
+     "postfachStaat": null,
+     "postleitzahl": "42119",
+     "staat": "Deutschland",
+     "strasse": "Gaußstraße 20"
+    },
+    "studientyp": {
+     "id": 0,
+     "label": "Studiengang grundständig"
+    }
+   },
+   "abstaende": []
+  },
+  {
+   "studienangebot": {
+    "abschlussgrad": {
+     "id": 2,
+     "label": "Bachelor/Bakkalaureus"
+    },
+    "externalLinks": [
+     {
+      "tooltip": "Für diesen Studiengang sind zugeschnittene Studiencheck-Tests verfügbar.",
+      "link": "https://studichecks.de/show/g689207",
+      "name": "studiencheck"
+     }
+    ],
+    "fitFuerStudiumFacettenOptions": [
+     {
+      "id": -1,
+      "label": ""
+     }
+    ],
+    "hochschulart": {
+     "id": 108,
+     "label": "Universität"
+    },
+    "id": "10853456",
+    "region": {
+     "id": 9,
+     "Key": "NW",
+     "label": "Nordrhein-Westfalen"
+    },
+    "studiBeginn": "Auf Anfrage",
+    "studiBezeichnung": "Informatik Bachelor 2 Hauptfächer",
+    "studiInhalt": "<p>Inhalte bitte bei der Hochschule erfragen<br/></p><h4>Anmerkung der Hochschule: </h4><p>Das Studium besteht aus dem gleichberechtigten Studium zweier Fächer plus einem Optionalbereich (Kombinatorischer Bachelorstudiengang of Arts)</p>",
+    "studienanbieter": {
+     "banId": 26232,
+     "name": "Bergische Universität Wuppertal",
+     "logo": {
+      "id": 8864,
+      "url": "http://prod-server.infosysbub-kursnet-rest-dmz.svc.cluster.local:8080/ct/v1/bildungsanbieter/26232/logos/8864",
+      "externalURL": "https://rest.arbeitsagentur.de/infosysbub/kursnet-rest/ct/v1/bildungsanbieter/26232/logos/8864"
+     }
+    },
+    "studienfaecher": [
+     "Informatik (grundständig)"
+    ],
+    "studienform": {
+     "id": 1,
+     "label": "Vollzeitstudium"
+    },
+    "studienmodelle": [],
+    "studienort": {
+     "bundesland": "Nordrhein-Westfalen",
+     "location": {
+      "lat": 51.2714,
+      "lon": 7.1958
+     },
+     "ort": "Wuppertal",
+     "postfach": null,
+     "postfachBundesland": null,
+     "postfachOrt": null,
+     "postfachPostleitzahl": null,
+     "postfachStaat": null,
+     "postleitzahl": "42119",
+     "staat": "Deutschland",
+     "strasse": "Gaußstraße 20"
+    },
+    "studientyp": {
+     "id": 0,
+     "label": "Studiengang grundständig"
+    }
+   },
+   "abstaende": []
+  },
+  {
+   "studienangebot": {
+    "abschlussgrad": {
+     "id": 10,
+     "label": "Master"
+    },
+    "externalLinks": [],
+    "fitFuerStudiumFacettenOptions": [],
+    "hochschulart": {
+     "id": 108,
+     "label": "Universität"
+    },
+    "id": "10853512",
+    "region": {
+     "id": 9,
+     "Key": "NW",
+     "label": "Nordrhein-Westfalen"
+    },
+    "studiBeginn": "Auf Anfrage",
+    "studiBezeichnung": "Informatik Master of Education (Gymnasien und Gesamtschulen)",
+    "studiInhalt": "<p>Inhalte bitte bei der Hochschule erfragen<br/></p><h4>Anmerkung der Hochschule: </h4><p>Kann nur als zweites Fach gewählt werden</p>",
+    "studienanbieter": {
+     "banId": 26232,
+     "name": "Bergische Universität Wuppertal",
+     "logo": {
+      "id": 8864,
+      "url": "http://prod-server.infosysbub-kursnet-rest-dmz.svc.cluster.local:8080/ct/v1/bildungsanbieter/26232/logos/8864",
+      "externalURL": "https://rest.arbeitsagentur.de/infosysbub/kursnet-rest/ct/v1/bildungsanbieter/26232/logos/8864"
+     }
+    },
+    "studienfaecher": [
+     "Lehramt an Gymnasien (weiterführend)"
+    ],
+    "studienform": {
+     "id": 1,
+     "label": "Vollzeitstudium"
+    },
+    "studienmodelle": [],
+    "studienort": {
+     "bundesland": "Nordrhein-Westfalen",
+     "location": {
+      "lat": 51.2714,
+      "lon": 7.1958
+     },
+     "ort": "Wuppertal",
+     "postfach": null,
+     "postfachBundesland": null,
+     "postfachOrt": null,
+     "postfachPostleitzahl": null,
+     "postfachStaat": null,
+     "postleitzahl": "42119",
+     "staat": "Deutschland",
+     "strasse": "Gaußstraße 20"
+    },
+    "studientyp": {
+     "id": 1,
+     "label": "Studiengang weiterführend"
+    }
+   },
+   "abstaende": []
+  },
+  {
+   "studienangebot": {
+    "abschlussgrad": {
+     "id": 10,
+     "label": "Master"
+    },
+    "externalLinks": [],
+    "fitFuerStudiumFacettenOptions": [],
+    "hochschulart": {
+     "id": 108,
+     "label": "Universität"
+    },
+    "id": "10853563",
+    "region": {
+     "id": 9,
+     "Key": "NW",
+     "label": "Nordrhein-Westfalen"
+    },
+    "studiBeginn": "Auf Anfrage",
+    "studiBezeichnung": "Informatik Master of Education (Berufskollegs)",
+    "studiInhalt": "<p>Inhalte bitte bei der Hochschule erfragen</p>",
+    "studienanbieter": {
+     "banId": 26232,
+     "name": "Bergische Universität Wuppertal",
+     "logo": {
+      "id": 8864,
+      "url": "http://prod-server.infosysbub-kursnet-rest-dmz.svc.cluster.local:8080/ct/v1/bildungsanbieter/26232/logos/8864",
+      "externalURL": "https://rest.arbeitsagentur.de/infosysbub/kursnet-rest/ct/v1/bildungsanbieter/26232/logos/8864"
+     }
+    },
+    "studienfaecher": [
+     "Lehramt an berufsbildenden/beruflichen Schulen/Berufskollegs (weiterführend)"
+    ],
+    "studienform": {
+     "id": 1,
+     "label": "Vollzeitstudium"
+    },
+    "studienmodelle": [],
+    "studienort": {
+     "bundesland": "Nordrhein-Westfalen",
+     "location": {
+      "lat": 51.2714,
+      "lon": 7.1958
+     },
+     "ort": "Wuppertal",
+     "postfach": null,
+     "postfachBundesland": null,
+     "postfachOrt": null,
+     "postfachPostleitzahl": null,
+     "postfachStaat": null,
+     "postleitzahl": "42119",
+     "staat": "Deutschland",
+     "strasse": "Gaußstraße 20"
+    },
+    "studientyp": {
+     "id": 1,
+     "label": "Studiengang weiterführend"
+    }
+   },
+   "abstaende": []
+  },
+  {
+   "studienangebot": {
+    "abschlussgrad": {
+     "id": 10,
+     "label": "Master"
+    },
+    "externalLinks": [],
+    "fitFuerStudiumFacettenOptions": [],
+    "hochschulart": {
+     "id": 108,
+     "label": "Universität"
+    },
+    "id": "13399458",
+    "region": {
+     "id": 9,
+     "Key": "NW",
+     "label": "Nordrhein-Westfalen"
+    },
+    "studiBeginn": "Auf Anfrage",
+    "studiBezeichnung": "Technische Informatik Master of Education (Berufskollegs)",
+    "studiInhalt": "<p>Inhalte bitte bei der Hochschule erfragen<br/></p><h4>Anmerkung der Hochschule: </h4><p>Kann als \"kleine\" berufliche Fachrichtung zu den \"großen\" beruflichen Fachrichtungen Elektrotechnik oder Maschinenbautechnik gewählt werden.</p>",
+    "studienanbieter": {
+     "banId": 26232,
+     "name": "Bergische Universität Wuppertal",
+     "logo": {
+      "id": 8864,
+      "url": "http://prod-server.infosysbub-kursnet-rest-dmz.svc.cluster.local:8080/ct/v1/bildungsanbieter/26232/logos/8864",
+      "externalURL": "https://rest.arbeitsagentur.de/infosysbub/kursnet-rest/ct/v1/bildungsanbieter/26232/logos/8864"
+     }
+    },
+    "studienfaecher": [
+     "Lehramt an berufsbildenden/beruflichen Schulen/Berufskollegs (weiterführend)"
+    ],
+    "studienform": {
+     "id": 1,
+     "label": "Vollzeitstudium"
+    },
+    "studienmodelle": [],
+    "studienort": {
+     "bundesland": "Nordrhein-Westfalen",
+     "location": {
+      "lat": 51.2714,
+      "lon": 7.1958
+     },
+     "ort": "Wuppertal",
+     "postfach": null,
+     "postfachBundesland": null,
+     "postfachOrt": null,
+     "postfachPostleitzahl": null,
+     "postfachStaat": null,
+     "postleitzahl": "42119",
+     "staat": "Deutschland",
+     "strasse": "Gaußstraße 20"
+    },
+    "studientyp": {
+     "id": 1,
+     "label": "Studiengang weiterführend"
+    }
+   },
+   "abstaende": []
+  },
+  {
+   "studienangebot": {
+    "abschlussgrad": {
+     "id": 2,
+     "label": "Bachelor/Bakkalaureus"
+    },
+    "externalLinks": [],
+    "fitFuerStudiumFacettenOptions": [],
+    "hochschulart": {
+     "id": 106,
+     "label": "Fachhochschule/Hochschule für angewandte Wissenschaften"
+    },
+    "id": "14877166",
+    "region": {
+     "id": 8,
+     "Key": "NI",
+     "label": "Niedersachsen"
+    },
+    "studiBeginn": "Auf Anfrage",
+    "studiBezeichnung": "Elektrotechnik im Praxisverbund Bachelor",
+    "studiInhalt": "<h4>Schwerpunkte: </h4><p>Allgemeine Elektrotechnik, Automatisierungstechnik, Elektrische Energietechnik, Informationssysteme, Ingenieurpädagogik, Kommunikationstechnik</p>",
+    "studienanbieter": {
+     "banId": 26320,
+     "name": "Hochschule Osnabrück",
+     "logo": {
+      "id": 16822,
+      "url": "http://prod-server.infosysbub-kursnet-rest-dmz.svc.cluster.local:8080/ct/v1/bildungsanbieter/26320/logos/16822",
+      "externalURL": "https://rest.arbeitsagentur.de/infosysbub/kursnet-rest/ct/v1/bildungsanbieter/26320/logos/16822"
+     }
+    },
+    "studienfaecher": [
+     "Elektrotechnik (grundständig)"
+    ],
+    "studienform": {
+     "id": 2,
+     "label": "Teilzeitstudium"
+    },
+    "studienmodelle": [
+     {
+      "id": 3,
+      "label": "berufs&shy;begleitend"
+     },
+     {
+      "id": 5,
+      "label": "Duales Studium"
+     }
+    ],
+    "studienort": {
+     "bundesland": "Niedersachsen",
+     "location": {
+      "lat": 52.2769,
+      "lon": 8.0419
+     },
+     "ort": "Osnabrück",
+     "postfach": "1940",
+     "postfachBundesland": "Niedersachsen",
+     "postfachOrt": "Osnabrück",
+     "postfachPostleitzahl": "49009",
+     "postfachStaat": "Deutschland",
+     "postleitzahl": "49076",
+     "staat": "Deutschland",
+     "strasse": "Albrechtstraße 30"
+    },
+    "studientyp": {
+     "id": 0,
+     "label": "Studiengang grundständig"
+    }
+   },
+   "abstaende": []
+  },
+  {
+   "studienangebot": {
+    "abschlussgrad": {
+     "id": 2,
+     "label": "Bachelor/Bakkalaureus"
+    },
+    "externalLinks": [],
+    "fitFuerStudiumFacettenOptions": [],
+    "hochschulart": {
+     "id": 108,
+     "label": "Universität"
+    },
+    "id": "15879073",
+    "region": {
+     "id": 2,
+     "Key": "BE",
+     "label": "Berlin"
+    },
+    "studiBeginn": "Auf Anfrage",
+    "studiBezeichnung": "Informatik Bachelor",
+    "studiInhalt": "<p>Inhalte bitte bei der Hochschule erfragen<br/></p><h4>Anmerkung der Hochschule: </h4><p>Monobachelorstudiengang; eine vorherige Registrierung über hochschulstart.de ist für die Teilnahme am Losverfahren zum WiSe 2026/27 nicht notwendig</p>",
+    "studienanbieter": {
+     "banId": 26526,
+     "name": "Humboldt-Universität zu Berlin",
+     "logo": {
+      "id": 18621,
+      "url": "http://prod-server.infosysbub-kursnet-rest-dmz.svc.cluster.local:8080/ct/v1/bildungsanbieter/26526/logos/18621",
+      "externalURL": "https://rest.arbeitsagentur.de/infosysbub/kursnet-rest/ct/v1/bildungsanbieter/26526/logos/18621"
+     }
+    },
+    "studienfaecher": [
+     "Informatik (grundständig)"
+    ],
+    "studienform": {
+     "id": 2,
+     "label": "Teilzeitstudium"
+    },
+    "studienmodelle": [],
+    "studienort": {
+     "bundesland": "Berlin",
+     "location": {
+      "lat": 52.5178,
+      "lon": 13.4056
+     },
+     "ort": "Berlin",
+     "postfach": null,
+     "postfachBundesland": null,
+     "postfachOrt": null,
+     "postfachPostleitzahl": null,
+     "postfachStaat": null,
+     "postleitzahl": "10117",
+     "staat": "Deutschland",
+     "strasse": "Unter den Linden 6"
+    },
+    "studientyp": {
+     "id": 0,
+     "label": "Studiengang grundständig"
+    }
+   },
+   "abstaende": []
+  },
+  {
+   "studienangebot": {
+    "abschlussgrad": {
+     "id": 10,
+     "label": "Master"
+    },
+    "externalLinks": [],
+    "fitFuerStudiumFacettenOptions": [],
+    "hochschulart": {
+     "id": 108,
+     "label": "Universität"
+    },
+    "id": "16559140",
+    "region": {
+     "id": 2,
+     "Key": "BE",
+     "label": "Berlin"
+    },
+    "studiBeginn": "Auf Anfrage",
+    "studiBezeichnung": "Informatik Master of Education",
+    "studiInhalt": "<p>Inhalte bitte bei der Hochschule erfragen</p>",
+    "studienanbieter": {
+     "banId": 26526,
+     "name": "Humboldt-Universität zu Berlin",
+     "logo": {
+      "id": 18621,
+      "url": "http://prod-server.infosysbub-kursnet-rest-dmz.svc.cluster.local:8080/ct/v1/bildungsanbieter/26526/logos/18621",
+      "externalURL": "https://rest.arbeitsagentur.de/infosysbub/kursnet-rest/ct/v1/bildungsanbieter/26526/logos/18621"
+     }
+    },
+    "studienfaecher": [
+     "Lehramt an Gymnasien (weiterführend)"
+    ],
+    "studienform": {
+     "id": 2,
+     "label": "Teilzeitstudium"
+    },
+    "studienmodelle": [],
+    "studienort": {
+     "bundesland": "Berlin",
+     "location": {
+      "lat": 52.5178,
+      "lon": 13.4056
+     },
+     "ort": "Berlin",
+     "postfach": null,
+     "postfachBundesland": null,
+     "postfachOrt": null,
+     "postfachPostleitzahl": null,
+     "postfachStaat": null,
+     "postleitzahl": "10117",
+     "staat": "Deutschland",
+     "strasse": "Unter den Linden 6"
+    },
+    "studientyp": {
+     "id": 1,
+     "label": "Studiengang weiterführend"
+    }
+   },
+   "abstaende": []
+  },
+  {
+   "studienangebot": {
+    "abschlussgrad": {
+     "id": 10,
+     "label": "Master"
+    },
+    "externalLinks": [],
+    "fitFuerStudiumFacettenOptions": [],
+    "hochschulart": {
+     "id": 108,
+     "label": "Universität"
+    },
+    "id": "16708124",
+    "region": {
+     "id": 9,
+     "Key": "NW",
+     "label": "Nordrhein-Westfalen"
+    },
+    "studiBeginn": "Auf Anfrage",
+    "studiBezeichnung": "Informatik Master Lehramt an Gymnasien und Gesamtschulen",
+    "studiInhalt": "<p>Inhalte bitte bei der Hochschule erfragen</p>",
+    "studienanbieter": {
+     "banId": 26482,
+     "name": "Universität Bonn",
+     "logo": {
+      "id": 4831,
+      "url": "http://prod-server.infosysbub-kursnet-rest-dmz.svc.cluster.local:8080/ct/v1/bildungsanbieter/26482/logos/4831",
+      "externalURL": "https://rest.arbeitsagentur.de/infosysbub/kursnet-rest/ct/v1/bildungsanbieter/26482/logos/4831"
+     }
+    },
+    "studienfaecher": [
+     "Lehramt an Gymnasien (weiterführend)"
+    ],
+    "studienform": {
+     "id": 1,
+     "label": "Vollzeitstudium"
+    },
+    "studienmodelle": [],
+    "studienort": {
+     "bundesland": "Nordrhein-Westfalen",
+     "location": {
+      "lat": 50.7342,
+      "lon": 7.0992
+     },
+     "ort": "Bonn",
+     "postfach": null,
+     "postfachBundesland": null,
+     "postfachOrt": null,
+     "postfachPostleitzahl": null,
+     "postfachStaat": null,
+     "postleitzahl": "53113",
+     "staat": "Deutschland",
+     "strasse": "Regina-Pacis-Weg 3"
+    },
+    "studientyp": {
+     "id": 1,
+     "label": "Studiengang weiterführend"
+    }
+   },
+   "abstaende": []
+  },
+  {
+   "studienangebot": {
+    "abschlussgrad": {
+     "id": 10,
+     "label": "Master"
+    },
+    "externalLinks": [],
+    "fitFuerStudiumFacettenOptions": [],
+    "hochschulart": {
+     "id": 108,
+     "label": "Universität"
+    },
+    "id": "19150281",
+    "region": {
+     "id": 2,
+     "Key": "BE",
+     "label": "Berlin"
+    },
+    "studiBeginn": "Auf Anfrage",
+    "studiBezeichnung": "Informatik Master",
+    "studiInhalt": "<h4>Schwerpunkte: </h4><p>Algorithmen und Modelle, Modellbasierte Systementwicklung oder Daten- und Wissensmanagement</p>",
+    "studienanbieter": {
+     "banId": 26526,
+     "name": "Humboldt-Universität zu Berlin",
+     "logo": {
+      "id": 18621,
+      "url": "http://prod-server.infosysbub-kursnet-rest-dmz.svc.cluster.local:8080/ct/v1/bildungsanbieter/26526/logos/18621",
+      "externalURL": "https://rest.arbeitsagentur.de/infosysbub/kursnet-rest/ct/v1/bildungsanbieter/26526/logos/18621"
+     }
+    },
+    "studienfaecher": [
+     "Informatik (weiterführend)"
+    ],
+    "studienform": {
+     "id": 2,
+     "label": "Teilzeitstudium"
+    },
+    "studienmodelle": [],
+    "studienort": {
+     "bundesland": "Berlin",
+     "location": {
+      "lat": 52.5178,
+      "lon": 13.4056
+     },
+     "ort": "Berlin",
+     "postfach": null,
+     "postfachBundesland": null,
+     "postfachOrt": null,
+     "postfachPostleitzahl": null,
+     "postfachStaat": null,
+     "postleitzahl": "10117",
+     "staat": "Deutschland",
+     "strasse": "Unter den Linden 6"
+    },
+    "studientyp": {
+     "id": 1,
+     "label": "Studiengang weiterführend"
+    }
+   },
+   "abstaende": []
+  }
+ ],
+ "maxErgebnisse": 619,
+ "studienangeboteIds": [
+  "10843193",
+  "10843229",
+  "10850096",
+  "10850102",
+  "10850130",
+  "10850135",
+  "10850171",
+  "10852726",
+  "10852756",
+  "10852759",
+  "10853414",
+  "10853456",
+  "10853512",
+  "10853563",
+  "13399458",
+  "14877166",
+  "15879073",
+  "16559140",
+  "16708124",
+  "19150281",
+  "19329250",
+  "23964692",
+  "68780572",
+  "69544036",
+  "69544113",
+  "73023729",
+  "73023761",
+  "73023767",
+  "73023769",
+  "73023773",
+  "73023799",
+  "73023803",
+  "73023893",
+  "73023894",
+  "73023918",
+  "73023941",
+  "73023942",
+  "73023944",
+  "73024017",
+  "73024019",
+  "73024053",
+  "73024086",
+  "73024106",
+  "73024132",
+  "73024139",
+  "73024156",
+  "73024185",
+  "73024242",
+  "73024261",
+  "73024269",
+  "73024291",
+  "73024366",
+  "73024415",
+  "73024433",
+  "73024463",
+  "73024579",
+  "73024607",
+  "73024608",
+  "73024621",
+  "73024665",
+  "73024774",
+  "73024790",
+  "73024817",
+  "73024986",
+  "73024999",
+  "73025031",
+  "73025040",
+  "73025273",
+  "73025322",
+  "73025347",
+  "73025588",
+  "73025607",
+  "73025646",
+  "73025660",
+  "73025673",
+  "73025701",
+  "73025732",
+  "73025743",
+  "73025769",
+  "73025821",
+  "73025851",
+  "73025861",
+  "73025873",
+  "73026033",
+  "73026064",
+  "73026142",
+  "73026157",
+  "73026264",
+  "73026284",
+  "73026318",
+  "73026559",
+  "73026605",
+  "73026621",
+  "73026679",
+  "73026720",
+  "73026845",
+  "73026872",
+  "73208084",
+  "73208219",
+  "73208288",
+  "73208296",
+  "73208341",
+  "73208414",
+  "73208483",
+  "73208533",
+  "73208559",
+  "73208578",
+  "73208623",
+  "73208828",
+  "73208889",
+  "73208920",
+  "73209158",
+  "73209226",
+  "73209271",
+  "73209433",
+  "73209489",
+  "73209623",
+  "73209662",
+  "73209663",
+  "73209666",
+  "73209670",
+  "73209756",
+  "73209862",
+  "73210147",
+  "73210162",
+  "73210164",
+  "73210341",
+  "73210372",
+  "73210450",
+  "73210451",
+  "73210498",
+  "73210506",
+  "73210553",
+  "73210558",
+  "73210607",
+  "73210609",
+  "73210624",
+  "73210725",
+  "73210740",
+  "73210744",
+  "73210749",
+  "73211618",
+  "73211634",
+  "73211653",
+  "73211655",
+  "73211656",
+  "73211737",
+  "73211755",
+  "73211801",
+  "73211806",
+  "73211842",
+  "73211848",
+  "73419784",
+  "73419791",
+  "73419806",
+  "73420061",
+  "73420083",
+  "73423504",
+  "73423512",
+  "73423542",
+  "73423760",
+  "73423873",
+  "73423937",
+  "73424064",
+  "73424104",
+  "73424126",
+  "73424275",
+  "73424297",
+  "73424313",
+  "73424326",
+  "73424329",
+  "73424335",
+  "73424346",
+  "73424362",
+  "73424363",
+  "73424404",
+  "73424407",
+  "73424426",
+  "73424446",
+  "73425104",
+  "73425165",
+  "73425627",
+  "73425640",
+  "73425642",
+  "73425718",
+  "73425758",
+  "73425826",
+  "73425868",
+  "73425879",
+  "73425945",
+  "73426063",
+  "73426156",
+  "73426159",
+  "73426301",
+  "73426860",
+  "73426864",
+  "73426887",
+  "73426900",
+  "73426960",
+  "73427071",
+  "73427637",
+  "73427699",
+  "73427716",
+  "73427740",
+  "73427747",
+  "73427812",
+  "73427896",
+  "73427947",
+  "73428035",
+  "73428037",
+  "73428095",
+  "73428149",
+  "73428329",
+  "73428353",
+  "73428480",
+  "73428512",
+  "73428583",
+  "73428604",
+  "73428631",
+  "73428671",
+  "73428672",
+  "73428744",
+  "73428861",
+  "73428877",
+  "73428921",
+  "73428977",
+  "73429022",
+  "73429104",
+  "73429105",
+  "73429106",
+  "73429108",
+  "73429142",
+  "73429157",
+  "73429178",
+  "73429232",
+  "73429320",
+  "73429359",
+  "73429361",
+  "73429425",
+  "73429428",
+  "73429493",
+  "73429495",
+  "73429527",
+  "73429563",
+  "73429636",
+  "73429668",
+  "73429698",
+  "73429822",
+  "73429923",
+  "73430081",
+  "73430089",
+  "73430094",
+  "73430255",
+  "73430281",
+  "73430390",
+  "73430426",
+  "73430458",
+  "73430489",
+  "73430493",
+  "73430551",
+  "73430566",
+  "73430653",
+  "73430655",
+  "73430759",
+  "73430808",
+  "73430848",
+  "73430869",
+  "73430891",
+  "73430903",
+  "73431049",
+  "73431109",
+  "73431208",
+  "73431364",
+  "73431384",
+  "73431393",
+  "73431395",
+  "73431504",
+  "73431666",
+  "73431668",
+  "73431716",
+  "73431752",
+  "73431924",
+  "73431961",
+  "73432555",
+  "73432564",
+  "73432578",
+  "73432597",
+  "73432764",
+  "73432767",
+  "73433146",
+  "73433175",
+  "73433185",
+  "73433251",
+  "73433315",
+  "73433412",
+  "73433468",
+  "73433540",
+  "73433541",
+  "73433674",
+  "73433717",
+  "73433736",
+  "73433738",
+  "73433771",
+  "73433780",
+  "73433795",
+  "73433812",
+  "73433843",
+  "73433883",
+  "73433886",
+  "73433901",
+  "73433923",
+  "73433941",
+  "73433958",
+  "73433976",
+  "73434012",
+  "73434058",
+  "73434075",
+  "73434082",
+  "73434117",
+  "73434175",
+  "73434267",
+  "73434292",
+  "73434337",
+  "73434348",
+  "73434350",
+  "73434382",
+  "73434441",
+  "73434442",
+  "73434444",
+  "73434558",
+  "73434597",
+  "73434625",
+  "73434880",
+  "73434883",
+  "73434914",
+  "73434916",
+  "73435007",
+  "73435047",
+  "73435509",
+  "73435575",
+  "78846103",
+  "78846119",
+  "78846121",
+  "78846128",
+  "78846145",
+  "78846156",
+  "78846210",
+  "78846240",
+  "78846459",
+  "78846467",
+  "78846500",
+  "78846544",
+  "78846547",
+  "78846556",
+  "78846574",
+  "78846593",
+  "78846700",
+  "78846734",
+  "78846770",
+  "78846829",
+  "78846836",
+  "78846838",
+  "78846914",
+  "78847016",
+  "78847031",
+  "78847090",
+  "78847094",
+  "78847168",
+  "78847253",
+  "78847288",
+  "78847314",
+  "78847316",
+  "78847498",
+  "78847667",
+  "78847691",
+  "78847733",
+  "78847741",
+  "78847755",
+  "78847795",
+  "78847806",
+  "78847817",
+  "78847873",
+  "78847884",
+  "78847946",
+  "78847994",
+  "78848024",
+  "78848043",
+  "78848045",
+  "78848117",
+  "78848213",
+  "78848235",
+  "78848372",
+  "78848548",
+  "78848666",
+  "78848692",
+  "78848712",
+  "78848746",
+  "78848962",
+  "78848968",
+  "78848995",
+  "78849003",
+  "78849044",
+  "78849135",
+  "78849163",
+  "78849229",
+  "78849233",
+  "78849243",
+  "78849287",
+  "78849309",
+  "78849313",
+  "78849456",
+  "78849459",
+  "78849474",
+  "78849481",
+  "78849542",
+  "78849582",
+  "78849594",
+  "78849679",
+  "78849681",
+  "78849692",
+  "78849704",
+  "78849761",
+  "78849765",
+  "78849770",
+  "78849785",
+  "78849787",
+  "78849788",
+  "78849809",
+  "78849859",
+  "78849895",
+  "78849965",
+  "78849967",
+  "78850023",
+  "78850043",
+  "78850048",
+  "78850119",
+  "78850204",
+  "78850205",
+  "78850228",
+  "78850332",
+  "78850336",
+  "78850341",
+  "78850376",
+  "78850399",
+  "78850429",
+  "78850454",
+  "78850489",
+  "78949075",
+  "92365667",
+  "92365669",
+  "92482874",
+  "92482919",
+  "92655228",
+  "92655231",
+  "92680823",
+  "92680876",
+  "92680880",
+  "92680892",
+  "92928239",
+  "93224399",
+  "97445296",
+  "99521000",
+  "100026548",
+  "101378553",
+  "110930924",
+  "112336080",
+  "113092924",
+  "113092958",
+  "113092967",
+  "114673191",
+  "119644268",
+  "120011727",
+  "120576588",
+  "120874743",
+  "120874817",
+  "120874822",
+  "120874841",
+  "121326236",
+  "122620001",
+  "123110090",
+  "123110094",
+  "123110133",
+  "123110152",
+  "123512657",
+  "126266997",
+  "126267077",
+  "126267289",
+  "126267646",
+  "126629629",
+  "128112574",
+  "128112581",
+  "128639753",
+  "130157684",
+  "130157686",
+  "130466094",
+  "130466095",
+  "131254812",
+  "132878944",
+  "132878983",
+  "132879013",
+  "132879037",
+  "132879087",
+  "132879109",
+  "132879128",
+  "132879130",
+  "132879134",
+  "132879135",
+  "132879160",
+  "132879163",
+  "132879166",
+  "132879218",
+  "132879319",
+  "132879326",
+  "132879533",
+  "132879722",
+  "132879727",
+  "132879776",
+  "135223062",
+  "135931003",
+  "136997815",
+  "139399388",
+  "139485883",
+  "140073364",
+  "140554819",
+  "140554827",
+  "142858871",
+  "145232211",
+  "146004363",
+  "148803313",
+  "149857637",
+  "150651115",
+  "173090249",
+  "173090334",
+  "174742631",
+  "174742677",
+  "174742694",
+  "174742697",
+  "175649086",
+  "176374453",
+  "177309715",
+  "188261016",
+  "188261018",
+  "194846073",
+  "198078171",
+  "198078182",
+  "198078194",
+  "199248918",
+  "199248919",
+  "220594922",
+  "220594939",
+  "220594963",
+  "242285291",
+  "244279156",
+  "244279276",
+  "248629991",
+  "250988656",
+  "253112433",
+  "253112441",
+  "271932161",
+  "271961175",
+  "271961198",
+  "271961205",
+  "271961230",
+  "272379395",
+  "272379423",
+  "279833539",
+  "279833543",
+  "279833646",
+  "279833664",
+  "279833727",
+  "279833752",
+  "284892916",
+  "287220458",
+  "288804926",
+  "290694933",
+  "306649356",
+  "306649357",
+  "307600668",
+  "308845792",
+  "311542860",
+  "311542867",
+  "311628708",
+  "315333894",
+  "315333899",
+  "316981034",
+  "320502756",
+  "321079417",
+  "321079433",
+  "323029198",
+  "327357210",
+  "327357214",
+  "329043624",
+  "329048646",
+  "356849743",
+  "357498808",
+  "368645086",
+  "375922893",
+  "380314351",
+  "380314655",
+  "380314664",
+  "380314670",
+  "381794942",
+  "383064735",
+  "383300618",
+  "383300619",
+  "384039254",
+  "384039294",
+  "384666708",
+  "388277979",
+  "420392611",
+  "421151799",
+  "409312610",
+  "420392595",
+  "413194344",
+  "419387817",
+  "391020507",
+  "389257308",
+  "420392607",
+  "409312611"
+ ]
+}

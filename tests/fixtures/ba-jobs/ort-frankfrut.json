@@ -1,0 +1,514 @@
+{
+ "ergebnisliste": [
+  {
+   "stellenangebotsart": "AUSBILDUNG",
+   "ausbildungsart": "AUSBILDUNG",
+   "stellenangebotsTitel": "Verfahrensmechaniker*in",
+   "quereinstiegGeeignet": false,
+   "arbeitszeitSchichtNachtWochenende": false,
+   "arbeitszeitTeilzeitAbend": false,
+   "arbeitszeitTeilzeitNachmittag": false,
+   "arbeitszeitTeilzeitVormittag": false,
+   "arbeitszeitTeilzeitFlexibel": false,
+   "arbeitszeitVollzeit": true,
+   "eintrittszeitraum": {
+    "von": "2027-08-01"
+   },
+   "verguetungsangabe": "KEINE_ANGABEN",
+   "vertragsdauer": "KEINE_ANGABE",
+   "istGeringfuegigeBeschaeftigung": false,
+   "stellenlokationen": [
+    {
+     "adresse": {
+      "plz": "15236",
+      "ort": "Frankfurt (Oder)",
+      "region": "BRANDENBURG",
+      "land": "DEUTSCHLAND"
+     },
+     "breite": 52.2930274,
+     "laenge": 14.5133967
+    }
+   ],
+   "homeofficemoeglich": false,
+   "veroeffentlichungszeitraum": {
+    "von": "2026-11-02"
+   },
+   "datumErsteVeroeffentlichung": "2026-11-02",
+   "aenderungsdatum": "2026-11-02T07:03:28.137",
+   "externeURL": "https://studyflix.de/ausbildung/angebote/495501?l=881946&utm_source=ba",
+   "hauptberuf": "Verfahrensmechaniker/in - Steine- und Erdenindustrie - Baustoffe",
+   "firma": "Yamaichi Electronics Deutschland GmbH",
+   "referenznummer": "16818-100881946-S",
+   "entfernung": 3,
+   "alleBerufe": [
+    "Verfahrensmechaniker/in - Steine- und Erdenindustrie - Baustoffe"
+   ]
+  }
+ ],
+ "maxErgebnisse": 258,
+ "page": 1,
+ "size": 1,
+ "woOutput": {
+  "bereinigterOrt": "Frankfurt (Oder)",
+  "suchmodus": "UMKREISSUCHE",
+  "koordinaten": [
+   {
+    "lat": 52.3177933,
+    "lon": 14.51009085
+   }
+  ]
+ },
+ "facetten": {
+  "befristung": {
+   "counts": {
+    "3": 258
+   },
+   "maxCount": 258
+  },
+  "externestellenboersen": {
+   "counts": {
+    "false": 236,
+    "true": 22
+   },
+   "maxCount": 258
+  },
+  "behinderung": {
+   "counts": {
+    "false": 197
+   },
+   "maxCount": 258
+  },
+  "pav": {
+   "counts": {
+    "false": 258
+   },
+   "maxCount": 258
+  },
+  "berufsfeld": {
+   "counts": {
+    "Aus- und Trockenbau, Isolierung, Zimmerei, Glaserei": 2,
+    "Bau- und Transportgeräteführung": 1,
+    "Bodenverlegung": 2,
+    "Büro und Sekretariat": 5,
+    "Chemie": 1,
+    "Elektrotechnik": 1,
+    "Energietechnik": 10,
+    "Fahrzeug-, Luft-, Raumfahrt- und Schiffbautechnik": 4,
+    "Fahrzeugführung im Eisenbahnverkehr": 2,
+    "Fahrzeugführung im Schiffsverkehr": 1,
+    "Fahrzeugführung im Straßenverkehr": 6,
+    "Gastronomie": 9,
+    "Handel": 8,
+    "Hochbau": 9,
+    "Holzbe- und -verarbeitung": 1,
+    "Hotellerie": 2,
+    "Immobilienwirtschaft und Facility-Management": 1,
+    "Industrielle Glasherstellung": 2,
+    "Kaufleute - Verkehr und Logistik": 2,
+    "Klempnerei, Sanitär-, Heizungs- und Klimatechnik": 5,
+    "Krankenpflege, Rettungsdienst und Geburtshilfe": 11,
+    "Lagerwirtschaft, Post und Zustellung, Güterumschlag": 12,
+    "Landwirtschaft": 4,
+    "Lebensmittel- und Genussmittelherstellung": 1,
+    "Leder- und Pelzherstellung": 1,
+    "Maschinenbau- und Betriebstechnik": 6,
+    "Mechatronik und Automatisierungstechnik": 4,
+    "Medizin-, Orthopädie- und Rehatechnik": 5,
+    "Medizinisches Laboratorium": 1,
+    "Metallbau und Schweißtechnik": 2,
+    "Metallbearbeitung": 2,
+    "Metalloberflächenbehandlung": 2,
+    "Musikinstrumentenbau": 1,
+    "Naturstein- und Mineralaufbereitung, Baustoffherstellung": 1,
+    "Nichtärztliche Therapie und Heilkunde": 2,
+    "Objekt-, Personen-, Brandschutz, Arbeitssicherheit": 2,
+    "Pharmazie": 1,
+    "Polizei- und Kriminaldienst, Gerichts- und Justizvollzug": 3,
+    "Softwareentwicklung und Programmierung": 1,
+    "Speisenzubereitung": 3,
+    "Steuerberatung": 1,
+    "Tiefbau": 4,
+    "Tierwirtschaft": 1,
+    "Tourismus und Sport": 4,
+    "Unternehmensorganisation und -strategie": 3,
+    "Ver- und Entsorgung": 1,
+    "Verkauf (ohne Produktspezialisierung)": 62,
+    "Verkauf Bekleidung, Elektro, KFZ, Hartwaren": 1,
+    "Verkauf von Lebensmitteln": 4,
+    "Vermessung und Kartografie": 3,
+    "Versicherungs- und Finanzdienstleistungen": 6,
+    "Verwaltung": 8,
+    "Werbung und Marketing": 1,
+    "Überwachung und Steuerung des Verkehrsbetriebs": 1
+   },
+   "maxCount": 258
+  },
+  "arbeitsort": {
+   "counts": {
+    "Schlaubetal": 1,
+    "Wiesenau bei Frankfurt, Oder": 9,
+    "Fichtenhöhe": 2,
+    "Zeschdorf": 2,
+    "Frankfurt (Oder)": 130,
+    "Jacobsdorf, Mark": 4,
+    "Schönfließ bei Seelow": 1,
+    "Eisenhüttenstadt": 59,
+    "Müllrose": 16,
+    "Ziltendorf": 1,
+    "Briesen (Mark)": 6,
+    "Lebus": 4,
+    "Beeskow": 18,
+    "Lietzen": 1,
+    "Lindendorf": 5,
+    "Treplin": 2
+   },
+   "maxCount": 258
+  },
+  "veroeffentlichtseit": {
+   "counts": {
+    "0": 2,
+    "1": 2,
+    "7": 15,
+    "14": 31,
+    "28": 77,
+    "alle": 258
+   },
+   "maxCount": 258
+  },
+  "ausbildungsart": {
+   "counts": {
+    "0": 238,
+    "1": 1,
+    "2": 19
+   },
+   "maxCount": 258
+  },
+  "schulbildung": {
+   "counts": {
+    "0": 48,
+    "1": 48,
+    "2": 136,
+    "3": 229,
+    "4": 252,
+    "5": 254,
+    "6": 258,
+    "11": 49,
+    "12": 157
+   },
+   "maxCount": 258
+  },
+  "arbeitsort_plz": {
+   "counts": {
+    "10319": 1,
+    "10553": 1,
+    "10829": 1,
+    "12435": 2,
+    "14059": 1,
+    "14473": 2,
+    "14480": 1,
+    "14770": 4,
+    "15230": 45,
+    "15232": 9,
+    "15234": 43,
+    "15236": 28,
+    "15295": 10,
+    "15299": 16,
+    "15306": 8,
+    "15326": 7,
+    "15517": 2,
+    "15518": 6,
+    "15526": 2,
+    "15537": 2,
+    "15566": 1,
+    "15711": 2,
+    "15848": 19,
+    "15859": 1,
+    "15890": 59,
+    "15898": 1,
+    "16225": 1,
+    "16321": 1,
+    "16515": 1,
+    "30175": 1,
+    "39112": 2,
+    "03046": 2,
+    "03222": 1
+   },
+   "maxCount": 258
+  },
+  "arbeitgeber": {
+   "counts": {
+    "ARC-GREENLAB GmbH": 2,
+    "Actemium BEA GmbH": 1,
+    "Agrargenossenschaft Groß Briesen eG": 1,
+    "Agrargenossenschaft Kieselwitz e.G.": 1,
+    "Andrea Hübner-Vogt": 2,
+    "Andrea Hübner-Vogt EDEKA": 2,
+    "Andrea Rabinsky Gaststätte Seeterrasse": 1,
+    "Apollo-Optik Holding GmbH & Co. KG": 6,
+    "Arbeiterwohlfahrt Kreisverband EHST. e.V.": 2,
+    "ArcelorMittal Eisenhüttenstadt Forschungs- und Qualitäts- zentrum GmbH": 1,
+    "ArcelorMittal Eisenhüttenstadt GmbH": 6,
+    "Aus-und Fortbildungs- zentrum": 2,
+    "Autohaus Peter Böhmer Vertragshändler": 1,
+    "BARMER": 1,
+    "BAV Dienstsitz Aurich": 1,
+    "BURCHARD FÜHRER GMBH DESSAU": 1,
+    "Barmenia Krankenversicherung a . G.": 1,
+    "Bauerngesellschaft Ziltendorfer Niederung GbR": 3,
+    "Bausparkasse Schwäbisch Hall AG": 1,
+    "Bauunternehmen Buckler Tief-und Brückenbau GmbH": 1,
+    "Brandenburgisches Oberlandesgericht": 2,
+    "Brillux GmbH & Co.KG": 6,
+    "Bundesagentur für Arbeit Agentur für Arbeit Cottbus": 2,
+    "Bundespolizeidirektion Berlin": 2,
+    "Bäckerei Dreißig GmbH & Co. KG": 3,
+    "Bäckerei-Konditorei Baumgärtel Cafe Diana OHG": 3,
+    "Christian Büch Elektroinstallation": 1,
+    "Consido Estate Services GmbH": 1,
+    "DAK-Gesundheit": 1,
+    "DERTOUR  Deutschland GmbH": 2,
+    "DRV Berlin-Brandenburg": 3,
+    "DSV - Global Transport and Logistics": 3,
+    "Dachbau Geller GmbH": 1,
+    "David Stenzel ERGO Agenturcenter Stenzel & Partner": 1,
+    "Dawa Dach und Wand GmbH": 1,
+    "Deichmann SE": 9,
+    "Deutsche Bahn AG": 9,
+    "Deutsche Bank AG": 1,
+    "Deutsche Rentenversicherung Berlin-Brandenburg": 2,
+    "Deutsche Telekom AG": 2,
+    "Dirk Rossmann GmbH": 2,
+    "E. Jaß Hoch u. Tiefbau GmbH": 2,
+    "E.DIS AG": 1,
+    "ELAS Elektroanlagenbau Ehst.GmbH": 1,
+    "ERGO Group AG": 1,
+    "ESO-BAU GmbH & Co. KG": 1,
+    "ETL Schlegel GmbH Fachgroßhandel für Elektronik": 2,
+    "Eisenhüttenstädter Freizeit- und Erholungs GmbH": 1,
+    "Entwicklungsgesellschaft für Gesundheit und Soziales mbH": 1,
+    "Erfurth Haustechnik GmbH": 1,
+    "F/G/M Mettchen Müller GmbH & Co. KG": 3,
+    "FiANTEC Provisionslösungen GmbH": 2,
+    "Fielmann AG": 2,
+    "FitX SE": 2,
+    "Frank Breitmann": 1,
+    "Freyer Bauunternehmen GmbH": 1,
+    "Fußbodenstudio Form und Farbe GmbH": 1,
+    "Gasthof Goldener Hahn Hähn OHG": 2,
+    "Gerüstbau Jörg Welker": 1,
+    "Gesche Brunnenbaugesellschaft Lebus mbH": 1,
+    "Gloger+BirkeGmbH -Systemtechni k-": 3,
+    "HDG Handwerkliche Dienst- leistungsgenossenschaft e.G.": 1,
+    "Hauskrankenpflege Herzenssache GmbH Dana Harth": 1,
+    "Heinz, Danilo und Henrik Krabe GbR": 1,
+    "IKK Brandenburg und Berlin": 2,
+    "Jobacademy": 1,
+    "Karras Diamant- Technik GmbH": 1,
+    "Kaufland Dienstleistung GmbH & Co. KG": 3,
+    "Kulle GmbH Tief-, Wasserbau und Schiffahrts GmbH": 1,
+    "Kursana Care GmbH Kursana Domizil Eisenhüttenstadt": 1,
+    "Lidl Dienstleistung GmbH & Co. KG": 3,
+    "Linde GmbH Corporate Office": 1,
+    "Lutz Boos Bauschlosserei": 1,
+    "MAKRÜ - Bau GmbH": 1,
+    "MET Metallbau Edgar Treseler": 1,
+    "Madlitzer Mühle Betriebs GmbH & Co.KG Hotel \"Gut Klostermühle\"": 4,
+    "Mathias Lindemann Fliesenlegermeister": 1,
+    "McDonald's Deutschland LLC": 2,
+    "Märkische Imbiß- und Fleische- reibedarf GmbH": 1,
+    "Netto Marken-Discount Stiftung & Co. KG": 24,
+    "ODERGLAS GmbH & Co. KG": 4,
+    "PDA Produktions- u.Dienstleistungs- GmbH": 2,
+    "POCO Einrichtungsmärkte GmbH": 2,
+    "PORR GmbH & Co. KGaA": 2,
+    "Penny-Markt GmbH Ost": 2,
+    "Pension Haus Katharinensee GmbH & Co. KG": 4,
+    "Polizei des Landes Brandenburg": 2,
+    "REWE Markt GmbH ZwNL Ost": 7,
+    "Rüdiger & Bunge Klimat. GmbH": 2,
+    "SB Möbel Boss Handels GmbH u. Co. KG Frankfurt (Oder)": 4,
+    "Schule für Gesundheits- und Pflegeberufe e. V. Eisenhütten stadt": 5,
+    "Sonae Arauco Beeskow GmbH": 3,
+    "Sparkasse Oder-Spree": 2,
+    "Stadt Frankfurt (Oder)": 5,
+    "Stadtverkehrsgesellschaft mbH Frankfurt (Oder)": 4,
+    "Stadtwerke Frankfurt (Oder) GmbH": 3,
+    "Veolia Umweltservice Ost GmbH": 2,
+    "Yamaichi Electronics Deutschland GmbH": 2,
+    "fitINN Andy Theuerkauf": 5,
+    "toom Baumarkt GmbH": 2
+   },
+   "maxCount": 258
+  },
+  "beruf": {
+   "counts": {
+    "Anlagenmechaniker/in - Sanitär-, Heizungs- und Klimatechnik": 4,
+    "Augenoptiker/in": 5,
+    "Automobilkaufmann/-frau": 1,
+    "Bankkaufmann/-frau": 3,
+    "Baugeräteführer/in": 1,
+    "Bauwerksmechaniker/in für Abbruch und Betontrenntechnik": 1,
+    "Beamter/Beamtin - Justizdienst (mittlerer nichttechnischer Dienst)": 1,
+    "Beamter/Beamtin - Steuerverwaltung (mittlerer nichttechnischer Dienst)": 1,
+    "Berufskraftfahrer/in": 6,
+    "Beton- und Stahlbetonbauer/in": 1,
+    "Binnenschiffer/in": 1,
+    "Bodenleger/in": 1,
+    "Brunnenbauer/in": 1,
+    "Bäcker/in": 1,
+    "Chemielaborant/in": 1,
+    "Dachdecker/in": 2,
+    "Eisenbahner/in - Betriebsdienst - Lokführer/in und Transport": 2,
+    "Eisenbahner/in - Zugverkehrssteuerung": 1,
+    "Elektroniker/in - Automatisierungstechnik": 1,
+    "Elektroniker/in - Betriebstechnik": 7,
+    "Elektroniker/in - Energie- und Gebäudetechnik": 2,
+    "Fachangestellte/r - Arbeitsmarktdienstleistungen": 1,
+    "Fachangestellte/r - Bäderbetriebe": 1,
+    "Fachinformatiker/in - Anwendungsentwicklung": 1,
+    "Fachkraft - Agrarservice": 1,
+    "Fachkraft - Gastronomie": 4,
+    "Fachkraft - Lagerlogistik": 7,
+    "Fachlagerist/in": 5,
+    "Fachmann/-frau - Restaurants und Veranstaltungsgastronomie": 3,
+    "Fachmann/-frau - Systemgastronomie": 2,
+    "Fachverkäufer/in - Lebensmittelhandwerk (Bäckerei)": 4,
+    "Fachwirt/in - Handel (doppelt qualifizierende Ausbildung)": 4,
+    "Flachglastechnologe/-technologin": 2,
+    "Fliesen-, Platten- und Mosaikleger/in": 1,
+    "Geomatiker/in": 1,
+    "Gerüstbauer/in": 1,
+    "Gleisbauer/in": 1,
+    "Hochbaufacharbeiter/in - Maurerarbeiten": 1,
+    "Hotelfachmann/-frau": 1,
+    "IT-System-Elektroniker/in": 1,
+    "Immobilienkaufmann/-frau": 1,
+    "Industrieelektriker/in - Betriebstechnik": 1,
+    "Industriekaufmann/-frau": 3,
+    "Industriemechaniker/in": 5,
+    "Kaufmann/-frau - Büromanagement": 5,
+    "Kaufmann/-frau - Dialogmarketing": 1,
+    "Kaufmann/-frau - Einzelhandel": 43,
+    "Kaufmann/-frau - Gesundheitswesen": 1,
+    "Kaufmann/-frau - Groß- und Außenhandelsmanagement (Großhandel)": 4,
+    "Kaufmann/-frau - Hotelmanagement": 1,
+    "Kaufmann/-frau - Spedition und Logistikdienstleistung": 2,
+    "Kaufmann/-frau - Versicherungen und Finanzanlagen": 2,
+    "Kaufmann/-frau - Versicherungen und Finanzen - Versicherung": 1,
+    "Koch/Köchin": 3,
+    "Kraftfahrzeugmechatroniker/in - Nutzfahrzeugtechnik": 1,
+    "Kraftfahrzeugmechatroniker/in - Personenkraftwagentechnik": 1,
+    "Land- und Baumaschinenmechatroniker/in": 2,
+    "Landwirt/in": 3,
+    "Maschinen- und Anlagenführer/in (ohne Angabe des Schwerpunkts)": 1,
+    "Maschinen- und Anlagenführer/in - Metall-, Kunststofftechnik": 2,
+    "Maurer/in": 3,
+    "Mechatroniker/in": 3,
+    "Mechatroniker/in - Kältetechnik": 1,
+    "Medizinische/r Technologe/Technologin - Laboratoriumsanalytik": 1,
+    "Metallbauer/in - Konstruktionstechnik": 2,
+    "Notfallsanitäter/in": 2,
+    "Orgelbauer/in - Orgelbau": 1,
+    "Pflegeassistent/in": 2,
+    "Pflegefachassistent/in / Pflegefachassistenzperson": 1,
+    "Pflegefachmann/-frau (Ausbildung)": 6,
+    "Pharmazeutisch-technische/r Assistent/in": 1,
+    "Physiotherapeut/in (Ausbildung)": 1,
+    "Podologe/Podologin": 1,
+    "Polizeivollzugsbeamter/-beamtin (mittlerer nichttechnischer Dienst)": 1,
+    "Polizeivollzugsbeamter/-beamtin - Bundespolizei (gehobener nichttechnischer Dienst)": 1,
+    "Polizeivollzugsbeamter/-beamtin - Bundespolizei (mittlerer nichttechnischer Dienst)": 1,
+    "Rohrleitungsbauer/in": 1,
+    "Sattler/in - Fahrzeugsattlerei": 1,
+    "Sozialversicherungsfachangestellte/r - Rentenversicherung": 1,
+    "Sozialversicherungsfachangestellte/r - allgemeine Krankenversicherung": 2,
+    "Sport- und Fitnesskaufmann/-frau": 2,
+    "Steuerfachangestellte/r": 1,
+    "Straßenbauer/in": 1,
+    "Tierwirt/in - Rinderhaltung": 1,
+    "Tischler/in": 1,
+    "Tourismuskaufmann/-frau (Privat- und Geschäftsreisen)": 2,
+    "Verfahrensmechaniker/in - Beschichtungstechnik": 2,
+    "Verfahrensmechaniker/in - Steine- und Erdenindustrie - Baustoffe": 1,
+    "Verkäufer/in": 19,
+    "Vermessungstechniker/in - Vermessung": 2,
+    "Verwaltungsfachangestellte/r - Kommunalverwaltung": 1,
+    "Wasserbauer/in": 1,
+    "Werkfeuerwehrmann/-frau": 1,
+    "Wärme-, Kälte- und Schallschutzisolierer/in": 1,
+    "Zimmerer/Zimmerin": 1
+   },
+   "maxCount": 258
+  },
+  "ausbildungsverguetung": {
+   "counts": {
+    "monat": 43
+   },
+   "maxCount": 258
+  },
+  "angebotsart": {
+   "counts": {
+    "1": 1457,
+    "2": 13,
+    "4": 258,
+    "34": 13
+   },
+   "maxCount": 1741
+  },
+  "quereinstieg": {
+   "counts": {
+    "false": 258
+   },
+   "maxCount": 258
+  },
+  "branche": {
+   "counts": {
+    "1": 25,
+    "2": 8,
+    "3": 2,
+    "4": 7,
+    "6": 7,
+    "7": 8,
+    "8": 10,
+    "9": 64,
+    "10": 21,
+    "11": 3,
+    "12": 7,
+    "13": 25,
+    "15": 12,
+    "16": 1,
+    "17": 6,
+    "18": 18,
+    "21": 5,
+    "22": 6,
+    "25": 1,
+    "29": 2
+   },
+   "maxCount": 258
+  },
+  "arbeitszeit": {
+   "counts": {
+    "tz": 2,
+    "vz": 258
+   },
+   "maxCount": 258
+  },
+  "eintrittsdatum": {
+   "counts": {
+    "10_01_01-now": 29,
+    "26_11_01-26_12_01": 1,
+    "27_04_01-27_05_01": 3,
+    "27_08_01-27_09_01": 147,
+    "27_09_01-27_10_01": 64,
+    "27_10_01-27_11_01": 15
+   },
+   "maxCount": 258
+  },
+  "zeitarbeit": {
+   "counts": {
+    "false": 258
+   },
+   "maxCount": 258
+  }
+ }
+}
