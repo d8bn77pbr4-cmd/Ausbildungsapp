@@ -1,0 +1,75 @@
+.seite {
+  display: grid;
+  place-items: center;
+  min-height: 100dvh;
+  padding: var(--abstand-4);
+}
+
+.karte {
+  width: 100%;
+  max-width: 380px;
+  padding: var(--abstand-6) var(--abstand-5);
+  background: var(--farbe-flaeche);
+  border-radius: var(--radius-karte);
+  text-align: center;
+}
+
+.icon {
+  width: 72px;
+  height: 72px;
+  border-radius: 16px;
+}
+
+.titel {
+  margin: var(--abstand-3) 0 var(--abstand-1);
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.untertitel {
+  margin: 0 0 var(--abstand-5);
+  color: var(--farbe-text-2);
+  font-size: var(--groesse-subhead);
+}
+
+.formular {
+  display: grid;
+  gap: var(--abstand-3);
+  text-align: left;
+}
+
+.label {
+  font-size: var(--groesse-footnote);
+  font-weight: 600;
+  color: var(--farbe-text-2);
+}
+
+.feld {
+  width: 100%;
+  min-height: 44px;
+  padding: 0 var(--abstand-3);
+  border: 1px solid var(--farbe-trenner);
+  border-radius: var(--radius-steuer);
+  background: var(--farbe-hintergrund);
+  color: var(--farbe-text);
+  font: inherit;
+}
+
+.code {
+  letter-spacing: 0.3em;
+  font-variant-numeric: tabular-nums;
+}
+
+.meldung {
+  margin: 0;
+  font-size: var(--groesse-subhead);
+}
+
+.fehler {
+  margin: 0;
+  font-size: var(--groesse-subhead);
+  color: var(--farbe-text);
+  padding: var(--abstand-2) var(--abstand-3);
+  background: var(--farbe-warnung-flaeche);
+  border-radius: var(--radius-steuer);
+}
