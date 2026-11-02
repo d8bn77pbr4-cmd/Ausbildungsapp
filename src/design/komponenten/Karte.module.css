@@ -1,0 +1,11 @@
+.karte {
+  position: relative;
+  padding: var(--abstand-4);
+  background: var(--farbe-flaeche);
+  border-radius: var(--radius-karte);
+  transition: transform var(--dauer-druck) var(--ease-out-fast);
+}
+
+.karte:has(button:active) {
+  transform: scale(0.98);
+}

@@ -25,6 +25,12 @@ export default defineConfig({
   ],
   webServer: [
     {
+      command: 'npx tsx e2e/mock-server.ts',
+      url: 'http://localhost:4010/gesund',
+      reuseExistingServer: !process.env.CI,
+      timeout: 60_000,
+    },
+    {
       command: 'npx next dev -p 3100',
       url: 'http://localhost:3100/',
       env: testUmgebung,

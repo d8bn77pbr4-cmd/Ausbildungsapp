@@ -1,0 +1,146 @@
+/* Unter 900 px: von unten hereingleitend. Ab 900 px: Panel von rechts. */
+.sheet {
+  position: fixed;
+  inset: auto 0 0 0;
+  width: 100%;
+  max-width: 100%;
+  max-height: 90dvh;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  border-radius: var(--radius-karte) var(--radius-karte) 0 0;
+  background: var(--farbe-flaeche);
+  color: var(--farbe-text);
+  transform: translateY(100%);
+  transition:
+    transform var(--dauer-sheet) var(--ease-out-smooth),
+    overlay var(--dauer-sheet) allow-discrete,
+    display var(--dauer-sheet) allow-discrete;
+}
+
+.sheet[open] {
+  transform: translateY(0);
+}
+
+@starting-style {
+  .sheet[open] {
+    transform: translateY(100%);
+  }
+}
+
+.sheet::backdrop {
+  background: rgba(0, 0, 0, 0);
+  -webkit-backdrop-filter: blur(0);
+  backdrop-filter: blur(0);
+  transition:
+    background-color var(--dauer-sheet) var(--ease-out-smooth),
+    backdrop-filter var(--dauer-sheet) var(--ease-out-smooth),
+    overlay var(--dauer-sheet) allow-discrete,
+    display var(--dauer-sheet) allow-discrete;
+}
+
+.sheet[open]::backdrop {
+  background: rgba(0, 0, 0, 0.35);
+  -webkit-backdrop-filter: blur(6px);
+  backdrop-filter: blur(6px);
+}
+
+@starting-style {
+  .sheet[open]::backdrop {
+    background: rgba(0, 0, 0, 0);
+    backdrop-filter: blur(0);
+  }
+}
+
+.inhalt {
+  display: flex;
+  flex-direction: column;
+  max-height: 90dvh;
+}
+
+.griff {
+  width: 36px;
+  height: 5px;
+  margin: var(--abstand-2) auto 0;
+  border-radius: 3px;
+  background: var(--farbe-trenner);
+}
+
+.kopf {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--abstand-3);
+  padding: var(--abstand-3) var(--abstand-4) 0;
+}
+
+.titel {
+  margin: var(--abstand-2) 0 0;
+  font-size: var(--groesse-title-3);
+  font-weight: 600;
+  line-height: 1.25;
+}
+
+.schliessen {
+  flex: none;
+  display: grid;
+  place-items: center;
+  width: 44px;
+  height: 44px;
+  border: 0;
+  border-radius: 50%;
+  background: var(--farbe-flaeche-gedrueckt);
+  color: var(--farbe-text-2);
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.koerper {
+  flex: 1;
+  overflow-y: auto;
+  padding: var(--abstand-3) var(--abstand-4);
+}
+
+.fuss {
+  display: grid;
+  gap: var(--abstand-2);
+  padding: var(--abstand-3) var(--abstand-4) calc(var(--abstand-4) + env(safe-area-inset-bottom));
+  border-top: 0.5px solid var(--farbe-trenner);
+}
+
+@media (min-width: 900px) {
+  .sheet {
+    inset: 0 0 0 auto;
+    width: 440px;
+    height: 100dvh;
+    max-height: 100dvh;
+    border-radius: var(--radius-karte) 0 0 var(--radius-karte);
+    transform: translateX(100%);
+  }
+
+  .sheet[open] {
+    transform: translateX(0);
+  }
+
+  @starting-style {
+    .sheet[open] {
+      transform: translateX(100%);
+    }
+  }
+
+  .inhalt {
+    height: 100%;
+    max-height: 100dvh;
+  }
+
+  .griff {
+    display: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .sheet,
+  .sheet[open] {
+    transform: none;
+  }
+}

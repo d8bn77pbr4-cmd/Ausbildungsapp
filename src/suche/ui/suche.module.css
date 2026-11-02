@@ -1,0 +1,298 @@
+.formular {
+  display: grid;
+  gap: var(--abstand-4);
+  padding: var(--abstand-4);
+  background: var(--farbe-flaeche);
+  border-radius: var(--radius-karte);
+}
+
+.gruppe {
+  display: grid;
+  gap: var(--abstand-2);
+  margin: 0;
+  padding: 0;
+  border: 0;
+  min-width: 0;
+}
+
+.label {
+  font-size: var(--groesse-footnote);
+  font-weight: 600;
+  color: var(--farbe-text-2);
+  padding: 0;
+}
+
+.feld {
+  width: 100%;
+  min-height: 44px;
+  padding: 0 var(--abstand-3);
+  border: 1px solid var(--farbe-trenner);
+  border-radius: var(--radius-steuer);
+  background: var(--farbe-hintergrund);
+  color: var(--farbe-text);
+  font: inherit;
+}
+
+.zeile {
+  display: flex;
+  gap: var(--abstand-2);
+}
+
+.zeile .feld {
+  flex: 1;
+  min-width: 0;
+}
+
+.chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--abstand-2);
+}
+
+.fussnote {
+  margin: 0;
+  font-size: var(--groesse-footnote);
+  color: var(--farbe-text-2);
+}
+
+.fehler {
+  margin: 0;
+  font-size: var(--groesse-footnote);
+  color: var(--farbe-text);
+  padding: var(--abstand-1) var(--abstand-2);
+  background: var(--farbe-warnung-flaeche);
+  border-radius: 6px;
+  justify-self: start;
+}
+
+.regler {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+  gap: var(--abstand-3);
+  padding: var(--abstand-2) var(--abstand-3);
+  background: var(--farbe-hintergrund);
+  border-radius: var(--radius-steuer);
+}
+
+.regler label {
+  grid-column: 1 / -1;
+  font-size: var(--groesse-footnote);
+  color: var(--farbe-text-2);
+}
+
+.regler input {
+  width: 100%;
+  accent-color: var(--farbe-akzent-flaeche);
+  min-height: 44px;
+}
+
+.filter summary {
+  min-height: 44px;
+  display: flex;
+  align-items: center;
+  color: var(--farbe-akzent-text);
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.filter[open] summary {
+  margin-bottom: var(--abstand-2);
+}
+
+.filterInhalt {
+  display: grid;
+  gap: var(--abstand-3);
+}
+
+.haken {
+  display: flex;
+  align-items: center;
+  gap: var(--abstand-2);
+  min-height: 44px;
+}
+
+.haken input {
+  width: 22px;
+  height: 22px;
+  accent-color: var(--farbe-akzent-flaeche);
+}
+
+.ergebnisse {
+  margin-top: var(--abstand-5);
+}
+
+.kopf {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--abstand-3);
+  margin-bottom: var(--abstand-3);
+}
+
+.anzahl {
+  line-height: 1.2;
+  margin: 0;
+  font-size: var(--groesse-title-3);
+  font-weight: 600;
+}
+
+.sortierung {
+  display: flex;
+  align-items: center;
+  gap: var(--abstand-2);
+  font-size: var(--groesse-footnote);
+  color: var(--farbe-text-2);
+}
+
+.sortierung select {
+  min-height: 44px;
+  padding: 0 var(--abstand-2);
+  border: 1px solid var(--farbe-trenner);
+  border-radius: var(--radius-steuer);
+  background: var(--farbe-flaeche);
+  color: var(--farbe-text);
+  font: inherit;
+  font-size: var(--groesse-subhead);
+}
+
+.liste {
+  display: grid;
+  gap: var(--abstand-3);
+}
+
+.mehr {
+  display: flex;
+  justify-content: center;
+  margin-top: var(--abstand-4);
+}
+
+.platzhalter {
+  height: 132px;
+  border-radius: var(--radius-karte);
+  background: var(--farbe-flaeche);
+  opacity: 0.6;
+}
+
+/* Ergebniskarte: höchstens 4 Fakten + 1 Chip */
+.titelKnopf {
+  display: block;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: var(--farbe-text);
+  font: inherit;
+  font-size: var(--groesse-headline);
+  font-weight: 600;
+  line-height: 1.3;
+  text-align: left;
+  cursor: pointer;
+}
+
+.titelKnopf::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: var(--radius-karte);
+}
+
+.kartenTitel {
+  margin: 0 0 var(--abstand-1);
+  font-size: inherit;
+}
+
+.anbieter {
+  margin: 0 0 var(--abstand-2);
+  color: var(--farbe-text);
+  font-size: var(--groesse-subhead);
+}
+
+.fakt {
+  margin: 0;
+  color: var(--farbe-text-2);
+  font-size: var(--groesse-subhead);
+}
+
+.kartenFuss {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--abstand-2);
+  margin: var(--abstand-1) 0 calc(var(--abstand-2) * -1);
+}
+
+.verguetung {
+  padding: 4px var(--abstand-3);
+  border-radius: var(--radius-chip);
+  background: var(--farbe-hintergrund);
+  font-size: var(--groesse-footnote);
+  font-weight: 600;
+}
+
+.anzeigeLink {
+  position: relative;
+  z-index: 1;
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  margin-left: auto;
+  padding: 0 var(--abstand-2);
+  font-size: var(--groesse-subhead);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+/* Sheet-Inhalt */
+.angaben {
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  gap: var(--abstand-2) var(--abstand-4);
+  margin: 0;
+}
+
+.angaben dt {
+  color: var(--farbe-text-2);
+  font-size: var(--groesse-subhead);
+}
+
+.angaben dd {
+  margin: 0;
+  font-size: var(--groesse-subhead);
+}
+
+.unbekannt {
+  color: var(--farbe-text-2);
+}
+
+.portale {
+  margin-top: var(--abstand-6);
+}
+
+.portale h2 {
+  margin: 0 0 var(--abstand-2);
+  font-size: var(--groesse-headline);
+  font-weight: 600;
+}
+
+.portalListe {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--abstand-2);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.portalListe a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  padding: 0 var(--abstand-4);
+  border-radius: var(--radius-chip);
+  background: var(--farbe-flaeche);
+  font-size: var(--groesse-subhead);
+  font-weight: 600;
+  text-decoration: none;
+}

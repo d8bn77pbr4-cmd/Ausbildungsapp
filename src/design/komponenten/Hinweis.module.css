@@ -1,0 +1,24 @@
+.hinweis {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--abstand-3);
+  margin: 0 0 var(--abstand-3);
+  padding: var(--abstand-3) var(--abstand-4);
+  border-radius: var(--radius-steuer);
+  font-size: var(--groesse-subhead);
+}
+
+.hinweis p {
+  margin: 0;
+}
+
+.info {
+  background: var(--farbe-flaeche);
+  color: var(--farbe-text-2);
+}
+
+.warnung {
+  background: var(--farbe-warnung-flaeche);
+  color: var(--farbe-text);
+}

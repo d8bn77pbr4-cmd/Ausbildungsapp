@@ -5,6 +5,9 @@ const nextConfig: NextConfig = {
   partialPrefetching: true,
   // Das Entwickler-Symbol überdeckt sonst im Dev-Modus die Tab-Leiste unten links.
   devIndicators: false,
+  async redirects() {
+    return [{ source: '/', destination: '/heute', permanent: false }];
+  },
 };
 
 export default nextConfig;
