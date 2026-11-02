@@ -2,8 +2,10 @@
 // Läuft nur mit VERTRAG=1 (npm run test:vertrag).
 import { describe, expect, test } from 'vitest';
 import { erstelleBaJobsAdapter, geokodiere } from '@/suche/adapter/ba-jobs';
+import { erstelleBaStudiumAdapter } from '@/suche/adapter/ba-studium';
 
 const JOBS = 'https://rest.arbeitsagentur.de/jobboerse/jobsuche-service';
+const STUDIUM = 'https://rest.arbeitsagentur.de/infosysbub/studisu';
 const signal = () => AbortSignal.timeout(15_000);
 
 describe.skipIf(!process.env.VERTRAG)('Vertrag BA-Jobsuche', () => {
@@ -27,5 +29,15 @@ describe.skipIf(!process.env.VERTRAG)('Vertrag BA-Jobsuche', () => {
     expect(intern).toBeDefined();
     const antwort = await fetch(intern!.url, { redirect: 'follow', signal: signal() });
     expect(antwort.status).toBe(200);
+  });
+});
+
+describe.skipIf(!process.env.VERTRAG)('Vertrag BA-Studiensuche', () => {
+  test('Informatik in Hessen liefert nur hessische Studiengänge', { timeout: 30_000 }, async () => {
+    const { angebote, gesamt } = await erstelleBaStudiumAdapter({ basisUrl: STUDIUM }).suche({ was: 'Informatik', art: 'studium', bundeslaender: ['HE'], seite: 1 }, signal());
+    expect(gesamt).toBeGreaterThan(0);
+    expect(angebote.length).toBeGreaterThan(0);
+    expect(angebote.every((a) => a.ort.bundesland === 'HE')).toBe(true);
+    expect(angebote.every((a) => typeof a.ort.lat === 'number')).toBe(true);
   });
 });
