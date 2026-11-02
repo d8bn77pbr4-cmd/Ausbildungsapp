@@ -1,0 +1,26 @@
+.abschnitt {
+  margin-bottom: var(--abstand-5);
+  padding: var(--abstand-4);
+  background: var(--farbe-flaeche);
+  border-radius: var(--radius-karte);
+}
+
+.abschnitt h2 {
+  margin: 0 0 var(--abstand-2);
+  font-size: var(--groesse-headline);
+  font-weight: 600;
+}
+
+.abschnitt p,
+.abschnitt li {
+  margin: 0;
+  color: var(--farbe-text-2);
+  font-size: var(--groesse-subhead);
+}
+
+.abschnitt ul {
+  display: grid;
+  gap: var(--abstand-2);
+  margin: 0;
+  padding-left: var(--abstand-4);
+}

@@ -1,0 +1,71 @@
+/* Design-Tokens im Stil von Apples Human Interface Guidelines. Alle Werte nur hier ändern. */
+:root {
+  color-scheme: light dark;
+  --farbe-hintergrund: #f2f2f7;
+  --farbe-flaeche: #ffffff;
+  --farbe-flaeche-gedrueckt: #e5e5ea;
+  --farbe-text: #1d1d1f;
+  --farbe-text-2: #6e6e73;
+  --farbe-trenner: rgba(60, 60, 67, 0.18);
+  --farbe-akzent-flaeche: #0071e3;
+  --farbe-akzent-text: #0066cc;
+  --farbe-auf-akzent: #ffffff;
+  --farbe-warnung-flaeche: #fff4e5;
+
+  /* Statusfarben: nur für Punkte/Symbole, nie als Textfarbe */
+  --status-gemerkt: #8e8e93;
+  --status-beworben: #ff9500;
+  --status-gespraech: #af52de;
+  --status-zusage: #34c759;
+  --status-absage: #ff3b30;
+
+  --glas-hintergrund: rgba(255, 255, 255, 0.72);
+  --glas-filter: blur(20px) saturate(180%);
+
+  --radius-karte: 16px;
+  --radius-steuer: 10px;
+  --radius-chip: 999px;
+
+  --abstand-1: 4px;
+  --abstand-2: 8px;
+  --abstand-3: 12px;
+  --abstand-4: 16px;
+  --abstand-5: 24px;
+  --abstand-6: 32px;
+  --abstand-7: 48px;
+
+  --schrift-sans: -apple-system, BlinkMacSystemFont, "SF Pro Text", system-ui, "Segoe UI", Roboto, sans-serif;
+  --groesse-large-title: 34px;
+  --groesse-title-3: 20px;
+  --groesse-headline: 17px;
+  --groesse-body: 17px;
+  --groesse-subhead: 15px;
+  --groesse-footnote: 13px;
+
+  --dauer-druck: 120ms;
+  --dauer-tab: 140ms;
+  --dauer-sheet: 280ms;
+  --ease-out-fast: cubic-bezier(0.23, 1, 0.32, 1);
+  --ease-out-smooth: cubic-bezier(0.16, 1, 0.3, 1);
+
+  --tab-leiste-hoehe: 64px;
+  --seitenleiste-breite: 240px;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --farbe-hintergrund: #000000;
+    --farbe-flaeche: #1c1c1e;
+    --farbe-flaeche-gedrueckt: #2c2c2e;
+    --farbe-text: #f5f5f7;
+    --farbe-text-2: #a1a1a6;
+    --farbe-trenner: rgba(84, 84, 88, 0.6);
+    --farbe-akzent-text: #4da3ff;
+    --farbe-warnung-flaeche: #3a2a10;
+    --status-beworben: #ff9f0a;
+    --status-gespraech: #bf5af2;
+    --status-zusage: #30d158;
+    --status-absage: #ff453a;
+    --glas-hintergrund: rgba(28, 28, 30, 0.72);
+  }
+}

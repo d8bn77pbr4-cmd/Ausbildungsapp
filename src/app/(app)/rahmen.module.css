@@ -1,0 +1,13 @@
+.inhalt {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 0 var(--abstand-4) calc(var(--tab-leiste-hoehe) + env(safe-area-inset-bottom) + var(--abstand-5));
+  padding-top: env(safe-area-inset-top);
+}
+
+@media (min-width: 900px) {
+  .inhalt {
+    margin-left: calc(var(--seitenleiste-breite) + max(0px, (100vw - var(--seitenleiste-breite) - 760px) / 2));
+    padding: 0 var(--abstand-6) var(--abstand-7);
+  }
+}
