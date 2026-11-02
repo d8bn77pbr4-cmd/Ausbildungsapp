@@ -1,6 +1,6 @@
 # Bewerbungsradar – Design-Spezifikation
 
-Stand: 2026-11-02 · Status: zur Freigabe · Arbeitstitel „Bewerbungsradar“ (änderbar)
+Stand: 2026-11-02 · Status: zur Freigabe · Name der App: **Bewerbungsradar** (Repository: Ausbildungsapp)
 
 ## 1. Ziel
 
