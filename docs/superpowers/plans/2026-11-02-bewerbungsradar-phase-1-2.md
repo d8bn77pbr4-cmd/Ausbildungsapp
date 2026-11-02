@@ -225,6 +225,12 @@ e2e/*.spec.ts, e2e/mock-server.ts        Browser-Tests gegen Mock-Quellen
     - Postfach: „Noch keine Antworten“ / „Antworten von Firmen erscheinen hier, sobald Gmail verbunden ist.“ / „Angebote suchen“ → `/suchen`.
     - Profil: Seitentitel „Profil“, Abschnitt „Konto“ (Inhalt folgt in Task 3).
   - Manifest: `name: 'Bewerbungsradar'`, `display: 'standalone'`, `lang: 'de'`, `start_url: '/heute'`.
+    - `icons`: PNG in 192 und 512 px aus `src/app/app-icon/[groesse]/route.tsx` (ImageResponse) für Android.
+    - `apple-icon.tsx` liefert 180 px für das iPhone.
+  - Profil: Abschnitt „Als App aufs Handy“:
+    - „iPhone: In Safari auf Teilen tippen → „Zum Home-Bildschirm“.“
+    - „Android: In Chrome auf ⋮ tippen → „App installieren“.“
+  - Zusätzlicher E2E-Test `Manifest macht die App installierbar`: `/manifest.webmanifest` hat `display: 'standalone'` und Icons in 192 und 512 px, und beide Icon-URLs antworten mit 200 und `image/png`.
 - [ ] **Step 5:** Run `npm run test:e2e -- e2e/rahmen.spec.ts` → PASS in beiden Projekten.
 - [ ] **Step 6: Commit** – `git commit -m "feat: Design-System und App-Rahmen mit Tab-Leiste"`
 
@@ -275,7 +281,10 @@ e2e/*.spec.ts, e2e/mock-server.ts        Browser-Tests gegen Mock-Quellen
   - Profil: zeigt die E-Mail und den Knopf „Abmelden“ (Server-Aktion `signOut` → `/login`).
   - Bei `e2eOhneLogin` rufen Profil und `proxy.ts` Supabase gar nicht auf. Profil zeigt dann „Testmodus“ statt einer E-Mail, damit die Browser-Tests ohne echtes Supabase laufen.
 - [ ] **Step 5:** Run `npm test && npm run test:e2e && npm run build` → PASS.
-- [ ] **Step 6: Commit** – `git commit -m "feat: Login per Anmeldelink nur für freigegebene Adressen"`
+- [ ] **Step 6: Einrichtungsanleitung vorziehen**
+  - `docs/einrichtung.md` (Inhalt wie in Task 12 Step 1) und `supabase/migrations/0001_such_cache.sql` (aus Task 9) schon jetzt anlegen.
+  - Nach dem Commit den Branch pushen. So kann die Nutzerin/der Nutzer Supabase und Vercel parallel einrichten und hat früh einen Link.
+- [ ] **Step 7: Commit + Push** – `git commit -m "feat: Login per Anmeldelink nur für freigegebene Adressen"` + `git push -u origin phase-1-2`
 
 ---
 
@@ -695,9 +704,18 @@ e2e/*.spec.ts, e2e/mock-server.ts        Browser-Tests gegen Mock-Quellen
   - 0 Treffer → `LeererZustand` „Keine Treffer“ / „Versuch einen größeren Umkreis oder einen allgemeineren Begriff.“
   - Während der Suche: `aria-busy="true"` und 3 Platzhalterkarten.
   - Am Ende der Liste der Knopf „Mehr laden“, solange `seite < seiten`.
-- **Ergebniskarte:**
-  - Titel (h3), Anbieter, `formatOrt` („Gießen · 12 km“ bzw. „Gießen“), „Beginn: 01.08.2027“ bzw. „Beginn: nicht angegeben“ bzw. Freitext („Beginn: Auf Anfrage“).
+- **Ergebniskarte** (`<article>`):
+  - Titel (h3) als Knopf, der das Sheet öffnet. Anbieter, `formatOrt` („Gießen · 12 km“ bzw. „Gießen“), „Beginn: 01.08.2027“ bzw. „Beginn: nicht angegeben“ bzw. Freitext („Beginn: Auf Anfrage“).
   - Optional der Chip `formatVerguetung` („1.050 € / Monat“).
+  - Unten rechts der Textlink „Zur Anzeige ↗“:
+    - `href = angebot.url`, `target="_blank"`, `rel="noopener noreferrer"`
+    - `aria-label="Anzeige „<Titel>“ bei <Anbieter> öffnen"`
+    - Kein verschachteltes interaktives Element.
+- **Andere Portale** (unter der Liste, auch bei 0 Treffern): Überschrift „Auch auf anderen Portalen suchen“ mit den Links aus `direktLinks(anfrage)`. Das ist aus Phase 6 vorgezogen.
+  - `src/suche/direktlinks.ts`: `direktLinks(a: SuchAnfrage): { name: 'Indeed' | 'StepStone' | 'Azubiyo'; url: string }[]`
+  - Übergeben werden der Begriff (+ „Ausbildung“, wenn nur `ausbildung` gewählt ist) und *ein* Ort: der erste Ort mit Umkreis, sonst der Name des ersten Bundeslands, sonst keiner.
+  - Die URL-Muster der drei Portale beim Umsetzen im Browser prüfen: Seite öffnen, der Suchbegriff muss erscheinen. Das funktionierende Muster im Unit-Test `direktlinks.test.ts` festhalten.
+  - Lässt sich ein Muster nicht prüfen (z. B. Bot-Schutz): auf die Suchseite des Portals mit Begriff verlinken. Dafür eine Ruling im Ledger notieren.
 - **Sheet** (Titel = Angebotstitel):
   - Anbieter, Ort, Beginn, Vergütung („nicht angegeben“ in Text-2), Veröffentlicht, Quelle(n) („Bundesagentur für Arbeit – Jobsuche“ / „… – Studiensuche“).
   - Primärknopf im Fuß „Originalanzeige öffnen“ (`target="_blank" rel="noopener noreferrer"`), weitere Quellen als Textlinks.
@@ -732,6 +750,8 @@ e2e/*.spec.ts, e2e/mock-server.ts        Browser-Tests gegen Mock-Quellen
        → Escape → Dialog weg, erste Karte hat Fokus */
   });
   test('Mehr laden hängt die nächsten 30 an', /* 30 Karten → klicken → 60 (bzw. Rest) */);
+  test('jede Karte verlinkt direkt die Stellenausschreibung', /* erster Link 'Zur Anzeige' hat href = Fixture-URL, target _blank */);
+  test('Links zu Indeed, StepStone, Azubiyo enthalten den Suchbegriff', /* drei Links sichtbar, href enthält 'Mechatroniker' */);
   test('Keine Treffer', /* was 'xqzvwk' → 'Keine Treffer' */);
   test('fehlende Felder: Beginn nicht angegeben', /* Fixture-Eintrag ohne eintrittszeitraum → Karte zeigt 'Beginn: nicht angegeben' */);
   test('Barrierefreiheit mit Ergebnissen und offenem Sheet (hell/dunkel)', /* axe violations [] */);
@@ -753,7 +773,7 @@ e2e/*.spec.ts, e2e/mock-server.ts        Browser-Tests gegen Mock-Quellen
 **Interfaces:**
 - Consumes: alle vorherigen Tasks.
 
-- [ ] **Step 1: `docs/einrichtung.md` schreiben** (einfaches Deutsch, nummerierte Schritte, je Schritt „So sieht es aus, wenn es geklappt hat“)
+- [ ] **Step 1: `docs/einrichtung.md` prüfen und vervollständigen** (bereits in Task 3 angelegt; einfaches Deutsch, nummerierte Schritte, je Schritt „So sieht es aus, wenn es geklappt hat“). Zum Schluss steht der Abschnitt „Link aufs Handy speichern“.
   1. **Supabase:**
      - Neues Projekt anlegen, Region „Central EU (Frankfurt)“.
      - Im SQL-Editor den Inhalt von `supabase/migrations/0001_such_cache.sql` ausführen.
